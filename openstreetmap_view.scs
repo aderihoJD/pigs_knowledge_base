@@ -14,4 +14,4 @@ sc_relation -> nrel_osm_query;;
 nrel_osm_query
 	=> nrel_main_idtf: 
 		[ osm-запрос* ] (* <-lang_ru;; *);
-		[ osm-query* ] (* <-lang_en;; *);
+		[ osm-query* ] (* <-lang_en;; *);;

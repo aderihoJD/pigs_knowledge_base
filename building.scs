@@ -30,17 +30,6 @@ building_of_residential_housing_of_male_basilian_monastery
             <- lang_ru;;
             *);;
         *);;        
-*);
-
-<- rrel_key_sc_element: ... (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://content/male_mon.jpg" 
-        (*
-            => nrel_format: format_jpg;;
-        *);;
-    *);;
 *);;
 
 building_of_residential_housing_of_female_basilian_monastery
@@ -70,17 +59,6 @@ building_of_residential_housing_of_female_basilian_monastery
             *);;
         *);;
         
-*);
-
-<- rrel_key_sc_element: ... (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://content/female_mon.jpg" 
-        (*
-            => nrel_format: format_jpg;;
-        *);;
-    *);;
 *);;
 
 building_of_minsk_railway_station
@@ -110,17 +88,6 @@ building_of_minsk_railway_station
             *);;
         *);;
         
-*);
-
-<- rrel_key_sc_element: ... (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://content/minsk_rs.jpg" 
-        (*
-            => nrel_format: format_jpg;;
-        *);;
-    *);;
 *);;
 
 building_of_Moniuszko_House
@@ -150,17 +117,6 @@ building_of_Moniuszko_House
             *);;
         *);;
         
-*);
-
-<- rrel_key_sc_element: ... (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://content/dom_mon.jpg" 
-        (*
-            => nrel_format: format_jpg;;
-        *);;
-    *);;
 *);
 
 <= nrel_location: Moniuszko;;

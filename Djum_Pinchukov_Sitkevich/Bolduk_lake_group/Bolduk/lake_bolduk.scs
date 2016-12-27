@@ -45,15 +45,4 @@ out body; >; out skel qt;];
             <- lang_ru;;
             *);;
         *);;        
-*);
-
-<- rrel_key_sc_element: ... (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://content/boloiso.jpg" 
-        (*
-            => nrel_format: format_jpg;;
-        *);;
-    *);;
 *);;
