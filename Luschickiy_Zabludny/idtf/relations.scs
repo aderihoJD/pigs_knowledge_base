@@ -1,0 +1,16 @@
+sc_node_norole_relation -> nrel_hospital_address;; 
+nrel_hospital_address => nrel_main_idtf:
+[адресс*](*<-lang_ru;;*);
+[address*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_hospital_phone_number;; 
+nrel_hospital_phone_number => nrel_main_idtf:
+[номер телефона*](*<-lang_ru;;*);
+[phone number*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_hospital_working_hours;; 
+nrel_hospital_working_hours => nrel_main_idtf:
+[время работы*](*<-lang_ru;;*);
+[working hours*](*<-lang_en;;*);;
+
+
