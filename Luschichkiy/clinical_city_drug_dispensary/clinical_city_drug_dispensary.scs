@@ -1,0 +1,30 @@
+
+clinical_city_drug_dispensary
+
+=> nrel_main_idtf: [городской клинический наркологический диспансер] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [clinical city drug dispensary] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Маяковского 162];
+
+=> nrel_hospital_phone_number: [+375 (17) 223-79-85];
+
+=> nrel_hospital_working_hours: [пн-пт 8.00-20.00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="Городской клинический наркологический диспансер"];out;];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Отделение дневного пребывания УЗ "Городской клинический наркологический диспансер" - оказание амбулаторной наркологической помощи.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+ *);;

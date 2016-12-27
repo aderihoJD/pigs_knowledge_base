@@ -1,0 +1,46 @@
+belarusian_state_youth_theatre
+
+=> nrel_main_idtf:
+    [Белорусский государственный молодежный театр](* <- lang_ru;; *);
+	[Belarusian State Youth Theatre](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+<-theatre;
+
+=> nrel_osm_query:[way["addr:postcode"="220088"]["addr:street"="улица Козлова"]["name"="Белорусский государственный молодежный театр"];];
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [В.Старовойтов];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2002];;
+											*);;
+					*);
+					
+=> nrel_site:[http://bgmteatr.by/];
+
+=> nrel_foundation_date: [1984];
+
+=> nrel_scedule: [ПН–ВС с 10:00 до 23:00];
+
+=> nrel_email: [molodejniy.teater@yandex.ru];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [281](* <-number;; *);	
+
+=> nrel_cash_telephone: [(8-017) 239-27-21];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/belarusian_state_youth_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

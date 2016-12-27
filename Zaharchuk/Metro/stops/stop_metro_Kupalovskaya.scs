@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Kupalovskaya;;
+
+stop_metro_Kupalovskaya => nrel_main_idtf: [Остановка метро Купаловская] (* <- lang_ru;; *);;
+stop_metro_Kupalovskaya => nrel_main_idtf: [stop metro Kupalovskaya] (* <- lang_en;; *);;

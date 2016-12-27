@@ -1,0 +1,160 @@
+subsection_mammals => nrel_main_idtf: [Подраздел. Млекопитающие](*<-lang_ru;;*);;
+subsection_amphibia => nrel_main_idtf: [Подраздел. Земноводные](*<-lang_ru;;*);;
+subsection_kowtowing => nrel_main_idtf: [Подраздел. Пресмыкающиеся](*<-lang_ru;;*);;
+subsection_lamprey => nrel_main_idtf: [Подраздел. Миноги](*<-lang_ru;;*);;
+subsection_bony_fish => nrel_main_idtf: [Подраздел. Костные рыбы](*<-lang_ru;;*);;
+subsection_insects => nrel_main_idtf: [Подраздел. Насекомые](*<-lang_ru;;*);;
+subsection_leeches => nrel_main_idtf: [Подраздел. Пиявки](*<-lang_ru;;*);;
+subsection_crustaceans => nrel_main_idtf: [Подраздел. Ракообразные](*<-lang_ru;;*);;
+subsection_branchiopoda => nrel_main_idtf: [Подраздел. Жаброногие](*<-lang_ru;;*);;
+subsection_arachnids => nrel_main_idtf: [Подраздел. Паукообразные](*<-lang_ru;;*);;
+subsection_two_pair_centipede => nrel_main_idtf: [Подраздел. Двупарные многоножки](*<-lang_ru;;*);;
+subsection_bivalves => nrel_main_idtf: [Подраздел. Двустворчатые моллюски](*<-lang_ru;;*);;
+subsection_birds => nrel_main_idtf: [Подраздел. Птицы](*<-lang_ru;;*);;
+
+section_animals <= nrel_section_decomposition:
+{
+	subsection_mammals;
+	subsection_amphibia;
+	subsection_kowtowing;
+	subsection_lamprey;
+	subsection_bony_fish;
+	subsection_insects;
+	subsection_leeches;
+	subsection_crustaceans;
+	subsection_branchiopoda;
+	subsection_arachnids;
+	subsection_two_pair_centipede;
+	subsection_bivalves;
+	subsection_birds
+};;
+
+subsection_rodents => nrel_main_idtf: [Подраздел. Грызуны](*<-lang_ru;;*);;
+subsection_artiodactyls => nrel_main_idtf: [Подраздел. Парнокопытные](*<-lang_ru;;*);;
+subsection_predatory => nrel_main_idtf: [Подраздел. Хищники](*<-lang_ru;;*);;
+subsection_mammals <= nrel_section_decomposition:
+{
+	subsection_rodents;
+	subsection_artiodactyls;
+	subsection_predatory
+};; 
+
+subsection_gagaroobraznye => nrel_main_idtf: [Подраздел. Гагарообразные](*<-lang_ru;;*);;
+subsection_pogankoobraznye => nrel_main_idtf: [Подраздел. Поганкообразные](*<-lang_ru;;*);;
+subsection_ciconiiformes => nrel_main_idtf: [Подраздел. Аистообразные](*<-lang_ru;;*);;
+subsection_anseriformes => nrel_main_idtf: [Подраздел. Гусеобразные](*<-lang_ru;;*);;
+subsection_falconiformes => nrel_main_idtf: [Подраздел. Соколообразные](*<-lang_ru;;*);;
+subsection_galliformes => nrel_main_idtf: [Подраздел. Курообразные](*<-lang_ru;;*);;
+subsection_gruiformes => nrel_main_idtf: [Подраздел. Журавлевообразные](*<-lang_ru;;*);;
+subsection_charadriiformes => nrel_main_idtf: [Подраздел. Ржакообразные](*<-lang_ru;;*);;
+subsection_owls => nrel_main_idtf: [Подраздел. Совообразные](*<-lang_ru;;*);;
+subsection_coraciiformes => nrel_main_idtf: [Подраздел. Ракшеобразные](*<-lang_ru;;*);;
+subsection_woodpeckers => nrel_main_idtf: [Подраздел. Дятлообразные](*<-lang_ru;;*);;
+subsection_passerines => nrel_main_idtf: [Подраздел. Воробьинообразные](*<-lang_ru;;*);;
+subsection_birds <= nrel_section_decomposition:
+{
+	subsection_gagaroobraznye;
+	subsection_pogankoobraznye;
+	subsection_ciconiiformes;
+	subsection_anseriformes;
+	subsection_falconiformes;
+	subsection_galliformes;
+	subsection_gruiformes;
+	subsection_charadriiformes;
+	subsection_owls;
+	subsection_coraciiformes;
+	subsection_woodpeckers;
+	subsection_passerines
+};; 
+
+subsection_caudate => nrel_main_idtf: [Подраздел. Хвостатые](*<-lang_ru;;*);;
+subsection_tailless => nrel_main_idtf: [Подраздел. Бесхвостые](*<-lang_ru;;*);;
+subsection_amphibia <= nrel_section_decomposition:
+{
+	subsection_caudate;
+	subsection_tailless
+};; 
+
+subsection_turtle => nrel_main_idtf: [Подраздел. Черепахи](*<-lang_ru;;*);;
+subsection_scale => nrel_main_idtf: [Подраздел. Чешуйчатые](*<-lang_ru;;*);;
+subsection_kowtowing <= nrel_section_decomposition:
+{
+	subsection_turtle;
+	subsection_scale
+};; 
+
+subsection_minogoobraznye => nrel_main_idtf: [Подраздел. Миногообразные](*<-lang_ru;;*);;
+subsection_lamprey <= nrel_section_decomposition:
+{
+	subsection_minogoobraznye
+};; 
+
+subsection_sturgeon => nrel_main_idtf: [Подраздел. Осетрообразные](*<-lang_ru;;*);;
+subsection_salmoniformes => nrel_main_idtf: [Подраздел. Лососеобразные](*<-lang_ru;;*);;
+subsection_carps => nrel_main_idtf: [Подраздел. Карпообразные](*<-lang_ru;;*);;
+subsection_bony_fish <= nrel_section_decomposition:
+{
+	subsection_sturgeon;
+	subsection_salmoniformes;
+	subsection_carps
+};; 
+
+subsection_mayfly => nrel_main_idtf: [Подраздел. Поденки](*<-lang_ru;;*);;
+subsection_dragonfly => nrel_main_idtf: [Подраздел. Стрекозы](*<-lang_ru;;*);;
+subsection_orthoptera => nrel_main_idtf: [Подраздел. Прямокрылые](*<-lang_ru;;*);;
+subsection_hemiptera => nrel_main_idtf: [Подраздел. Полужестококрылые](*<-lang_ru;;*);;
+subsection_coleoptera => nrel_main_idtf: [Подраздел. Жестококрылые](*<-lang_ru;;*);;
+subsection_lepidoptera => nrel_main_idtf: [Подраздел. Чешуекрылые](*<-lang_ru;;*);;
+subsection_hymenoptera => nrel_main_idtf: [Подраздел. Перепончатокрылые](*<-lang_ru;;*);;
+subsection_insects <= nrel_section_decomposition:
+{
+	subsection_mayfly;
+	subsection_dragonfly;
+	subsection_orthoptera;
+	subsection_hemiptera;
+	subsection_coleoptera;
+	subsection_lepidoptera;
+	subsection_hymenoptera
+};; 
+
+subsection_beskhobotnye_leech => nrel_main_idtf: [Подраздел. Бесхоботные пиявки](*<-lang_ru;;*);;
+subsection_leeches <= nrel_section_decomposition:
+{
+	subsection_beskhobotnye_leech
+};; 
+
+subsection_copepods => nrel_main_idtf: [Подраздел. Веслоногие](*<-lang_ru;;*);;
+subsection_mysid => nrel_main_idtf: [Подраздел. Мизиды](*<-lang_ru;;*);;
+subsection_amphipods => nrel_main_idtf: [Подраздел. Бокоплавы](*<-lang_ru;;*);;
+subsection_decapod => nrel_main_idtf: [Подраздел. Десятиногие](*<-lang_ru;;*);;
+subsection_crustaceans <= nrel_section_decomposition:
+{
+	subsection_copepods;
+	subsection_mysid;
+	subsection_amphipods;
+	subsection_decapod
+};; 
+
+subsection_naked_branchiopoda => nrel_main_idtf: [Подраздел. Голые жаброногие](*<-lang_ru;;*);;
+subsection_branchiopoda <= nrel_section_decomposition:
+{
+	subsection_naked_branchiopoda
+};; 
+
+subsection_spiders => nrel_main_idtf: [Подраздел. Пауки](*<-lang_ru;;*);;
+subsection_arachnids <= nrel_section_decomposition:
+{
+	subsection_spiders
+};; 
+
+subsection_centipedes_armadillos => nrel_main_idtf: [Подраздел. Многоножки-броненосцы](*<-lang_ru;;*);;
+subsection_two_pair_centipede <= nrel_section_decomposition:
+{
+	subsection_centipedes_armadillos
+};; 
+
+subsection_perlovitsypodobnie => nrel_main_idtf: [Подраздел. Перловицеподобные](*<-lang_ru;;*);;
+subsection_bivalves <= nrel_section_decomposition:
+{
+	subsection_perlovitsypodobnie
+};; 

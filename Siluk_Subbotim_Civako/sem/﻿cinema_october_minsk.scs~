@@ -1,0 +1,53 @@
+﻿cinema_october_minsk
+
+=> nrel_main_idtf:
+    [Кинотеатр Октябрь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "73"]
+     ["addr:street"= "проспект Независимости"]
+      [ "name"= "Октябрь"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Октябрь" — это самый большой и один из наиболее старейших столичных кинотеатров.
+			Его просторный зал с широкоформатным экраном с легкостью вмещает до 1181 кинозрителей.
+			Дата основания "Октября" — 30 января 1975 года. Он был возведен на месте старого кинотеатра "Звезда".
+Здание сегодня признано одним из самых роскошных сооружений в Минске: большой бар, два холла, зимний сад на 2-ом этаже.
+ За весь период работы "Октябрь" несколько раз ремонтировался и модернизировался как в плане интерьера, так и в плане оборудования.
+ Купить билеты можно банковской карточкой, за наличный и безналичный расчет.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[http://www.kinook.by/];
+=> nrel_foundation_date: [1975];
+=> nrel_cash_telephone: [8 017 292-94-26];
+=> nrel_maximum_number_of_viewers: [1181](* <-number;; *);	
+=> nrel_scedule: [ПН–ВС с 10:00 до 22:00];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/cinema_october_minsk.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

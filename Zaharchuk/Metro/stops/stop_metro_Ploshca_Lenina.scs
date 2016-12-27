@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Ploshca_Lenina;;
+
+stop_metro_Ploshca_Lenina => nrel_main_idtf: [Остановка метро Площадь Ленина] (* <- lang_ru;; *);;
+stop_metro_Ploshca_Lenina => nrel_main_idtf: [stop metro Ploshca Lenina] (* <- lang_en;; *);;

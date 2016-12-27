@@ -1,0 +1,173 @@
+grodno_regional_dramatic_theatre
+
+=> nrel_main_idtf:
+    [Гродненский областной драматический театр](* <- lang_ru;; *);
+	[Grodno regional dramatic theatre](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["name"="Драматический театр"]["website"="http://drama.grodno.by"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [Н.Ковязин];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1947];;
+											=> nrel_ending_time: [1950];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [Ю.Юровский];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1950];;
+											=> nrel_ending_time: [1950];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [С.Рахманов];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1950];;
+											=> nrel_ending_time: [1951];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [И.Парамонов];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1951];;
+											=> nrel_ending_time: [1952];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [А.Миронский];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1953];;
+											=> nrel_ending_time: [1955];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [И.Попов];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1955];;
+											=> nrel_ending_time: [1963];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [А.Струнин];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1963];;
+											=> nrel_ending_time: [1975];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [В.Короткевич];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1975];;
+											=> nrel_ending_time: [1981];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [А.Шалыгин];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1982];;
+											=> nrel_ending_time: [1984];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [И.Петровский];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1985];;
+											=> nrel_ending_time: [1990];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [М.Резцов];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1991];;
+											=> nrel_ending_time: [1994];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [Г.Мушперт];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1994];;
+											=> nrel_ending_time: [1998];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [С.Полещенков];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2000];;
+											=> nrel_ending_time: [2001];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [О.Жюгжда];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2002];;
+											=> nrel_ending_time: [2003];;
+											*);;
+					*);
+					
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [В.Мацулевич];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2008];;
+											*);;
+					*);
+					
+=> nrel_site:[http://drama.grodno.by/];
+
+=> nrel_foundation_date: [1947];
+
+=> nrel_scedule: [ПН–СБ 14:00—19:00, ВС 15:00—19:00];
+
+=> nrel_email: [dramagr@tut.by];
+
+=>nrel_number_of_halls:[2](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [918](* <-number;; *);	
+
+=> nrel_cash_telephone: [(8 0152) 72 34 27];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/grodno_regional_dramatic_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

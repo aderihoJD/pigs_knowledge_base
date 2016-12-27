@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_republican_road;;
+
+concept_republican_road => nrel_main_idtf:
+	[республиканская дорога]
+	(* <- lang_ru;; *);
+	[republican road]
+	(* <- lang_en;; *);;

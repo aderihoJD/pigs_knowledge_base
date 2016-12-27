@@ -1,0 +1,63 @@
+sc_node_not_relation -> metro_moskovskaya_linia;;
+
+metro_moskovskaya_linia => nrel_main_idtf: [Метро московская линия] (* <- lang_ru;; *);;
+metro_moskovskaya_linia => nrel_main_idtf: [metro moskovskaya linia] (* <- lang_en;; *);;
+
+metro_moskovskaya_linia <= nrel_using_constants:
+	{
+	metro
+	};;
+
+metro_moskovskaya_linia => nrel_route_points:
+{
+	stop_metro_Malinovka;
+	stop_metro_Petrovshina;
+	stop_metro_Mihailovo;
+	stop_metro_Grushevka;
+	stop_metro_Instityt_Kyltyri;
+	stop_metro_Ploshca_Lenina;
+	stop_metro_Oktyabrskaya;
+	stop_metro_Ploshcad_Pobedi;
+	stop_metro_Ploshcad_Yakyba_Kolasa;
+	stop_metro_Akademiya_Nayk;
+	stop_metro_Park_Cheluskincev;
+	stop_metro_Moskovskaya;
+	stop_metro_Vostok;
+	stop_metro_Borisovski_Trakt;
+	stop_metro_Yruche
+};;
+
+metro_moskovskaya_linia => nrel_end_points:
+{
+	stop_metro_Malinovka;
+	stop_metro_Yruche
+};;
+
+metro_moskovskaya_linia => nrel_company_transfer: Metro_AG;;
+
+metro_moskovskaya_linia <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://metro_moskovskaya_linia.png";;
+                                *);; 
+                *);;
+				
+metro_moskovskaya_linia <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="metro">метро</sc_element> московская линии города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+		

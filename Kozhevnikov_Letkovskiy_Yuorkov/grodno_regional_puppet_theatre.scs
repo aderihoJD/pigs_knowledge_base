@@ -1,0 +1,63 @@
+grodno_regional_theatre
+
+=> nrel_main_idtf:
+    [Гродненский областной театр кукол]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node["website"="http://grodnolyalka.na.by/"];];
+
+=> nrel_theatre_kind: puppet_theatre;
+
+
+<- rrel_place: ... (* 
+<- nrel_director;; 
+-> rrel_human: [С.Юркевич];; 
+-> rrel_time_lapse:...(* 
+=> nrel_begining_time: [1980];; 
+*);; 
+*);
+
+<- rrel_place: ... (* 
+<- nrel_director;; 
+-> rrel_human: [С.Образцова];; 
+-> rrel_time_lapse:...(* 
+=> nrel_begining_time: [1940];; 
+=> nrel_ending_time: [1980];; 
+*);; 
+*);
+
+
+=> nrel_site:[ http://www.grodnolyalka.by ];
+
+=> nrel_email: [puppet-grodno@rambler.ru];
+
+=> nrel_foundation_date: [1980];
+
+=> nrel_scedule: [ВТ–ПТ с 12:00 до 19:00, СБ–ВС с 09:30 до 14:00];
+
+=>nrel_number_of_halls:[2](* <-number;; *);
+
+=> nrel_cash_telephone: [+375 152 745930];
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/grodno_regional_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
+
+
+
+
+
+
+

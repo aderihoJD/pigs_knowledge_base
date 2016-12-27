@@ -1,0 +1,46 @@
+cinema_rodina_mogilev
+
+=> nrel_main_idtf:
+    [Кинотеатр Родина]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "47"]
+     ["addr:street"= "улица Ленинская"]
+      [ "name"= "Родина"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Родина" удобно разместился в центре Могилева, на площади Звезд (ул. Ленинская). Здесь была проведена реконструкция и сегодня во время киносеанса посетители располагаются в удобных креслах, а фильмы демонстрируются как в двухмерном формате, там и в формате "активного" 3D (зрителям выдаются специальные очки).]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС 12:00—21:00];
+=> nrel_cash_telephone: [(8 0222) 22 03 65];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_rodina_mogilev.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

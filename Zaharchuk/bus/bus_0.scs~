@@ -1,0 +1,54 @@
+﻿sc_node_not_relation -> bus_1;;
+
+bus_1 => nrel_main_idtf: [Автобус 1] (* <- lang_ru;; *);;
+bus_1 => nrel_main_idtf: [Bus 1] (* <- lang_en;; *);;
+
+bus_1 <= nrel_using_constants:
+	{
+	bus
+	};;
+
+bus_1 => nrel_route_points:
+{
+	stop_ul_Narochanskaya;
+	stop_pr_Pobediteley;
+	stop_ul_Lenina;
+	stop_pr_Nezavisimosti;
+	stop_ul_Sverdlova;
+	stop_ul_Kirova
+};;
+
+bus_1 => nrel_end_points:
+{
+	stop_Vesnyanka;
+	stop_Train_Station
+};;
+
+bus_1 => nrel_company_transfer: GP_MinskTrans;;
+
+bus_1 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://bus_1.png";;
+                                *);; 
+                *);;
+				
+bus_1 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="bus">автобуса</sc_element> номер 1 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+		

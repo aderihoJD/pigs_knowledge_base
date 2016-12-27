@@ -1,0 +1,30 @@
+sc_node_struct -> blestyashhyazhuzhelic;;
+
+blestyashhyazhuzhelic => nrel_main_idtf: [Блестящая жужелица] (* <- lang_ru;; *);
+				     [blestyashhyazhuzhelic] (* <- lang_en;; *);;
+
+blestyashhyazhuzhelic <- subsection_coleoptera;;
+
+blestyashhyazhuzhelic => nrel_squar: coleoptera;;
+
+blestyashhyazhuzhelic => nrel_family: carabidae;;
+
+blestyashhyazhuzhelic => nrel_habitat: [Предпочитает песчаные почвы. Хвойные и лиственные леса, берега рек, других водоемов, болота, поля, луга .](* <- lang_ru;; *);;
+
+blestyashhyazhuzhelic => nrel_biology: [Хищный жук, активен днем . Зимует в лесной и травяной подстилке. Жужелица с весенним типом размножения. Личинки и взрослые жуки питаются личинками почвенных беспозвоночных. Жуки не летают, так как задние крылья недоразвиты.](* <- lang_ru;; *);;
+
+blestyashhyazhuzhelic => nrel_major_threats: [Факторы, лимитирующие численность, и тенденции ее изменения изучены слабо. Однако основными факторами все же остаются антропогенное воздействие, сокращение естественных мест обитания.](* <- lang_ru;; *);;
+
+blestyashhyazhuzhelic => nrel_picture: "file://125.jpg";;
+
+blestyashhyazhuzhelic => nrel_protection_category: 3_category;;
+
+blestyashhyazhuzhelic => nrel_description: [Тело длиной 14-18 мм, черное. Голова и переднеспинка золотисто-красные, надкрылья зеленые с 3 гладкими ребрышками. Вершинный наружный угол передних голеней оттянут в согнутый шип. Надкрылья с черным швом и золотисто-красным краем.](* <- lang_ru;; *);;
+
+blestyashhyazhuzhelic => nrel_spread: [Европейский мезоксерофильный вид. Южная и средняя части Европы. В Беларуси приурочен к центральной и северной частям, реже встречается в Полесье.](* <- lang_ru;; *);;
+
+blestyashhyazhuzhelic => nrel_strength: [Редок, численность невысокая и сокращается.](* <- lang_ru;; *);;
+
+blestyashhyazhuzhelic => nrel_finding_place: "file://125_location.jpg";;
+
+blestyashhyazhuzhelic => nrel_security_measures: [Вид включен во 2-е издание Красной книги Республики Беларусь (II категория). В Березинском биосферном заповеднике находится под охраной заповедного режима. Необходима пропаганда охраны вида и контроль за состоянием популяций, ограничение использования инсектицидов в местах обитания жужелиц, а также отлова жуков коллекционерами.](* <- lang_ru;; *);;

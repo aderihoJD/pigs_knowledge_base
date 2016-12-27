@@ -1,0 +1,46 @@
+cinema_belarus_brest
+
+=> nrel_main_idtf:
+    [Кинотеатр Беларусь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "62"]
+     ["addr:street"= "улица Советская"]
+      [ "name"= "Беларусь"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Посмотреть новинки кинопроката жители и гости Бреста могут в современном кинотеатре "Беларусь", который находится на улице Советская, 62. В нем все сделано для комфортного просмотра фильмов в 3D и 2D форматах: удобные сидения, кондиционер, отличное качество звука и изображения.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ЧТ 10:00-22:00, ПТ–СБ 10:00-24:00, ВС 10:00-22:00];
+=> nrel_cash_telephone: [(8 0162) 23 30 46];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_belarus_brest.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

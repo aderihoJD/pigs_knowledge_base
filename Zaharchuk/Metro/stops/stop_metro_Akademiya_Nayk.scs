@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Akademiya_Nayk;;
+
+stop_metro_Akademiya_Nayk => nrel_main_idtf: [Остановка метро Академия наук] (* <- lang_ru;; *);;
+stop_metro_Akademiya_Nayk => nrel_main_idtf: [stop metro Akademiya Nayk] (* <- lang_en;; *);;

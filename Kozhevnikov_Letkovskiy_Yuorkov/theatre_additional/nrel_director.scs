@@ -1,0 +1,5 @@
+sc_node_norole_relation->nrel_director;;
+
+nrel_director=> nrel_main_idtf:
+	[руководитель*](* <-lang_ru;; *);
+	[director*](* <-lang_en;; *);;

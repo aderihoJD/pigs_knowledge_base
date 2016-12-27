@@ -1,0 +1,46 @@
+cinema_dom_kino_vitebsk
+
+=> nrel_main_idtf:
+    [Кинотеатр Дом Кино]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "40"]
+     ["addr:street"= "улица Ленина"]
+      [ "name"= "Дом Кино"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            ["Дом кино" является старейшим кинотеатром как в Витебске, так и в Беларуси. Современное название кинотеатр приобрел с 2006 года, изначально он носил название "Рекорд", а позже – "Спартак". В городе он также известен как памятник архитектуры периода конца XIX - начала XX веков. Кинотеатр "Дом кино" был оборудован цифровыми технологиями кинопоказа в 2013 году. Более того, именно этот кинотеатр является бессменным центром проведения Международного фестиваля искусств "Славянский базар в Витебске".]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС 08:50-21:40];
+=> nrel_cash_telephone: [(8 0212) 37 37 82];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_dom_kino_vitebsk.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

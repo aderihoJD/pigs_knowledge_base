@@ -1,0 +1,66 @@
+homel_regional_theatre
+
+=> nrel_main_idtf:
+    [Гомельский областной театр кукол]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node["amenity"="theatre"]["name"="Кукольный Театр"];];
+
+=> nrel_theatre_kind: puppet_theatre;
+
+
+<- rrel_place: ... (* 
+<- nrel_director;; 
+-> rrel_human: [В.Черняев];; 
+-> rrel_time_lapse:...(* 
+=> nrel_begining_time: [1968];;
+=> nrel_ending_time: [1986];;  
+*);; 
+*);
+
+
+
+<- rrel_place: ... (* 
+<- nrel_director;; 
+-> rrel_human: [В.Матрос];; 
+-> rrel_time_lapse:...(* 
+=> nrel_begining_time: [1968];;  
+*);; 
+*);
+
+
+
+=> nrel_site:[ http://puppet.gorodgomel.by/ ];
+
+=> nrel_email: [gomel-puppet@mail.ru];
+
+=> nrel_foundation_date: [1968];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_maximum_number_of_viewers: [228](* <-number;; *);
+
+=> nrel_cash_telephone: [+375 (222) 77-47-13];
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/homel_regional_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_max_speed;;
+
+    nrel_max_speed => nrel_main_idtf:
+    [максимальная скорость*]
+    (* <- lang_ru;; *);
+    [maximum speed*]
+    (* <- lang_en;; *);;

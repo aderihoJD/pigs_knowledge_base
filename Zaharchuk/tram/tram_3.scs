@@ -1,0 +1,61 @@
+sc_node_not_relation -> tram_3;;
+
+tram_3 => nrel_main_idtf: [Трамвай 3] (* <- lang_ru;; *);;
+tram_3 => nrel_main_idtf: [Tram 3] (* <- lang_en;; *);;
+
+tram_3 <= nrel_using_constants:
+	{
+	tram
+	};;
+
+tram_3 => nrel_route_points:
+{
+	stop_ul_Yakubova;
+	stop_ul_Plehanova;
+	stop_ul_Dolgobrotskaya;
+	stop_ul_Kozlova;
+	stop_ul_Platonova;
+	stop_ul_Chapaeva;
+	stop_ul_Zmitroka_Byaduli;
+	stop_ul_Kozlova;
+	stop_pr_Masherova;
+	stop_ul_Daumana;
+	stop_ul_Starovilenski_trakt
+};;
+
+tram_3 => nrel_end_points:
+{
+	stop_DS_Serebryanka;
+	stop_DS_Ozero
+};;
+
+tram_3 => nrel_company_transfer: GP_MinskTrans;;
+
+tram_3 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://tram_3.png";;
+                                *);; 
+                *);;
+				
+tram_3 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="tram">трамвая</sc_element> номер 3 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+tram_3 => nrel_osm_query:
+[area["name"="Минск"]->.boundaryarea; ( node(area.boundaryarea)["highway"="trum_stop"["name"="Проходная"];);out;];;[out:json][timeout:25]; {{geocodeArea:minsk}}->.searchArea; ( node["route"="tram"]["ref"="3"](area.searchArea); way["route"="tram"]["ref"="3"](area.searchArea); relation["route"="tram"]["ref"="3"](area.searchArea); ); out body; >; out skel qt;];;
+		

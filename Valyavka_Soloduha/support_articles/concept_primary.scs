@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_primary;;
+
+concept_primary => nrel_main_idtf:
+	[основная дорога]
+	(* <- lang_ru;; *);
+	[primary road]
+	(* <- lang_en;; *);;

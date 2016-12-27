@@ -1,0 +1,32 @@
+sc_node_not_relation -> concept_highway_P51;;
+
+concept_highway_P51 <- concept_republican_road;;
+
+concept_highway_P51 <- concept_terrain_object;;
+
+concept_highway_P51 => nrel_main_idtf:
+	[дорога P51]
+	(* <- lang_ru;; *);
+	[highway P51]
+	(* <- lang_en;; *);;
+
+concept_highway_P51 <= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[way/25288090]
+			(* <- lang_en;; *);;
+		*);;
+
+concept_highway_P51 => nrel_highway_type:
+	concept_primary;;
+
+concept_highway_P51 => nrel_osm_query:
+	[way["highway"="primary"]["ref"="Р51"];];;
+
+concept_highway_P51 => nrel_max_speed:
+	[90];;
+
+concept_highway_P51 => nrel_surface:
+	concept_asphalt;;
+

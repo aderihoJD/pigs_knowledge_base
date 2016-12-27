@@ -1,0 +1,46 @@
+cinema_oktyabr_mogilev
+
+=> nrel_main_idtf:
+    [Кинотеатр Октябрь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "23"]
+     ["addr:street"= "проспект Мира"]
+      [ "name"= Октябрь"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [На карте города кинокомплекс "Октябрь" находится недалеко от центральной части Могилева, около оживленного проспекта. Возле здания есть парковка.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН-ВС 12:00-21:00];
+=> nrel_cash_telephone: [(8 0222) 23 42 94];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_oktyabr_mogilev.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

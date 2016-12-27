@@ -1,0 +1,46 @@
+cinema_mir_vitebsk
+
+=> nrel_main_idtf:
+    [Кинотеатр Мир]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "3"]
+     ["addr:street"= "улица Чехова"]
+      [ "name"= "Мир"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Мир" в Витебске имеет долгую историю. Первый сеанс фильма "Вольный ветер" состоялся в 1961 году. Несмотря на то, что кинотеатр в 2011 году отметил свой 50-летний юбилей, он оборудован всеми современными технологиями и удобствами.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС 09:00-21:20];
+=> nrel_cash_telephone: [(8 0212) 36 55 10];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_mir_vitebsk.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

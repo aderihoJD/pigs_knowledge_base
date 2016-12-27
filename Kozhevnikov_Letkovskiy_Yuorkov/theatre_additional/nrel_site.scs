@@ -1,0 +1,5 @@
+sc_node_norole_relation->nrel_site;;
+
+nrel_site=> nrel_main_idtf:
+	[сайт*](* <-lang_ru;; *);
+	[site*](* <-lang_en;; *);;

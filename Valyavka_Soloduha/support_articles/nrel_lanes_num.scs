@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_lanes_num;;
+
+    nrel_lanes_num => nrel_main_idtf:
+    [количество полос*]
+    (* <- lang_ru;; *);
+    [number of lanes*]
+    (* <- lang_en;; *);;

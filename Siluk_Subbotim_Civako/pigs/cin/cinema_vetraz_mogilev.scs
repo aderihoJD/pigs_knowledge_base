@@ -1,0 +1,46 @@
+cinema_vetraz_mogilev
+
+=> nrel_main_idtf:
+    [Кинотеатр Ветразь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "1"]
+     ["addr:street"= "улица Островского"]
+      [ "name"= "Ветразь"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Ветразь" навевает у посетителей легкую ностальгию. Здесь нет таких современных новшеств как 3D формат, зато имеются все атрибуты, присущие старому кинотеатру. "Ветразь" находится на пересечении улицы и оживленного проспекта, а добраться до него легко и на авто (имеется парковка возле кинотеатра), и на общественном транспорте.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС 12:00—21:00];
+=> nrel_cash_telephone: [(8 0222) 41 74 98];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_vetraz_mogilev.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

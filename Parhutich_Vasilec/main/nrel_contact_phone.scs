@@ -1,0 +1,12 @@
+nrel_contact_phone
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Контактный телефон*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[contact_phone*]
+	(*
+	<- lang_en;;
+	*);;

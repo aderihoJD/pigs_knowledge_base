@@ -1,0 +1,49 @@
+mogilev_regional_theatre
+
+=> nrel_main_idtf:
+    [Могилёвский областной театр кукол]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["name"="Могилевский театр кукол"];];
+
+=> nrel_theatre_kind: puppet_theatre;
+
+
+<- rrel_place: ... (* 
+<- nrel_director;; 
+-> rrel_human: [Н. Кулага];; 
+-> rrel_time_lapse:...(* 
+=> nrel_begining_time: [1976];;  
+*);; 
+*);
+
+
+=> nrel_site:[ http://www.teatrkukol.by/ ];
+
+=> nrel_email: [mog_kukla@mail.ru];
+
+=> nrel_foundation_date: [1976];
+
+=> nrel_scedule: [ПН: 12.00 – 19.00 (Обед: 14.00 – 15.00); ВТ - СБ: 8.00 – 19.00  (Обед: 14.00 – 15.00); ВС: 9.00 — 16.00 (Обед: 14.00 – 15.00)];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_maximum_number_of_viewers: [198](* <-number;; *);
+
+=> nrel_cash_telephone: [+375 (222) 32 66 47];
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/mogilev_regional_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

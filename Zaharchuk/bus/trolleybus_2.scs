@@ -1,0 +1,59 @@
+sc_node_not_relation -> trolleybus_2;;
+
+trolleybus_2 => nrel_main_idtf: [Троллейбус 2] (* <- lang_ru;; *);;
+trolleybus_2 => nrel_main_idtf: [Trolleybus 2] (* <- lang_en;; *);;
+
+trolleybus_2 <= nrel_using_constants:
+	{
+	trolleybus
+	};;
+
+trolleybus_2 => nrel_route_points:
+{
+	stop_ul_Academika_Kuprievicha;
+	stop_ul_Russiyanova;
+	stop_ul_Shafarnyanskaya;
+	stop_ul_Gintovta;
+	stop_ul_Vsexsvyatskaya;
+	stop_ul_Kalinowskogo;
+	stop_ul_Sedyx;
+	stop_ul_Karbysheva;
+	stop_ul_Gamarnika;
+	stop_ul_Miroshnichenko
+};;
+
+trolleybus_2 => nrel_end_points:
+{
+	stop_Uruchcha_2;
+	stop_Zeleny_Lug_6
+};;
+
+trolleybus_2 => nrel_company_transfer: GP_MinskTrans;;
+
+trolleybus_2 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://trolleybus_2.png";;
+                                *);; 
+                *);;
+				
+trolleybus_2 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="trolleybus">троллейбуса</sc_element> номер 2 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+trolleybus_2 => nrel_osm_query:
+[[out:json][timeout:25]; {{geocodeArea:minsk}}->.searchArea; ( node["route"="trolleybus"]["ref"="2"](area.searchArea); way["route"="trolleybus"]["ref"="2"](area.searchArea); relation["route"="trolleybus"]["ref"="2"](area.searchArea); ); out body; >; out skel qt;];;		

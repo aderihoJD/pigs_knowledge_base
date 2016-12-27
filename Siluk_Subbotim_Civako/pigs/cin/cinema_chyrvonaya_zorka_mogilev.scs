@@ -1,0 +1,46 @@
+cinema_chyrvonaya_zorka_mogilev
+
+=> nrel_main_idtf:
+    [Кинотеатр Чырвоная Зорка]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "14"]
+     ["addr:street"= "улица Первомайская"]
+      [ "name"= "Чырвоная Зорка"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [В число самых крупных и старых кинотеатров Могилева "Чырвоная Зорка". Здание кинотеатра было возведено в 1930 году в центре города, но, несмотря на его возраст, внутри кинотеатра все очень даже современно. Здесь можно посмотреть новинки киноиндустрии в формате 3D. Для удобства посетителей в здании есть бесплатный WiFi и кинобар.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН-ВС 12:00-21:00];
+=> nrel_cash_telephone: [(8 0222) 25 08 44];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_chyrvonaya_zorka_mogilev.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

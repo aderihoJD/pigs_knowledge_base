@@ -1,0 +1,45 @@
+lake_zaschaty => nrel_main_idtf:
+    [оз. Засчаты] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="Засчаты"]["natural"="water"];
+way["name"="Засчаты"]["natural"="water"];
+relation["name"="Засчаты"]["natural"="water"]; );
+out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [0,83 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [7 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,6 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [2,1 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [6,35 км] (* <- lang_ru;; *);    
+
+=> nrel_water_intake_area:
+    [660 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Туровлянка, за 20 км на юге от Полоцка, возле д. Гомель. Входит в Ушачскую группу озер. На юге впадает р. Турец, на западе вытекает протока в озеро Гомель, на которой построена плотина.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;

@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_asphalt;;
+
+concept_asphalt => nrel_main_idtf:
+	[асфальт]
+	(* <- lang_ru;; *);
+	[asphalt]
+	(* <- lang_en;; *);;

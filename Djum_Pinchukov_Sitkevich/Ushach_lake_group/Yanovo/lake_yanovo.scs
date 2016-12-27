@@ -1,0 +1,59 @@
+lake_yanovo => nrel_main_idtf:
+    [оз. Яново] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="Яново"]["natural"="water"];
+way["name"="Яново"]["natural"="water"];
+relation["name"="Яново"]["natural"="water"]; );
+out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [7,7 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [14 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [2,2 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [6,5 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [25 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [41,8 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [721 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Дива (впадает в озеро), за 23 км на юг от г. Полоцк, за 3 км на юго-восток от д. Гомель. Входит в Ушачскую группу озер. Склоны котловины высотой до 12 м, под лесом, частично распаханные. На севере и юге терраса высотой 2 м. Берега высотой до 1 м, песчаные, местами покрыты валунами, на востоке низкие. На юге к озеру примыкает заболоченная низина. Мелководье шириной до 10 м, песчаное, глубже дно выстлано сапропелем. Ширина полосы зарастания 25-200 м. Впадают 2 ручья, рекой Туржец  соединено с озером Защаты.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/map_yanovo_big.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);; 

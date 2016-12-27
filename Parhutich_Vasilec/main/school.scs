@@ -1,0 +1,8 @@
+school=> nrel_main_idtf:
+	
+	[Школа]
+	(* <- lang_ru;; *);
+	
+	[school]
+	(* <- lang_en;;	*);;
+

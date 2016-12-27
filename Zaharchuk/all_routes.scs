@@ -1,0 +1,25 @@
+sc_node_not_relation -> routes;;
+
+routes => nrel_main_idtf: [Маршруты] (* <- lang_ru;; *);;
+routes => nrel_main_idtf: [Routes] (* <- lang_en;; *);;
+
+routes 
+-> trolleybus_33;
+-> trolleybus_2;
+-> trolleybus_3;
+-> trolleybus_4;
+-> trolleybus_5;
+-> trolleybus_6;
+-> trolleybus_2;
+-> metro_avtozavadskaia_linia;
+-> metro_moskovskaya_linia;
+-> tram_3;
+-> tram_5;
+-> tram_6;
+-> tram_9;
+-> tram_11;
+-> bus_1;
+-> bus_4;
+-> bus_42;
+-> bus_74c;
+-> bus_100;;

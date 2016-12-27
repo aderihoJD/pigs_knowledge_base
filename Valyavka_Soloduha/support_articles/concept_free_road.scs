@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_free_road;;
+
+concept_free_road => nrel_main_idtf:
+	[бесплатная дорога]
+	(* <- lang_ru;; *);
+	[free road]
+	(* <- lang_en;; *);;

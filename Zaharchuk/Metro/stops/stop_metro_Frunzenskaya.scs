@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Frunzenskaya;;
+
+stop_metro_Frunzenskaya => nrel_main_idtf: [Остановка метро Фрунзенская] (* <- lang_ru;; *);;
+stop_metro_Frunzenskaya => nrel_main_idtf: [stop metro Frunzenskaya] (* <- lang_en;; *);;

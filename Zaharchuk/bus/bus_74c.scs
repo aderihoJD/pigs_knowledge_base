@@ -1,0 +1,54 @@
+sc_node_not_relation -> bus_74c;;
+
+bus_74c => nrel_main_idtf: [Автобус 74c] (* <- lang_ru;; *);;
+bus_74c => nrel_main_idtf: [Bus 74c] (* <- lang_en;; *);;
+
+bus_74c <= nrel_using_constants:
+	{
+	bus
+	};;
+
+bus_74c => nrel_route_points:
+{
+	stop_ul_Gorodskoy_Val;
+	stop_ul_Nemiga;
+	stop_pr_Dzerzhinskogo;
+	stop_ul_Cosmonautov;
+	stop_ul_Slobodskaya
+};;
+
+bus_74c => nrel_end_points:
+{
+	stop_City_Val;
+	stop_Malinovka_4
+};;
+
+bus_74c => nrel_company_transfer: GP_MinskTrans;;
+
+bus_74c <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://bus_74c.png";;
+                                *);; 
+                *);;
+				
+bus_74c <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="bus">автобуса</sc_element> номер 74c города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+bus_74c => nrel_osm_query:
+[[out:json][timeout:25]; {{geocodeArea:minsk}}->.searchArea; ( node["route"="bus"]["ref"="84"](area.searchArea); way["route"="bus"]["ref"="84"](area.searchArea); relation["route"="bus"]["ref"="84"](area.searchArea); ); out body; >; out skel qt;];;		

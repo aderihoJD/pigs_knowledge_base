@@ -1,0 +1,115 @@
+sc_node_not_relation -> stop_pr_Pobediteley;;
+stop_pr_Pobediteley => nrel_main_idtf: [Остановка улица Нарочанская] (* <- lang_ru;; *);;
+stop_pr_Pobediteley => nrel_main_idtf: [Stop Narochanskaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_pr_Pobediteley;;
+stop_pr_Pobediteley => nrel_main_idtf: [Остановка проспект Победителей] (* <- lang_ru;; *);;
+stop_pr_Pobediteley => nrel_main_idtf: [Stop Pobediteley avenue ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Lenina;;
+stop_ul_Lenina => nrel_main_idtf: [Остановка улица Ленина] (* <- lang_ru;; *);;
+stop_ul_Lenina => nrel_main_idtf: [Stop Lenina street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_pr_Nezavisimosti;;
+stop_pr_Nezavisimosti => nrel_main_idtf: [Остановка проспект Независимости] (* <- lang_ru;; *);;
+stop_pr_Nezavisimosti => nrel_main_idtf: [Stop Nezavisimosti avenue ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Sverdlova;;
+stop_ul_Sverdlova => nrel_main_idtf: [Остановка улица Свердлова] (* <- lang_ru;; *);;
+stop_ul_Sverdlova => nrel_main_idtf: [Stop Sverdlova street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Kirova;;
+stop_ul_Kirova => nrel_main_idtf: [Остановка улица Кирова] (* <- lang_ru;; *);;
+stop_ul_Kirova => nrel_main_idtf: [Stop Kirova street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Slavinskogo;;
+stop_ul_Slavinskogo => nrel_main_idtf: [Остановка улица Славинского] (* <- lang_ru;; *);;
+stop_ul_Slavinskogo => nrel_main_idtf: [Stop Slavinskogo street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Kedyshko;;
+stop_ul_Kedyshko => nrel_main_idtf: [Остановка улица Кедышко] (* <- lang_ru;; *);;
+stop_ul_Kedyshko => nrel_main_idtf: [Stop Kedyshko street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Volgogradskogo;;
+stop_ul_Volgogradskogo => nrel_main_idtf: [Остановка улица Волгоградская] (* <- lang_ru;; *);;
+stop_ul_Volgogradskogo => nrel_main_idtf: [Stop Volgogradskogo street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Moskovskaya;;
+stop_ul_Moskovskaya => nrel_main_idtf: [Остановка улица Московская] (* <- lang_ru;; *);;
+stop_ul_Moskovskaya => nrel_main_idtf: [Stop Moskovskaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Chkalova;;
+stop_ul_Chkalova => nrel_main_idtf: [Остановка улица Чкалова] (* <- lang_ru;; *);;
+stop_ul_Chkalova => nrel_main_idtf: [Stop Chkalova street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Aerodromnaya;;
+stop_ul_Aerodromnaya => nrel_main_idtf: [Остановка улица Аэродромная] (* <- lang_ru;; *);;
+stop_ul_Aerodromnaya => nrel_main_idtf: [Stop Aerodromnaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Vokzalnaya;;
+stop_ul_Vokzalnaya => nrel_main_idtf: [Остановка улица Вокзальная] (* <- lang_ru;; *);;
+stop_ul_Vokzalnaya => nrel_main_idtf: [Stop Vokzalnaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Tolstogo;;
+stop_ul_Tolstogo => nrel_main_idtf: [Остановка улица Толстого] (* <- lang_ru;; *);;
+stop_ul_Tolstogo => nrel_main_idtf: [Stop Tolstogo street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Voronianskogo;;
+stop_ul_Voronianskogo => nrel_main_idtf: [Остановка улица Воронянского] (* <- lang_ru;; *);;
+stop_ul_Voronianskogo => nrel_main_idtf: [Stop Voronianskogo street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Zhukovskogo;;
+stop_ul_Zhukovskogo => nrel_main_idtf: [Остановка улица Жуковского] (* <- lang_ru;; *);;
+stop_ul_Zhukovskogo => nrel_main_idtf: [Stop Zhukovskogo street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Kamennogorskaya;;
+stop_ul_Kamennogorskaya => nrel_main_idtf: [Остановка улица Каменогорская] (* <- lang_ru;; *);;
+stop_ul_Kamennogorskaya => nrel_main_idtf: [Stop Kamennogorskaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Niomanskaya;;
+stop_ul_Niomanskaya => nrel_main_idtf: [Остановка улица Неманская] (* <- lang_ru;; *);;
+stop_ul_Niomanskaya => nrel_main_idtf: [Stop Niomanskaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Casimirova;;
+stop_ul_Casimirova => nrel_main_idtf: [Остановка улица Казимирова] (* <- lang_ru;; *);;
+stop_ul_Casimirova => nrel_main_idtf: [Stop Casimirova street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Kuntsevshchina;;
+stop_ul_Kuntsevshchina => nrel_main_idtf: [Остановка улица Кунцевщина] (* <- lang_ru;; *);;
+stop_ul_Kuntsevshchina => nrel_main_idtf: [Stop Kuntsevshchina street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Lobanka;;
+stop_ul_Lobanka => nrel_main_idtf: [Остановка улица Лобанка] (* <- lang_ru;; *);;
+stop_ul_Lobanka => nrel_main_idtf: [Stop Lobanka street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Odintsova;;
+stop_ul_Odintsova => nrel_main_idtf: [Остановка улица Одинцова] (* <- lang_ru;; *);;
+stop_ul_Odintsova => nrel_main_idtf: [Stop Odintsova street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Skripnikova;;
+stop_ul_Skripnikova => nrel_main_idtf: [Остановка улица Скрипникова] (* <- lang_ru;; *);;
+stop_ul_Skripnikova => nrel_main_idtf: [Stop Skripnikova street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Sukharevskaya;;
+stop_ul_Sukharevskaya => nrel_main_idtf: [Остановка улица Сухаревская] (* <- lang_ru;; *);;
+stop_ul_Sukharevskaya => nrel_main_idtf: [Stop Sukharevskaya street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_pr_Dzerzhinskogo;;
+stop_pr_Dzerzhinskogo => nrel_main_idtf: [Остановка проспект Дзержинского] (* <- lang_ru;; *);;
+stop_pr_Dzerzhinskogo => nrel_main_idtf: [Stop Dzerzhinskogo avenue ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Gorodskoy_Val;;
+stop_ul_Gorodskoy_Val => nrel_main_idtf: [Остановка улица Городской вал] (* <- lang_ru;; *);;
+stop_ul_Gorodskoy_Val => nrel_main_idtf: [Stop Gorodskoy_Val street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Nemiga;;
+stop_ul_Nemiga => nrel_main_idtf: [Остановка улица Немига] (* <- lang_ru;; *);;
+stop_ul_Nemiga => nrel_main_idtf: [Stop Nemiga street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Cosmonautov;;
+stop_ul_Cosmonautov => nrel_main_idtf: [Остановка улица Космонавтов] (* <- lang_ru;; *);;
+stop_ul_Cosmonautov => nrel_main_idtf: [Stop Cosmonautov street ] (* <- lang_en;; *);;
+
+sc_node_not_relation -> stop_ul_Slobodskaya;;
+stop_ul_Slobodskaya => nrel_main_idtf: [Остановка улица Слободская] (* <- lang_ru;; *);;
+stop_ul_Slobodskaya => nrel_main_idtf: [Stop Slobodskaya street ] (* <- lang_en;; *);;

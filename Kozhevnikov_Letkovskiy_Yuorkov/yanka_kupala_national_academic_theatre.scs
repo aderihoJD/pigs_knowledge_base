@@ -1,0 +1,45 @@
+yanka_kupala_national_academic_theatre
+
+=> nrel_main_idtf:
+    [Национальный академический театр имени Янки Купалы](* <- lang_ru;; *);
+	[Yanka Kupala National Academic Theatre](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["addr:postcode"="220030"]["addr:street"="улица Энгельса"]["name"="Национальный академический театр имени Янки Купалы"];];
+
+<-theatre;	
+	
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [П.Поляков];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2003];;
+											*);;
+					*);
+					
+=> nrel_site:[http://kupalauski.by/];
+
+=> nrel_foundation_date: [1920];
+
+=> nrel_scedule: [ПН–ВС с 09:00 до 19:00];
+
+=> nrel_email: [info@kupalauski.by];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_cash_telephone: [+375 (17) 327-60-81 ];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/yanka_kupala_national_academic_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

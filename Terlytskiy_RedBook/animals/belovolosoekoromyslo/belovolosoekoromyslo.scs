@@ -1,0 +1,29 @@
+sc_node_struct -> belovolosoekoromyslo;;
+
+belovolosoekoromyslo => nrel_main_idtf: [Беловолосое коромысло] (* <- lang_ru;; *);
+				     [belovolosoekoromyslo] (* <- lang_en;; *);;
+
+belovolosoekoromyslo <- subsection_dragonfly;;
+
+belovolosoekoromyslo => nrel_squar: odonata;;
+
+belovolosoekoromyslo => nrel_family: aeschnidae;;
+
+belovolosoekoromyslo => nrel_habitat: [Предпочитает мезотрофные или эвтрофные водоемы, небольшие озера и низинные болота. Встречается также вдоль мелиоративных каналов и медленно текущих рек.](* <- lang_ru;; *);;
+
+belovolosoekoromyslo => nrel_biology: [Взрослые насекомые - активные хищники. Лёт и размножение в мае-июне. Самки откладывают яйца на водные растения, изредка во влажную почву возле воды. Личинки (длина до 45 мм) живут в воде, ползают в зарослях реки или поджидают добычу. Взрослые живут около 4 мес, личинки - 1-4 года.](* <- lang_ru;; *);;
+
+belovolosoekoromyslo => nrel_major_threats: [Вид приурочен к местам обитания, которые находятся под угрозой уничтожения (низинные болота, пойменные луга).](* <- lang_ru;; *);;
+
+belovolosoekoromyslo => nrel_picture: "file://112.jpg";;
+belovolosoekoromyslo => nrel_protection_category: 3_category;;
+
+belovolosoekoromyslo => nrel_description: [Пестрая, крупная стрекоза. Тело в густых белых волосках. Передние и задние крылья разные по форме, жилки на них в виде удлиненных треугольников. В покое крылья расправлены в разные стороны. Лоб с Т-образным черным пятном. Брюшко (38-46 мм) черно-бурое, у самца с синими, у самки с желтыми пятнами. Его рисунок состоит из ряда пятнышек. Глаза соприкасаются друг с другом на затылке. Самки имеют яйцеклад.](* <- lang_ru;; *);;
+
+belovolosoekoromyslo => nrel_spread: [Еврокавказский вид. Юж. Урал, Передняя Азия. Редок на всей территории республики .](* <- lang_ru;; *);;
+
+belovolosoekoromyslo => nrel_strength: [Редок на всей территории республики.](* <- lang_ru;; *);;
+
+belovolosoekoromyslo => nrel_finding_place: "file://112_location.jpg";;
+
+belovolosoekoromyslo => nrel_security_measures: [Выявление мест обитания вида и их охрана.](* <- lang_ru;; *);;

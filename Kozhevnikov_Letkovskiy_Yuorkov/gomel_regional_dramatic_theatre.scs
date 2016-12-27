@@ -1,0 +1,45 @@
+gomel_regional_dramatic_theatre
+
+=> nrel_main_idtf:
+    [Гомельский областной драматический театр](* <- lang_ru;; *);
+	[Gomel regional dramatic theatre](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node["amenity"= "theatre"]["name"= "Гомельский драматический театр"]["wheelchair"= "no"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [С.Гульчин];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2013];;
+											*);;
+					*);
+
+=> nrel_site:[http://gomeldrama.by/];
+
+=> nrel_foundation_date: [1939];
+
+=> nrel_email: [gomeldrama@mail.gomel.by];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [488](* <-number;; *);	
+
+=> nrel_cash_telephone: [+375 (232) 75-51-43];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/gomel_regional_dramatic_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

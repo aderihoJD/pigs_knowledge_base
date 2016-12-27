@@ -1,0 +1,5 @@
+sc_node_role_relation->rrel_time_lapse;;
+
+rrel_time_lapse=> nrel_main_idtf:
+	[временной промежуток'](* <-lang_ru;; *);
+	[time lapse'](* <-lang_en;; *);;

@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_toll_road;;
+
+concept_toll_road => nrel_main_idtf:
+	[платная дорога]
+	(* <- lang_ru;; *);
+	[toll road]
+	(* <- lang_en;; *);;

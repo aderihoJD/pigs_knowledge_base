@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Ploshcad_Yakyba_Kolasa;;
+
+stop_metro_Ploshcad_Yakyba_Kolasa => nrel_main_idtf: [Остановка метро Площадь Якуба Коласа] (* <- lang_ru;; *);;
+stop_metro_Ploshcad_Yakyba_Kolasa => nrel_main_idtf: [stop metro Ploshcad Yakyba Kolasa] (* <- lang_en;; *);;

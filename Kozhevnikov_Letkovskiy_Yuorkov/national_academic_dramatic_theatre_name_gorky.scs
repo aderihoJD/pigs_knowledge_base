@@ -1,0 +1,44 @@
+national_academic_dramatic_theatre_name_gorky
+
+=> nrel_main_idtf:
+    [Национальный академический драматический театр имени М.Горького](* <- lang_ru;; *);
+	[National academic dramatic theatre name M.Gorky](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:[way["addr:street"="улица Володарского"]["amenity"="theatre"]["name"="им. М.Горького"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [Э.Герасимович];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1983];;
+											*);;
+					*);
+					
+=> nrel_site:[http://www.rustheatre.by/];
+
+=> nrel_foundation_date: [1932];
+
+=> nrel_email: [nadt@tut.by];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [388](* <-number;; *);	
+
+=> nrel_cash_telephone: [200-15-41];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/national_academic_dramatic_theatre_name_gorky.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

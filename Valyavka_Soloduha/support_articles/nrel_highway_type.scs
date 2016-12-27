@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_highway_type;; 
+
+    nrel_highway_type => nrel_main_idtf: 
+    [тип дороги*]
+    (* <- lang_ru;; *); 
+    [highway type*] 
+    (* <- lang_en;; *);;

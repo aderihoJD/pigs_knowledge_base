@@ -1,0 +1,46 @@
+cinema_gomel_mir
+
+=> nrel_main_idtf:
+    [Мир]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "51Б"]
+     ["addr:street"= "Ильича"]
+      [ "name"= "Мир"];
+];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [В Гомеле по ул. Ильича, 51/Б находится кинотеатр "Мир" (Новобелицкий район), открытие которого состоялось в 1959 году. В 2012 году в "Мире" закончилась реставрация, здесь стали показывать современное кино, появилась возможность просмотра 3D фильмов.
+            Сейчас в нем есть один кинозал и 2 видеозала, вместимостью от 6 до 198 мест. Большой зал "Мира" оснащен акустической системой Dolby Digital Surround, 3D системой Masterimage и цифровым кинопроектором Christie (Канада), позволяющим показывать фильмы в цифровом формате. Серебряный экран обладает эффектом светоотражения и прекрасно подходит для 3D контента.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС с 12:00 до 21:30];
+=> nrel_cash_telephone: [+375 232 361360];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://image/gomel_mir.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

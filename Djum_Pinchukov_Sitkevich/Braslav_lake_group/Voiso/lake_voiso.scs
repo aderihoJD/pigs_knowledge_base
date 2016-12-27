@@ -1,0 +1,62 @@
+lake_voiso => nrel_main_idtf:
+    [оз. Войсо] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-braslav_lakes_group;
+
+=> nrel_osm_query:
+[( 
+area["name"="оз. Войсо"]; 
+way["name"="оз. Войсо"]; 
+relation["name"="оз. Войсо"]; 
+); 
+out body; 
+>; 
+out skel qt;];
+
+=> nrel_square: 
+    [4,88 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [9,1 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [1,6 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [3,75 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [15,2 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [14,16 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [249 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Друйка, за 4 км на северо-восток от г. Браслав; входит в Браславскую группу озер. Склоны котловины высокие, на юге и западе пологие, местами заболоченные. Береговая линия очень извилистая. В котловине выделяют центральный плёс с плоским дном и северный, западный и южный, разделенные островами или поднятиями. На озере 4 острова общей площадью 0,11 км2. Максимальные глубины в южном плёсе. На мелководье дно песчаное, глубже – выстлано илом. Растительность возле берегов образует прерывистую полосу шириной 15-20 м до глубины 2-4 м. Соединено протоками с озерами Струста и Неспиш.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/map_vojso_big.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

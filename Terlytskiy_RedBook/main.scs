@@ -1,0 +1,11 @@
+ISS_by_Red_book_RB => nrel_main_idtf: [ИСС Красная книга Республики Беларусь](* <- lang_ru;; *);;
+ISS_by_Red_book_RB <- ui_start_sc_element;;
+
+section_animals => nrel_main_idtf: [Раздел. Животные](*<-lang_ru;;*);;
+section_plants => nrel_main_idtf: [Раздел. Растения](*<-lang_ru;;*);;
+
+ISS_by_Red_book_RB <= nrel_section_decomposition:
+{
+	section_animals;
+	section_plants
+} ;;

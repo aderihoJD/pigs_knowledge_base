@@ -1,0 +1,46 @@
+republican_theatre_of_belarusian_drama
+
+=> nrel_main_idtf:
+    [Республиканский театр белорусской драматургии](* <- lang_ru;; *);
+	[Republican Theatre of Belarusian Drama](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:[node["amenity"= "theatre"]["name"= "Рэспубліканскі тэатр беларускай драматургіі"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [В.Карачевский];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2008];;
+											*);;
+					*);
+					
+=> nrel_site:[http://rtbd.by/];
+
+=> nrel_foundation_date: [1991];
+
+=> nrel_scedule: [ВТ–ВС с 14:00 до 19:00];
+
+=> nrel_email: [tbd@tut.by];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [208](* <-number;; *);	
+
+=> nrel_cash_telephone: [+375 17 3859751];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/republican_theatre_of_belarusian_drama.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

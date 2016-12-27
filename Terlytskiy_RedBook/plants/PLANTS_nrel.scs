@@ -1,0 +1,26 @@
+nrel_description <- sc_node_norole_relation;;
+nrel_spread <- sc_node_norole_relation;;
+nrel_habitat <- sc_node_norole_relation;;
+nrel_biology <- sc_node_norole_relation;;
+nrel_strength <- sc_node_norole_relation;;
+nrel_major_threats <- sc_node_norole_relation;;
+nrel_class <- sc_node_norole_relation;;
+nrel_order <- sc_node_norole_relation;;
+nrel_family <- sc_node_norole_relation;;
+nrel_status <- sc_node_norole_relation;;
+nrel_picture <- sc_node_norole_relation;;
+nrel_location <- sc_node_norole_relation;;
+
+nrel_description => nrel_main_idtf: [описание*](*<-lang_ru;;*);;
+nrel_spread => nrel_main_idtf: [распространение*](*<-lang_ru;;*);;
+nrel_habitat => nrel_main_idtf: [местообитания*](*<-lang_ru;;*);;
+nrel_biology => nrel_main_idtf: [биология*](*<-lang_ru;;*);;
+nrel_strength => nrel_main_idtf: [численность*](*<-lang_ru;;*);;
+nrel_major_threats => nrel_main_idtf: [основные факторы угрозы*](*<-lang_ru;;*);;
+nrel_security_measures => nrel_main_idtf: [меры охраны*](*<-lang_ru;;*);;
+nrel_class => nrel_main_idtf: [класс*](*<-lang_ru;;*);;
+nrel_order => nrel_main_idtf: [порядок*](*<-lang_ru;;*);;
+nrel_family => nrel_main_idtf: [семейство*](*<-lang_ru;;*);;
+nrel_status => nrel_main_idtf: [статус*](*<-lang_ru;;*);;
+nrel_picture => nrel_main_idtf: [изображение*](*<-lang_ru;;*);;
+nrel_location => nrel_main_idtf: [местонахождение*](*<-lang_ru;;*);;

@@ -1,0 +1,47 @@
+brest_academic_theater_drama_name_lenin_comsomol_belarus
+
+=> nrel_main_idtf:
+    [Брестский академический театр драмы имени Ленинского комсомола Беларуси](* <- lang_ru;; *);
+	[Brest academic theater of drama name lenin comsomol belarus](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["addr:street"= "улица Ленина"]["name"= "Брестский академический театр драмы"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [А.Козак];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2014];;
+											*);;
+					*);
+					
+=> nrel_site:[http://www.bresttheatre.info/];
+
+=> nrel_foundation_date: [1944];
+
+=> nrel_scedule: [ВТ–ВС с 14:00 до 20:00];
+
+=> nrel_email: [bresttheatre@yahoo.com];
+
+=>nrel_number_of_halls:[2](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [581](* <-number;; *);	
+
+=> nrel_cash_telephone: [+375 (162) 20-76-57];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/brest_academic_theater_drama_name_lenin_comsomol_belarus.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

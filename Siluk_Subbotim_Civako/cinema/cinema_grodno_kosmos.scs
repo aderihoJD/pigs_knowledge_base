@@ -1,0 +1,45 @@
+cinema_grodno_kosmos
+
+=> nrel_main_idtf:
+    [Кинотеатр Космос]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "49"]
+     ["addr:street"= "Горького"]
+      [ "name"= "Космос"];
+];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Космос" в Гродно был открыт в первый день 1964 года. В настоящее время кинотеатр имеют современную систему "Dolby Surround Digital EX" (объемное звучание) и систему "MasterImage 3D (объемное изображение). Одновременно на киносеансе в зале могут располагаться до 430 зрителей. Афиша на сегодня радует жителей и гостей города интересными зарубежными и отечественными фильмами.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС с 09:30 до 21:00];
+=> nrel_cash_telephone: [+375 152 745723];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://image/kosmos_grodno.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

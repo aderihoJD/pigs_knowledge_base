@@ -1,0 +1,31 @@
+cinema_rodina_polotsk
+
+=> nrel_main_idtf:
+    [Кинотеатр Родина]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "5"]
+     ["addr:street"= "улица Свердлова"]
+      [ "name"= "Родина"];
+];
+	
+	
+=> nrel_site:[http://kino-rodina.by/];
+=> nrel_scedule: [ПН–ВС 13:30-21:30];
+=> nrel_cash_telephone: [8 (0214) 42 87 99];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_rodina_polotsk.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

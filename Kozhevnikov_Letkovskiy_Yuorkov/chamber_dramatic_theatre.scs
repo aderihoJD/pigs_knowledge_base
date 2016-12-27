@@ -1,0 +1,22 @@
+chamber_dramatic_theatre
+
+=> nrel_main_idtf:
+    [Камерный драматический театр](* <- lang_ru;; *);
+	[Chamber dramatic theatre](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+					
+=> nrel_site:[http://kdtminsk.by/];
+
+=> nrel_foundation_date: [2010];
+
+=> nrel_scedule: [ПН–ВС с 10:00 до 23:00];
+
+=> nrel_email: [kdtminsk@gmail.com];	
+
+=> nrel_cash_telephone: [8029-3654457];;

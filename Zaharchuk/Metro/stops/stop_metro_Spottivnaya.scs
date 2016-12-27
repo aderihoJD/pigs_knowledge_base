@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Spottivnaya;;
+
+stop_metro_Spottivnaya => nrel_main_idtf: [Остановка метро Спортивная] (* <- lang_ru;; *);;
+stop_metro_Spottivnaya => nrel_main_idtf: [stop metro Spottivnaya] (* <- lang_en;; *);;

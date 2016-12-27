@@ -1,0 +1,55 @@
+﻿sc_node_not_relation -> bus_4;;
+
+bus_4 => nrel_main_idtf: [Автобус 4] (* <- lang_ru;; *);;
+bus_4 => nrel_main_idtf: [Bus 4] (* <- lang_en;; *);;
+
+bus_4 <= nrel_using_constants:
+	{
+	bus
+	};;
+
+bus_4 => nrel_route_points:
+{
+	stop_ul_Vokzalnaya;
+	stop_ul_Tolstogo;
+	stop_ul_Moscowskaya;
+	stop_ul_Chkalova;
+	stop_ul_Voronianskogo;
+	stop_ul_Zhukovskogo;
+	stop_ul_Aerodromnaya
+};;
+
+bus_4 => nrel_end_points:
+{
+	stop_Drushnaya;
+	stop_South_Minsk
+};;
+
+bus_4 => nrel_company_transfer: GP_MinskTrans;;
+
+bus_4 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://bus_4.png";;
+                                *);; 
+                *);;
+				
+bus_4 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="bus">автобуса</sc_element> номер 4 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+		

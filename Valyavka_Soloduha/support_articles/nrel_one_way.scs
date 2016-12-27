@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_one_way;; 
+
+    nrel_one_way => nrel_main_idtf: 
+    [одностороннее движение*]
+    (* <- lang_ru;; *); 
+    [one way road*] 
+    (* <- lang_en;; *);;

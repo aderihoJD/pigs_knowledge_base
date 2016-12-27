@@ -1,0 +1,59 @@
+lake_gomel => nrel_main_idtf:
+    [оз. Гомель] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="Гомель"]["natural"="water"];
+way["name"="Гомель"]["natural"="water"];
+relation["name"="Гомель"]["natural"="water"]; );
+out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [3,46 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [23 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [1,2 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [3,4 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [11,7 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [19,01 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [744 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Туровлянка, за 18 км на юг от Полоцка, возле д. Гомель, в составе Ушачской группы озер. Склоны котловины высотой 4-8 м, на юго-западе до 18 м, в основном распаханные, в нижней части поросли кустарником. Берега песчаные, участками галечные и каменистые. Дно северного плёса плоское, южного – более глубокое, с крутыми склонами. Мелководье песчаное и песчано-галечное. В южном заливе озера остров площадью 0,1 га. Впадает ручей из озера Канаши, соединено протокой с озером Защаты, сток по протоке в озеро Суя. Ширина полосы зарастания до 100 м.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/map_gomelskoe_big.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

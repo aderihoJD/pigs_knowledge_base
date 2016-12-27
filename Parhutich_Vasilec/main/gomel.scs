@@ -1,0 +1,8 @@
+gomel=> nrel_main_idtf:
+	
+	[Гомель]
+	(* <- lang_ru;; *);
+	
+	[Gomel]
+	(* <- lang_en;;	*);
+=>nrel_code_soato : [3401000000];;

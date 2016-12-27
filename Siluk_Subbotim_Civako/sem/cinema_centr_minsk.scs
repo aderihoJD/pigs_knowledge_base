@@ -1,0 +1,58 @@
+cinema_centr_minsk
+
+=> nrel_main_idtf:
+    [Кинотеатр Центральный]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node [    "addr:housenumber"= "13"]
+   [ "addr:street"= "проспект Независимости"]
+
+   [ "name"= "Центральный"
+    ];
+	
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Центральный" расположился в центре города и работает с 1954 года.
+			На удобных креслах и 12-ти двухместных диванах может одновременно разместиться 166 человек.
+
+В кинозале установлено немецкое кинопроекционное оборудование KINOTON и показываются фильмы в 2D и 3D формате.
+ Есть в нем и современное звуковое оборудование: акустика K.C.S, усилители мощности QSC, Dolby-процессор c Dolby Digital EX.
+
+Для безопасности зрителей в кинотеатре "Центральный" установлена система видеонаблюдения,
+ а для комфортного пребывания залы оснащены системой кондиционирования воздуха.
+
+В фойе работает выставочная галерея, в которой проходят выставки фотографов.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);	
+=> nrel_foundation_date: [1954 ];
+=> nrel_cash_telephone: [+375 17 200 34 16];
+=> nrel_maximum_number_of_viewers: [166](* <-number;; *);	
+=> nrel_scedule: [ПН–ВС с 11:30 до 21:30];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/cinema_mir_minsk.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

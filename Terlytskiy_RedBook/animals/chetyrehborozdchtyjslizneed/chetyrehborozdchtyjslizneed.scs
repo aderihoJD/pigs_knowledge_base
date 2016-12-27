@@ -1,0 +1,30 @@
+sc_node_struct -> chetyrehborozdchtyjslizneed;;
+
+chetyrehborozdchtyjslizneed => nrel_main_idtf: [Четырехбороздчатый слизнеед] (* <- lang_ru;; *);
+				     [chetyrehborozdchtyjslizneed] (* <- lang_en;; *);;
+
+chetyrehborozdchtyjslizneed <- subsection_coleoptera;;
+
+chetyrehborozdchtyjslizneed => nrel_squar: coleoptera;; 
+
+chetyrehborozdchtyjslizneed => nrel_family:  carabidae;;
+
+chetyrehborozdchtyjslizneed => nrel_habitat: [Предпочитает заболоченные луга в пойме рек, а также низинные болота и болота переходного типа.](* <- lang_ru;; *);;
+
+chetyrehborozdchtyjslizneed => nrel_biology: [Вид с весенним типом размножения. Зимует имаго.](* <- lang_ru;; *);;
+
+chetyrehborozdchtyjslizneed => nrel_major_threats: [Сокращение площадей болот в связи с осушением низинных болот и проведением хозяйственной деятельности в водоохранной зоне рек.](* <- lang_ru;; *);;
+
+chetyrehborozdchtyjslizneed => nrel_picture: "file://131.jpg";;
+
+chetyrehborozdchtyjslizneed => nrel_protection_category: 1_category;;
+
+chetyrehborozdchtyjslizneed => nrel_description: [Длина жука 13-14 мм. Верх черный со свинцовым блеском. Усики и ноги черные. Пе­редне­спинка по бокам валикообразно окаймлена, с 3 широкими продольными вдавлениями, из которых боковые кпереди укорочены. Четные (2-й, 4-й, 6-й, 8-й) промежутки надкрылий густо точечные и в густом желтом опушении. Опушение нечетных промежутков черное, шов приподнятый, блестящий.](* <- lang_ru;; *);;
+
+chetyrehborozdchtyjslizneed => nrel_spread: [Палеарктический вид . По территории Беларуси проходит южная граница ареала. Найден только в двух местах на западе и юго-западе Беларуси .](* <- lang_ru;; *);;
+
+chetyrehborozdchtyjslizneed => nrel_strength: [Вид приурочен к угрожаемым биоценозам. Численность невысокая и сокращается.](* <- lang_ru;; *);;
+
+chetyrehborozdchtyjslizneed => nrel_finding_place: "file://131_location.jpg";;
+
+chetyrehborozdchtyjslizneed => nrel_security_measures: [Выявление новых мест обитания вида и их охрана. Соблюдение порядка ведения хозяйственной деятельности в водоохранной зоне рек.](* <- lang_ru;; *);;

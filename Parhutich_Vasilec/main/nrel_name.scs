@@ -1,0 +1,12 @@
+nrel_name
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Название*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[name*]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,46 @@
+national_academic_dramatic_theatre_kolas
+
+=> nrel_main_idtf:
+    [Национальный академический драматический театр им. Я. Коласа](* <- lang_ru;; *);
+	[National academic dramatic theater n. J. Kolas](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["addr:street"= "Замковая улица"]["amenity"= "theatre"]["name"= "Национальный академический драмтеатр Якуба Коласа"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [А.Старых];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2014];;
+											*);;
+					*);
+					
+					
+=> nrel_site:[http://kolastheatre.by/ru];
+
+=> nrel_foundation_date: [1926];
+
+=> nrel_email: [theatre@vitebsk.by];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [507](* <-number;; *);	
+
+=> nrel_cash_telephone: [(+375 212) 62-63-81];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/national_academic_dramatic_theatre_kolas.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

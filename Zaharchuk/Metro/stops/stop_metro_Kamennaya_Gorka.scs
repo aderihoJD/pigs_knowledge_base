@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Kamennaya_Gorka;;
+
+stop_metro_Kamennaya_Gorka => nrel_main_idtf: [Остановка метро Каменная Горка] (* <- lang_ru;; *);;
+stop_metro_Kamennaya_Gorka => nrel_main_idtf: [stop metro Kamennaya Gorka] (* <- lang_en;; *);;

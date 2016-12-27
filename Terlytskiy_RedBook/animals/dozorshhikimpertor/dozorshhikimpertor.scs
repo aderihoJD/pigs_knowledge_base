@@ -1,0 +1,30 @@
+sc_node_struct -> dozorshhikimpertor;;
+
+dozorshhikimpertor => nrel_main_idtf: [Дозорщик-император] (* <- lang_ru;; *);
+				     [dozorshhikimpertor] (* <- lang_en;; *);;
+
+dozorshhikimpertor <- subsection_dragonfly;;
+
+dozorshhikimpertor => nrel_squar: odonata;; 
+
+dozorshhikimpertor => nrel_family:  aeschnidae;;
+
+dozorshhikimpertor => nrel_habitat: [Литоральная зона больших озер, реже - слабопроточные водоемы. Стрекозы могут улетать на большие расстояния (до 10 км) от места выхода имаго.](* <- lang_ru;; *);;
+
+dozorshhikimpertor => nrel_biology: [Имаго - активные хищники. Лёт в мае-августе. Цикл развития 3-4 года. Личинки развиваются в прибрежной зоне озер, реже в слабопроточной воде и стоячих водоемах.](* <- lang_ru;; *);;
+
+dozorshhikimpertor => nrel_major_threats: [Загрязнение водоемов, вызванное нарушением водоохранного законодательства. Рекреационная нагрузка в местах обитания вида.](* <- lang_ru;; *);;
+
+dozorshhikimpertor => nrel_picture: "file://111.jpg";;
+
+dozorshhikimpertor => nrel_protection_category: 3_category;;
+
+dozorshhikimpertor => nrel_description: [Крупная стрекоза, длина брюшка 49-61 мм. Грудь ярко-зеленая, брюшко у самца светло-синее, сверху с широкой, выемчатой, по краям черной продольной полосой; у самки брюшко зеленое, с бурой полосой.](* <- lang_ru;; *);;
+
+dozorshhikimpertor => nrel_spread: [Евроазиатский вид. Известен лишь в сев. части Беларуси .](* <- lang_ru;; *);;
+
+dozorshhikimpertor => nrel_strength: [Очень редок, известны единичные находки на озерах Нарочанской и Браславской групп.](* <- lang_ru;; *);;
+
+dozorshhikimpertor => nrel_finding_place: "file://111_location.jpg";;
+
+dozorshhikimpertor => nrel_security_measures: [Вид включен во 2-е издание Красной книги Республики Беларусь (III категория). Выявление новых мест обитания вида и их охрана.](* <- lang_ru;; *);;

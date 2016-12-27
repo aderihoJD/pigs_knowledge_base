@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_lake;concept_lakes_group;;
+sc_node_norole_relation -> nrel_water_volume; nrel_length_of_waterside; nrel_water_intake_area;;
+
+concept_lakes_group -> braslav_lakes_group;;
+concept_lakes_group -> sorochanskie_lakes_group;;
+concept_lakes_group -> bolduk_lakes_group;;
+concept_lakes_group -> ushach_lakes_group;;
+
+braslav_lakes_group => nrel_main_idtf:
+	[Браславская группа озёр] (* <- lang_ru;; *);
+	[Braslav Lakes group] (* <- lang_en;;	*);;
+
+bolduk_lakes_group => nrel_main_idtf:
+	[Болдукская группа озёр] (* <- lang_ru;; *);
+	[Bolduk Lakes group] (* <- lang_en;;	*);;
+
+ushach_lakes_group => nrel_main_idtf:
+	[Ушачская группа озёр] (* <- lang_ru;; *);
+	[Ushach Lakes group] (* <- lang_en;;	*);;
+
+sorochanskie_lakes_group => nrel_main_idtf:
+[Сорочанская группа озёр] (* <- lang_ru;; *);
+[Sorochanskie Lakes group] (* <- lang_en;;	*);;
+
+concept_lakes_group => nrel_main_idtf:
+	[Группа озёр] (* <- lang_ru;;	*);
+	[Lakes group] (* <- lang_en;;	*);;
+
+concept_lake => nrel_main_idtf:
+	[Озеро] (* <- lang_ru;;	*);
+	[Lake] (* <- lang_en;;	*);;
+	
+nrel_length_of_waterside => nrel_main_idtf:
+	[Длина береговой линии*] (* <- lang_ru;; *);
+	[Length of waterside*] (* <- lang_en;; *);;	
+
+nrel_water_volume => nrel_main_idtf:
+	[Объем воды*] (* <- lang_ru;; *);
+	[Water volume*] (* <- lang_en;; *);;	
+
+nrel_water_intake_area => nrel_main_idtf:
+	[Площадь водозабора*] (* <- lang_ru;; *);
+	[Water intake area*] (* <- lang_en;; *);;	

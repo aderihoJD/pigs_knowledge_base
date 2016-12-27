@@ -1,0 +1,48 @@
+lake_paulskoe => nrel_main_idtf:
+    [оз. Паульское] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="оз. Паульское"]["natural"="water"];
+way["name"="оз. Паульское"]["natural"="water"];
+relation["name"="оз. Паульское"]["natural"="water"]; );
+out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [8,45 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [5,5 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [2,5 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [6,4 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [25 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [26,75 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [652 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Туровлянка, за 18 км на северо-восток от г.п. Ушачи, возле деревни Паулье. Входит в Ушачскую группу озер. Склоны котловины 6-8 м (на севере и западе до 20 м), распаханные. Берега низкие, под кустарником, местами заболоченные. На озере есть остров площадью 6 га. Растительность распространена до глубины 3 м. Через озеро протекает река Дива (соединяет его с озерами Березовское и Яново). Впадают 5 ручьев, в том числе из озер Черствятское и Веркудское.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;

@@ -1,0 +1,8 @@
+grodno=> nrel_main_idtf:
+	
+	[Гродно]
+	(* <- lang_ru;; *);
+	
+	[Grodno]
+	(* <- lang_en;;	*);
+=>nrel_code_soato : [4401000000];;

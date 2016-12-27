@@ -1,0 +1,41 @@
+
+child_home_numbertwo
+
+=> nrel_main_idtf: [дом ребенка №2] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [child home №2] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Одинцова 63/2];
+
+=> nrel_hospital_phone_number: [8 017 258-52-58];
+
+=> nrel_hospital_working_hours: [понедельник-пятница 08:30-17:00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="Дом Ребенка №2"];out;];
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Учреждение здравоохранения «Дом ребенка № 2» был открыт 30 декабря 1988 года. Рассчитан на 100 детей.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+	
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://child_home.jpg";;
+                                *);; 
+                *);;
+ *);;

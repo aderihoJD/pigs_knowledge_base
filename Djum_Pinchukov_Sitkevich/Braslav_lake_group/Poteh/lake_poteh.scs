@@ -1,0 +1,62 @@
+lake_poteh => nrel_main_idtf:
+    [оз. Потех] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-braslav_lakes_group;
+
+=> nrel_osm_query:
+[( 
+area["name"="оз. Поцех"]; 
+way["name"="оз. Поцех"]; 
+relation["name"="оз. Поцех"]; 
+); 
+out body; 
+>; 
+out skel qt;];
+
+=> nrel_square: 
+    [1,35 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [9,1 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,95 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [2,55 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [9,72 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [4,52 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [28,6 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Друйка, за 10 км на северо-восток от г. Браслав, возле д. Слободка. Входит в Браславскую группу озер. Склоны котловины высотой до 10 м, - на севере представлены камовыми холмами, в основном распаханные. Южные склоны образует песчаная озовая гряда высотой 25-30 м, которая отделяет Потех от озера Недрово. Дно до глубины 1,5 м песчаное, местами глинистое. Надводная растительность распространена до глубины 1,5 м, подводная до 2-2,5 м. Соединено потокой с озером Недрово, впадает ручей из Озера Ильменок (Ільмёнак). Место отдыха, входит в туристические маршруты.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/oz_pocex.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

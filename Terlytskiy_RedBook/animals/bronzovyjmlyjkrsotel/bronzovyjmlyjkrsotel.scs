@@ -1,0 +1,30 @@
+sc_node_struct -> bronzovyjmlyjkrsotel;;
+
+bronzovyjmlyjkrsotel => nrel_main_idtf: [Бронзовый (малый) красотел] (* <- lang_ru;; *);
+				     [bronzovyjmlyjkrsotel] (* <- lang_en;; *);;
+
+bronzovyjmlyjkrsotel <- subsection_coleoptera;;
+
+bronzovyjmlyjkrsotel => nrel_squar: coleoptera;;
+
+bronzovyjmlyjkrsotel => nrel_family: calosoma;; 
+
+bronzovyjmlyjkrsotel => nrel_habitat: [Лиственные леса (дубравы и черноольшаники).](* <- lang_ru;; *);;
+
+bronzovyjmlyjkrsotel => nrel_biology: [Вид с весенне-летним типом размножения, зимует имаго. Наибольшая активность отмечена в мае. Личинка линяет 2 раза, живет около 24 суток, в конце лета окукливается, и через 8-10 суток появляются взрослые жуки, которые остаются в почве до следующей весны. Питается, главным образом, гусеницами пядениц, непарного шелкопряда, златогузки.](* <- lang_ru;; *);;
+
+bronzovyjmlyjkrsotel => nrel_major_threats: [Сокращение типовых мест обитания.](* <- lang_ru;; *);;
+
+bronzovyjmlyjkrsotel => nrel_picture: "file://120.jpg";;
+
+bronzovyjmlyjkrsotel => nrel_protection_category: 3_category;;
+
+bronzovyjmlyjkrsotel => nrel_description: [Верх жука (16-24 мм) темно-бронзовый или черно-зеленый, иногда медно-зеленый или синий, боковые края переднеспинки и надкрылий обычно более яркие. Окраска всегда с металлическим отливом.](* <- lang_ru;; *);;
+
+bronzovyjmlyjkrsotel => nrel_spread: [Западно-палеарктический мезофильный вид. В Беларуси чаще встречается в южных районах .](* <- lang_ru;; *);;
+
+bronzovyjmlyjkrsotel => nrel_strength: [Вид приурочен к угрожаемым биоценозам. В типовых местах обитания (пойменные дубравы) иногда обычен.](* <- lang_ru;; *);;
+
+bronzovyjmlyjkrsotel => nrel_finding_place: "file://120_location.jpg";;
+
+bronzovyjmlyjkrsotel => nrel_security_measures: [Вид включен во 2-е издание Красной книги Республики Беларусь (II категория). Выявление новых мест обитания вида и их охрана.](* <- lang_ru;; *);;

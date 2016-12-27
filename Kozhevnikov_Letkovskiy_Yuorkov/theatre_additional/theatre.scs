@@ -1,0 +1,11 @@
+theatre=> nrel_main_idtf:
+	[театр](* <-lang_ru;; *);
+	[theatre](* <-lang_en;; *);;
+	
+theatre<= nrel_subdividing: 
+	{  
+	ballet_theatre;
+	dramatic_theatre;
+	operatic_theatre;
+	puppet_theatre
+	};;

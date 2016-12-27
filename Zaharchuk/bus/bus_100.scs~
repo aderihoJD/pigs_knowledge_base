@@ -1,0 +1,55 @@
+sc_node_not_relation -> bus_100;;
+
+bus_100 => nrel_main_idtf: [Автобус 6] (* <- lang_ru;; *);;
+bus_100 => nrel_main_idtf: [Bus 100] (* <- lang_en;; *);;
+
+bus_100 <= nrel_using_constants:
+	{
+	bus
+	};;
+
+bus_100 => nrel_route_points:
+{
+	stop_ul_Slavinskogo;
+	stop_ul_Kedyshko;
+	stop_ul_Volgogradskogo;
+	stop_pr_Nezavisimosti;
+	stop_ul_Moskovskaya;
+	stop_ul_Chkalova;
+	stop_ul_Aerodromnaya
+};;
+
+bus_100 => nrel_end_points:
+{
+	stop_Slavinskogo;
+	stop_Airport_Minsk_1
+};;
+
+bus_100 => nrel_company_transfer: GP_MinskTrans;;
+
+bus_100 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://bus_100.png";;
+                                *);; 
+                *);;
+				
+bus_100 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="bus">автобуса</sc_element> номер 100 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+		

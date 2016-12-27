@@ -1,0 +1,5 @@
+sc_node_norole_relation->nrel_schedule;;
+
+nrel_schedule=> nrel_main_idtf:
+	[график работы*](* <-lang_ru;; *);
+	[schedule*](* <-lang_en;; *);;

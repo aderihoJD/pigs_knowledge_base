@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_multiple_way;;
+
+concept_multiple_way => nrel_main_idtf:
+	[двусторонее движение]
+	(* <- lang_ru;; *);
+	[multiple way]
+	(* <- lang_en;; *);;

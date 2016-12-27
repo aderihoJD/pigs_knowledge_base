@@ -1,0 +1,45 @@
+cinema_grodno_krasnaya_zvezda
+
+=> nrel_main_idtf:
+    [Красная звезда]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "4"]
+     ["addr:street"= "Социалистическая"]
+      [ "name"= "Красная звезда"];
+];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Красная звезда" находится в Гродно по адресу ул. Социалистическая, 4. Здесь показывают современное кино и мультфильмы для детей (в том числе в 3D формате), а во время просмотра зрители располагаются в удобных креслах (есть места со столиками).]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС с 09:30 до 21:00];
+=> nrel_cash_telephone: [+375 152 740064];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://image/grodno_krasnaya_zvezda.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

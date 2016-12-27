@@ -1,0 +1,62 @@
+sc_node_not_relation -> metro_avtozavadskaia_linia;;
+
+metro_avtozavadskaia_linia => nrel_main_idtf: [Метро автозаводская линия] (* <- lang_ru;; *);;
+metro_avtozavadskaia_linia => nrel_main_idtf: [metro avtozavadskaia linia] (* <- lang_en;; *);;
+
+metro_avtozavadskaia_linia <= nrel_using_constants:
+	{
+	metro
+	};;
+
+metro_avtozavadskaia_linia => nrel_route_points:
+{
+	stop_metro_Mogilevskaya;
+	stop_metro_Avtozavodskaya;
+	stop_metro_Partizanskaya;
+	stop_metro_Traktorni_Zavod;
+	stop_metro_Proletarskaya;
+	stop_metro_Pervomaiskaya;
+	stop_metro_Kupalovskaya;
+	stop_metro_Nemiga;
+	stop_metro_Frunzenskaya;
+	stop_metro_Molodeznaya;
+	stop_metro_Pushkinskaya;
+	stop_metro_Spottivnaya;
+	stop_metro_Kuncevshena;
+	stop_metro_Kamennaya_Gorka
+};;
+
+metro_avtozavadskaia_linia => nrel_end_points:
+{
+	stop_metro_Mogilevskaya;
+	stop_metro_Kamennaya_Gorka
+};;
+
+metro_avtozavadskaia_linia => nrel_company_transfer: Metro_AG;;
+
+metro_avtozavadskaia_linia <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://metro_avtozavadskaia_linia.png";;
+                                *);; 
+                *);;
+				
+metro_avtozavadskaia_linia <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="metro">метро</sc_element> автозаводской линии города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+		

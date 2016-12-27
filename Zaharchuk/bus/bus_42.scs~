@@ -1,0 +1,58 @@
+﻿sc_node_not_relation -> bus_42;;
+
+bus_42 => nrel_main_idtf: [Автобус 42] (* <- lang_ru;; *);;
+bus_42 => nrel_main_idtf: [Bus 42] (* <- lang_en;; *);;
+
+bus_42 <= nrel_using_constants:
+	{
+	bus
+	};;
+
+bus_42 => nrel_route_points:
+{
+	stop_ul_Kamennogorskaya;
+	stop_ul_Nalibokskaya;
+	stop_ul_Niomanskaya;
+	stop_ul_Casimirova;
+	stop_ul_Kuntsevshchina;
+	stop_ul_Lobanka;
+	stop_ul_Odintsova;
+	stop_ul_Skripnikova;
+	stop_ul_Sukharevskaya
+	
+};;
+
+bus_42 => nrel_end_points:
+{
+	stop_Sukharevo_5;
+	stop_Lyutsinskaya
+};;
+
+bus_42 => nrel_company_transfer: GP_MinskTrans;;
+
+bus_42 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://bus_42.png";;
+                                *);; 
+                *);;
+				
+bus_42 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="bus">автобуса</sc_element> номер 42 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+		

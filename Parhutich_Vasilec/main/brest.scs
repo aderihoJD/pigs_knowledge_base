@@ -1,0 +1,8 @@
+brest=>nrel_main_idtf:
+	
+	[Берест]
+	(* <- lang_ru;; *);
+	
+	[Brest]
+	(* <- lang_en;;	*);
+=>nrel_code_soato : [1401000000];;

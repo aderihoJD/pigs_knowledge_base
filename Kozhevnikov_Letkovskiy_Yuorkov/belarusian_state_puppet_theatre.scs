@@ -1,0 +1,45 @@
+belarusian_state_puppet_theatre
+
+=> nrel_main_idtf:
+    [Белорусский государственный театр кукол](* <- lang_ru;; *);
+	[Belarusian State Puppet Theatre](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node["amenity"="theatre"]["name"="Кукол"];];
+
+=> nrel_theatre_kind: puppet_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [Е.Климаков];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2005];;
+											*);;
+					*);
+
+=> nrel_site:[http://www.puppet-minsk.com/];
+
+=> nrel_foundation_date: [1938];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_scedule: [ПН–ВС с 10:00 до 21:00];
+
+=> nrel_maximum_number_of_viewers: [272](* <-number;; *);	
+
+=> nrel_cash_telephone: [+375 17 327 05 32];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/belarusian_state_puppet_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

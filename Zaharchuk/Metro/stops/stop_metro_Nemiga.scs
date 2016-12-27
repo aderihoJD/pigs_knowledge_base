@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Nemiga;;
+
+stop_metro_Nemiga => nrel_main_idtf: [Остановка метро Немига] (* <- lang_ru;; *);;
+stop_metro_Nemiga => nrel_main_idtf: [stop metro Nemiga] (* <- lang_en;; *);;

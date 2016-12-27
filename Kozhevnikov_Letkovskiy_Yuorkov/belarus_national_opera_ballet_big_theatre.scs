@@ -1,0 +1,37 @@
+belarus_national_opera_ballet_big_theatre
+
+=> nrel_main_idtf:
+    [Национальный академический Большой театр оперы и балета Республики Беларусь](* <- lang_ru;; *);
+	[National Academic Big Opera and Ballet Theatre of the Republic of Belarus](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["addr:postcode"="220029"]["addr:street"="площадь Парижской Коммуны"]["name"="Национальный академический Большой театр оперы и балета Республики Беларусь"];];
+
+=> nrel_theatre_kind: operatic_theatre;
+=> nrel_theatre_kind: ballet_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+					
+=> nrel_site:[http://bolshoibelarus.by/];
+
+=> nrel_foundation_date: [1930];
+
+=> nrel_scedule: [ПН–ВС с 10:00 до 20:00];
+
+=> nrel_email: [teatr@bolshoibelarus.by];	
+
+=> nrel_cash_telephone: [+375 (17) 334 80 74];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/belarus_national_opera_ballet_big_theatre.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

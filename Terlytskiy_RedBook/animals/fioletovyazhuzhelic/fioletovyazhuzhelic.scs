@@ -1,0 +1,30 @@
+sc_node_struct -> fioletovyazhuzhelic;;
+
+fioletovyazhuzhelic => nrel_main_idtf: [Фиолетовая жужелица] (* <- lang_ru;; *);
+				     [fioletovyazhuzhelic] (* <- lang_en;; *);;
+
+fioletovyazhuzhelic <- subsection_coleoptera ;;
+
+fioletovyazhuzhelic => nrel_squar: coleoptera;; 
+
+fioletovyazhuzhelic => nrel_family:  carabidae;;
+
+fioletovyazhuzhelic => nrel_habitat: [В светлых лиственных и смешанных лесах. Мелколиственные леса. Живет в лесной подстилке, под корой, валежником.](* <- lang_ru;; *);;
+
+fioletovyazhuzhelic => nrel_biology: [Вид с осенним типом размножения. Характеризуется высокой активностью. На открытых местах жуки активны только ночью, на опушках и в насаждениях в сумерках и ночью, иногда целые сутки, но через определенные промежутки времени становятся неподвижными. Зимуют имаго и личинки. Жуки летят на свет. Хищник-полифаг. Поедает дождевых червей, пауков, личинок, куколок и имаго колорадского жука, гусениц лугового мотылька, совок, молодых слизней .](* <- lang_ru;; *);;
+
+fioletovyazhuzhelic => nrel_major_threats: [Хозяйственная деятельность в лесах.](* <- lang_ru;; *);;
+
+fioletovyazhuzhelic => nrel_picture: "file://126.jpg";;
+
+fioletovyazhuzhelic => nrel_protection_category: 4_category;;
+
+fioletovyazhuzhelic => nrel_description: [Длина жука 20-34 мм. Окраска черно-синяя или фиолетовая, края надкрылий с яркой синей, зелёной или медно-красной окантовкой.](* <- lang_ru;; *);;
+
+fioletovyazhuzhelic => nrel_spread: [Евроказахстанский ксерофильный, лесной вид. Европа (не выше 70о северной широты). Известен также в Западной Сибири. В Беларуси встречается повсюду .](* <- lang_ru;; *);;
+
+fioletovyazhuzhelic => nrel_strength: [Редок. В отдельных хорошо гумусированных биогеоценозах достаточно многочислен. Численность сокращается.](* <- lang_ru;; *);;
+
+fioletovyazhuzhelic => nrel_finding_place: "file://126_location.jpg";;
+
+fioletovyazhuzhelic => nrel_security_measures: [Вид включен во 2-е издание Красной книги Республики Беларусь (II категория). Охраняется в Беловежской пуще. Необходима пропаганда охраны вида и контроль за состоянием популяций.](* <- lang_ru;; *);;

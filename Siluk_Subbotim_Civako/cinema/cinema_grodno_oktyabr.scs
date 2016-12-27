@@ -1,0 +1,45 @@
+cinema_grodno_oktyabr
+
+=> nrel_main_idtf:
+    [Октябрь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "3"]
+     ["addr:street"= "Поповича"]
+      [ "name"= "Октябрь"];
+];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Октябрь" в Гродно приглашает жителей и гостей города для просмотра фильмов в двух- и трехмерных форматах (ул. Поповича, 3). В кинотеатре был проведен ремонт, а киносеансы проходят в нескольких залах. В просторном холле для удобства посетителей установлены диваны и столики. Во время просмотра кино зрители сидят на ярко красных сидениях и могут наслаждаться едой и напитками, приобретенными в баре кинотеатра.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС с 09:30 до 21:00];
+=> nrel_cash_telephone: [+375 152 501755];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://image/grodno_oktyabr.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

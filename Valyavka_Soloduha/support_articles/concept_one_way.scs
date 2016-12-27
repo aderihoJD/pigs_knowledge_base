@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_one_way;;
+
+concept_one_way => nrel_main_idtf:
+	[одностороннее движение]
+	(* <- lang_ru;; *);
+	[one way]
+	(* <- lang_en;; *);;

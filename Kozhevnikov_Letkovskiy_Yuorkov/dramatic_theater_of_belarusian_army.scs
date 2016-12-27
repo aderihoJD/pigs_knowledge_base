@@ -1,0 +1,37 @@
+dramatic_theater_of_belarusian_army
+
+=> nrel_main_idtf:
+    [Драматический театр Белорусской Армии](* <- lang_ru;; *);
+	[Dramatic theater of belarusian army](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:[way["addr:postcode"= "220030"]["addr:street"= "Красноармейская улица"]["name"= "Центральный Дом офицеров"];];
+
+=> nrel_theatre_kind: dramatic_theatre;
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [A.Груенко];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [1947];;
+											=> nrel_ending_time: [1950];;
+											*);;
+					*);
+					
+=> nrel_site:[http://www.mil.by/ru/leisure/theater/];
+
+=> nrel_foundation_date: [2002];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/dramatic_theater_of_belarusian_army.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

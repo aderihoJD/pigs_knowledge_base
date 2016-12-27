@@ -1,0 +1,51 @@
+lake_dovbli => nrel_main_idtf:
+    [оз. Довбли] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-braslav_lakes_group;
+
+=> nrel_osm_query:
+[( 
+area["name"="оз. Довбли"]; 
+way["name"="оз. Довбли"]; 
+relation["name"="оз. Довбли"]; 
+); 
+out body; 
+>; 
+out skel qt;];
+
+=> nrel_square: 
+    [1,64 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [25,8 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,61 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [3,97 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [12,1 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [13,1 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [13,1 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Друйка, за 12 км на юго-запад от г. Браслав, возле д. Довбли. Входит в Браславскую группу озер. Склоны котловины высотой до 15 м, распаханные, в нижней части поросли кустарником. Берега сливаются со склонами, под кустарником, местами высотой до 1 м.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;

@@ -1,0 +1,60 @@
+lake_cherstvyatskoye => nrel_main_idtf:
+    [оз. Черствятское] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="оз. Черствятское"]["natural"="water"];
+way["name"="оз. Черствятское"]["natural"="water"];
+relation["name"="оз. Черствятское"]["natural"="water"]; );
+out body; >; out skel qt;
+]; 
+
+=> nrel_square: 
+    [9,35 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [4,3 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [2,5 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [6,9 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [19,2 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [20,7 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [152 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Дива, за 15 км на восток от г.п. Ушачи, возле деревни Слобода. Входит в Ушачскую группу озер. Склоны котловины высотой 5-10 м (на юге и западе 10-18 м), на западе и юго-западе с террасами. Берега низкие, постепенно переходят в узкую заболоченную пойму. Дно до глубины 0,5 – 1 м песчаное, ниже выстлано сапропелем. На озере 8 островов общей площадью 0,8 км2. Ширина полосы надводной растительности от 20 до 200 м. Впадает река Выдрица и 3 ручья, вытекает ручей в озеро Паульское.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/map_cherstvyatskoe_big.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);; 

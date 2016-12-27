@@ -1,0 +1,5 @@
+sc_node_norole_relation->nrel_theatre_kind;;
+
+nrel_theatre_kind=> nrel_main_idtf:
+	[вид театра*](* <-lang_ru;; *);
+	[theatre kind*](* <-lang_en;; *);;

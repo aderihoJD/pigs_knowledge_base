@@ -1,0 +1,44 @@
+belarusians_state_academic_musical_theater
+
+=> nrel_main_idtf:
+    [Белорусский государственный академический музыкальный театр](* <- lang_ru;; *);
+	[Belarusian State Academic Musical Theater](* <- lang_en;; *);
+<-concept_building;
+<-concept_terrain_object;
+
+<-theatre;
+
+=> nrel_osm_query:[node["contact:website"="http://www.musicaltheatre.by/"]["name"="Музыкальный театр"];];
+
+////<= nrel_inclusion: cultural_heritage;
+
+<- rrel_place: ... (*
+					<- nrel_director;;
+					-> rrel_human: [А.Петрович];;
+					-> rrel_time_lapse:...(*
+											=> nrel_begining_time: [2010];;
+											*);;
+					*);
+					
+=> nrel_site:[http://musicaltheatre.by/];
+
+=> nrel_foundation_date: [1970];
+
+=> nrel_scedule: [ПН-ПТ 09.00 – 21.00б СБ-ВС 10.00 – 20.00];
+
+=>nrel_number_of_halls:[1](* <-number;; *);	
+
+=> nrel_maximum_number_of_viewers: [756](* <-number;; *);	
+
+=> nrel_cash_telephone: [200-81-26];
+	
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/republican_theatre_of_belarusian_drama.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

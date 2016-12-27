@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Petrovshina;;
+
+stop_metro_Petrovshina => nrel_main_idtf: [Остановка метро Петровщина] (* <- lang_ru;; *);;
+stop_metro_Petrovshina => nrel_main_idtf: [stop metro Petrovshina] (* <- lang_en;; *);;

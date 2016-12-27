@@ -1,0 +1,50 @@
+subsection_vascular => nrel_main_idtf: [Подраздел. Сосудистые](*<-lang_ru;;*);;
+subsection_bryophytes => nrel_main_idtf: [Подраздел. Мохообразные](*<-lang_ru;;*);;
+subsection_seaweed => nrel_main_idtf: [Подраздел. Водоросли](*<-lang_ru;;*);;
+subsection_lichens => nrel_main_idtf: [Подраздел. Лишайники](*<-lang_ru;;*);;
+subsection_mushrooms => nrel_main_idtf: [Подраздел. Грибы](*<-lang_ru;;*);;
+
+section_plants <= nrel_section_decomposition:
+{
+	subsection_vascular;
+	subsection_bryophytes;	
+	subsection_seaweed;	
+	subsection_lichens;
+	subsection_mushrooms
+};; 
+
+subsection_plaunoobraznye => nrel_main_idtf: [Подраздел. Плаунообразные](*<-lang_ru;;*);;
+subsection_hvoscheobraznye => nrel_main_idtf: [Подраздел. Хвощеообразные](*<-lang_ru;;*);;
+subsection_pteridophytes => nrel_main_idtf: [Подраздел. Папоротниковообразные](*<-lang_ru;;*);;
+subsection_gymnosperms => nrel_main_idtf: [Подраздел. Голосеменные](*<-lang_ru;;*);;
+subsection_angiosperms => nrel_main_idtf: [Подраздел. Покрытосеменные](*<-lang_ru;;*);;
+subsection_vascular <= nrel_section_decomposition:
+{
+	subsection_plaunoobraznye;
+	subsection_hvoscheobraznye;
+	subsection_pteridophytes;
+	subsection_gymnosperms;
+	subsection_angiosperms
+};; 
+
+subsection_blue_green_algae => nrel_main_idtf: [Подраздел. Сине-зеленые водоросли](*<-lang_ru;;*);;
+subsection_golden_algae => nrel_main_idtf: [Подраздел. Золотистые водоросли](*<-lang_ru;;*);;
+subsection_diatomaceous_algae => nrel_main_idtf: [Подраздел. Диатомовые водоросли](*<-lang_ru;;*);;
+subsection_green_algae => nrel_main_idtf: [Подраздел. Зеленые водоросли](*<-lang_ru;;*);;
+subsection_stoneworts_algae => nrel_main_idtf: [Подраздел. Харовые водоросли](*<-lang_ru;;*);;
+subsection_seaweed <= nrel_section_decomposition:
+{
+	subsection_blue_green_algae;
+	subsection_golden_algae;
+	subsection_diatomaceous_algae;
+	subsection_green_algae;
+	subsection_stoneworts_algae
+};; 
+
+subsection_askomikota => nrel_main_idtf: [Подраздел. Аскомикота](*<-lang_ru;;*);;
+subsection_basidiomycota => nrel_main_idtf: [Подраздел. Базидиомикота](*<-lang_ru;;*);;
+subsection_mushrooms <= nrel_section_decomposition:
+{
+	subsection_askomikota;
+	subsection_basidiomycota
+};; 

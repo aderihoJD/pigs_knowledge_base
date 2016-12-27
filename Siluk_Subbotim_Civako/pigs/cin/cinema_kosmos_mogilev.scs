@@ -1,0 +1,46 @@
+cinema_kosmos_mogilev
+
+=> nrel_main_idtf:
+    [Кинотеатр Космос]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "10"]
+     ["addr:street"= "проспект Пушкинский"]
+      [ "name"= "Космос"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Космос" в Могилеве был построен в 60-е годы, эпоху, когда в СССР активно занимались освоением космоса. Здание кинотеатра находится недалеко от оживленного проспекта и тенистой аллеи. В результате масштабной реконструкции в "Космосе" появился кинобар и современный зал. Сегодня здесь показывают фильмы не только в 2D, но и 3D формате.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС 12:00—21:00];
+=> nrel_cash_telephone: [(8 0222) 48 42 79];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_kosmos_mogilev.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

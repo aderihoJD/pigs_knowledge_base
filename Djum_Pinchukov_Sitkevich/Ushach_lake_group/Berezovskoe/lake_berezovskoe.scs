@@ -1,0 +1,59 @@
+lake_berezovskoe => nrel_main_idtf:
+    [оз. Березовское] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="Березовское"]["natural"="water"];
+way["name"="Березовское"]["natural"="water"];
+relation["name"="Березовское"]["natural"="water"]; );
+out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [4,9 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [3,9 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [1,5 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [4,1 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [12 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [12,65 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [458 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Туровлянка, за 23 км на запад от г.п. Ушачи, возле д. Березово. Входит в Ушачскую группу озер. Склоны котловины высотой 3-5 м, восточные под лесом и кустарником, на западе и юго-западе – распаханные. Берега низкие, местами заболоченные и сплавные. Мелководье широкое, песчаное. Озеро зарастает вдоль берегов, ширина полосы растительности до 200 м. Озеро соединено ручьем с озером Глыбач, через озеро протекает река Дива.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/map_berezovskoe_big.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

@@ -1,0 +1,56 @@
+sc_node_not_relation -> trolleybus_6;;
+
+trolleybus_6 => nrel_main_idtf: [Троллейбус 6] (* <- lang_ru;; *);;
+trolleybus_6 => nrel_main_idtf: [Trolleybus 6] (* <- lang_en;; *);;
+
+trolleybus_6 <= nrel_using_constants:
+	{
+	trolleybus
+	};;
+
+trolleybus_6 => nrel_route_points:
+{
+	stop_ul_Prushinskih;
+	stop_ul_Yanki_Luchiny;
+	stop_Igumenski_Tract;
+	stop_ul_Mayakovskogo;
+	stop_ul_Sverdlova;
+	stop_ul_Kirova;
+	stop_ul_Bobruiskaya
+};;
+
+trolleybus_6 => nrel_end_points:
+{
+	stop_Lochiza_2;
+	stop_Vokzal
+};;
+
+trolleybus_6 => nrel_company_transfer: GP_MinskTrans;;
+
+trolleybus_6 <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> rrel_example: 
+                                                "file://trolleybus_6.png";;
+                                *);; 
+                *);;
+				
+trolleybus_6 <- rrel_key_sc_element:...
+		(*
+			<- sc_definition;;
+			<= nrel_sc_text_translation:...
+				(*
+					-> rrel_example:
+						[Маршрут <sc_element sys_idtf="trolleybus">троллейбуса</sc_element> номер 6 города Минска.]
+                        (*
+							<-lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+				*);;
+		*);;
+
+trolleybus_6 => nrel_osm_query:
+[[out:json][timeout:25]; {{geocodeArea:minsk}}->.searchArea; ( node["route"="trolleybus"]["ref"="6"](area.searchArea); way["route"="trolleybus"]["ref"="6"](area.searchArea); relation["route"="trolleybus"]["ref"="6"](area.searchArea); ); out body; >; out skel qt;];;			

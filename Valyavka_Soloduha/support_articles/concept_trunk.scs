@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_trunk;;
+
+concept_trunk => nrel_main_idtf:
+	[магистраль]
+	(* <- lang_ru;; *);
+	[trunk]
+	(* <- lang_en;; *);;

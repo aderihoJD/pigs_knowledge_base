@@ -1,0 +1,4 @@
+sc_node_not_relation -> stop_metro_Ploshcad_Pobedi;;
+
+stop_metro_Ploshcad_Pobedi => nrel_main_idtf: [Остановка метро Площадь победы] (* <- lang_ru;; *);;
+stop_metro_Ploshcad_Pobedi => nrel_main_idtf: [stop metro Ploshcad Pobedi] (* <- lang_en;; *);;

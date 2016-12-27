@@ -1,0 +1,59 @@
+lake_polozerye => nrel_main_idtf:
+    [оз. Полозерье] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-ushach_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="оз. Полозерье"]["natural"="water"];
+way["name"="оз. Полозерье"]["natural"="water"];
+relation["name"="оз. Полозерье"]["natural"="water"]; );
+out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [8 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [17 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [1,9 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [4,8 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [17,9 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [38,8 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [30,9 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Туровлянка, за 28 км на восток от г.п. Ушачи, возле д. Полозерье. Входит в Ушачскую группу озер. Склоны котловины высотой 2-8 м, частично распаханные, на севере и северо-западе 20-25 м, поросли лесом. Берега низкие, песчаные, под кустарником, участками сливаются со склонами. Дно сапропелистое, на максимальных глубинах - илистое. Мелководье до глубины 1 м песчаное, дно до глубины 2 м (на севере до 3 м) выстлано опесчаненными отложениями. На озере 2 небольших острова. Растительность распространена до глубины 3-4 м. Впадают ручьи из озер Любжанское, Колесино и озера без названия, вытекает ручей в озеро Кривое, соединено канавой с озером Мугирино.]
+
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/map_polozerie_big.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);; 
