@@ -1,0 +1,41 @@
+
+emergency_hospital_admissions_office 
+
+=> nrel_main_idtf: [дом ребенка №1] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [emergency hospital admissions office] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Кижеватова 58];
+
+=> nrel_hospital_phone_number: [8 017 212-76-21];
+
+=> nrel_hospital_working_hours: [24 в сутки];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["emergency"="yes"]["name"="Приёмное отделение БСМП"]["name:be"="Бальніца хуткай дапамогі"]["name:ru"="Приёмное отделение БСМП"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Учреждение здравоохранения "Городская клиническая больница скорой медицинской помощи" г. Минска предлагает Вам высококвалифицированную помощь специалистов, самые современные методы лечения и диагностики с применением новейшего оборудования.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+	
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://emergency_hospital_admissions_office.jpg";;
+                                *);; 
+                *);;
+ *);;
