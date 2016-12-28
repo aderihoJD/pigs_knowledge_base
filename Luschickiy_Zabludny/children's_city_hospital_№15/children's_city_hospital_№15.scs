@@ -1,0 +1,41 @@
+
+childrens_city_hospital_number_fivteen
+
+=> nrel_main_idtf: [детская городская поликлиника №15] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [children's city hospital №15] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Голубева 27];
+
+=> nrel_hospital_phone_number: [8 017 270-93-04];
+
+=> nrel_hospital_working_hours: [понедельник-пятница 08:00-20:00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="15 городская детская поликлиника"];];
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [История учреждения здравоохранения «15-я городская детская поликлиника» начинается с открытого в 1982 году детского отделения 32-й городской поликлиники.С 1985 года поликлиника самостоятельное учреждение.С начала 1990 было сдано в эксплуатацию новое четырехэтажное здание по адресу улица Голубева, 27, где располагается в настоящее время.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+	
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://children_city_hospital.jpg";;
+                                *);; 
+                *);;
+ *);;
