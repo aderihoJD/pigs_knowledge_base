@@ -1,0 +1,205 @@
+agent_of_finding_group_of_lakes
+=> nrel_main_idtf:
+	[агентная scp-программа нахождения суммарной площади озёр] (* <- lang_ru;; *);
+	[agent scp-program of searching density of percentage ratio] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_group_of_lakes
+	(*
+	-> rrel_params: .agent_of_finding_group_of_lakes_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_group_of_lakes_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_group_of_lakes_operator1 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_group_of_lakes_operator2;;
+			*);;
+
+		-> .agent_of_finding_group_of_lakes_operator2 
+			(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_group_of_lakes;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_group_of_lakes_operator3;;
+		  	=> nrel_else: .agent_of_finding_group_of_lakes_operator_return;;
+			*);;
+
+		-> .agent_of_finding_group_of_lakes_operator3 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _groupOfLakes;;
+
+		  	=> nrel_then: .agent_of_finding_group_of_lakes_operator4A;;
+		  	=> nrel_else: .agent_of_finding_group_of_lakes_operator_return;;
+			*);;
+
+                -> .agent_of_finding_group_of_lakes_operator4A 
+			(*
+		 	<- genEl;;
+		 	-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+
+		 	=> nrel_goto: .agent_of_finding_group_of_lakes_operator4B;;
+		 	*);;
+
+ 	-> .agent_of_finding_group_of_lakes_operator4B (*
+			<- searchSetStr5;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _groupOfLakes;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _lake;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_group_of_lakes;;
+			-> rrel_set_1: rrel_assign: rrel_scp_var: _lakes;;
+
+			=> nrel_then: .agent_of_finding_group_of_lakes_operator4BB;;
+			=> nrel_else: .agent_of_finding_group_of_lakes_operator4BB;;
+		*);;
+
+	-> .agent_of_finding_group_of_lakes_operator4BB (*
+		<- printEl;;
+		-> rrel_1: rrel_scp_var: rrel_fixed: _lakes;;
+		=> nrel_goto: .agent_of_finding_group_of_lakes_operator4C;;
+	*);;
+
+
+
+	
+	-> .agent_of_finding_group_of_lakes_operator4C (*
+		  <- contAssign;;
+		  -> rrel_1: rrel_assign: rrel_scp_var: _sum;;
+		  -> rrel_2: rrel_fixed: rrel_scp_const: [0];;
+
+		  => nrel_goto: .agent_of_finding_group_of_lakes_operator4CC;;
+		*);;
+
+	-> .agent_of_finding_group_of_lakes_operator4CC (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _lakes;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _lake;;
+			
+
+			=> nrel_then: .agent_of_finding_group_of_lakes_operator5;;
+			=> nrel_else: .agent_of_finding_group_of_lakes_operatorPrint;;
+			*);;
+
+
+	-> .agent_of_finding_group_of_lakes_operator5 (*
+		  <- eraseEl;;
+		  -> rrel_1: rrel_erase: rrel_scp_var: _arc1;;
+
+		  => nrel_goto: .agent_of_finding_group_of_lakes_operator5A;;
+		*);;
+
+
+	-> .agent_of_finding_group_of_lakes_operator5A (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _lake;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _square;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_square;;
+
+			=> nrel_goto: .agent_of_finding_group_of_lakes_operator6;;
+			*);;
+
+
+
+	-> .agent_of_finding_group_of_lakes_operator6 (*
+		  <- contAdd;;
+		  -> rrel_1: rrel_fixed: rrel_scp_var: _sum;;
+		  -> rrel_2: rrel_fixed: rrel_scp_var: _sum;;
+		  -> rrel_3: rrel_fixed: rrel_scp_var: _square;;
+
+		  => nrel_goto: .agent_of_finding_group_of_lakes_operator4CC;;
+		*);;
+
+
+	-> .agent_of_finding_group_of_lakes_operatorPrint (*
+		<- printEl;;
+		-> rrel_1: rrel_scp_var: rrel_fixed: _sum;;
+		=> nrel_goto: .agent_of_finding_group_of_lakes_gen_answer1;;
+	*);;
+
+		-> .agent_of_finding_group_of_lakes_gen_answer1 (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _groupOfLakes;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: _sum;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sum_square;;
+
+			=> nrel_goto: .agent_of_finding_group_of_lakes_gen_answer2;;
+		*);;
+
+
+		-> .agent_of_finding_group_of_lakes_gen_answer2 (*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _groupOfLakes;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var:  _sum;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sum_square;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer;;
+
+			=> nrel_goto: .agent_of_finding_group_of_lakes_gen_answer3;;
+		*);;
+
+		-> .agent_of_finding_group_of_lakes_gen_answer3 (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: _groupOfLakes;;
+
+			=> nrel_goto: .agent_of_finding_group_of_lakes_gen_answer4;;
+		*);;
+
+		-> .agent_of_finding_group_of_lakes_gen_answer4(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_scp_const: rrel_fixed: nrel_sum_square;;
+
+			=> nrel_goto: .agent_of_finding_group_of_lakes_gen_answer51;;
+		*);;		
+
+
+-> .agent_of_finding_group_of_lakes_gen_answer51 (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _answer;;
+	=> nrel_goto: .agent_of_finding_group_of_lakes_gen_answer5;;
+*);;
+
+		-> .agent_of_finding_group_of_lakes_gen_answer5 (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+			=> nrel_goto: .agent_of_finding_group_of_lakes_operator_return;;
+		*);;
+
+		
+		 -> .agent_of_finding_group_of_lakes_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,11 @@
+sc_node_not_relation -> group_of_lakes;;
+
+group_of_lakes => nrel_main_idtf:
+	[ группа озер]
+	(*
+	<- lang_ru;;
+	*);
+	[group of lakes]
+	(*
+	<- lang_en;;
+	*);;
