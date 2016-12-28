@@ -1,0 +1,39 @@
+sc_node_not_relation -> grsmu;; 
+	
+grsmu => nrel_main_idtf:
+	[Гродненский государственный медицинский университет] (* <- lang_ru;; *);
+	[Grodno State Medical University] (* <- lang_en;; *);;
+
+grsmu <- vuz;;
+
+grsmu => nrel_site:
+	[<a href="http://www.grsmu.by/">http://www.grsmu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+grsmu => nrel_faculty: ... (*
+	-> grsmu_medical_faculty;;
+	-> grsmu_medical_and_diagnostic_department;;
+	-> grsmu_medical_and_psychological_faculty;;
+	-> grsmu_faculty_of_pediatrics;;
+*);;
+
+grsmu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/grsmu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+grsmu => nrel_osm_query: [(
+  node["name"~"Гродненский государственный медицинский университет"];
+);
+out body;
+>;
+out skel qt;];;

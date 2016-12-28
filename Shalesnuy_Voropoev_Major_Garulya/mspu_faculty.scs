@@ -1,0 +1,67 @@
+sc_node_not_relation -> mspu_technological_and_biological_faculty;; 
+	
+mspu_technological_and_biological_faculty => nrel_main_idtf:
+	[Технолого-биологический факультет] (* <- lang_ru;; *);
+	[Technological and biological faculty] (* <- lang_en;; *);;
+
+mspu_technological_and_biological_faculty => nrel_specialties: ... (*
+	<- [Биология (научно­-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Биология и химия] (* <- lang_ru;; *);;
+	<- [Социальная работа (социально­-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Технический труд и предпринимательство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mspu_physics_and_engineering_faculty;; 
+	
+mspu_physics_and_engineering_faculty => nrel_main_idtf:
+	[Физико-инженерный факультет] (* <- lang_ru;; *);
+	[Physics and Engineering Faculty] (* <- lang_en;; *);;
+
+mspu_physics_and_engineering_faculty => nrel_specialties: ... (*
+	<- [Компьютерная физика. Компьютерное моделирование физических процессов] (* <- lang_ru;; *);;
+	<- [Математика и информатика] (* <- lang_ru;; *);;
+	<- [Профессиональное обучение (машиностроение)] (* <- lang_ru;; *);;
+	<- [Профессиональное обучение (строительство)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mspu_faculty_of_preschool_and_primary_education;; 
+	
+mspu_faculty_of_preschool_and_primary_education => nrel_main_idtf:
+	[Факультет дошкольного и начального образования] (* <- lang_ru;; *);
+	[Faculty of preschool and primary education] (* <- lang_en;; *);;
+
+mspu_faculty_of_preschool_and_primary_education => nrel_specialties: ... (*
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Логопедия] (* <- lang_ru;; *);;
+	<- [Начальное образование] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mspu_faculty_of_physical_education;; 
+	
+mspu_faculty_of_physical_education => nrel_main_idtf:
+	[Факультет физической культуры] (* <- lang_ru;; *);
+	[Faculty of Physical Education] (* <- lang_en;; *);;
+
+mspu_faculty_of_physical_education => nrel_specialties: ... (*
+	<- [Спортивно-педагогическая деятельность (тренерская работа с указанием вида спорта)и] (* <- lang_ru;; *);;
+	<- [Физическая культура] (* <- lang_ru;; *);;
+	<- [Физическая культура. Специальная подготовка] (* <- lang_ru;; *);;
+	<- [Физическая культура. Физкультурно-оздоровительная и туристско-рекреационная деятельность] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mspu_faculty_of_philology;; 
+	
+mspu_faculty_of_philology => nrel_main_idtf:
+	[Филологический факультет] (* <- lang_ru;; *);
+	[Faculty of Philology] (* <- lang_en;; *);;
+
+mspu_faculty_of_philology => nrel_specialties: ... (*
+	<- [Иностранные языки (английский, немецкий)] (* <- lang_ru;; *);;
+	<- [Иностранный язык (английский)] (* <- lang_ru;; *);;
+	<- [Иностранный язык (немецкий)] (* <- lang_ru;; *);;
+	<- [Русский язык и литература. Иностранный язык (английский)] (* <- lang_ru;; *);;
+*);;
+
+
+
+

@@ -1,0 +1,36 @@
+sc_node_not_relation -> bspu;; 
+	
+bspu => nrel_main_idtf:
+	[Белорусский государственный педагогический университет им. М. Танка] (* <- lang_ru;; *);
+	[Belarusian State Pedagogical University. M. Tank] (* <- lang_en;; *);;
+
+bspu <- vuz;;
+
+bspu => nrel_site:
+	[<a href="bspu.by/">bspu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bspu => nrel_address: [г. Минск, Советская, 18](*<-lang_ru;;*);;
+
+bspu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bspu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bspu => nrel_osm_query: [(
+node["name"="БГПУ"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+

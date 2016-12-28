@@ -1,0 +1,31 @@
+sc_node_not_relation -> ib;; 
+	
+ib => nrel_main_idtf:
+	[Институт предпринимательской деятельности] (* <- lang_ru;; *);
+	[Institute of Business] (* <- lang_en;; *);;
+
+ib <- vuz;;
+
+ib => nrel_site:
+	[<a href="http://www.uoipd.by/">http://www.uoipd.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsuca => nrel_address: [г. Минск, Серафимовича, 11](*<-lang_ru;;*);;
+
+bsuca => nrel_faculty: ... (*
+	-> ib_faculty_of_economics_and_business;;
+*);;
+
+ib <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/ib.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;

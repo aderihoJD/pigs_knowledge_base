@@ -1,0 +1,86 @@
+sc_node_not_relation -> msuk_history_and_philology_faculty;; 
+	
+msuk_history_and_philology_faculty => nrel_main_idtf:
+	[Историко-филологический факультет] (* <- lang_ru;; *);
+	[History and Philology Faculty] (* <- lang_en;; *);;
+
+msuk_history_and_philology_faculty => nrel_specialties: ... (*
+	<- [Белорусский язык и литература] (* <- lang_ru;; *);;
+	<- [История (археология)] (* <- lang_ru;; *);;
+	<- [История и обществоведческие дисциплины] (* <- lang_ru;; *);;
+	<- [Русский язык и литература] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> msuk_department_of_primary_and_musical_education;; 
+	
+msuk_department_of_primary_and_musical_education => nrel_main_idtf:
+	[Факультет начального и музыкального образования] (* <- lang_ru;; *);
+	[Department of Primary and Music Education] (* <- lang_en;; *);;
+
+msuk_department_of_primary_and_musical_education => nrel_specialties: ... (*
+	<- [Музыкальное искусство, ритмика и хореография] (* <- lang_ru;; *);;
+	<- [Начальное образование] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> msuk_faculty_of_mathematics_and_natural_sciences;; 
+	
+msuk_faculty_of_mathematics_and_natural_sciences => nrel_main_idtf:
+	[Факультет математики и естествознания] (* <- lang_ru;; *);
+	[Faculty of Mathematics and Natural Sciences] (* <- lang_en;; *);;
+
+msuk_faculty_of_mathematics_and_natural_sciences => nrel_specialties: ... (*
+	<- [Биология и химия] (* <- lang_ru;; *);;
+	<- [Математика и информатика] (* <- lang_ru;; *);;
+	<- [Физика и информатика] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> msuk_faculty_of_foreign_languages;; 
+	
+msuk_faculty_of_foreign_languages => nrel_main_idtf:
+	[Факультет иностранных языков] (* <- lang_ru;; *);
+	[Faculty of Foreign Languages] (* <- lang_en;; *);;
+
+msuk_faculty_of_foreign_languages => nrel_specialties: ... (*
+	<- [Романо-германская филология (Английский язык и литература. Французский язык и литература)] (* <- lang_ru;; *);;
+	<- [Романо-германская филология (Английский язык и литература. Немецкий язык)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> msuk_faculty_of_pedagogy_and_psychology_of_childhood;; 
+	
+msuk_faculty_of_pedagogy_and_psychology_of_childhood => nrel_main_idtf:
+	[Факультет педагогики и психологии детства] (* <- lang_ru;; *);
+	[Faculty of Pedagogy and Psychology of childhood] (* <- lang_en;; *);;
+
+msuk_faculty_of_pedagogy_and_psychology_of_childhood => nrel_specialties: ... (*
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Логопедия] (* <- lang_ru;; *);;
+	<- [Психология] (* <- lang_ru;; *);;
+	<- [Социальная педагогика] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> msuk_faculty_of_physical_education;; 
+	
+msuk_faculty_of_physical_education => nrel_main_idtf:
+	[Факультет физического воспитания] (* <- lang_ru;; *);
+	[Faculty of Physical Education] (* <- lang_en;; *);;
+
+msuk_faculty_of_physical_education => nrel_specialties: ... (*
+	<- [Физическая культура] (* <- lang_ru;; *);;
+	<- [Физическая культура (тренерская работа по виду спорта (легкая атлетика; спортивные игры)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> msuk_faculty_of_economics_and_law;; 
+	
+msuk_faculty_of_economics_and_law => nrel_main_idtf:
+	[Факультет экономики и права] (* <- lang_ru;; *);
+	[Faculty of Economics and Law] (* <- lang_en;; *);;
+
+msuk_faculty_of_economics_and_law => nrel_specialties: ... (*
+	<- [Бизнес-администрирование] (* <- lang_ru;; *);;
+	<- [Правоведение] (* <- lang_ru;; *);;
+	<- [Социология] (* <- lang_ru;; *);;
+	<- [Экономическое право] (* <- lang_ru;; *);;
+*);;
+
+
+

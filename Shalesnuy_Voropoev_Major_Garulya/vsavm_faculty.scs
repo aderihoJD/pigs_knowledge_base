@@ -1,0 +1,49 @@
+sc_node_not_relation -> vsavm_faculty_of_biotechnology;; 
+	
+vsavm_faculty_of_biotechnology => nrel_main_idtf:
+	[Биотехнологический факультет] (* <- lang_ru;; *);
+	[Biotechnology Faculty] (* <- lang_en;; *);;
+
+vsavm_faculty_of_biotechnology => nrel_specialties: ... (*
+	<- [Ветеринарная санитария и экспертиза] (* <- lang_ru;; *);;
+	<- [Ветеринарная фармация] (* <- lang_ru;; *);;
+	<- [Зоотехния] (* <- lang_ru;; *);;
+	<- [Зоотехния (биотехнология и селекция)] (* <- lang_ru;; *);;
+	<- [Зоотехния (НИСПО)] (* <- lang_ru;; *);;
+	<- [Зоотехния. Птицеводство] (* <- lang_ru;; *);;
+	<- [Зоотехния. Технология первичной переработки продукции животноводства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsavm_faculty_of_training_and_retraining;; 
+	
+vsavm_faculty_of_training_and_retraining => nrel_main_idtf:
+	[Повышения квалификации и переподготовки кадров] (* <- lang_ru;; *);
+	[Training and retraining] (* <- lang_en;; *);;
+
+vsavm_faculty_of_training_and_retraining => nrel_specialties: ... (*
+	<- [Повышение квалификации и переподготовка кадров (для лиц с высшим ветеринарным образованием)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsavm_faculty_of_veterinary_medicine;; 
+	
+vsavm_faculty_of_veterinary_medicine => nrel_main_idtf:
+	[Факультет ветеринарной медицины] (* <- lang_ru;; *);
+	[Faculty of Veterinary Medicine] (* <- lang_en;; *);;
+
+vsavm_faculty_of_veterinary_medicine => nrel_specialties: ... (*
+	<- [Ветеринарная медицина (НИСПО)] (* <- lang_ru;; *);;
+	<- [Ветеринарная медицина (по направлениям)] (* <- lang_ru;; *);;
+*);;
+
+
+sc_node_not_relation -> vsavm_faculty_of_distance_learning;; 
+	
+vsavm_faculty_of_distance_learning => nrel_main_idtf:
+	[Факультет заочного обучения] (* <- lang_ru;; *);
+	[Faculty of distance learning] (* <- lang_en;; *);;
+
+vsavm_faculty_of_distance_learning => nrel_specialties: ... (*
+	<- [Ветеринарная медицина] (* <- lang_ru;; *);;
+	<- [Зоотехния] (* <- lang_ru;; *);;
+	<- [Зоотехния (НИСПО)] (* <- lang_ru;; *);;
+*);;

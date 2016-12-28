@@ -1,0 +1,142 @@
+sc_node_not_relation -> bsuir_faculty_of_computer_systems_and_networks;; 
+	
+bsuir_faculty_of_computer_systems_and_networks => nrel_main_idtf:
+	[Факультет компьютерных систем и сетей (ФКСиС)] (* <- lang_ru;; *);
+	[Faculty of Computer Systems and Networks] (* <- lang_en;; *);;
+
+bsuir_faculty_of_computer_systems_and_networks => nrel_specialties: ... (*
+	<- [Вычислительные машины, системы и сети] (* <- lang_ru;; *);;
+	<- [Информатика и технологии программирования] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Электронные вычислительные средства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_information_technologies_and_control;; 
+	
+bsuir_faculty_of_information_technologies_and_control => nrel_main_idtf:
+	[Факультет информационных технологий и управления (ФИТУ)] (* <- lang_ru;; *);
+	[Faculty of Information Technologies and Control] (* <- lang_en;; *);;
+
+bsuir_faculty_of_information_technologies_and_control => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Промышленная электроника] (* <- lang_ru;; *);;
+	<- [Искусственный интеллект] (* <- lang_ru;; *);;
+	<- [Информационные технологии и управление в технических системах] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_telecommunication;; 
+	
+bsuir_faculty_of_telecommunication => nrel_main_idtf:
+	[Факультет телекоммуникаций (ФТК)] (* <- lang_ru;; *);
+	[Faculty of Telecommunication] (* <- lang_en;; *);;
+
+bsuir_faculty_of_telecommunication => nrel_specialties: ... (*
+	<- [Защита информации в телекоммуникациях] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные системы (стандартизация, сертификация и контроль параметров)] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные технологии (сети инфокоммуникаций)] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные технологии (системы телекоммуникаций)] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные технологии (системы распределения мультимедийной информации)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_computer_aided_design;; 
+	
+bsuir_faculty_of_computer_aided_design => nrel_main_idtf:
+	[Факультет компьютерного проектирования (ФКП)] (* <- lang_ru;; *);
+	[Faculty of Computer-Aided Design] (* <- lang_en;; *);;
+
+bsuir_faculty_of_computer_aided_design => nrel_specialties: ... (*
+	<- [Инженерно-психологическое обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в обеспечении промышленной безопасности)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в бизнес-менеджменте)] (* <- lang_ru;; *);;
+	<- [Медицинская электроника] (* <- lang_ru;; *);;
+	<- [Моделирование и компьютерное проектирование радиоэлектронных средств] (* <- lang_ru;; *);;
+	<- [Программируемые мобильные системы] (* <- lang_ru;; *);;
+	<- [Программно-управляемые электронно-оптические системы] (* <- lang_ru;; *);;
+	<- [Проектирование и производство программно-управляемых электронных средств] (* <- lang_ru;; *);;
+	<- [Электронные системы безопасности] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_radioengineering_and_electronics;; 
+	
+bsuir_faculty_of_radioengineering_and_electronics => nrel_main_idtf:
+	[Факультет радиотехники и электроники (ФРЭ)] (* <- lang_ru;; *);
+	[Faculty of Radioengineering and Electronics] (* <- lang_en;; *);;
+
+bsuir_faculty_of_radioengineering_and_electronics => nrel_specialties: ... (*
+	<- [Квантовые информационные системы] (* <- lang_ru;; *);;
+	<- [Микро - и наноэлектронные технологии и системы] (* <- lang_ru;; *);;
+	<- [Нанотехнологии и наноматериалы в электронике] (* <- lang_ru;; *);;
+	<- [Профессиональное обучение (информатика)] (* <- lang_ru;; *);;
+	<- [Радиоинформатика	] (* <- lang_ru;; *);;
+	<- [Радиотехника (программируемые радиоэлектронные средства)] (* <- lang_ru;; *);;
+	<- [Радиотехника (техника цифровой радиосвязи)] (* <- lang_ru;; *);;
+	<- [Радиоэлектронная защита информации] (* <- lang_ru;; *);;
+	<- [Радиоэлектронные системы] (* <- lang_ru;; *);;
+	<- [Электронные и информационно-управляющие системы физических установок] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_engineering_and_economics;; 
+	
+bsuir_faculty_of_engineering_and_economics => nrel_main_idtf:
+	[Инженерно-экономический факультет (ИЭФ)] (* <- lang_ru;; *);
+	[Faculty of Engineering and Economics] (* <- lang_en;; *);;
+
+bsuir_faculty_of_engineering_and_economics => nrel_specialties: ... (*
+	<- [Информационные системы и технологии (в экономике)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в логистике)] (* <- lang_ru;; *);;
+	<- [Экономика электронного бизнеса] (* <- lang_ru;; *);;
+	<- [Электронный маркетинг] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_military_faculty;; 
+	
+bsuir_military_faculty => nrel_main_idtf:
+	[Военный факультет (ВФ)] (* <- lang_ru;; *);
+	[Military Faculty] (* <- lang_en;; *);;
+
+bsuir_military_faculty => nrel_specialties: ... (*
+	<- [Вычислительные машины системы и сети (специального назначения)] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные технологии (системы телекоммуникаций специального назначения)] (* <- lang_ru;; *);;
+	<- [Радиотехника (специальные системы радиолокации и радионавигации)	] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_continuous_and_distance_training;; 
+	
+bsuir_faculty_of_continuous_and_distance_training => nrel_main_idtf:
+	[Факультет непрерывного и дистанционного обучения (ФНиДО)] (* <- lang_ru;; *);
+	[Faculty of Continuous and Distance Training] (* <- lang_en;; *);;
+
+bsuir_faculty_of_continuous_and_distance_training => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Инженерно-психологическое обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Информатика и технологии программирования] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в бизнес-менеджменте)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в экономике)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в обеспечении промышленной безопасности)] (* <- lang_ru;; *);;
+	<- [Программируемые мобильные системы] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Экономика электронного бизнеса] (* <- lang_ru;; *);;
+	<- [Электронный маркетинг] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bsuir_faculty_of_preuniversity_preparation_and_occupational_guidance;; 
+	
+bsuir_faculty_of_preuniversity_preparation_and_occupational_guidance => nrel_main_idtf:
+	[Факультет доуниверситетской подготовки и профессиональной ориентации (ФДПиПО)] (* <- lang_ru;; *);
+	[Faculty of Pre-University Preparation and Occupational Guidance] (* <- lang_en;; *);;
+
+sc_node_not_relation -> bsuir_faculty_of_extramural_training;; 
+	
+bsuir_faculty_of_extramural_training => nrel_main_idtf:
+	[Факультет заочного обучения (ФЗО)] (* <- lang_ru;; *);
+	[Faculty of Extramural Training] (* <- lang_en;; *);;
+
+bsuir_faculty_of_extramural_training => nrel_specialties: ... (*
+	<- [Вычислительные машины, системы и сети] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные технологии (сети инфокоммуникаций)] (* <- lang_ru;; *);;
+	<- [Инфокоммуникационные технологии (системы телекоммуникаций)] (* <- lang_ru;; *);;
+	<- [Информационные технологии и управление в технических системах] (* <- lang_ru;; *);;
+	<- [Проектирование и производство программно-управляемых электронных средств] (* <- lang_ru;; *);;
+	<- [Радиотехника (программируемые радиоэлектронные средства)] (* <- lang_ru;; *);;
+	<- [Электронные системы безопасности] (* <- lang_ru;; *);;
+*);;

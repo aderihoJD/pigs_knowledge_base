@@ -1,0 +1,124 @@
+sc_node_not_relation -> plsu_faculty_of_geodesic;; 
+	
+plsu_faculty_of_geodesic => nrel_main_idtf:
+	[Геодезический факультет] (* <- lang_ru;; *);
+	[Geodesic Faculty] (* <- lang_en;; *);;
+
+plsu_faculty_of_geodesic => nrel_specialties: ... (*
+	<- [Геодезия] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_civil_engineering;; 
+	
+plsu_faculty_of_civil_engineering => nrel_main_idtf:
+	[Инженерно-строительный факультет] (* <- lang_ru;; *);
+	[Faculty of Civil Engineering] (* <- lang_en;; *);;
+
+plsu_faculty_of_civil_engineering => nrel_specialties: ... (*
+	<- [Архитектура] (* <- lang_ru;; *);;
+	<- [Геодезия] (* <- lang_ru;; *);;
+	<- [Дизайн предметно-пространственной среды] (* <- lang_ru;; *);;
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+	<- [Экспертиза и управление недвижимостью] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_engineering_and_technology;; 
+	
+plsu_faculty_of_engineering_and_technology => nrel_main_idtf:
+	[Инженерно-технологический факультет] (* <- lang_ru;; *);
+	[Faculty of Engineering and Technology] (* <- lang_en;; *);;
+
+plsu_faculty_of_engineering_and_technology => nrel_specialties: ... (*
+	<- [Водоснабжение, водоотведение и охрана водных ресурсов] (* <- lang_ru;; *);;
+	<- [Машины и аппараты химических производств и предприятий строительных материалов] (* <- lang_ru;; *);;
+	<- [Проектирование, сооружение и эксплуатация газонефтепроводов и газонефтехранилищ] (* <- lang_ru;; *);;
+	<- [Теплогазоснабжение, вентиляция и охрана воздушного бассейна] (* <- lang_ru;; *);;
+	<- [Химическая технология природных энергоносителей и углеродных материалов] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_history_and_philology;; 
+	
+plsu_faculty_of_history_and_philology => nrel_main_idtf:
+	[Историко-филологический факультет] (* <- lang_ru;; *);
+	[Faculty of History and Philology] (* <- lang_en;; *);;
+
+plsu_faculty_of_history_and_philology => nrel_specialties: ... (*
+	<- [История] (* <- lang_ru;; *);;
+	<- [Романо-германская филология (английская)] (* <- lang_ru;; *);;
+	<- [Романо-германская филология (немецкая)] (* <- lang_ru;; *);;
+	<- [Туризм и гостеприимство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_mechanical_engineering_and_road_transport;; 
+	
+plsu_faculty_of_mechanical_engineering_and_road_transport => nrel_main_idtf:
+	[Факультет машиностроения и автомобильного транспорта] (* <- lang_ru;; *);
+	[Faculty of Mechanical Engineering and Road Transport] (* <- lang_en;; *);;
+
+plsu_faculty_of_mechanical_engineering_and_road_transport => nrel_specialties: ... (*
+	<- [Автосервис] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация автомобилей (автотранспорт общего и личного пользования)] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_radio_engineering;; 
+	
+plsu_faculty_of_radio_engineering => nrel_main_idtf:
+	[Радиотехнический факультет] (* <- lang_ru;; *);
+	[Faculty of Radio Engineering] (* <- lang_en;; *);;
+
+plsu_faculty_of_radio_engineering => nrel_specialties: ... (*
+	<- [Проектирование и производство программно-управляемых электронных средств] (* <- lang_ru;; *);;
+	<- [Промышленная электроника] (* <- lang_ru;; *);;
+	<- [Электроснабжение] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_sport_and_education;; 
+	
+plsu_faculty_of_sport_and_education => nrel_main_idtf:
+	[Спортивно-педагогический факультет] (* <- lang_ru;; *);
+	[Faculty of Sport and Education] (* <- lang_en;; *);;
+
+plsu_faculty_of_sport_and_education => nrel_specialties: ... (*
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Обслуживающий труд и изобразительное искусство] (* <- lang_ru;; *);;
+	<- [Практическая психология] (* <- lang_ru;; *);;
+	<- [Технический труд и техническое творчество] (* <- lang_ru;; *);;
+	<- [Физическая культура] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_information_technology;; 
+	
+plsu_faculty_of_information_technology => nrel_main_idtf:
+	[Факультет информационных технологий] (* <- lang_ru;; *);
+	[Faculty of Information Technology] (* <- lang_en;; *);;
+
+plsu_faculty_of_information_technology => nrel_specialties: ... (*
+	<- [Вычислительные машины, системы и сети] (* <- lang_ru;; *);;
+	<- [Компьютерная безопасность (математические методы и программные системы)] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_finance_and_economics;; 
+	
+plsu_faculty_of_finance_and_economics => nrel_main_idtf:
+	[Финансово-экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Finance and Economics] (* <- lang_en;; *);;
+
+plsu_faculty_of_finance_and_economics => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Социальные коммуникации] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> plsu_faculty_of_law;; 
+	
+plsu_faculty_of_law => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Faculty of Law] (* <- lang_en;; *);;
+
+plsu_faculty_of_law => nrel_specialties: ... (*
+	<- [Правоведение] (* <- lang_ru;; *);;
+*);;

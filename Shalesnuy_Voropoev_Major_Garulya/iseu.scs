@@ -1,0 +1,37 @@
+sc_node_not_relation -> iseu;; 
+	
+iseu => nrel_main_idtf:
+	[Международный государственный экологический институт им. А.Д. Сахарова БГУ] (* <- lang_ru;; *);
+	[International State Ecological Institute. HELL. Sakharov BSU] (* <- lang_en;; *);;
+
+iseu <- vuz;;
+
+iseu => nrel_site:
+	[<a href="www.iseu.by">www.iseu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+iseu => nrel_address: [г. Минск, Долгобродская, 23](*<-lang_ru;;*);;
+
+iseu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/iseu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+
+iseu => nrel_osm_query: [(
+node["name"~"Международный государственный экологический институт"];
+);
+out body;
+>;
+out skel qt;];;
+
+

@@ -1,0 +1,68 @@
+sc_node_not_relation -> mslu_faculty_of_translation;;
+	
+mslu_faculty_of_translation => nrel_main_idtf:
+	[Переводческий факультет] (* <- lang_ru;; *);
+	[Translation faculty] (* <- lang_en;; *);;
+
+mslu_faculty_of_translation => nrel_specialties: ... (*
+	<- [Современные иностранные языки (перевод). Английский язык и второй иностранный язык со специализацией] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (перевод). Немецкий язык и второй иностранный язык со специализацией] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (перевод). Французский язык и второй иностранный язык (английский) со специализацией] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (перевод). Китайский язык и второй иностранный язык (английский) со специализацией "Специальный перевод"] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mslu_faculty_of_english_language;; 
+	
+mslu_faculty_of_english_language => nrel_main_idtf:
+	[Факультет английского языка] (* <- lang_ru;; *);
+	[Faculty of English Language] (* <- lang_en;; *);;
+
+mslu_faculty_of_english_language => nrel_specialties: ... (*
+	<- [Иностранный язык (английский язык)] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (преподавание). Китайский язык и второй иностранный язык со специализацией] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (преподавание). Английский язык и второй иностранный язык со специализацией] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mslu_faculty_of_spanish_language;; 
+	
+mslu_faculty_of_spanish_language => nrel_main_idtf:
+	[Факультет испанского языка] (* <- lang_ru;; *);
+	[Faculty of Spanish Language] (* <- lang_en;; *);;
+
+mslu_faculty_of_spanish_language => nrel_specialties: ... (*
+	<- [Современные иностранные языки (преподавание). Испанский язык и второй иностранный язык со специализацией (на базе английского языка)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mslu_faculty_of_intercultural_communication;; 
+	
+mslu_faculty_of_intercultural_communication => nrel_main_idtf:
+	[Факультет межкультурных коммуникаций] (* <- lang_ru;; *);
+	[Faculty of Intercultural Communication] (* <- lang_en;; *);;
+
+mslu_faculty_of_intercultural_communication => nrel_specialties: ... (*
+	<- [Лингвистическое обеспечение межкультурных коммуникаций. Английский язык и второй иностранный язык] (* <- lang_ru;; *);;
+	<- [Лингвистическое обеспечение межкультурных коммуникаций. Китайский язык и второй иностранный язык] (* <- lang_ru;; *);;
+	<- [Лингвистическое обеспечение межкультурных коммуникаций. Немецкий язык и второй иностранный язык] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mslu_faculty_of_german_language;; 
+	
+mslu_faculty_of_german_language => nrel_main_idtf:
+	[Факультет немецкого языка] (* <- lang_ru;; *);
+	[Faculty of German Language] (* <- lang_en;; *);;
+
+mslu_faculty_of_german_language => nrel_specialties: ... (*
+	<- [Иностранный язык (немецкий язык)] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (преподавание). Немецкий язык и второй иностранный язык (на базе немецкого языка)] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (преподавание). Немецкий язык и второй иностранный язык (на базе английского языка)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mslu_faculty_of_french_language;; 
+	
+mslu_faculty_of_french_language => nrel_main_idtf:
+	[Факультет французского языка] (* <- lang_ru;; *);
+	[Faculty of French Language] (* <- lang_en;; *);;
+
+mslu_faculty_of_french_language => nrel_specialties: ... (*
+	<- [Современные иностранные языки (преподавание). Французский язык и второй иностранный язык (на базе английского языка)] (* <- lang_ru;; *);;
+*);;

@@ -1,0 +1,35 @@
+sc_node_not_relation -> mtisov;; 
+	
+mtisov => nrel_main_idtf:
+	[ФПБ «Международный университет «МИТСО». Витебский филиал] (* <- lang_ru;; *);
+	[FPB "International University" IILSR ". Vitebsk branch] (* <- lang_en;; *);;
+
+mtisov <- vuz;;
+
+mtisov => nrel_site:
+	[<a href="http://http://www.vitebsk.mitso.by/">http://http://www.vitebsk.mitso.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mtisov => nrel_address: [г. Витебск, Правды, 8а](*<-lang_ru;;*);;
+
+mtisov => nrel_faculty: ... (*
+	-> mtisov_faculty_of_economics_and_law;;
+*);;
+
+mtisov <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mtisov.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+
+
+

@@ -1,0 +1,55 @@
+sc_node_not_relation -> barsu_faculty_of_engineering;; 
+	
+barsu_faculty_of_engineering => nrel_main_idtf:
+	[Инженерный факультет] (* <- lang_ru;; *);
+	[Faculty of Engineering] (* <- lang_en;; *);;
+
+barsu_faculty_of_engineering => nrel_specialties: ... (*
+	<- [Агрономия] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в проектировании и производстве)] (* <- lang_ru;; *);;
+	<- [Техническое обеспечение процессов сельскохозяйственного производства] (* <- lang_ru;; *);;
+	<- [Технологическое оборудование машиностроительного производства (металлорежущие станки)] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства (машиностроение)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> barsu_faculty_of_pedagogy_and_psychology;; 
+	
+barsu_faculty_of_pedagogy_and_psychology => nrel_main_idtf:
+	[Факультет педагогики и психологии] (* <- lang_ru;; *);
+	[Faculty of Pedagogy and Psychology] (* <- lang_en;; *);;
+
+barsu_faculty_of_pedagogy_and_psychology => nrel_specialties: ... (*
+	<- [Геоэкология (охрана природы и рациональное использование природных ресурсов)] (* <- lang_ru;; *);;
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Начальное образование] (* <- lang_ru;; *);;
+	<- [Обслуживающий труд и изобразительное искусство] (* <- lang_ru;; *);;
+	<- [Практическая психология] (* <- lang_ru;; *);;
+	<- [Социальная педагогика] (* <- lang_ru;; *);;
+	<- [Физическая культура] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> barsu_faculty_of_slavic_and_germanic_languages;; 
+	
+barsu_faculty_of_slavic_and_germanic_languages => nrel_main_idtf:
+	[Факультет славянских и германских языков] (* <- lang_ru;; *);
+	[Faculty of Slavic and Germanic languages] (* <- lang_en;; *);;
+
+barsu_faculty_of_slavic_and_germanic_languages => nrel_specialties: ... (*
+	<- [Иностранный язык (английский)] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (Современные иностранные языки (преподавание))] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> barsu_faculty_of_economics_and_law;; 
+	
+barsu_faculty_of_economics_and_law => nrel_main_idtf:
+	[Факультет экономики и права] (* <- lang_ru;; *);
+	[Faculty of Economics and Law] (* <- lang_en;; *);;
+
+barsu_faculty_of_economics_and_law => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит (в АПК)] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Правоведение (хозяйственное право)] (* <- lang_ru;; *);;
+	<- [Экономика и управление туристской индустрией] (* <- lang_ru;; *);;
+	<- [Экономическое право] (* <- lang_ru;; *);;
+*);;

@@ -1,0 +1,46 @@
+sc_node_not_relation -> mgup;; 
+	
+mgup => nrel_main_idtf:
+	[Могилевский государственный университет продовольствия] (* <- lang_ru;; *);
+	[Mogilev State University of Foodstuffs] (* <- lang_en;; *);;
+
+mgup <- vuz;;
+
+mgup => nrel_site:
+	[<a href="http://http://www.mgup.mogilev.by/">http://http://www.mgup.mogilev.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mgup => nrel_address: [ г. Могилев, Шмидта, 3](*<-lang_ru;;*);;
+
+mgup => nrel_faculty: ... (*
+	-> mgup_correspondence_department;;
+	-> mgup_department_of_mechanical;;
+	-> mgup_faculty_of_technology;;
+	-> mgup_faculty_of_chemical_technology;;
+	-> mgup_faculty_of_economics;;
+*);;
+
+mgup <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mgup.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+mgup => nrel_osm_query: [(
+  node["name"~"Университет продовольствия"];
+  way["name"~"Университет продовольствия"];
+  relation["name"~"Университет продовольствия"];
+);
+out body;
+>;
+out skel qt;];;
+
+

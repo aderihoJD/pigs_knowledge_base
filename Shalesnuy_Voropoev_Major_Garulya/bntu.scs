@@ -1,0 +1,39 @@
+sc_node_not_relation -> bntu;; 
+	
+bntu => nrel_main_idtf:
+	[Белорусский национальный технический университет] (* <- lang_ru;; *);
+	[Belarusian National Technical University] (* <- lang_en;; *);;
+
+bntu <- vuz;;
+
+bntu => nrel_site:
+	[<a href="www.bntu.by">www.bntu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bntu => nrel_address: [г. Минск, Независимости, 65](*<-lang_ru;;*);;
+
+bntu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bntu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bntu => nrel_osm_query: [(
+way["name"~"БНТУ"]["amenity"="university"];
+node["name"~"БНТУ"]["amenity"="university"];
+way["name"~"Белорусский национальный технический университет"]["amenity"="university"];
+node["name"~"Белорусский национальный технический университет"]["amenity"="university"];   
+);
+out body;
+>;
+out skel qt;];;
+
+

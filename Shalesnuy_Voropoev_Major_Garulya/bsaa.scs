@@ -1,0 +1,38 @@
+sc_node_not_relation -> bsaa;; 
+	
+bsaa => nrel_main_idtf:
+	[Белорусская государственная академия авиации] (* <- lang_ru;; *);
+	[Belarusian State Academy of Aviation] (* <- lang_en;; *);;
+
+bsaa <- vuz;;
+
+bsaa => nrel_site:
+	[<a href="www.bsaa.by/">www.bsaa.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsaa => nrel_address: [г. Минск, Уборевича, 77](*<-lang_ru;;*);;
+
+bsaa <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bsaa.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+
+bsaa => nrel_osm_query: [(
+way["name"~"Белорусская государственная академия авиации"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+
+

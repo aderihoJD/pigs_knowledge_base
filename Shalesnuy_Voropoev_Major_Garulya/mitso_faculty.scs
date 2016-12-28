@@ -1,0 +1,35 @@
+sc_node_not_relation -> mitso_faculty_of_international_economic_relations_and_management;;
+	
+mitso_faculty_of_international_economic_relations_and_management => nrel_main_idtf:
+	[Факультет международных экономических отношений и менеджмента] (* <- lang_ru;; *);
+	[Faculty of International Economic Relations and Management] (* <- lang_en;; *);;
+
+mitso_faculty_of_international_economic_relations_and_management => nrel_specialties: ... (*
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Маркетинг (промышленный маркетинг, маркетинг в туризме, рекламная деятельность)] (* <- lang_ru;; *);;
+	<- [Маркетинг (рекламная деятельность)] (* <- lang_ru;; *);;
+	<- [Менеджмент (производственный менеджмент, финансовый менеджмент, управление персоналом)] (* <- lang_ru;; *);;
+	<- [Финансы и кредит (финансы)] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии промышленности (экономика и управление на предприятии промышленности)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mitso_faculty_of_law;; 
+	
+mitso_faculty_of_law => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Faculty of Law] (* <- lang_en;; *);;
+
+mitso_faculty_of_law => nrel_specialties: ... (*
+	<- [Международное право (международное коммерческое право, международное публичное право, европейское право)] (* <- lang_ru;; *);;
+	<- [Правоведение (адвокатура и нотариат, правовое регулирование трудовых отношений)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mitso_faculty_of_information_technology;; 
+	
+mitso_faculty_of_information_technology => nrel_main_idtf:
+	[Факультет информационных технологий ] (* <- lang_ru;; *);
+	[Faculty of Information Technology] (* <- lang_en;; *);;
+
+mitso_faculty_of_information_technology => nrel_specialties: ... (*
+	<- [Информационные системы и технлогии (информационные технологии финансово-кредитной системы)] (* <- lang_ru;; *);;
+*);;

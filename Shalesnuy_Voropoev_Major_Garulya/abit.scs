@@ -1,0 +1,53 @@
+sc_node_not_relation -> abit;; 
+	
+abit => nrel_main_idtf:
+	[Гродненский государственный университет имени Янки Купалы] (* <- lang_ru;; *);
+	[Yanka Kupala State University of Grodno] (* <- lang_en;; *);;
+
+abit <- vuz;;
+
+abit => nrel_site:
+	[<a href="http://www.abit.by/">http://www.abit.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+abit => nrel_address: [ г. Гродно, Ожешко, 22](*<-lang_ru;;*);;
+
+abit => nrel_faculty: ... (*
+	-> abit_military_faculty;;
+	-> abit_faculty_of_civil_engineering;;
+	-> abit_faculty_of_education;;
+	-> abit_faculty_of_biology_and_ecology;;
+	-> abit_faculty_of_innovative_mechanic_engineering;;
+	-> abit_faculty_of_art_and_design;;
+	-> abit_faculty_of_history_communication_and_tourism;;
+	-> abit_faculty_of_mathematics_and_informatics;;
+	-> abit_psychology_faculty;;
+	-> abit_faculty_of_physical_education;;
+	-> abit_faculty_of_economics_and_management;;
+	-> abit_physics_and_technology_faculty;;
+	-> abit_faculty_of_philology;;
+	-> abit_law_school_faculty;;
+*);;
+
+abit <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/abit.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+abit => nrel_osm_query: [(
+  way["name"~"Гродненский государственный университет имени Янки Купалы"]["amenity"="university"];
+  node["name"~"Гродненский государственный университет имени Янки Купалы"]["amenity"="university"];
+  relation["name"~"Гродненский государственный университет имени Янки Купалы"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;

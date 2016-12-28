@@ -1,0 +1,16 @@
+sc_node_not_relation -> ipe_socio_economic_faculty;;
+	
+ipe_socio_economic_faculty => nrel_main_idtf:
+	[Социально-экономический факультет] (* <- lang_ru;; *);
+	[Socio-economic faculty] (* <- lang_en;; *);;
+
+ipe_socio_economic_faculty => nrel_specialties: ... (*
+	<- [Бизнес-администрирование] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Документоведение] (* <- lang_ru;; *);;
+	<- [Менеджмент] (* <- lang_ru;; *);;
+	<- [Политология] (* <- lang_ru;; *);;
+	<- [Правоведение] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;

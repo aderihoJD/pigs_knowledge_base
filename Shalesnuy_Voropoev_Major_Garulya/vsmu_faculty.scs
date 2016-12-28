@@ -1,0 +1,29 @@
+sc_node_not_relation -> vsmu_faculty_of_medical;; 
+	
+vsmu_faculty_of_medical => nrel_main_idtf:
+	[Лечебный факультет] (* <- lang_ru;; *);
+	[Medical Faculty] (* <- lang_en;; *);;
+
+vsmu_faculty_of_medical => nrel_specialties: ... (*
+	<- [Лечебное дело] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsmu_faculty_of_dentistry;; 
+	
+vsmu_faculty_of_dentistry => nrel_main_idtf:
+	[Стоматологический факультет] (* <- lang_ru;; *);
+	[Faculty of Dentistry] (* <- lang_en;; *);;
+
+vsmu_faculty_of_dentistry => nrel_specialties: ... (*
+	<- [Стоматология] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsmu_faculty_of_pharmacy;; 
+	
+vsmu_faculty_of_pharmacy => nrel_main_idtf:
+	[Фармацевтический факультет] (* <- lang_ru;; *);
+	[Faculty of Pharmacy] (* <- lang_en;; *);;
+
+vsmu_faculty_of_pharmacy => nrel_specialties: ... (*
+	<- [Фармация] (* <- lang_ru;; *);;
+*);;

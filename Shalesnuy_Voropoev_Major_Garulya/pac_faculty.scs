@@ -1,0 +1,20 @@
+sc_node_not_relation -> pac_speciality_of_public_administration_and_economics;; 
+	
+pac_speciality_of_public_administration_and_economics => nrel_main_idtf:
+	[Государственное управление и экономика] (* <- lang_ru;; *);
+	[Speciality of public administration and economics] (* <- lang_en;; *);;
+
+sc_node_not_relation -> pac_speciality_of_public_administration_and_law;; 
+	
+pac_speciality_of_public_administration_and_law => nrel_main_idtf:
+	[Государственное управление и право] (* <- lang_ru;; *);
+	[Speciality of public administration and law] (* <- lang_en;; *);;
+
+sc_node_not_relation -> pac_speciality_of_public_administration_and_law;; 
+	
+pac_speciality_of_information_resourses_and_management => nrel_main_idtf:
+	[Управление информационными ресурсами] (* <- lang_ru;; *);
+	[Speciality of information resourses and management] (* <- lang_en;; *);;
+
+
+

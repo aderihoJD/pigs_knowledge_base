@@ -1,0 +1,49 @@
+sc_node_not_relation -> bru;; 
+	
+bru => nrel_main_idtf:
+	[Белорусско-российский университет] (* <- lang_ru;; *);
+	[Belarusian-Russian University] (* <- lang_en;; *);;
+
+bru <- vuz;;
+
+bru => nrel_site:
+	[<a href="http://http://www.bru.by/">http://http://www.bru.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bru => nrel_address: [ г. Могилев, Мира, 43](*<-lang_ru;;*);;
+
+bru => nrel_faculty: ... (*
+	-> bru_automotive_department;;
+	-> bru_distance_learning_faculty_of_economics;;
+	-> bru_correspondence_department;;
+	-> bru_engineering_and_the_faculty_of_economics;;
+	-> bru_faculty_of_mechanical_engineering;;
+	-> bru_faculty_of_civil_engineering;;
+	-> bru_faculty_of_economics;;
+	-> bru_faculty_of_electrical_engineering;;
+*);;
+
+bru <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bru.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bru => nrel_osm_query: [(
+  node["name"~"Белорусско-российский университет"];
+  way["name"~"Белорусско-российский университет"];
+  relation["name"~"Белорусско-российский университет"];
+);
+out body;
+>;
+out skel qt;];;
+
+

@@ -1,0 +1,51 @@
+sc_node_not_relation -> ibteu_commercial_department;; 
+	
+ibteu_commercial_department => nrel_main_idtf:
+	[Коммерческий факультет] (* <- lang_ru;; *);
+	[Commercial Department] (* <- lang_en;; *);;
+
+ibteu_commercial_department => nrel_specialties: ... (*
+	<- [Коммерческая деятельность] (* <- lang_ru;; *);;
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Товароведение и торговое предпринимательство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ibteu_accounting_and_finance_department;; 
+	
+ibteu_accounting_and_finance_department => nrel_main_idtf:
+	[Учетно-финансовый факультет] (* <- lang_ru;; *);
+	[Accounting and Finance Department] (* <- lang_en;; *);;
+
+ibteu_accounting_and_finance_department => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит ( по направлениям)] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ibteu_faculty_of_economics_and_management;; 
+	
+ibteu_faculty_of_economics_and_management => nrel_main_idtf:
+	[Факультет экономики и управления] (* <- lang_ru;; *);
+	[Faculty of Economics and Management] (* <- lang_en;; *);;
+
+ibteu_faculty_of_economics_and_management => nrel_specialties: ... (*
+	<- [Менеджмент (социально-административный)] (* <- lang_ru;; *);;
+	<- [Мировая экономика] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+	<- [Экономика электронного бизнеса] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ibteu_faculty_training_and_retraining;; 
+	
+ibteu_faculty_training_and_retraining => nrel_main_idtf:
+	[Факультет повышения квалификации и переподготовки] (* <- lang_ru;; *);
+	[Faculty training and retraining] (* <- lang_en;; *);;
+
+ibteu_faculty_training_and_retraining => nrel_specialties: ... (*
+	<- [Управление информационными ресурсами] (* <- lang_ru;; *);;
+*);;
+
+
+
+
+

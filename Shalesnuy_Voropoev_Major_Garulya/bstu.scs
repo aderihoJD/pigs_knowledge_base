@@ -1,0 +1,46 @@
+sc_node_not_relation -> bstu;; 
+	
+bstu => nrel_main_idtf:
+	[Брестский государственный технический университет] (* <- lang_ru;; *);
+	[Brest State Technical University] (* <- lang_en;; *);;
+
+bstu <- vuz;;
+
+bstu => nrel_site:
+	[<a href="http://www.bstu.by/">http://www.bstu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bstu => nrel_address: [г. Брест, Московская, 267](*<-lang_ru;;*);;
+
+bstu => nrel_faculty: ... (*
+	->bstu_faculty_of_mechanical_engineering;;
+	->bstu_faculty_of_civil_engineering;;
+	->bstu_faculty_of_water_and_reclamation;;
+	->bstu_faculty_of_distance_learning;;
+	->bstu_faculty_of_engineering_systems_and_ecology;;
+	->bstu_faculty_of_innovation_management_and_finance;;
+	->bstu_faculty_of_electronic_information_systems;;
+	->bstu_faculty_of_economics;;
+*);;
+
+bstu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bstu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bstu => nrel_osm_query: [(
+node["name"~"Брестский государственный технический университет"];
+);
+out body;
+>;
+out skel qt;];;
+

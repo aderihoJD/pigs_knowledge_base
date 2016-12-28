@@ -1,0 +1,37 @@
+sc_node_not_relation -> bsuir;; 
+	
+bsuir => nrel_main_idtf:
+	[Белорусский государственный университет информатики и радиоэлектроники] (* <- lang_ru;; *);
+	[Belarusian State University of Informatics and Radio Electronics] (* <- lang_en;; *);;
+
+bsuir <- vuz;;
+
+bsuir => nrel_site:
+	[<a href="http://www.bsuir.by/">http://www.bsuir.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsuir => nrel_address: [г. Минск, Бровки, 6](*<-lang_ru;;*);;
+
+bsuir => nrel_faculty: ... (*
+	-> bsuir_faculty_of_computer_systems_and_networks;;
+	-> bsuir_faculty_of_information_technologies_and_control;;
+	-> bsuir_faculty_of_telecommunication;;
+	-> bsuir_faculty_of_computer_aided_design;;
+	-> bsuir_faculty_of_engineering_and_economics;;
+	-> bsuir_faculty_of_radioengineering_and_electronics;;
+	-> bsuir_military_faculty;;
+	-> bsuir_faculty_of_continuous_and_distance_training;;
+	-> bsuir_faculty_of_preuniversity_preparation_and_occupational_guidance;;
+	-> bsuir_faculty_of_extramural_training;;
+*);;
+
+bsuir => nrel_osm_query:
+ [(
+  node["name"~"^БГУИР"]["amenity"="university"];
+);
+out body;
+out skel qt;];;
+

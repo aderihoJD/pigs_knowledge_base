@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_specialties;;
+
+
+nrel_specialties => nrel_main_idtf:
+	[специальности*] (* <- lang_ru;; *);
+	[specialties*] (* <- lang_en;; *);;
+

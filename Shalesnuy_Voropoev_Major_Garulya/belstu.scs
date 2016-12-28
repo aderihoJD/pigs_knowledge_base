@@ -1,0 +1,37 @@
+sc_node_not_relation -> belstu;; 
+	
+belstu => nrel_main_idtf:
+	[Белорусский государственный технологический университет] (* <- lang_ru;; *);
+	[Belarusian State Technological University] (* <- lang_en;; *);;
+
+belstu <- vuz;;
+
+belstu => nrel_site:
+	[<a href="www.belstu.by">www.belstu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+belstu => nrel_address: [г. Минск, Свердлова, 13а](*<-lang_ru;;*);;
+
+belstu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/belstu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+belstu => nrel_osm_query: [(
+way["name"~"Белорусский государственный технологический университет"];
+);
+out body;
+>;
+out skel qt;];;
+
+
+

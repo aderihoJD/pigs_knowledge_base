@@ -1,0 +1,31 @@
+sc_node_not_relation -> academy_mia;; 
+	
+academy_mia => nrel_main_idtf:
+	[Академия Министерства внутренних дел Республики Беларусь] (* <- lang_ru;; *);
+	[Academy of the Ministry of Internal Affairs of the Republic of Belarus] (* <- lang_en;; *);;
+
+academy_mia <- vuz;;
+
+academy_mia => nrel_site:
+	[<a href=" www.academy.mia.by/"> www.academy.mia.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+academy_mia => nrel_address: [г. Минск, Машерова, 6](*<-lang_ru;;*);;
+
+academy_mia <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/academy_mia.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+
+academy_mia => nrel_osm_query: [(way["name"~"Акадэмія Міністэрства ўнутпаных спраў"];);out body;>;out skel qt;] (* <- lang_en;; *);;
+

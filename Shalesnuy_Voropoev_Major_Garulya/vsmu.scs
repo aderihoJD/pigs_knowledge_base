@@ -1,0 +1,40 @@
+sc_node_not_relation -> vsmu;; 
+	
+vsmu => nrel_main_idtf:
+	[Витебский государственный ордена Дружбы Народов медицинский университет] (* <- lang_ru;; *);
+	[Vitebsk State Order of Peoples' Friendship Medical University] (* <- lang_en;; *);;
+
+vsmu <- vuz;;
+
+vsmu => nrel_site:
+	[<a href="http://www.vsmu.by/">http://www.vsmu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+vsmu => nrel_address: [г. Витебск, Фрунзе, 27](*<-lang_ru;;*);;
+
+vsmu => nrel_faculty: ... (*
+	->vsmu_faculty_of_medical;;
+	->vsmu_faculty_of_dentistry;;
+	->vsmu_faculty_of_pharmacy;;
+*);;
+
+vsmu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/vsmu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+vsmu => nrel_osm_query: [(
+  way["name"~"Административный корп. ВГМУ"];
+);
+out body;
+>;
+out skel qt;];;

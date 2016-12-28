@@ -1,0 +1,14 @@
+sc_node_not_relation -> mtisogo_faculty_of_economics_and_law;; 
+	
+mtisogo_faculty_of_economics_and_law => nrel_main_idtf:
+	[Факультет экономики и права] (* <- lang_ru;; *);
+	[Faculty of Economics and Law] (* <- lang_en;; *);;
+
+mtisogo_faculty_of_economics_and_law => nrel_specialties: ... (*
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Правоведение (хозяйственное право)] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+

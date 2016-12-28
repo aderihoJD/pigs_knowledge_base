@@ -1,0 +1,33 @@
+sc_node_not_relation -> pime;; 
+	
+pime => nrel_main_idtf:
+	[Частный институт управления и предпринимательства] (* <- lang_ru;; *);
+	[Private Institute of Management and Entrepreneurship] (* <- lang_en;; *);;
+
+pime <- vuz;;
+
+pime => nrel_site:
+	[<a href="http://www.imb.by/">http://www.imb.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+pime => nrel_address: [г. Минск, Славинского 1, корп. 3](*<-lang_ru;;*);;
+
+pime => nrel_faculty: ... (*
+	-> pime_faculty_of_training_and_retraining;;
+	-> pime_faculty_of_economics;;
+	-> pime_faculty_of_law;;
+*);;
+
+pime <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/pime.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;

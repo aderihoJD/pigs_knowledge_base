@@ -1,0 +1,91 @@
+sc_node_not_relation -> bru_automotive_department;; 
+	
+bru_automotive_department => nrel_main_idtf:
+	[Автомеханический факультет] (* <- lang_ru;; *);
+	[Automotive Department] (* <- lang_en;; *);;
+
+bru_automotive_department => nrel_specialties: ... (*
+	<- [Автомобилестроение] (* <- lang_ru;; *);;
+	<- [Автосервис] (* <- lang_ru;; *);;
+	<- [Подъёмно-транспортные, строительные, дорожные машины и оборудование] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация автомобилей] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bru_distance_learning_faculty_of_economics;; 
+	
+bru_distance_learning_faculty_of_economics => nrel_main_idtf:
+	[Заочное отделение Экономического факультета] (* <- lang_ru;; *);
+	[Distance Learning Faculty of Economics] (* <- lang_en;; *);;
+
+bru_distance_learning_faculty_of_economics => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Транспортная логистика] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bru_correspondence_department;; 
+	
+bru_correspondence_department => nrel_main_idtf:
+	[Заочный факультет] (* <- lang_ru;; *);
+	[correspondence Department] (* <- lang_en;; *);;
+
+bru_correspondence_department => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Автоматизированные электроприводы] (* <- lang_ru;; *);;
+	<- [Автомобильные дороги] (* <- lang_ru;; *);;
+	<- [Оборудование и технология сварочного производства] (* <- lang_ru;; *);;
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация автомобилей] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bru_faculty_of_mechanical_engineering;; 
+	
+bru_faculty_of_mechanical_engineering => nrel_main_idtf:
+	[Машиностроительный факультет] (* <- lang_ru;; *);
+	[Faculty of Mechanical Engineering] (* <- lang_en;; *);;
+
+bru_faculty_of_mechanical_engineering => nrel_specialties: ... (*
+	<- [Автоматизация технологических процессов и производств] (* <- lang_ru;; *);;
+	<- [Оборудование и технология сварочного производства] (* <- lang_ru;; *);;
+	<- [Технологическое оборудование машиностроительного производства] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bru_faculty_of_economics;; 
+	
+bru_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+bru_faculty_of_economics => nrel_specialties: ... (*
+	<- [Транспортная логистика] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bru_faculty_of_civil_engineering;; 
+	
+bru_faculty_of_civil_engineering => nrel_main_idtf:
+	[Строительный факультет] (* <- lang_ru;; *);
+	[Faculty of Civil Engineering] (* <- lang_en;; *);;
+
+bru_faculty_of_civil_engineering => nrel_specialties: ... (*
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+	<- [Автомобильные дороги] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bru_faculty_of_electrical_engineering;; 
+	
+bru_faculty_of_electrical_engineering => nrel_main_idtf:
+	[Электротехнический факультет] (* <- lang_ru;; *);
+	[Faculty of electrical Engineering] (* <- lang_en;; *);;
+
+bru_faculty_of_electrical_engineering => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Автоматизированные электроприводы] (* <- lang_ru;; *);;
+	<- [Методы и приборы контроля качества и диагностики состояния объектов] (* <- lang_ru;; *);;
+*);;

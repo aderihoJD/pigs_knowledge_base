@@ -1,0 +1,44 @@
+sc_node_not_relation -> kiigov;; 
+	
+kiigov => nrel_main_idtf:
+	[Университет гражданской защиты МЧС Республики Беларусь Гомельский филиал] (* <- lang_ru;; *);
+	[EMERCOM Civil Protection University of the Republic of Belarus Gomel branch] (* <- lang_en;; *);;
+
+kiigov <- vuz;;
+
+kiigov => nrel_site:
+	[<a href="http://http://www.kii.gov.by/">http://http://www.kii.gov.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+kiigov => nrel_address: [г. Гомель, пр-т Речицкий, 35 а](*<-lang_ru;;*);;
+
+kiigov => nrel_faculty: ... (*
+	-> kiigov_faculty_of_engineering;;
+	-> kiigov_faculty_of_distance_learning;;
+	-> kiigov_faculty_of_retraining_and_advanced_training;;
+*);;
+
+kiigov <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/kiigov.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+kiigov => nrel_osm_query: [(
+  node["name"~"Гомельский филиал университета гражданской защиты МЧС"];
+  way["name"~"Гомельский филиал университета гражданской защиты МЧС"];
+  relation["name"~"Гомельский филиал университета гражданской защиты МЧС"];
+);
+out body;
+>;
+out skel qt;];;
+
+

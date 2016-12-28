@@ -1,0 +1,46 @@
+sc_node_not_relation -> belsut;; 
+	
+belsut => nrel_main_idtf:
+	[Белорусский государственный университет транспорта] (* <- lang_ru;; *);
+	[Belarusian State University of Transport] (* <- lang_en;; *);;
+
+belsut <- vuz;;
+
+belsut => nrel_site:
+	[<a href="http://http://www.belsut.gomel.by/">http://http://www.belsut.gomel.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+belsut => nrel_address: [г. Гомель, Кирова, 34](*<-lang_ru;;*);;
+
+belsut => nrel_faculty: ... (*
+	-> belsut_military_transport_faculty;;
+	-> belsut_humanities_and_the_faculty_of_economics;;
+	-> belsut_correspondence_department;;
+	-> belsut_department_of_mechanical;;
+	-> belsut_faculty_of_civil_engineering;;
+	-> belsut_faculty_of_industrial_and_civil_engineering;;
+	-> belsut_faculty_traffic_management;;
+	-> belsut_faculty_of_electrical_engineering;;
+*);;
+
+belsut <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/belsut.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+ 
+belsut => nrel_osm_query: [(
+  way["name"~"Белорусский государственный университет транспорта"]["building"="university"];
+  relation["name"~"Белорусский государственный университет транспорта"]["building"="university"];
+);
+out body;
+>;
+out skel qt;];;

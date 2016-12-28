@@ -1,0 +1,45 @@
+sc_node_not_relation -> mslu;; 
+	
+mslu => nrel_main_idtf:
+	[Минский государственный лингвистический университет] (* <- lang_ru;; *);
+	[Minsk State Linguistic University] (* <- lang_en;; *);;
+
+mslu <- vuz;;
+
+mslu => nrel_site:
+	[<a href="http://www.mslu.by/">http://www.mslu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mslu => nrel_address: [г. Минск, Захарова, 21](*<-lang_ru;;*);;
+
+mslu => nrel_faculty: ... (*
+	-> mslu_faculty_of_translation;;
+	-> mslu_faculty_of_english_language;;
+	-> mslu_faculty_of_spanish_language;;
+	-> mslu_faculty_of_intercultural_communication;;
+	-> mslu_faculty_of_german_language;;
+	-> mslu_faculty_of_french_language;;
+*);;
+
+mslu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mslu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+mslu => nrel_osm_query: [(
+  node["name"~"МГЛУ"]["amenity"~"university"];
+);
+out body;
+>;
+out skel qt;];;
+
+

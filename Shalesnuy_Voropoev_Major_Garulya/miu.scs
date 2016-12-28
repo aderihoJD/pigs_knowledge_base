@@ -1,0 +1,40 @@
+sc_node_not_relation -> miu;; 
+	
+miu => nrel_main_idtf:
+	[Минский инновационный университет] (* <- lang_ru;; *);
+	[Minsk Innovation University] (* <- lang_en;; *);;
+
+miu <- vuz;;
+
+miu => nrel_site:
+	[<a href="http://www.miu.by/">http://www.miu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+miu => nrel_address: [г. Минск, Лазо, 12](*<-lang_ru;;*);;
+
+miu => nrel_faculty: ... (*
+	-> miu_faculty_of_economics;;
+	-> miu_faculty_of_communications_and_law;;
+*);;
+
+miu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/miu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+miu => nrel_osm_query: [(
+  relation["name"~"Минский инновационный университет"];
+  way["name"~"Минский инновационный университет"];
+);
+out body;
+>;
+out skel qt;];;

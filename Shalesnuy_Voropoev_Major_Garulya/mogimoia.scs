@@ -1,0 +1,40 @@
+sc_node_not_relation -> mogimoia;; 
+	
+mogimoia => nrel_main_idtf:
+	[Могилевский институт Министерства внутренних дел Республики Беларусь] (* <- lang_ru;; *);
+	[Mogilev Institute of the Ministry of Internal Affairs of the Republic of Belarus] (* <- lang_en;; *);;
+
+mogimoia <- vuz;;
+
+mogimoia => nrel_site:
+	[<a href="http://http://www.institutemvd.by/">http://http://www.institutemvd.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mogimoia => nrel_address: [ г. Могилев, Крупской, 67](*<-lang_ru;;*);;
+
+mogimoia => nrel_faculty: ... (*
+	-> mogimoia_police_department;;
+	-> mogimoia_faculty_of_distance_learning;;
+*);;
+
+mogimoia <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mogimoia.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+mogimoia => nrel_osm_query: [(
+  way["name"~"Институт МВД"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+

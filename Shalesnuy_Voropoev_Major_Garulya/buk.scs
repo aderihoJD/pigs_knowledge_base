@@ -1,0 +1,35 @@
+sc_node_not_relation -> buk;; 
+	
+buk => nrel_main_idtf:
+	[Белорусский государственный университет культуры и искусств] (* <- lang_ru;; *);
+	[Belarusian State University of Culture and Arts] (* <- lang_en;; *);;
+
+buk <- vuz;;
+
+buk => nrel_site:
+	[<a href="www.buk.by">www.buk.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+buk => nrel_address: [г. Минск, Рабкоровская, 17](*<-lang_ru;;*);;
+
+buk <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/buk.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+buk => nrel_osm_query: [(
+way["name"~"Белорусский государственный университет культуры и искусств"];
+);
+out body;
+>;
+out skel qt;];;
+

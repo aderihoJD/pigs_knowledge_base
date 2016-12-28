@@ -1,0 +1,119 @@
+sc_node_not_relation -> brsu_faculty_of_biology;; 
+	
+brsu_faculty_of_biology => nrel_main_idtf:
+	[Биологический факультет] (* <- lang_ru;; *);
+	[Faculty of Biology] (* <- lang_en;; *);;
+
+brsu_faculty_of_biology => nrel_specialties: ... (*
+	<- [Биология (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Биология и химия] (* <- lang_ru;; *);;
+	<- [Биоэкология] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_geography;; 
+	
+brsu_faculty_of_geography => nrel_main_idtf:
+	[Факультет географии] (* <- lang_ru;; *);
+	[Faculty of Geography] (* <- lang_en;; *);;
+
+brsu_faculty_of_geography => nrel_specialties: ... (*
+	<- [География (научно-педагогическая деятельность) со специализацией "Рациональное природопользование и охрана природы"] (* <- lang_ru;; *);;
+	<- [Туризм и гостеприимство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_history;; 
+	
+brsu_faculty_of_history => nrel_main_idtf:
+	[Исторический факультет] (* <- lang_ru;; *);
+	[Faculty of History] (* <- lang_en;; *);;
+
+brsu_faculty_of_history => nrel_specialties: ... (*
+	<- [История (археология)] (* <- lang_ru;; *);;
+	<- [История (политология)] (* <- lang_ru;; *);;
+	<- [История (религий)] (* <- lang_ru;; *);;
+	<- [История и обществоведческие дисциплины] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_psycho_pedagogical;; 
+	
+brsu_faculty_of_psycho_pedagogical => nrel_main_idtf:
+	[Психолого-педагогический факультет] (* <- lang_ru;; *);
+	[Psycho-pedagogical faculty] (* <- lang_en;; *);;
+
+brsu_faculty_of_psycho_pedagogical => nrel_specialties: ... (*
+	<- [Начальное образование] (* <- lang_ru;; *);;
+	<- [Психология] (* <- lang_ru;; *);;
+	<- [Социальная педагогика] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_socio_pedagogical;; 
+	
+brsu_faculty_of_socio_pedagogical => nrel_main_idtf:
+	[Социально-педагогический факультет] (* <- lang_ru;; *);
+	[Socio-pedagogical faculty] (* <- lang_en;; *);;
+
+brsu_faculty_of_socio_pedagogical => nrel_specialties: ... (*
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Логопедия] (* <- lang_ru;; *);;
+	<- [Практическая психология] (* <- lang_ru;; *);;
+	<- [Социальная работа (социально-педагогическая деятельность)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_foreign_languages;; 
+	
+brsu_faculty_of_foreign_languages => nrel_main_idtf:
+	[Факультет иностранных языков] (* <- lang_ru;; *);
+	[Faculty of Foreign Languages] (* <- lang_en;; *);;
+
+brsu_faculty_of_foreign_languages => nrel_specialties: ... (*
+	<- [Иностранные языки (английский, немецкий)] (* <- lang_ru;; *);;
+	<- [Современные иностранные (английский, немецкий) языки (преподавание) со специализацией "Компьютерная лингвистика"] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_physical_education;; 
+	
+brsu_faculty_of_physical_education => nrel_main_idtf:
+	[Факультет физического воспитания] (* <- lang_ru;; *);
+	[Faculty of Physical Education] (* <- lang_en;; *);;
+
+brsu_faculty_of_physical_education => nrel_specialties: ... (*
+	<- [Физическая культура (по специализациям)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_physics_and_mathematics;; 
+	
+brsu_faculty_of_physics_and_mathematics => nrel_main_idtf:
+	[Физико-математический факультет] (* <- lang_ru;; *);
+	[Faculty of Physics and Mathematics] (* <- lang_en;; *);;
+
+brsu_faculty_of_physics_and_mathematics => nrel_specialties: ... (*
+	<- [Компьютерная физика (Теоретическая физика, Компьютерное моделирование физических процессов)] (* <- lang_ru;; *);;
+	<- [Математика и информатика] (* <- lang_ru;; *);;
+	<- [Прикладная математика (научно-производственная деятельность)] (* <- lang_ru;; *);;
+	<- [Физика и информатика] (* <- lang_ru;; *);;
+	<- [Экономическая кибернетика (математические методы и компьютерное моделирование в экономике)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_philology;; 
+	
+brsu_faculty_of_philology => nrel_main_idtf:
+	[Филологический факультет] (* <- lang_ru;; *);
+	[Faculty of Philology] (* <- lang_en;; *);;
+
+brsu_faculty_of_philology => nrel_specialties: ... (*
+	<- [Белорусская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Журналистика (печатные СМИ)] (* <- lang_ru;; *);;
+	<- [Русская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Русский язык и литература. Иностранный язык (английский)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> brsu_faculty_of_law;; 
+	
+brsu_faculty_of_law => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Faculty of law] (* <- lang_en;; *);;
+
+brsu_faculty_of_law => nrel_specialties: ... (*
+	<- [Бизнес-администрирование (по специализациям)] (* <- lang_ru;; *);;
+	<- [Правоведение (по специализациям)] (* <- lang_ru;; *);;
+*);;

@@ -1,0 +1,23 @@
+sc_node_not_relation -> mogimoia_police_department;; 
+	
+mogimoia_police_department => nrel_main_idtf:
+	[Факультет милиции] (* <- lang_ru;; *);
+	[police Department] (* <- lang_en;; *);;
+
+mogimoia_police_department => nrel_specialties: ... (*
+	<- [Правовое обеспечение общественной безопасности] (* <- lang_ru;; *);;
+	<- [Правовое обеспечение оперативно-розыскной деятельности] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> mogimoia_faculty_of_distance_learning;; 
+	
+mogimoia_faculty_of_distance_learning => nrel_main_idtf:
+	[Факультет заочного обучения] (* <- lang_ru;; *);
+	[Faculty of distance learning] (* <- lang_en;; *);;
+
+mogimoia_faculty_of_distance_learning => nrel_specialties: ... (*
+	<- [Правоведение. Административно-правовая деятельность] (* <- lang_ru;; *);;
+	<- [Правоведение.Оперативно-розыскная деятельность] (* <- lang_ru;; *);;
+	<- [Правовое обеспечение общественной безопасности] (* <- lang_ru;; *);;
+	<- [Правовое обеспечение оперативно-розыскной деятельности] (* <- lang_ru;; *);;
+*);;

@@ -1,0 +1,44 @@
+sc_node_not_relation -> psu;; 
+	
+psu => nrel_main_idtf:
+	[Полесский государственный университет] (* <- lang_ru;; *);
+	[Poleski State University] (* <- lang_en;; *);;
+
+psu <- vuz;;
+
+psu => nrel_site:
+	[<a href="http://www.polessu.by/">http://www.polessu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+psu => nrel_address: [г. Пинск, Днепровской флотилии, 23](*<-lang_ru;;*);;
+
+psu => nrel_faculty: ... (*
+	->psu_faculty_of_biotechnology;;
+	->psu_faculty_of_banking;;
+	->psu_faculty_of_organization_of_healthy_lifestyle;;
+	->psu_faculty_of_economics;;
+	->psu_faculty_of_retraining_and_advanced_training;;
+*);;
+
+psu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/psu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+psu => nrel_osm_query: [(
+  way["name"~"Полесский государственный университет"];
+  relation["name"~"Полесский государственный университет"];
+);
+out body;
+>;
+out skel qt;];;
+

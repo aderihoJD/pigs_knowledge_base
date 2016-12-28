@@ -1,0 +1,45 @@
+sc_node_not_relation -> gstu;; 
+	
+gstu => nrel_main_idtf:
+	[Гомельский государственный технический университет им. П.О. Сухого] (* <- lang_ru;; *);
+	[Gomel State Technical University Sukhogo] (* <- lang_en;; *);;
+
+gstu <- vuz;;
+
+gstu => nrel_site:
+	[<a href="http://http://www.gstu.by/">http://http://www.gstu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+gstu => nrel_address: [г. Гомель, Октября, 48](*<-lang_ru;;*);;
+
+gstu => nrel_faculty: ... (*
+	-> gstu_humanities_and_the_faculty_of_economics;;
+	-> gstu_correspondence_department;;
+	-> gstu_faculty_of_mechanical_engineering;;
+	-> gstu_mechanical_engineering_department;;
+	-> gstu_department_of_automation_and_information_systems;;
+	-> gstu_energy_department;;
+*);;
+
+gstu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/gstu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+gstu => nrel_osm_query: [(
+  node["name"~"ГГТУ имени П.О. Сухого"];
+  way["name"~"ГГТУ имени П.О. Сухого"];
+  relation["name"~"ГГТУ имени П.О. Сухого"];
+);
+out body;
+>;
+out skel qt;];;

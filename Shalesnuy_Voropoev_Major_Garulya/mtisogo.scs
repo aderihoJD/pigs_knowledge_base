@@ -1,0 +1,40 @@
+sc_node_not_relation -> mtisogo;; 
+	
+mtisogo => nrel_main_idtf:
+	[ФПБ «Международный университет «МИТСО». Гомельский филиал] (* <- lang_ru;; *);
+	[FPB "International University" IILSR ". Gomel branch] (* <- lang_en;; *);;
+
+mtisogo <- vuz;;
+
+mtisogo => nrel_site:
+	[<a href="http://http://www.gomel.mitso.by/">http://http://www.gomel.mitso.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mtisogo => nrel_address: [г. Гомель, Октября, 46-а](*<-lang_ru;;*);;
+
+mtisogo => nrel_faculty: ... (*
+	-> mtisogo_faculty_of_economics_and_law;;
+*);;
+
+mtisogo <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mtisogo.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+mtisogo => nrel_osm_query: [(
+  way["name"~"МИТСО"];
+  node["name"~"МИТСО"];
+  relation["name"~"МИТСО"];
+);
+out body;
+>;
+out skel qt;];;

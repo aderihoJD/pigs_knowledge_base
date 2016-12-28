@@ -1,0 +1,36 @@
+sc_node_not_relation -> bdam;; 
+	
+bdam => nrel_main_idtf:
+	[Белорусская государственная академия искусств] (* <- lang_ru;; *);
+	[Belarusian State Academy of Arts] (* <- lang_en;; *);;
+
+bdam <- vuz;;
+
+bdam => nrel_site:
+	[<a href="www.bdam.by">www.bdam.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bdam => nrel_address: [г. Минск, пр. Независимости, 82](*<-lang_ru;;*);;
+
+bdam <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bdam.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+
+bdam => nrel_osm_query: [(
+way["name"~"Белорусская государственная академия искусств"];
+);
+out body;
+>;
+out skel qt;];;
+

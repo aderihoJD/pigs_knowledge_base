@@ -1,0 +1,56 @@
+sc_node_not_relation -> baa;; 
+	
+baa => nrel_main_idtf:
+	[Белорусская государственная орденов Октябрьской Революции и Трудового Красного Знамени сельскохозяйственная академия] (* <- lang_ru;; *);
+	[Belarusian State Order of the October Revolution and Red Banner of Labor Agricultural Academy] (* <- lang_en;; *);;
+
+baa <- vuz;;
+
+baa => nrel_site:
+	[<a href="http://www.baa.by/">http://www.baa.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+baa => nrel_address: [ г. Горки, Мичурина, 5](*<-lang_ru;;*);;
+
+baa => nrel_faculty: ... (*
+	-> baa_faculty_of_biotechnology_and_aquaculture;;
+	-> baa_faculty_of_agronomy;;
+	-> baa_agroecological_faculty;;
+	-> baa_accounting_faculty_correspondence_department;;
+	-> baa_higher_school_of_agribusiness_second_degree;;
+	-> baa_land_management_department;;
+	-> baa_zooengineering_faculty;;
+	-> baa_faculty_of_engineering_of_the_correspondence_department;;
+	-> baa_reclamation_and_construction_department;;
+	-> baa_pinsk_branch;;
+	-> baa_poleski_branch;;
+	-> baa_faculty_of_business_and_law;;
+	-> baa_department_of_accounting;;
+	-> baa_faculty_of_agricultural_mechanization;;
+	-> baa_faculty_of_economics_and_law_of_the_correspondence_department;;
+	-> baa_faculty_of_economics;;
+	-> baa_agro_faculty_correspondence_department;;
+*);;
+
+baa <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/baa.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+baa => nrel_osm_query: [(
+  way["name"~"БГСХА"];
+  node["name"~"БГСХА"];
+  relation["name"~"БГСХА"];
+);
+out body;
+>;
+out skel qt;];;

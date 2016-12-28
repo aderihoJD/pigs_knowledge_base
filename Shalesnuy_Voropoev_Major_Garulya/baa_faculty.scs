@@ -1,0 +1,201 @@
+sc_node_not_relation -> baa_faculty_of_biotechnology_and_aquaculture;; 
+	
+baa_faculty_of_biotechnology_and_aquaculture => nrel_main_idtf:
+	[Факультет биотехнологии и аквакультуры] (* <- lang_ru;; *);
+	[Faculty of Biotechnology and Aquaculture] (* <- lang_en;; *);;
+
+baa_faculty_of_biotechnology_and_aquaculture => nrel_specialties: ... (*
+	<- [Агрономия (сокращенный срок получения образования)] (* <- lang_ru;; *);;
+	<- [Зоотехния] (* <- lang_ru;; *);;
+	<- [Птицеводство] (* <- lang_ru;; *);;
+	<- [Промышленное рыбоводство] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> baa_faculty_of_agronomy;; 
+	
+baa_faculty_of_agronomy => nrel_main_idtf:
+	[Агрономический факультет] (* <- lang_ru;; *);
+	[Faculty of Agronomy] (* <- lang_en;; *);;
+
+baa_faculty_of_agronomy => nrel_specialties: ... (*
+	<- [Агрономия] (* <- lang_ru;; *);;
+	<- [Селекция и семеноводство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_agroecological_faculty;; 
+	
+baa_agroecological_faculty => nrel_main_idtf:
+	[Агроэкологический факультет] (* <- lang_ru;; *);
+	[Agroecological Faculty] (* <- lang_en;; *);;
+
+baa_agroecological_faculty => nrel_specialties: ... (*
+	<- [Агрохимия и почвоведение] (* <- lang_ru;; *);;
+	<- [Защита растений и карантин] (* <- lang_ru;; *);;
+	<- [Плодоовощеводство] (* <- lang_ru;; *);;
+	<- [Экология сельского хозяйства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_accounting_faculty_correspondence_department;; 
+	
+baa_accounting_faculty_correspondence_department => nrel_main_idtf:
+	[Бухгалтерский факультет заочного отделения] (* <- lang_ru;; *);
+	[Accounting Faculty correspondence department] (* <- lang_en;; *);;
+
+baa_accounting_faculty_correspondence_department => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Финансы в агропромышленном комплексе] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_higher_school_of_agribusiness_second_degree;; 
+	
+baa_higher_school_of_agribusiness_second_degree => nrel_main_idtf:
+	[Высшая школа агробизнеса (второе высшее образование)] (* <- lang_ru;; *);
+	[Higher School of Agribusiness (second degree)] (* <- lang_en;; *);;
+
+baa_higher_school_of_agribusiness_second_degree => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Коммерческая деятельность] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства в отраслях АПК] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> baa_land_management_department;; 
+	
+baa_land_management_department => nrel_main_idtf:
+	[Землеустроительный факультет] (* <- lang_ru;; *);
+	[Land Management Department] (* <- lang_en;; *);;
+
+baa_land_management_department => nrel_specialties: ... (*
+	<- [Геодезическое обеспечение кадастра и землеустройства] (* <- lang_ru;; *);;
+	<- [Земельный кадастр] (* <- lang_ru;; *);;
+	<- [Землеустройство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_zooengineering_faculty;; 
+	
+baa_zooengineering_faculty => nrel_main_idtf:
+	[Зооинженерный факультет] (* <- lang_ru;; *);
+	[Zooengineering Faculty] (* <- lang_en;; *);;
+
+baa_zooengineering_faculty => nrel_specialties: ... (*
+	<- [Зоотехния] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_faculty_of_engineering_of_the_correspondence_department;; 
+	
+baa_faculty_of_engineering_of_the_correspondence_department => nrel_main_idtf:
+	[Инженерный факультет заочного отделения] (* <- lang_ru;; *);
+	[Faculty of Engineering of the correspondence department] (* <- lang_en;; *);;
+
+baa_faculty_of_engineering_of_the_correspondence_department => nrel_specialties: ... (*
+	<- [Землеустройство] (* <- lang_ru;; *);;
+	<- [Мелиорация и водное хозяйство] (* <- lang_ru;; *);;
+	<- [Сельское строительство и обустройство территорий] (* <- lang_ru;; *);;
+	<- [Техническое обеспечение процессов сельскохозяйственного производства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_reclamation_and_construction_department;; 
+	
+baa_reclamation_and_construction_department => nrel_main_idtf:
+	[Мелиоративно-строительный факультет] (* <- lang_ru;; *);
+	[Reclamation and Construction Department] (* <- lang_en;; *);;
+
+baa_reclamation_and_construction_department => nrel_specialties: ... (*
+	<- [Мелиорация и водное хозяйство] (* <- lang_ru;; *);;
+	<- [Сельское строительство и обустройство территории] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_pinsk_branch;; 
+	
+baa_pinsk_branch => nrel_main_idtf:
+	[Пинский филиал] (* <- lang_ru;; *);
+	[Pinsk branch] (* <- lang_en;; *);;
+
+baa_pinsk_branch => nrel_specialties: ... (*
+	<- [Техническое обеспечение процессов сельскохозяйственного производства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_poleski_branch;; 
+	
+baa_poleski_branch => nrel_main_idtf:
+	[Полесский филиал] (* <- lang_ru;; *);
+	[Poleski branch] (* <- lang_en;; *);;
+
+baa_poleski_branch => nrel_specialties: ... (*
+	<- [Агрономия] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит в агропромышленном комплексе] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_faculty_of_business_and_law;; 
+	
+baa_faculty_of_business_and_law => nrel_main_idtf:
+	[Факультет бизнеса и права] (* <- lang_ru;; *);
+	[Faculty of Business and Law] (* <- lang_en;; *);;
+
+baa_faculty_of_business_and_law => nrel_specialties: ... (*
+	<- [Коммерческая деятельность в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Маркетинг в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Правовое обеспечение бизнеса] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_department_of_accounting;; 
+	
+baa_department_of_accounting => nrel_main_idtf:
+	[Факультет бухгалтерского учета] (* <- lang_ru;; *);
+	[Department of Accounting] (* <- lang_en;; *);;
+
+baa_department_of_accounting => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Финансы в агропромышленном комплексе] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_faculty_of_agricultural_mechanization;; 
+	
+baa_faculty_of_agricultural_mechanization => nrel_main_idtf:
+	[Факультет механизации сельского хозяйства] (* <- lang_ru;; *);
+	[Faculty of Agricultural Mechanization] (* <- lang_en;; *);;
+
+baa_faculty_of_agricultural_mechanization => nrel_specialties: ... (*
+	<- [Техническое обеспечение мелиоративных и водохозяйственных работ] (* <- lang_ru;; *);;
+	<- [Техническое обеспечение процессов сельскохозяйственного производства] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_faculty_of_economics_and_law_of_the_correspondence_department;; 
+	
+baa_faculty_of_economics_and_law_of_the_correspondence_department => nrel_main_idtf:
+	[Факультет экономики и права заочного отделения] (* <- lang_ru;; *);
+	[Faculty of Economics and Law of the correspondence department] (* <- lang_en;; *);;
+
+baa_faculty_of_economics_and_law_of_the_correspondence_department => nrel_specialties: ... (*
+	<- [Коммерческая деятельность в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Маркетинг в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Правовое обеспечение бизнеса] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства в отраслях АПК] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_faculty_of_economics;; 
+	
+baa_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+baa_faculty_of_economics => nrel_specialties: ... (*
+	<- [Управление внешнеэкономической деятельностью] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства в отраслях АПК] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> baa_agro_faculty_correspondence_department;; 
+	
+baa_agro_faculty_correspondence_department => nrel_main_idtf:
+	[Агробиологический факультет заочного отделения] (* <- lang_ru;; *);
+	[Agro Faculty correspondence department] (* <- lang_en;; *);;
+
+baa_agro_faculty_correspondence_department => nrel_specialties: ... (*
+	<- [Агрономия] (* <- lang_ru;; *);;
+	<- [Зоотехния] (* <- lang_ru;; *);;
+	<- [Промышленное рыбоводство] (* <- lang_ru;; *);;
+	<- [Экология сельского хозяйства] (* <- lang_ru;; *);;
+*);;
+
+

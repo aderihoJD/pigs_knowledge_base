@@ -1,0 +1,34 @@
+c_node_not_relation -> pime_faculty_of_training_and_retraining;;
+	
+pime_faculty_of_training_and_retraining => nrel_main_idtf:
+	[Факультет повышения квалификации и переподготовки] (* <- lang_ru;; *);
+	[Faculty of training and retraining] (* <- lang_en;; *);;
+
+pime_faculty_of_training_and_retraining => nrel_specialties: ... (*
+	<- [Переподготовка и повышение квалификации] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> pime_faculty_of_economics;; 
+	
+pime_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+pime_faculty_of_economics => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Менеджмент (информационный)] (* <- lang_ru;; *);;
+	<- [Менеджмент (социально-административный)] (* <- lang_ru;; *);;
+	<- [Мировая экономика] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> pime_faculty_of_law;; 
+	
+pime_faculty_of_law => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Faculty of Law] (* <- lang_en;; *);;
+
+pime_faculty_of_law => nrel_specialties: ... (*
+	<- [Правоведение] (* <- lang_ru;; *);;
+*);;

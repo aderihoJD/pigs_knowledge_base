@@ -1,0 +1,94 @@
+sc_node_not_relation -> gstu_humanities_and_the_faculty_of_economics;; 
+	
+gstu_humanities_and_the_faculty_of_economics => nrel_main_idtf:
+	[Гуманитарно-экономический факультет] (* <- lang_ru;; *);
+	[Humanities and the Faculty of Economics] (* <- lang_en;; *);;
+
+gstu_humanities_and_the_faculty_of_economics => nrel_specialties: ... (*
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства (по направлениям)] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gstu_correspondence_department;; 
+	
+gstu_correspondence_department => nrel_main_idtf:
+	[Заочный факультет] (* <- lang_ru;; *);
+	[correspondence Department] (* <- lang_en;; *);;
+
+gstu_correspondence_department => nrel_specialties: ... (*
+	<- [Автоматизированные электроприводы] (* <- lang_ru;; *);;
+	<- [Гидропневмосистемы мобильных и технологических машин] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (по направлениям)] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Машины и технология обработки материалов давлением] (* <- lang_ru;; *);;
+	<- [Металлургическое производство и материалообработка] (* <- lang_ru;; *);;
+	<- [Металлургическое производство и материалообработка (материалообработка)] (* <- lang_ru;; *);;
+	<- [Проектирование и производство сельскохозяйственной техники] (* <- lang_ru;; *);;
+	<- [Промышленная теплоэнергетика] (* <- lang_ru;; *);;
+	<- [Промышленная электроника] (* <- lang_ru;; *);;
+	<- [Разработка и эксплуатация нефтяных и газовых месторождений] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация энергооборудования организаций] (* <- lang_ru;; *);;
+	<- [Технологическое оборудование машиностроительного производства] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства (по направлениям)] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+	<- [Электроснабжение (по отраслям)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gstu_faculty_of_mechanical_engineering;; 
+	
+gstu_faculty_of_mechanical_engineering => nrel_main_idtf:
+	[Машиностроительный факультет] (* <- lang_ru;; *);
+	[Faculty of Mechanical Engineering] (* <- lang_en;; *);;
+
+gstu_faculty_of_mechanical_engineering => nrel_specialties: ... (*
+	<- [Автоматизация технологических процессов и производств (по направлениям)] (* <- lang_ru;; *);;
+	<- [Гидропневмосистемы мобильных и технологических машин] (* <- lang_ru;; *);;
+	<- [Разработка и эксплуатация нефтяных и газовых месторождений] (* <- lang_ru;; *);;
+	<- [Технологическое оборудование машиностроительного производства] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;	
+*);;
+
+sc_node_not_relation -> gstu_mechanical_engineering_department;; 
+	
+gstu_mechanical_engineering_department => nrel_main_idtf:
+	[Механико-технологический факультет] (* <- lang_ru;; *);
+	[Mechanical Engineering Department] (* <- lang_en;; *);;
+
+gstu_mechanical_engineering_department => nrel_specialties: ... (*
+	<- [Машины и технология обработки материалов давлением] (* <- lang_ru;; *);;
+	<- [Машины и технология литейного производства] (* <- lang_ru;; *);;
+	<- [Металлургическое производство и материалообработка (по направлениям)] (* <- lang_ru;; *);;
+	<- [Проектирование и производство сельскохозяйственной техники] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gstu_department_of_automation_and_information_systems;; 
+	
+gstu_department_of_automation_and_information_systems => nrel_main_idtf:
+	[Факультет автоматизированных и информационных систем] (* <- lang_ru;; *);
+	[Department of automation and information systems] (* <- lang_en;; *);;
+
+gstu_department_of_automation_and_information_systems => nrel_specialties: ... (*
+	<- [Автоматизированные электроприводы] (* <- lang_ru;; *);;
+	<- [Информатика и технологии программирования] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (по направлениям)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (по направлениям)] (* <- lang_ru;; *);;
+	<- [Промышленная электроника] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gstu_energy_department;; 
+	
+gstu_energy_department => nrel_main_idtf:
+	[Энергетический факультет] (* <- lang_ru;; *);
+	[Energy Department] (* <- lang_en;; *);;
+
+gstu_energy_department => nrel_specialties: ... (*
+	<- [Промышленная теплоэнергетика] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация энергооборудования организаций] (* <- lang_ru;; *);;
+	<- [Электроснабжение (по отраслям)] (* <- lang_ru;; *);;
+	<- [Электроэнергетические системы и сети] (* <- lang_ru;; *);;
+*);;
+
+
+

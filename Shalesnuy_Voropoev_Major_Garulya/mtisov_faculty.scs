@@ -1,0 +1,13 @@
+sc_node_not_relation -> mtisov_faculty_of_economics_and_law;; 
+	
+mtisov_faculty_of_economics_and_law => nrel_main_idtf:
+	[Факультет экономики и права] (* <- lang_ru;; *);
+	[Faculty of Economics and Law] (* <- lang_en;; *);;
+
+mtisov_faculty_of_economics_and_law => nrel_specialties: ... (*
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Менеджмент (Управление персоналом, Производственный менеджмент)] (* <- lang_ru;; *);;
+	<- [Менеджмент (Управление персоналом)] (* <- lang_ru;; *);;
+	<- [Правоведение (Хозяйственное право; Адвокатура и нотариат; Правовое обеспечение трудовых отношений)] (* <- lang_ru;; *);;
+*);;
+

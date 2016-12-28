@@ -1,0 +1,49 @@
+sc_node_not_relation -> brsu;; 
+	
+brsu => nrel_main_idtf:
+	[Брестский государственный университет им. А.С. Пушкина] (* <- lang_ru;; *);
+	[Brest State University] (* <- lang_en;; *);;
+
+brsu <- vuz;;
+
+brsu => nrel_site:
+	[<a href="http://www.brsu.by/">http://www.brsu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+brsu => nrel_address: [г. Брест, бульвар Космонавтов, 21](*<-lang_ru;;*);;
+
+brsu => nrel_faculty: ... (*
+	->brsu_faculty_of_biology;;
+	->brsu_faculty_of_geography;;
+	->brsu_faculty_of_history;;
+	->brsu_faculty_of_psycho_pedagogical;;
+	->brsu_faculty_of_socio_pedagogical;;
+	->brsu_faculty_of_foreign_languages;;
+	->brsu_faculty_of_physical_education;;
+	->brsu_faculty_of_physics_and_mathematics;;
+	->brsu_faculty_of_philology;;
+	->brsu_faculty_of_law;;
+*);;
+
+brsu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/brsu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+brsu => nrel_osm_query: [(
+way["name"~"Брестский государственный университет им. А.С. Пушкина"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+

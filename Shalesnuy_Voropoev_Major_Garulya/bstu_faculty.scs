@@ -1,0 +1,121 @@
+sc_node_not_relation -> bstu_faculty_of_mechanical_engineering;; 
+	
+bstu_faculty_of_mechanical_engineering => nrel_main_idtf:
+	[Машиностроительный факультет] (* <- lang_ru;; *);
+	[Faculty of Mechanical Engineering] (* <- lang_en;; *);;
+
+bstu_faculty_of_mechanical_engineering => nrel_specialties: ... (*
+	<- [Автоматизация технологических процессов и производств] (* <- lang_ru;; *);;
+	<- [Автосервис] (* <- lang_ru;; *);;
+	<- [Машины и аппараты пищевых производств] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация автомобилей] (* <- lang_ru;; *);;
+	<- [Технологическое оборудование машиностроительного производства] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_civil_engineering;; 
+	
+bstu_faculty_of_civil_engineering => nrel_main_idtf:
+	[Строительный факультет] (* <- lang_ru;; *);
+	[Faculty of Civil Engineering] (* <- lang_en;; *);;
+
+bstu_faculty_of_civil_engineering => nrel_specialties: ... (*
+	<- [Автомобильные дороги] (* <- lang_ru;; *);;
+	<- [Архитектура] (* <- lang_ru;; *);;
+	<- [Производство строительных изделий и конструкций] (* <- lang_ru;; *);;
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+	<- [Сельское строительство и обустройство территорий] (* <- lang_ru;; *);;
+	<- [Экспертиза и управление недвижимостью] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_water_and_reclamation;; 
+	
+bstu_faculty_of_water_and_reclamation => nrel_main_idtf:
+	[Факультет водоснабжения и гидромелиорации] (* <- lang_ru;; *);
+	[Faculty of Water and reclamation] (* <- lang_en;; *);;
+
+bstu_faculty_of_water_and_reclamation => nrel_specialties: ... (*
+	<- [Водоснабжение и гидромелиорация] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_distance_learning;; 
+	
+bstu_faculty_of_distance_learning => nrel_main_idtf:
+	[Факультет заочного обучения] (* <- lang_ru;; *);
+	[Faculty of distance learning] (* <- lang_en;; *);;
+
+bstu_faculty_of_distance_learning => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Автосервис] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+	<- [Теплогазоснабжение, вентиляция и охрана воздушного бассейна] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_engineering_systems_and_ecology;; 
+	
+bstu_faculty_of_engineering_systems_and_ecology => nrel_main_idtf:
+	[Факультет инженерных систем и экологии] (* <- lang_ru;; *);
+	[Faculty of engineering systems and ecology] (* <- lang_en;; *);;
+
+bstu_faculty_of_engineering_systems_and_ecology => nrel_specialties: ... (*
+	<- [Водоснабжение, водоотведение и охрана водных ресурсов] (* <- lang_ru;; *);;
+	<- [Мелиорация и водное хозяйство] (* <- lang_ru;; *);;
+	<- [Природоохранная деятельность] (* <- lang_ru;; *);;
+	<- [Теплогазоснабжение, вентиляция и охрана воздушного бассейна] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_innovation_management_and_finance;; 
+	
+bstu_faculty_of_innovation_management_and_finance => nrel_main_idtf:
+	[Факультет инновационной деятельности, управления и финансов] (* <- lang_ru;; *);
+	[Faculty of innovation, management and finance] (* <- lang_en;; *);;
+
+bstu_faculty_of_innovation_management_and_finance => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учёт, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Водоснабжение, водоотведение и охрана водных ресурсов] (* <- lang_ru;; *);;
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Мелиорация и водное хозяйство] (* <- lang_ru;; *);;
+	<- [Промышленная электроника] (* <- lang_ru;; *);;
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация автомобилей] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_electronic_information_systems;; 
+	
+bstu_faculty_of_electronic_information_systems => nrel_main_idtf:
+	[Факультет электронно-информационных систем] (* <- lang_ru;; *);
+	[Faculty of of Electronic Information Systems] (* <- lang_en;; *);;
+
+bstu_faculty_of_electronic_information_systems => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Вычислительные машины, системы и сети] (* <- lang_ru;; *);;
+	<- [Искусственный интеллект] (* <- lang_ru;; *);;
+	<- [Программируемые мобильные системы] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Промышленная электроника] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> bstu_faculty_of_economics;; 
+	
+bstu_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of of Economics] (* <- lang_en;; *);;
+
+bstu_faculty_of_economics => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Коммерческая деятельность] (* <- lang_ru;; *);;
+	<- [Логистика] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства] (* <- lang_ru;; *);;
+*);;

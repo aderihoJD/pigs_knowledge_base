@@ -1,0 +1,44 @@
+sc_node_not_relation -> mspu;; 
+	
+mspu => nrel_main_idtf:
+	[Мозырский государственный педагогический университет им. И.П. Шамякина] (* <- lang_ru;; *);
+	[Mozyr State Pedagogical University. IP Shamyakin] (* <- lang_en;; *);;
+
+mspu <- vuz;;
+
+mspu => nrel_site:
+	[<a href="http://http://www.mspu.by/">http://http://www.mspu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mspu => nrel_address: [г. Мозырь, Студенческая, 28](*<-lang_ru;;*);;
+
+mspu => nrel_faculty: ... (*
+	-> mspu_technological_and_biological_faculty;;
+	-> mspu_physics_and_engineering_faculty;;
+	-> mspu_faculty_of_preschool_and_primary_education;;
+	-> mspu_faculty_of_physical_education;;
+	-> mspu_faculty_of_philology;;
+*);;
+
+mspu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mspu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+mspu => nrel_osm_query: [(
+  way["name"~"Университет им. Шамякина"];
+  node["name"~"Университет им. Шамякина"];
+  relation["name"~"Университет им. Шамякина"];
+);
+out body;
+>;
+out skel qt;];;

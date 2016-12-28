@@ -1,0 +1,37 @@
+sc_node_not_relation -> bseu;; 
+	
+bseu => nrel_main_idtf:
+	[Белорусский государственный экономический университет] (* <- lang_ru;; *);
+	[Belarusian State Economic University] (* <- lang_en;; *);;
+
+bseu <- vuz;;
+
+bseu => nrel_site:
+	[<a href="www.bseu.by">www.bseu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bseu => nrel_address: [г. Минск, Партизанский, 26](*<-lang_ru;;*);;
+
+bseu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bseu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bseu => nrel_osm_query: [(
+way["name"~"БГЭУ"]["building"="university"];
+node["name"~"БГЭУ"]["building"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+

@@ -1,0 +1,48 @@
+c_node_not_relation -> plsu;; 
+	
+plsu => nrel_main_idtf:
+	[Полоцкий государственный университет] (* <- lang_ru;; *);
+	[Polotsk State University] (* <- lang_en;; *);;
+
+plsu <- vuz;;
+
+plsu => nrel_site:
+	[<a href="http://www.psu.by/">http://www.psu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+plsu => nrel_address: [г. Новополоцк, Блохина, 29](*<-lang_ru;;*);;
+
+plsu => nrel_faculty: ... (*
+	->plsu_faculty_of_geodesic;;
+	->plsu_faculty_of_civil_engineering;;
+	->plsu_faculty_of_engineering_and_technology;;
+	->plsu_faculty_of_history_and_philology;;
+	->plsu_faculty_of_mechanical_engineering_and_road_transport;;
+	->plsu_faculty_of_radio_engineering;;
+	->plsu_faculty_of_sport_and_education;;
+	->plsu_faculty_of_information_technology;;
+	->plsu_faculty_of_finance_and_economics;;
+	->plsu_faculty_of_law;;
+*);;
+
+plsu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/plsu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+plsu => nrel_osm_query: [(
+  way["name"~"Полоцкий государственный университет"];
+  node["name"~"Полоцкий государственный университет"];
+);
+out body;
+>;
+out skel qt;];;

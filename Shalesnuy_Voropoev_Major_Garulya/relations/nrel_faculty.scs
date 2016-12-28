@@ -1,0 +1,7 @@
+sc_node_norole_relation -> nrel_faculty;;
+
+
+nrel_faculty => nrel_main_idtf:
+	[фактультеты*] (* <- lang_ru;; *);
+	[faculty*] (* <- lang_en;; *);;
+

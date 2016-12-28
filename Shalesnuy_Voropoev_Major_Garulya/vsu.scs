@@ -1,0 +1,47 @@
+sc_node_not_relation -> vsu;; 
+	
+vsu => nrel_main_idtf:
+	[Витебский государственный университет имени П.М. Машерова] (* <- lang_ru;; *);
+	[Vitebsk State University] (* <- lang_en;; *);;
+
+vsu <- vuz;;
+
+vsu => nrel_site:
+	[<a href="http://www.vsu.by/">http://www.vsu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+vsu => nrel_address: [г. Витебск, Московский пр-т, 33](*<-lang_ru;;*);;
+
+vsu => nrel_faculty: ... (*
+	->vsu_faculty_of_biology;;
+	->vsu_faculty_of_history;;
+	->vsu_faculty_of_mathematics;;
+	->vsu_faculty_of_education;;
+	->vsu_faculty_of_social_pedagogy_and_psychology;;
+	->vsu_faculty_of_physical_education_and_sport;;
+	->vsu_faculty_of_physics;;
+	->vsu_faculty_of_philology;;
+	->vsu_faculty_of_graphic_arts;;
+	->vsu_faculty_of_law;;
+*);;
+
+vsu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/vsu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+vsu => nrel_osm_query: [(
+  way["name"~"Витебский государственный университет"];
+);
+out body;
+>;
+out skel qt;];;

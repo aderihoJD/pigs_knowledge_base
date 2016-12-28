@@ -1,0 +1,32 @@
+sc_node_not_relation -> miu_faculty_of_economics;;
+	
+miu_faculty_of_economics => nrel_main_idtf:
+	[Факультет экономики] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+miu_faculty_of_economics => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит (в коммерческих и некоммерческих организациях)] (* <- lang_ru;; *);;
+	<- [Транспортная логистика (автомобильный транспорт)] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> miu_faculty_of_communications_and_law;; 
+	
+miu_faculty_of_communications_and_law => nrel_main_idtf:
+	[Факультет коммуникаций и права] (* <- lang_ru;; *);
+	[Faculty of Communications and Law] (* <- lang_en;; *);;
+
+miu_faculty_of_communications_and_law => nrel_specialties: ... (*
+	<- [Дизайн (по направлениям)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в экономике)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в логистике)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в управлении)] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Менеджмент (в сфере международного туризма)] (* <- lang_ru;; *);;
+	<- [Менеджмент (инновационный)] (* <- lang_ru;; *);;
+	<- [Правоведение] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Психология] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (перевод)] (* <- lang_ru;; *);;
+*);;

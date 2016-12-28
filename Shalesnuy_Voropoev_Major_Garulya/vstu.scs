@@ -1,0 +1,43 @@
+sc_node_not_relation -> vstu;; 
+	
+vstu => nrel_main_idtf:
+	[Витебский государственный технологический университет] (* <- lang_ru;; *);
+	[Vitebsk State Technological University] (* <- lang_en;; *);;
+
+vstu <- vuz;;
+
+vstu => nrel_site:
+	[<a href="http://www.vstu.by/">http://www.vstu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+vstu => nrel_address: [г. Витебск, Московский, 72](*<-lang_ru;;*);;
+
+vstu => nrel_faculty: ... (*
+	->vstu_faculty_of_distance_learning;;
+	->vstu_faculty_of_design_and_technology;;
+	->vstu_faculty_of_mechanical_engineering;;
+	->vstu_faculty_of_training_and_retraining;;
+	->vstu_faculty_of_art_and_engineering;;
+	->vstu_faculty_of_economic;;
+*);;
+
+vstu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/vstu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+vstu => nrel_osm_query: [(
+  way["name"~"Витебский государственный технологический университет"];
+);
+out body;
+>;
+out skel qt;];;

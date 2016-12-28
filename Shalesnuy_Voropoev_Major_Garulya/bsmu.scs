@@ -1,0 +1,36 @@
+sc_node_not_relation -> bsmu;; 
+	
+bsmu => nrel_main_idtf:
+	[Белорусский государственный медицинский университет] (* <- lang_ru;; *);
+	[Belarusian State Medical University] (* <- lang_en;; *);;
+
+bsmu <- vuz;;
+
+bsmu => nrel_site:
+	[<a href="www.bsmu.by">www.bsmu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsmu => nrel_address: [г. Минск, Дзержинского, 83](*<-lang_ru;;*);;
+
+bsmu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bsmu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bsmu => nrel_osm_query: [(
+way["name"~"БГМУ"]["building"="university"];
+node["name"~"БГМУ"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+

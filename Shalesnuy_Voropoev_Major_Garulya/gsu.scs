@@ -1,0 +1,51 @@
+sc_node_not_relation -> gsu;; 
+	
+gsu => nrel_main_idtf:
+	[Гомельский государственный университет им. Ф. Скорины] (* <- lang_ru;; *);
+	[Gomel State University Skaryna] (* <- lang_en;; *);;
+
+gsu <- vuz;;
+
+gsu => nrel_site:
+	[<a href="http://http://www.gsu.by/">http://http://www.gsu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+gsu => nrel_address: [г. Гомель, Советская, 104](*<-lang_ru;;*);;
+
+gsu => nrel_faculty: ... (*
+	-> gsu_department_of_biology;;
+	-> gsu_geology_and_geography_faculty;;
+	-> gsu_correspondence_department;;
+	-> gsu_history_department;;
+	-> gsu_faculty_of_mathematics;;
+	-> gsu_faculty_of_foreign_languages;;
+	-> gsu_department_of_psychology_and_pedagogy;;
+	-> gsu_faculty_of_physical_education;;
+	-> gsu_faculty_of_physics;;
+	-> gsu_faculty_of_philology;;
+	-> gsu_faculty_of_economics;;
+	-> gsu_faculty_of_law_school;;
+*);;
+
+gsu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/gsu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+ 
+gsu => nrel_osm_query: [(
+  node["name"~"ГГУ им. Ф. Скорины"];
+  way["name"~"ГГУ им. Ф. Скорины"];
+  relation["name"~"ГГУ им. Ф. Скорины"];
+);
+out body;
+>;
+out skel qt;];;

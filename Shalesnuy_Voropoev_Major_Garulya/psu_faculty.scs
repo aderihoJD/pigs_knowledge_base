@@ -1,0 +1,63 @@
+sc_node_not_relation -> psu_faculty_of_biotechnology;; 
+	
+psu_faculty_of_biotechnology => nrel_main_idtf:
+	[Биотехнологический факультет] (* <- lang_ru;; *);
+	[Biotechnology Faculty] (* <- lang_en;; *);;
+
+psu_faculty_of_biotechnology => nrel_specialties: ... (*
+	<- [Биология (биотехнология)] (* <- lang_ru;; *);;
+	<- [Биология (научно-производственная деятельность)] (* <- lang_ru;; *);;
+	<- [Промышленное рыбоводство] (* <- lang_ru;; *);;
+	<- [Садово-парковое строительство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> psu_faculty_of_banking;; 
+	
+psu_faculty_of_banking => nrel_main_idtf:
+	[Факультет банковского дела] (* <- lang_ru;; *);
+	[Faculty of Banking] (* <- lang_en;; *);;
+
+psu_faculty_of_banking => nrel_specialties: ... (*
+	<- [Банковское дело] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит в промышленности] (* <- lang_ru;; *);;
+	<- [Информационные технологии финансово кредитной системы] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> psu_faculty_of_organization_of_healthy_lifestyle;; 
+	
+psu_faculty_of_organization_of_healthy_lifestyle => nrel_main_idtf:
+	[Факультет организации здорового образа жизни] (* <- lang_ru;; *);
+	[Faculty of organization of healthy lifestyle] (* <- lang_en;; *);;
+
+psu_faculty_of_organization_of_healthy_lifestyle => nrel_specialties: ... (*
+	<- [Оздоровительная и адаптивная физическая культура] (* <- lang_ru;; *);;
+	<- [Оздоровительная физическая культура] (* <- lang_ru;; *);;
+	<- [Спортивно-педагогическая деятельность (тренерская рабо­та с указанием вида спорта)] (* <- lang_ru;; *);;
+	<- [Физическая культура (лечебная)] (* <- lang_ru;; *);;
+	<- [Физическая реабилитация и эрготерапия (физическая реабилитация)] (* <- lang_ru;; *);;
+	<- [Физическая реабилитация и эрготерапия] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> psu_faculty_of_economics;; 
+	
+psu_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+psu_faculty_of_economics => nrel_specialties: ... (*
+	<- [Документоведение (информаци­онное обеспече­ние управления)] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Туризм и гостеприимство] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> psu_faculty_of_retraining_and_advanced_training;; 
+	
+psu_faculty_of_retraining_and_advanced_training => nrel_main_idtf:
+	[Факультет переподготовки и повышения квалификации] (* <- lang_ru;; *);
+	[Faculty of Retraining and advanced training] (* <- lang_en;; *);;
+
+psu_faculty_of_retraining_and_advanced_training => nrel_specialties: ... (*
+	<- [Переподготовка и повышение квалификации] (* <- lang_ru;; *);;
+*);;

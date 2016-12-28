@@ -1,0 +1,185 @@
+sc_node_not_relation -> abit_military_faculty;; 
+	
+abit_military_faculty => nrel_main_idtf:
+	[Военный факультет] (* <- lang_ru;; *);
+	[Military Faculty] (* <- lang_en;; *);;
+
+abit_military_faculty => nrel_specialties: ... (*
+	<- [Тыловое обеспечение войск (вещевым имуществом)] (* <- lang_ru;; *);;
+	<- [Тыловое обеспечение войск (продовольствием)] (* <- lang_ru;; *);;
+	<- [Физическая подготовка военнослужащих] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> abit_faculty_of_civil_engineering;; 
+	
+abit_faculty_of_civil_engineering => nrel_main_idtf:
+	[Инженерно-строительный факультет] (* <- lang_ru;; *);
+	[Faculty of Civil Engineering] (* <- lang_en;; *);;
+
+abit_faculty_of_civil_engineering => nrel_specialties: ... (*
+	<- [Промышленное и гражданское строительство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_education;; 
+	
+abit_faculty_of_education => nrel_main_idtf:
+	[Педагогический факультет] (* <- lang_ru;; *);
+	[Faculty of Education] (* <- lang_en;; *);;
+
+abit_faculty_of_education => nrel_specialties: ... (*
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Логопедия] (* <- lang_ru;; *);;
+	<- [Начальное образование] (* <- lang_ru;; *);;
+	<- [Олигофренопедагогика] (* <- lang_ru;; *);;
+	<- [Социальная работа (социально-психологическая деятельность)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_biology_and_ecology;; 
+	
+abit_faculty_of_biology_and_ecology => nrel_main_idtf:
+	[Факультет биологии и экологии] (* <- lang_ru;; *);
+	[Faculty of Biology and Ecology] (* <- lang_en;; *);;
+
+abit_faculty_of_biology_and_ecology => nrel_specialties: ... (*
+	<- [Биология (биотехнология)] (* <- lang_ru;; *);;
+	<- [Биология (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Биоэкология] (* <- lang_ru;; *);;
+	<- [Производство продукции и организация общественного питания] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_innovative_mechanic_engineering;; 
+	
+abit_faculty_of_innovative_mechanic_engineering => nrel_main_idtf:
+	[Факультет инновационных технологий машиностроения] (* <- lang_ru;; *);
+	[Faculty of Innovative Mechanic Engineering] (* <- lang_en;; *);;
+
+abit_faculty_of_innovative_mechanic_engineering => nrel_specialties: ... (*
+	<- [Оборудование и технологии высокоэффективных процессов обработки материалов] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация автомобилей (автотраспорт личного и общественного пользования)] (* <- lang_ru;; *);;
+	<- [Транспортная логистика (автомобильный траспорт)] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> abit_faculty_of_art_and_design;; 
+	
+abit_faculty_of_art_and_design => nrel_main_idtf:
+	[Факультет искусств и дизайна] (* <- lang_ru;; *);
+	[Faculty of Art and Design] (* <- lang_en;; *);;
+
+abit_faculty_of_art_and_design => nrel_specialties: ... (*
+	<- [Дизайн (графический)] (* <- lang_ru;; *);;
+	<- [Дизайн (костюма и тканей)] (* <- lang_ru;; *);;
+	<- [Изобразительное искусство и компьютерная графика] (* <- lang_ru;; *);;
+	<- [Народное творчество (инструментальная музыка)] (* <- lang_ru;; *);;
+	<- [Народное творчество (хоровая музыка)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_history_communication_and_tourism;; 
+	
+abit_faculty_of_history_communication_and_tourism => nrel_main_idtf:
+	[Факультет истории, коммуникации и туризма] (* <- lang_ru;; *);
+	[Faculty of History, Communication and Tourism] (* <- lang_en;; *);;
+
+abit_faculty_of_history_communication_and_tourism => nrel_specialties: ... (*
+	<- [Журналистика] (* <- lang_ru;; *);;
+	<- [Информация и коммуникация] (* <- lang_ru;; *);;
+	<- [История (отечественная и всеобщая)] (* <- lang_ru;; *);;
+	<- [Лингвистическое обеспечение межкультурных коммуникаций (внешнеэкономические связи)] (* <- lang_ru;; *);;
+	<- [Социология] (* <- lang_ru;; *);;
+	<- [Туризм и гостеприимство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_mathematics_and_informatics;; 
+	
+abit_faculty_of_mathematics_and_informatics => nrel_main_idtf:
+	[Факультет математики и информатики] (* <- lang_ru;; *);
+	[Faculty of Mathematics and Informatics] (* <- lang_en;; *);;
+
+abit_faculty_of_mathematics_and_informatics => nrel_specialties: ... (*
+	<- [Компьютерная безопасность (математические методы и программные системы)] (* <- lang_ru;; *);;
+	<- [Математика (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Прикладная математика (научно-производственная деятельность)] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Управление информационными ресурсами] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_psychology_faculty;; 
+	
+abit_psychology_faculty => nrel_main_idtf:
+	[Факультет психологии] (* <- lang_ru;; *);
+	[Psychology faculty] (* <- lang_en;; *);;
+
+abit_psychology_faculty => nrel_specialties: ... (*
+	<- [Практическая психология] (* <- lang_ru;; *);;
+	<- [Психология] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> abit_faculty_of_physical_education;; 
+	
+abit_faculty_of_physical_education => nrel_main_idtf:
+	[Факультет физической культуры] (* <- lang_ru;; *);
+	[Faculty of Physical Education] (* <- lang_en;; *);;
+
+abit_faculty_of_physical_education => nrel_specialties: ... (*
+	<- [Физическая культура] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_economics_and_management;; 
+	
+abit_faculty_of_economics_and_management => nrel_main_idtf:
+	[Факультет экономики и управления] (* <- lang_ru;; *);
+	[Faculty of Economics and Management] (* <- lang_en;; *);;
+
+abit_faculty_of_economics_and_management => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в экономике)] (* <- lang_ru;; *);;
+	<- [Коммерческая деятельность] (* <- lang_ru;; *);;
+	<- [Менеджмент] (* <- lang_ru;; *);;
+	<- [Мировая экономика] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_physics_and_technology_faculty;; 
+	
+abit_physics_and_technology_faculty => nrel_main_idtf:
+	[Физико-технический факультет] (* <- lang_ru;; *);
+	[Physics and Technology Faculty] (* <- lang_en;; *);;
+
+abit_physics_and_technology_faculty => nrel_specialties: ... (*
+	<- [Информационно-измерительная техника] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация элктрооборудования организаций] (* <- lang_ru;; *);;
+	<- [Физика (научно-педагогическая деятельность] (* <- lang_ru;; *);;
+	<- [Физика (производственная деятельность] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> abit_faculty_of_philology;; 
+	
+abit_faculty_of_philology => nrel_main_idtf:
+	[Филологический факультет] (* <- lang_ru;; *);
+	[Faculty of Philology] (* <- lang_en;; *);;
+
+abit_faculty_of_philology => nrel_specialties: ... (*
+	<- [Белорусская филология (деловая коммуникация)] (* <- lang_ru;; *);;
+	<- [Белорусская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Романо-германская филология (английская)] (* <- lang_ru;; *);;
+	<- [Романо-германская филология (немецкая)] (* <- lang_ru;; *);;
+	<- [Русская филология (деловая коммуникация)] (* <- lang_ru;; *);;
+	<- [Русская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Современные иностранные языки (преподавание)] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> abit_law_school_faculty;; 
+	
+abit_law_school_faculty => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Law School Faculty] (* <- lang_en;; *);;
+
+abit_law_school_faculty => nrel_specialties: ... (*
+	<- [Международное право] (* <- lang_ru;; *);;
+	<- [Правоведение] (* <- lang_ru;; *);;
+	<- [Таможенное дело] (* <- lang_ru;; *);;
+	<- [Экономическое право] (* <- lang_ru;; *);;
+*);;
+
+
+

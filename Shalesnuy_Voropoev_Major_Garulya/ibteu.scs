@@ -1,0 +1,43 @@
+sc_node_not_relation -> ibteu;; 
+	
+ibteu => nrel_main_idtf:
+	[Белорусский торгово-экономический университет потребительской кооперации] (* <- lang_ru;; *);
+	[Belarusian Trade and Economics University of Consumer Cooperatives] (* <- lang_en;; *);;
+
+ibteu <- vuz;;
+
+ibteu => nrel_site:
+	[<a href="http://http://www.i-bteu.by/">http://http://www.i-bteu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+ibteu => nrel_address: [г. Гомель, Октября, 50](*<-lang_ru;;*);;
+
+ibteu => nrel_faculty: ... (*
+	-> ibteu_commercial_department;;
+	-> ibteu_accounting_and_finance_department;;
+	-> ibteu_faculty_of_economics_and_management;;
+	-> ibteu_faculty_training_and_retraining;;
+*);;
+
+ibteu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/ibteu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+ibteu => nrel_osm_query: [(
+  node["name"~"БТЭУ ПК"];
+  way["name"~"БТЭУ ПК"];
+  relation["name"~"БТЭУ ПК"];
+);
+out body;
+>;
+out skel qt;];;

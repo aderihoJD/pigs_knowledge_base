@@ -1,0 +1,39 @@
+sc_node_not_relation -> rgsu;; 
+	
+rgsu => nrel_main_idtf:
+	[Российский государственный социальный университет] (* <- lang_ru;; *);
+	[Russian State Social University] (* <- lang_en;; *);;
+
+rgsu <- vuz;;
+
+rgsu => nrel_site:
+	[<a href="http://www.rgsu.by/">http://www.rgsu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+rgsu => nrel_address: [г. Минск, Народная, 21](*<-lang_ru;;*);;
+
+rgsu => nrel_faculty: ... (*
+	-> rgsu_single_faculty;;
+*);;
+
+rgsu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/rgsu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+rgsu => nrel_osm_query: [(
+  way["name"="Российский государственный социальный университет"]["barrier"="fence"];
+
+);
+out body;
+>;
+out skel qt;];;

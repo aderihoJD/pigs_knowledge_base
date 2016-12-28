@@ -1,0 +1,41 @@
+sc_node_not_relation -> vsavm;; 
+	
+vsavm => nrel_main_idtf:
+	[Витебская ордена "Знак Почета" государственная академия ветеринарной медицины] (* <- lang_ru;; *);
+	[Vitebsk "Badge of Honor" State Academy of Veterinary Medicine] (* <- lang_en;; *);;
+
+vsavm <- vuz;;
+
+vsavm => nrel_site:
+	[<a href="http://www.vsavm.by/">http://www.vsavm.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+vsavm => nrel_address: [г. Витебск, 1-я Доватора, 7/11](*<-lang_ru;;*);;
+
+vsavm => nrel_faculty: ... (*
+	->vsavm_faculty_of_biotechnology;;
+	->vsavm_faculty_of_training_and_retraining;;
+	->vsavm_faculty_of_veterinary_medicine;;
+	->vsavm_faculty_of_distance_learning;;
+*);;
+
+vsavm <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/vsavm.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+vsavm => nrel_osm_query: [(
+  way["name"~"Главный корпус Вет. Академии"];
+);
+out body;
+>;
+out skel qt;];;

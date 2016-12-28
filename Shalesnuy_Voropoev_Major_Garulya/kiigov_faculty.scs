@@ -1,0 +1,14 @@
+sc_node_not_relation -> kiigov_faculty_of_distance_learning;; 
+	
+kiigov_faculty_of_distance_learning => nrel_main_idtf:
+	[Факультет заочного обучения] (* <- lang_ru;; *);
+	[Faculty of distance learning] (* <- lang_en;; *);;
+
+kiigov_faculty_of_distance_learning => nrel_specialties: ... (*
+	<- [Пожарная и промышленная безопасность] (* <- lang_ru;; *);;
+	<- [Предупреждение и ликвидация чрезвычайных ситуаций] (* <- lang_ru;; *);;
+*);;
+
+
+
+

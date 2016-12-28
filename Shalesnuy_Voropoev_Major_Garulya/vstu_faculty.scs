@@ -1,0 +1,87 @@
+sc_node_not_relation -> vstu_faculty_of_distance_learning;; 
+	
+vstu_faculty_of_distance_learning => nrel_main_idtf:
+	[Факультет заочного обучения] (* <- lang_ru;; *);
+	[Faculty of distance learning] (* <- lang_en;; *);;
+
+vstu_faculty_of_distance_learning => nrel_specialties: ... (*
+	<- [Автоматизация технологических процессов и производств (легкая промышленность)] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит в коммерческих и некоммерческих организациях] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в проектировании и производстве)] (* <- lang_ru;; *);;
+	<- [Коммерческая деятельность] (* <- lang_ru;; *);;
+	<- [Конструирование и технология изделий из кожи] (* <- lang_ru;; *);;
+	<- [Конструирование и технология швейных изделий] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Машины и аппараты легкой, текстильной промышленности и бытового обслуживания] (* <- lang_ru;; *);;
+	<- [Метрология, стандартизация и сертификация (легкая промышленность)] (* <- lang_ru;; *);;
+	<- [Производство текстильных материалов (технология и менеджмент)] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vstu_faculty_of_design_and_technology;; 
+	
+vstu_faculty_of_design_and_technology => nrel_main_idtf:
+	[Конструкторско-технологический факультет] (* <- lang_ru;; *);
+	[Faculty of Design and Technology] (* <- lang_en;; *);;
+
+vstu_faculty_of_design_and_technology => nrel_specialties: ... (*
+	<- [Конструирование и технология изделий из кожи] (* <- lang_ru;; *);;
+	<- [Метрология, стандартизация и сертификация (легкая промышленность)] (* <- lang_ru;; *);;
+	<- [Товароведение и экспертиза товаров] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vstu_faculty_of_mechanical_engineering;; 
+	
+vstu_faculty_of_mechanical_engineering => nrel_main_idtf:
+	[Механико-технологический факультет] (* <- lang_ru;; *);
+	[Faculty of Mechanical Engineering] (* <- lang_en;; *);;
+
+vstu_faculty_of_mechanical_engineering => nrel_specialties: ... (*
+	<- [Автоматизация технологических процессов и производств (машиностроение и приборостроение)] (* <- lang_ru;; *);;
+	<- [Автоматизация технологических процессов и производств (легкая промышленность)] (* <- lang_ru;; *);;
+	<- [Информационные системы и технологии (в проектировании и производстве)] (* <- lang_ru;; *);;
+	<- [Машины и аппараты легкой, текстильной промышленности и бытового обслуживания] (* <- lang_ru;; *);;
+	<- [Технология машиностроения] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vstu_faculty_of_training_and_retraining;; 
+	
+vstu_faculty_of_training_and_retraining => nrel_main_idtf:
+	[Факультет повышения квалификации и переподготовки кадров] (* <- lang_ru;; *);
+	[Faculty training and retraining] (* <- lang_en;; *);;
+
+vstu_faculty_of_training_and_retraining => nrel_specialties: ... (*
+	<- [Повышение квалификации и переподготовка кадров] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vstu_faculty_of_art_and_engineering;; 
+	
+vstu_faculty_of_art_and_engineering => nrel_main_idtf:
+	[Художественно-технологический факультет] (* <- lang_ru;; *);
+	[Faculty of Art and Engineering] (* <- lang_en;; *);;
+
+vstu_faculty_of_art_and_engineering => nrel_specialties: ... (*
+	<- [Дизайн (коммуникативный)] (* <- lang_ru;; *);;
+	<- [Дизайн (костюма и тканей)] (* <- lang_ru;; *);;
+	<- [Дизайн (объемный)] (* <- lang_ru;; *);;
+	<- [Дизайн (предметно-пространственной среды)] (* <- lang_ru;; *);;
+	<- [Производство текстильных материалов (технология и менеджмент)] (* <- lang_ru;; *);;
+	<- [Производство текстильных материалов (технология и проектирование)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vstu_faculty_of_economic;; 
+	
+vstu_faculty_of_economic => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economic] (* <- lang_en;; *);;
+
+vstu_faculty_of_economic => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит (в коммерческих и некоммерческих организациях)] (* <- lang_ru;; *);;
+	<- [Маркетинг] (* <- lang_ru;; *);;
+	<- [Менеджмент (производственный)] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства (легкая промышленность)] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;

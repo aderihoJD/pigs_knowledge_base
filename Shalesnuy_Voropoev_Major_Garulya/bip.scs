@@ -1,0 +1,43 @@
+sc_node_not_relation -> bip;; 
+	
+bip => nrel_main_idtf:
+	[БИП - Институт правоведения] (* <- lang_ru;; *);
+	[Institute of Law] (* <- lang_en;; *);;
+
+bip <- vuz;;
+
+bip => nrel_site:
+	[<a href="http://www.bip-ip.by/">http://www.bip-ip.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bip => nrel_address: [г. Минск, Короля, 3](*<-lang_ru;;*);;
+
+bip => nrel_faculty: ... (*
+	-> bip_grodno_branch;;
+	-> bip_mogilev_branch;;
+	-> bip_faculty_of_international_law_and_legal_psychology;;
+	-> bip_faculty_of_economics_and_law;;
+	-> bip_faculty_of_law;;
+*);;
+
+bip <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bip.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bip => nrel_osm_query: [(
+way["name"~"Белорусский институт правоведенья"];
+);
+out body;
+>;
+out skel qt;];;
+

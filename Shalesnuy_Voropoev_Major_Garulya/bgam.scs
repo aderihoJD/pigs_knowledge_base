@@ -1,0 +1,42 @@
+sc_node_not_relation -> bgam;; 
+	
+bgam => nrel_main_idtf:
+	[Белорусская государственная академия музыки] (* <- lang_ru;; *);
+	[The Belarusian State Academy of Music] (* <- lang_en;; *);;
+
+bgam <- vuz;;
+
+bgam => nrel_site:
+	[<a href="http://http://www.bgam.edu.by/">http://http://www.bgam.edu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bgam => nrel_address: [  г. Могилев, ул. Крыленко, 12](*<-lang_ru;;*);;
+
+bgam => nrel_faculty: ... (*
+	-> baa_branch_bsam;;
+*);;
+
+bgam => nrel_osm_query: [(
+  way["name"~"Белорусская государственная академия музыки"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+sc_node_not_relation -> imk_faculty_of_humanities;;
+	
+imk_faculty_of_humanities => nrel_main_idtf:
+	[Гуманитарный факультет] (* <- lang_ru;; *);
+	[Faculty of Humanities] (* <- lang_en;; *);;
+
+imk_faculty_of_humanities => nrel_specialties: ... (*
+	<- [Культурология (прикладная)] (* <- lang_ru;; *);;
+	<- [Лингвистическое обеспечение межкультурных коммуникаций (международный туризм)] (* <- lang_ru;; *);;
+	<- [Музейное дело и охрана историко-культурного наследия (направление – культурное наследие и туризм)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> imk_faculty_of_arts;;
+	
+imk_faculty_of_arts => nrel_main_idtf:
+	[Факультет искусств] (* <- lang_ru;; *);
+	[Faculty of Arts] (* <- lang_en;; *);;
+
+imk_faculty_of_arts => nrel_specialties: ... (*
+	<- [Дизайн (костюма и тканей)] (* <- lang_ru;; *);;
+	<- [Дизайн (предметно-пространственной среды)] (* <- lang_ru;; *);;
+	<- [Дизайн виртуальной среды] (* <- lang_ru;; *);;
+	<- [Искусство эстрады (инструментальная музыка)] (* <- lang_ru;; *);;
+	<- [Искусство эстрады (компьютерная музыка)] (* <- lang_ru;; *);;
+	<- [Искусство эстрады (пение)] (* <- lang_ru;; *);;
+*);;

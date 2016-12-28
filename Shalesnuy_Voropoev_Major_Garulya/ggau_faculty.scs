@@ -1,0 +1,101 @@
+sc_node_not_relation -> ggau_biotechnology_faculty;; 
+	
+ggau_biotechnology_faculty => nrel_main_idtf:
+	[Биотехнологический факультет] (* <- lang_ru;; *);
+	[Biotechnology Faculty] (* <- lang_en;; *);;
+
+ggau_biotechnology_faculty => nrel_specialties: ... (*
+	<- [Зоотехния] (* <- lang_ru;; *);;
+	<- [Зоотехния (НИСПО)] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> ggau_faculty_of_agronomy;; 
+	
+ggau_faculty_of_agronomy => nrel_main_idtf:
+	[Агрономический факультет] (* <- lang_ru;; *);
+	[Faculty of Agronomy] (* <- lang_en;; *);;
+
+ggau_faculty_of_agronomy => nrel_specialties: ... (*
+	<- [Агрономия] (* <- lang_ru;; *);;
+	<- [Агрономия (НИСПО)] (* <- lang_ru;; *);;
+	<- [Плодоовощеводство (НИСПО)] (* <- lang_ru;; *);;
+	<- [Технология молока и молочных продуктов] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ggau_faculty_of_engineering_and_technology;; 
+	
+ggau_faculty_of_engineering_and_technology => nrel_main_idtf:
+	[Инженерно-технологический факультет] (* <- lang_ru;; *);
+	[Faculty of Engineering and Technology] (* <- lang_en;; *);;
+
+ggau_faculty_of_engineering_and_technology => nrel_specialties: ... (*
+	<- [Технология молока и молочных продуктов (НИСПО)] (* <- lang_ru;; *);;
+	<- [Технология молока и молочных продуктов] (* <- lang_ru;; *);;
+	<- [Технология мяса и мясных подуктов] (* <- lang_ru;; *);;
+	<- [Технология мяса и мясопродуктов (НИСПО)] (* <- lang_ru;; *);;
+	<- [Технология хлебопекарного, макаронного, кондитерского производства и пищеконцентратов (НИСПО)] (* <- lang_ru;; *);;
+	<- [Технология хлебопекарного, макаронного, кондитерского производства и пищеконцетратов] (* <- lang_ru;; *);;
+	<- [Технология хранения и переработки зерна] (* <- lang_ru;; *);;
+	<- [Технология хранения и переработки зерна (НИСПО)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ggau_department_of_accounting;; 
+	
+ggau_department_of_accounting => nrel_main_idtf:
+	[Факультет бухгалтерского учета] (* <- lang_ru;; *);
+	[Department of Accounting] (* <- lang_en;; *);;
+
+ggau_department_of_accounting => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит в АПК] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит в АПК (НИСПО)] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учет, анализ и аудит в агропромышленном комплексе] (* <- lang_ru;; *);;
+	<- [Финансы и кредит (Финансы в агропромышленном комплексе)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ggau_faculty_of_veterinary_medicine;; 
+	
+ggau_faculty_of_veterinary_medicine => nrel_main_idtf:
+	[Факультет ветеринарной медицины] (* <- lang_ru;; *);
+	[Faculty of Veterinary Medicine] (* <- lang_en;; *);;
+
+ggau_faculty_of_veterinary_medicine => nrel_specialties: ... (*
+	<- [Ветеринарная медицина] (* <- lang_ru;; *);;
+	<- [Ветеринарная медицина (НИСПО)] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> ggau_graduate_school_of_management;; 
+	
+ggau_graduate_school_of_management => nrel_main_idtf:
+	[Высшая школа управления] (* <- lang_ru;; *);
+	[Graduate School of Management] (* <- lang_en;; *);;
+
+ggau_graduate_school_of_management => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит в АПК (второе высшее образование)] (* <- lang_ru;; *);;
+	<- [Менеджмент (второе высшее образование)] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства в отраслях агропромышленного комплекса (второе высшее образование)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ggau_department_of_plant_protection;; 
+	
+ggau_department_of_plant_protection => nrel_main_idtf:
+	[Факультет защиты растений] (* <- lang_ru;; *);
+	[Department of Plant Protection] (* <- lang_en;; *);;
+
+ggau_department_of_plant_protection => nrel_specialties: ... (*
+	<- [Агрохимия и почвоведение] (* <- lang_ru;; *);;
+	<- [Защита растений и карантин] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> ggau_faculty_of_economics;; 
+	
+ggau_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+ggau_faculty_of_economics => nrel_specialties: ... (*
+	<- [Менеджмент] (* <- lang_ru;; *);;
+	<- [Математика (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства в отраслях агропромышленного комплекса] (* <- lang_ru;; *);;
+	<- [Экономика и организация производства в отраслях агропромышленного комплекса (НИСПО)] (* <- lang_ru;; *);;
+*);;
+

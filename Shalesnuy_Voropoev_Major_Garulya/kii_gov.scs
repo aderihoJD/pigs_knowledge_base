@@ -1,0 +1,37 @@
+sc_node_not_relation -> kii_gov;; 
+	
+kii_gov => nrel_main_idtf:
+	[Университет гражданской защиты Министерства по чрезвычайным ситуациям Республики Беларусь] (* <- lang_ru;; *);
+	[University of Civil Protection of the Ministry of Emergency Situations of the Republic of Belarus] (* <- lang_en;; *);;
+
+kii_gov <- vuz;;
+
+kii_gov => nrel_site:
+	[<a href="www.kii.gov.by">www.kii.gov.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+kii_gov => nrel_address: [г. Минск, Машиностроителей, 25](*<-lang_ru;;*);;
+
+kii_gov <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/kii_gov.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+kii_gov => nrel_osm_query: [(
+way["name"~"Командно-инженерный институт МЧС"];
+);
+out body;
+>;
+out skel qt;];;
+
+
+

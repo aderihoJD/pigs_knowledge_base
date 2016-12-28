@@ -1,0 +1,36 @@
+sc_node_not_relation -> bsac;; 
+	
+bsac => nrel_main_idtf:
+	[Белорусская государственная академия связи] (* <- lang_ru;; *);
+	[Belarusian State Academy of Telecommunications] (* <- lang_en;; *);;
+
+bsac <- vuz;;
+
+bsac => nrel_site:
+	[<a href="bsac.by">bsac.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsac => nrel_address: [г. Минск, Ф. Скорины, 8, к. 2](*<-lang_ru;;*);;
+
+bsac <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bsac.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bsac => nrel_osm_query: [(
+way["name"~"Белорусская государственная академия связи"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+

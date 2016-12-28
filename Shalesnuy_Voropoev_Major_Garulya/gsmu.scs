@@ -1,0 +1,39 @@
+sc_node_not_relation -> gsmu;; 
+	
+gsmu => nrel_main_idtf:
+	[Гомельский государственный медицинский университет] (* <- lang_ru;; *);
+	[Gomel State Medical University] (* <- lang_en;; *);;
+
+gsmu <- vuz;;
+
+gsmu => nrel_site:
+	[<a href="http://http://www.gsmu.by/">http://http://www.gsmu.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+gsmu => nrel_address: [г. Гомель, Ланге, 5](*<-lang_ru;;*);;
+
+gsmu => nrel_faculty: ... (*
+	-> gsmu_medical_faculty;;
+	-> gsmu_medical_and_diagnostic_department;;
+*);;
+
+gsmu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/gsmu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+gsmu => nrel_osm_query: [(
+  node["name"~"Гомельский государственный медицинский университет"]["amenity"="university"];
+);
+out body;
+>;
+out skel qt;];;

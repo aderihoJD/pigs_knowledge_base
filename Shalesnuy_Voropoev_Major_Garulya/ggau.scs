@@ -1,0 +1,46 @@
+sc_node_not_relation -> ggau;; 
+	
+ggau => nrel_main_idtf:
+	[Гродненский государственный аграрный университет] (* <- lang_ru;; *);
+	[Grodno State Agrarian University] (* <- lang_en;; *);;
+
+ggau <- vuz;;
+
+ggau => nrel_site:
+	[<a href="http://www.ggau.by/">http://www.ggau.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+ggau => nrel_address: [ г. Гродно, Терешковой, 28](*<-lang_ru;;*);;
+
+ggau => nrel_faculty: ... (*
+	-> ggau_biotechnology_faculty;;
+	-> ggau_faculty_of_agronomy;;
+	-> ggau_department_of_accounting;;
+	-> ggau_faculty_of_veterinary_medicine;;
+	-> ggau_faculty_of_engineering_and_technology;;
+	-> ggau_graduate_school_of_management;;
+	-> ggau_department_of_plant_protection;;
+	-> ggau_faculty_of_economics;;
+*);;
+
+ggau <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/ggau.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+ggau => nrel_osm_query: [(
+  node["name"~"Гродненский государственный аграрный университет"];
+);
+out body;
+>;
+out skel qt;];;
+

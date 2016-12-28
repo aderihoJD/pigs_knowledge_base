@@ -1,0 +1,38 @@
+sc_node_not_relation -> ihei;; 
+	
+ihei => nrel_main_idtf:
+	[Международный гуманитарно-экономический институт] (* <- lang_ru;; *);
+	[International Humanitarian-Economic Institute] (* <- lang_en;; *);;
+
+ihei <- vuz;;
+
+ihei => nrel_site:
+	[<a href="http://www.mgei.org/">http://www.mgei.org/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+ihei => nrel_address: [г. Минск, Маяковского, 129а](*<-lang_ru;;*);;
+
+ihei => nrel_faculty: ... (*
+	-> ihei_single_faculty;;
+*);;
+
+ihei <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/ihei.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+ihei => nrel_osm_query: [(
+way["name"="МГЭИ"]["building"="yes"]["amenity"!="university"];
+);
+out body;
+>;
+out skel qt;];;

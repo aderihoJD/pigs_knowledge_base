@@ -1,0 +1,43 @@
+sc_node_not_relation -> pac;; 
+	
+pac => nrel_main_idtf:
+	[Академия управления при Президенте Республики Беларусь] (* <- lang_ru;; *);
+	[Academy of Public Administration] (* <- lang_en;; *);;
+
+pac <- vuz;;
+
+pac => nrel_site:
+	[<a href="www.pac.by">www.pac.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+pac => nrel_address: [г. Минск, Московская, 17](*<-lang_ru;;*);;
+
+pac => nrel_faculty: ... (*
+	-> pac_speciality_of_public_administration_and_economics;;
+	-> pac_speciality_of_public_administration_and_law;;
+	-> pac_speciality_of_information_resourses_and_management;;
+*);;
+
+pac <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/pac.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+pac => nrel_osm_query: [(
+  node["name"~"Академия управления при Президенте РБ"];
+    way["name"~"Академия управления при Президенте РБ"];
+);
+(._;>;);
+out body;
+(._;>;);
+out skel qt;];;
+

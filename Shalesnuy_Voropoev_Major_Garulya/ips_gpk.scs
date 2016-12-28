@@ -1,0 +1,36 @@
+sc_node_not_relation -> ips_gpk;; 
+	
+ips_gpk => nrel_main_idtf:
+	[Институт пограничной службы Республики Беларусь] (* <- lang_ru;; *);
+	[Institute of Border Service of the Republic of Belarus] (* <- lang_en;; *);;
+
+ips_gpk <- vuz;;
+
+ips_gpk => nrel_site:
+	[<a href="ips.gpk.gov.by">ips.gpk.gov.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+ips_gpk => nrel_address: [г. Минск, Славинского, 4](*<-lang_ru;;*);;
+
+ips_gpk <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/ips_gpk.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+buk => nrel_osm_query: [(
+way["name"~"Белорусский государственный университет культуры и искусств"];
+);
+out body;
+>;
+out skel qt;];;
+
+

@@ -1,0 +1,37 @@
+sc_node_not_relation -> reu;; 
+	
+reu => nrel_main_idtf:
+	[Минский филиал ФГБОУ ВО "Российский экономический университет им. Г.В.Плеханова"] (* <- lang_ru;; *);
+	[Minsk Branch FGBOU VO "Russian University of Economics. Plekhanov"] (* <- lang_en;; *);;
+
+reu <- vuz;;
+
+reu => nrel_site:
+	[<a href="www.reu.by">www.reu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+reu => nrel_address: [г. Минск, ул. Маяковского, д. 127, к. 2](*<-lang_ru;;*);;
+
+reu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/reu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+reu => nrel_osm_query: [(
+  way["name"~"Минский филиал МЭСИ"];
+);
+out body;
+>;
+out skel qt;];;
+
+
+

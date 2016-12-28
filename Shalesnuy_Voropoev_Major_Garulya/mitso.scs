@@ -1,0 +1,40 @@
+sc_node_not_relation -> mitso;; 
+	
+mitso => nrel_main_idtf:
+	[Международный университет «МИТСО»] (* <- lang_ru;; *);
+	[International University «MITSO»] (* <- lang_en;; *);;
+
+mitso <- vuz;;
+
+mitso => nrel_site:
+	[<a href="http://www.abiturient.mitso.by/">http://www.abiturient.mitso.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+mitso => nrel_address: [г. Минск, Казинца, 21, к. 3](*<-lang_ru;;*);;
+
+mitso => nrel_faculty: ... (*
+	-> mitso_faculty_of_international_economic_relations_and_management;;
+	-> mitso_faculty_of_law;;
+	-> mitso_faculty_of_information_technology;;
+*);;
+
+mitso <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/mitso.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+mitso => nrel_osm_query: [(
+  way["name"~"МИТСО"]["building"="university"]["addr:street"="улица Казинца"];
+);
+out body;
+>;
+out skel qt;];;

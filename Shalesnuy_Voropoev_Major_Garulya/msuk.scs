@@ -1,0 +1,46 @@
+sc_node_not_relation -> msuk;; 
+	
+msuk => nrel_main_idtf:
+	[Могилевский государственный университет им. А. А. Кулешова] (* <- lang_ru;; *);
+	[Mogilev State University. AA Kuleshov] (* <- lang_en;; *);;
+
+msuk <- vuz;;
+
+msuk => nrel_site:
+	[<a href="http://msu.mogilev.by/">http://msu.mogilev.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+msuk => nrel_address: [ г. Могилев, Космонавтов, 1](*<-lang_ru;;*);;
+
+msuk => nrel_faculty: ... (*
+	-> msuk_history_and_philology_faculty;;
+	-> msuk_department_of_primary_and_musical_education;;
+	-> msuk_faculty_of_mathematics_and_natural_sciences;;
+	-> msuk_faculty_of_foreign_languages;;
+	-> msuk_faculty_of_pedagogy_and_psychology_of_childhood;;
+	-> msuk_faculty_of_physical_education;;
+	-> msuk_faculty_of_economics_and_law;;
+*);;
+
+msuk <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/msuk.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+msuk => nrel_osm_query: [(
+  way["name"~"Могилёвский государственный университет им. А. А. Кулешова"];
+  node["name"~"Могилёвский государственный университет им. А. А. Кулешова"];
+  relation["name"~"Могилёвский государственный университет им. А. А. Кулешова"];
+);
+out body;
+>;
+out skel qt;];;

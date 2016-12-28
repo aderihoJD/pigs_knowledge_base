@@ -1,0 +1,178 @@
+sc_node_not_relation -> gsu_department_of_biology;; 
+	
+gsu_department_of_biology => nrel_main_idtf:
+	[Биологический факультет] (* <- lang_ru;; *);
+	[Department of Biology] (* <- lang_en;; *);;
+
+gsu_department_of_biology => nrel_specialties: ... (*
+	<- [Биология (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Лесное хозяйство] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_geology_and_geography_faculty;; 
+	
+gsu_geology_and_geography_faculty => nrel_main_idtf:
+	[Геолого-географический факультет] (* <- lang_ru;; *);
+	[Geology and Geography Faculty] (* <- lang_en;; *);;
+
+gsu_geology_and_geography_faculty => nrel_specialties: ... (*
+	<- [География (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Геоэкология] (* <- lang_ru;; *);;
+	<- [Геология и разведка месторождений полезных ископаемых] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_correspondence_department;; 
+	
+gsu_correspondence_department => nrel_main_idtf:
+	[Заочный факультет] (* <- lang_ru;; *);
+	[correspondence Department] (* <- lang_en;; *);;
+
+gsu_correspondence_department => nrel_specialties: ... (*
+	<- [Автоматизированные системы обработки информации] (* <- lang_ru;; *);;
+	<- [Английский язык] (* <- lang_ru;; *);;
+	<- [Белорусская филология (литературно- редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Биология (научно-педагогическая деятельность] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учёт, анализ и аудит в банках] (* <- lang_ru;; *);;	
+	<- [Бухгалтерский учёт, анализ и аудит в бюджетных организациях] (* <- lang_ru;; *);;
+	<- [Бухгалтерский учёт, анализ и аудит (в коммерческих и некоммерческих организациях)] (* <- lang_ru;; *);;
+	<- [История (история отечественная и всеобщая)] (* <- lang_ru;; *);;
+	<- [Коммерческая деятельность] (* <- lang_ru;; *);;
+	<- [Лесное хозяйство] (* <- lang_ru;; *);;
+	<- [Музейное дело и охрана историко-культурного наследия (культурное наследие и туризм)] (* <- lang_ru;; *);;
+	<- [Правоведение] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Психология] (* <- lang_ru;; *);;
+	<- [Русская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Социальная педагогика] (* <- lang_ru;; *);;
+	<- [Физическая культура] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> belsut_department_of_mechanical;; 
+	
+belsut_department_of_mechanical => nrel_main_idtf:
+	[Механический факультет] (* <- lang_ru;; *);
+	[Department of Mechanical] (* <- lang_en;; *);;
+
+belsut_department_of_mechanical => nrel_specialties: ... (*
+	<- [Оборудование и технологии высокоэффективных процессов обработки материалов] (* <- lang_ru;; *);;
+	<- [Подвижной состав железнодорожного транспорта (вагоны)] (* <- lang_ru;; *);;
+	<- [Подвижной состав железнодорожного транспорта (неразрушающий контроль и техническая диагностика на железнодорожном транспорте)] (* <- lang_ru;; *);;
+	<- [Техническая эксплуатация погрузочно-разгрузочных, путевых, дорожно-строительных машин и оборудования] (* <- lang_ru;; *);;
+	<- [Тяговый состав железнодорожного транспорта (электрический транспорт и метрополитен)] (* <- lang_ru;; *);;
+	<- [Тяговый состав железнодорожного транспорта (тепловозы)] (* <- lang_ru;; *);;
+	<- [Электроснабжение железных дорог] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_history_department;; 
+	
+gsu_history_department => nrel_main_idtf:
+	[Исторический факультет] (* <- lang_ru;; *);
+	[History department] (* <- lang_en;; *);;
+
+gsu_history_department => nrel_specialties: ... (*
+	<- [История (история отечественная и всеобщая)] (* <- lang_ru;; *);;
+	<- [Музейное дело и охрана историко-культурного наследия (история и музеология] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_mathematics;; 
+	
+gsu_faculty_of_mathematics => nrel_main_idtf:
+	[Математический факультет] (* <- lang_ru;; *);
+	[Faculty of Mathematics] (* <- lang_en;; *);;
+
+gsu_faculty_of_mathematics => nrel_specialties: ... (*
+	<- [Информатика и технологии программирования] (* <- lang_ru;; *);;
+	<- [Математика (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Прикладная математика (научно педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Прикладная математика (научно-производственная деятельность)] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Экономическая кибернетика (математические методы и компьютерное моделирование в экономике)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_foreign_languages;; 
+	
+gsu_faculty_of_foreign_languages => nrel_main_idtf:
+	[Факультет иностранных языков] (* <- lang_ru;; *);
+	[Faculty of Foreign Languages] (* <- lang_en;; *);;
+
+gsu_faculty_of_foreign_languages => nrel_specialties: ... (*
+	<- [Иностранные языки (Английский язык. Немецкий язык), (Английский язык. Французский язык)] (* <- lang_ru;; *);;
+	<- [Иностранные языки (Немецкий язык. Английский язык)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_department_of_psychology_and_pedagogy;; 
+	
+gsu_department_of_psychology_and_pedagogy => nrel_main_idtf:
+	[Факультет психологии и педагогики] (* <- lang_ru;; *);
+	[Department of Psychology and Pedagogy] (* <- lang_en;; *);;
+
+gsu_department_of_psychology_and_pedagogy => nrel_specialties: ... (*
+	<- [Психология] (* <- lang_ru;; *);;
+	<- [Социальная педагогика] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_physical_education;; 
+	
+gsu_faculty_of_physical_education => nrel_main_idtf:
+	[Факультет физической культуры] (* <- lang_ru;; *);
+	[Faculty of Physical Education] (* <- lang_en;; *);;
+
+gsu_faculty_of_physical_education => nrel_specialties: ... (*
+	<- [Физическая культура] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_physics;; 
+	
+gsu_faculty_of_physics => nrel_main_idtf:
+	[Физический факультет] (* <- lang_ru;; *);
+	[Faculty of Physics] (* <- lang_en;; *);;
+
+gsu_faculty_of_physics => nrel_specialties: ... (*
+	<- [Компьютерная физика] (* <- lang_ru;; *);;
+	<- [Программируемые мобильные системы] (* <- lang_ru;; *);;
+	<- [Физика (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Физика (производственная деятельность)] (* <- lang_ru;; *);;
+	<- [Физическая электроника] (* <- lang_ru;; *);;
+	<- [Электронные системы безопасности] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_philology;; 
+	
+gsu_faculty_of_philology => nrel_main_idtf:
+	[Филологический факультет] (* <- lang_ru;; *);
+	[Faculty of Philology] (* <- lang_en;; *);;
+
+gsu_faculty_of_philology => nrel_specialties: ... (*
+	<- [Белорусская филология (Компьютерное обеспечение)] (* <- lang_ru;; *);;
+	<- [Белорусская филология. Литературно- редакционная деятельность] (* <- lang_ru;; *);;
+	<- [Русская филология (Компьютерное обеспечение)] (* <- lang_ru;; *);;
+	<- [Русская филология. Литературно- редакционная деятельность] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_economics;; 
+	
+gsu_faculty_of_economics => nrel_main_idtf:
+	[Экономический факультет] (* <- lang_ru;; *);
+	[Faculty of Economics] (* <- lang_en;; *);;
+
+gsu_faculty_of_economics => nrel_specialties: ... (*
+	<- [Бухгалтерский учет, анализ и аудит в коммерческих и некоммерческих организациях] (* <- lang_ru;; *);;
+	<- [Государственное управление] (* <- lang_ru;; *);;
+	<- [Мировая экономика] (* <- lang_ru;; *);;
+	<- [Финансы и кредит] (* <- lang_ru;; *);;
+	<- [Экономика и управление на предприятии] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> gsu_faculty_of_law_school;; 
+	
+gsu_faculty_of_law_school => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Faculty  of law school] (* <- lang_en;; *);;
+
+gsu_faculty_of_law_school => nrel_specialties: ... (*
+	<- [Правоведение] (* <- lang_ru;; *);;
+*);;
+
+

@@ -1,0 +1,38 @@
+sc_node_not_relation -> bsatu;; 
+	
+bsatu => nrel_main_idtf:
+	[Белорусский государственный аграрный технический университет] (* <- lang_ru;; *);
+	[Belarusian State Agrarian Technical University] (* <- lang_en;; *);;
+
+bsatu <- vuz;;
+
+bsatu => nrel_site:
+	[<a href="www.bsatu.by">www.bsatu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsatu => nrel_address: [г. Минск, Независимости, 99](*<-lang_ru;;*);;
+
+bsatu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bsatu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bsatu => nrel_osm_query: [(
+way["name"~"БГАТУ"]["building"="university"];
+node["name"~"БГАТУ"]["building"="university"];
+);
+out body;
+>;
+out skel qt;];;
+
+
+

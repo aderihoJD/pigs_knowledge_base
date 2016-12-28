@@ -1,0 +1,56 @@
+sc_node_not_relation -> bsu;; 
+	
+bsu => nrel_main_idtf:
+	[Белорусский государственный университет] (* <- lang_ru;; *);
+	[Belarusian State University] (* <- lang_en;; *);;
+
+bsu <- vuz;;
+
+bsu => nrel_site:
+	[<a href="abiturient.bsu.by">abiturient.bsu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bsu => nrel_address: [г. Минск, пр. Независимости, 4б](*<-lang_ru;;*);;
+
+bsu => nrel_faculty: ... (*
+	-> bsu_faculty_of_biology;;
+	-> bsu_faculty_of_economic;;
+	-> bsu_faculty_philosophy_and_social_sciences;;
+	-> bsu_philological_faculty;;
+	-> bsu_military_faculty;;
+	-> bsu_geographical_faculty;;
+	-> bsu_humanitarian_faculty;;
+	-> state_institute_of_management_and_social_technologies;;
+	-> institute_of_business_and_management_of_technology;;
+	-> bsu_historical_faculty;;
+	-> bsu_mechanics_and_mathematics_faculty;;
+	-> journalism_faculty_of_journalism_institute;;
+	-> bsu_faculty_of_internal_relations;;
+	-> bsu_faculty_of_applied_mathematics_and_informatics;;
+	-> bsu_faculty_of_radiophysics_and_computer_technologies;;
+	-> bsu_physical_faculty;;
+	-> bsu_chemical_faculty;;
+	-> bsu_legal_faculty;;
+*);;
+
+bsu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bsu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bsu => nrel_osm_query: [(
+  node["name"~" БГУ"]["amenity"~"university"];
+);
+out body;
+>;
+out skel qt;];;
+

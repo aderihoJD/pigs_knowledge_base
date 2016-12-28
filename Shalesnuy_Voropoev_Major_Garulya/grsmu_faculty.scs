@@ -1,0 +1,41 @@
+sc_node_not_relation -> grsmu_medical_faculty;; 
+	
+grsmu_medical_faculty => nrel_main_idtf:
+	[Лечебный факультет] (* <- lang_ru;; *);
+	[Medical Faculty] (* <- lang_en;; *);;
+
+grsmu_medical_faculty => nrel_specialties: ... (*
+	<- [Лечебное дело] (* <- lang_ru;; *);;
+*);;
+ 
+sc_node_not_relation -> grsmu_medical_and_diagnostic_department;; 
+	
+grsmu_medical_and_diagnostic_department => nrel_main_idtf:
+	[Медико-диагностический факультет] (* <- lang_ru;; *);
+	[Medical and Diagnostic Department] (* <- lang_en;; *);;
+
+grsmu_medical_and_diagnostic_department => nrel_specialties: ... (*
+	<- [Медико-диагностическое дело] (* <- lang_ru;; *);;
+	<- [Сестринское дело] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> grsmu_medical_and_psychological_faculty;; 
+	
+grsmu_medical_and_psychological_faculty => nrel_main_idtf:
+	[Медико-психологический факультет] (* <- lang_ru;; *);
+	[Medical and psychological faculty] (* <- lang_en;; *);;
+
+grsmu_medical_and_psychological_faculty => nrel_specialties: ... (*
+	<- [Медико-психологическое дело] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> grsmu_faculty_of_pediatrics;; 
+	
+grsmu_faculty_of_pediatrics => nrel_main_idtf:
+	[Педиатрический факультет] (* <- lang_ru;; *);
+	[Faculty of Pediatrics] (* <- lang_en;; *);;
+
+grsmu_faculty_of_pediatrics => nrel_specialties: ... (*
+	<- [Педиатрия] (* <- lang_ru;; *);;
+*);;
+

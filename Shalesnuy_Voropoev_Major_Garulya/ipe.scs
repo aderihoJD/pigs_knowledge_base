@@ -1,0 +1,31 @@
+sc_node_not_relation -> ipe;; 
+	
+ipe => nrel_main_idtf:
+	[Институт парламентаризма и предпринимательства] (* <- lang_ru;; *);
+	[Institute of parliamentarism and Entrepreneurship] (* <- lang_en;; *);;
+
+ipe <- vuz;;
+
+ipe => nrel_site:
+	[<a href="http://www.ipp.by/">http://www.ipp.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+ipe => nrel_address: [г. Минск, Тимирязева, 65а](*<-lang_ru;;*);;
+
+ipe => nrel_faculty: ... (*
+	-> ipe_socio_economic_faculty;;
+*);;
+
+ipe <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/ipe.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;

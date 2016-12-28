@@ -1,0 +1,127 @@
+sc_node_not_relation -> vsu_faculty_of_biology;; 
+	
+vsu_faculty_of_biotechnology => nrel_main_idtf:
+	[Биологический факультет] (* <- lang_ru;; *);
+	[Biology Faculty] (* <- lang_en;; *);;
+
+vsu_faculty_of_biology => nrel_specialties: ... (*
+	<- [Биология (научно-педогогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Биология и химия] (* <- lang_ru;; *);;
+	<- [Биоэкология] (* <- lang_ru;; *);;
+	<- [География (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_history;; 
+	
+vsu_faculty_of_history => nrel_main_idtf:
+	[Исторический факультет] (* <- lang_ru;; *);
+	[Faculty of history] (* <- lang_en;; *);;
+
+vsu_faculty_of_history => nrel_specialties: ... (*
+	<- [Библиотечно-информационная деятельность (информатизация)] (* <- lang_ru;; *);;
+	<- [История и обществоведческие дисциплины] (* <- lang_ru;; *);;
+	<- [Музейное дело и охрана историко-культурного наследия (культурное наследие и туризм)] (* <- lang_ru;; *);;
+	<- [Теология] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_mathematics;; 
+	
+vsu_faculty_of_mathematics => nrel_main_idtf:
+	[Математический факультет] (* <- lang_ru;; *);
+	[Faculty of mathematics] (* <- lang_en;; *);;
+
+vsu_faculty_of_mathematics => nrel_specialties: ... (*
+	<- [Компьютерная безопасность (радиофизические методы и программно-технические средства)] (* <- lang_ru;; *);;
+	<- [Математика и информатика] (* <- lang_ru;; *);;
+	<- [Прикладная информатика (программное обеспечение компьютерных систем)] (* <- lang_ru;; *);;
+	<- [Прикладная математика (научно-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий] (* <- lang_ru;; *);;
+	<- [Программное обеспечение информационных технологий (базы данных и программное обеспечение информационных систем)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_education;; 
+	
+vsu_faculty_of_education => nrel_main_idtf:
+	[Педагогический факультет] (* <- lang_ru;; *);
+	[Faculty of Education] (* <- lang_en;; *);;
+
+vsu_faculty_of_education => nrel_specialties: ... (*
+	<- [Дошкольное образование] (* <- lang_ru;; *);;
+	<- [Музыкальное искусство, ритмика и хореография] (* <- lang_ru;; *);;
+	<- [Начальное образование] (* <- lang_ru;; *);;
+	<- [Олигофренопедагогика] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_social_pedagogy_and_psychology;; 
+	
+vsu_faculty_of_social_pedagogy_and_psychology => nrel_main_idtf:
+	[Факультет социальной педагогики и психологии] (* <- lang_ru;; *);
+	[Faculty of Social Pedagogy and Psychology] (* <- lang_en;; *);;
+
+vsu_faculty_of_social_pedagogy_and_psychology => nrel_specialties: ... (*
+	<- [Психология] (* <- lang_ru;; *);;
+	<- [Социальная педагогика] (* <- lang_ru;; *);;
+	<- [Социальная работа (социально-психологическая деятельность)] (* <- lang_ru;; *);;
+	<- [Социальная работа (социально-педагогическая деятельность)] (* <- lang_ru;; *);;
+	<- [Социальная работа (социально-экономическая деятельность)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_physical_education_and_sport;; 
+	
+vsu_faculty_of_physical_education_and_sport => nrel_main_idtf:
+	[Факультет физической культуры и спорта] (* <- lang_ru;; *);
+	[Faculty of Physical Education and Sport] (* <- lang_en;; *);;
+
+vsu_faculty_of_physical_education_and_sport => nrel_specialties: ... (*
+	<- [Физическая культура] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_physics;; 
+	
+vsu_faculty_of_physics => nrel_main_idtf:
+	[Физический факультет] (* <- lang_ru;; *);
+	[Faculty of Physics] (* <- lang_en;; *);;
+
+vsu_faculty_of_physics => nrel_specialties: ... (*
+	<- [Физика] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_philology;; 
+	
+vsu_faculty_of_philology => nrel_main_idtf:
+	[Филологический факультет] (* <- lang_ru;; *);
+	[Faculty of Philology] (* <- lang_en;; *);;
+
+vsu_faculty_of_philology => nrel_specialties: ... (*
+	<- [Белорусская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Романо-германская филология (английский и другой иностранный язык)] (* <- lang_ru;; *);;
+	<- [Русская филология (деловая коммуникация)] (* <- lang_ru;; *);;
+	<- [Русская филология (литературно-редакционная деятельность)] (* <- lang_ru;; *);;
+	<- [Русская филология (русский язык как иностранный)] (* <- lang_ru;; *);;
+	<- [Русский язык и литература. Иностранный язык (английский)] (* <- lang_ru;; *);;
+	<- [Русский язык и литература. Иностранный язык (французский)] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_graphic_arts;; 
+	
+vsu_faculty_of_graphic_arts => nrel_main_idtf:
+	[Художественно-графический факультет] (* <- lang_ru;; *);
+	[Faculty of Graphic arts] (* <- lang_en;; *);;
+
+vsu_faculty_of_graphic_arts => nrel_specialties: ... (*
+	<- [Дизайн (предметно-пространственной среды)] (* <- lang_ru;; *);;
+	<- [Изобразительное искусство и компьютерная графика] (* <- lang_ru;; *);;
+	<- [Изобразительное искусство, черчение и народные художественные промыслы] (* <- lang_ru;; *);;
+*);;
+
+sc_node_not_relation -> vsu_faculty_of_law;; 
+	
+vsu_faculty_of_law => nrel_main_idtf:
+	[Юридический факультет] (* <- lang_ru;; *);
+	[Faculty of Law] (* <- lang_en;; *);;
+
+vsu_faculty_of_law => nrel_specialties: ... (*
+	<- [Правоведение (судебно-прокурорско-следственная деятельность)] (* <- lang_ru;; *);;
+	<- [Правоведение (хозяйственное право)] (* <- lang_ru;; *);;
+	<- [Экономическое право] (* <- lang_ru;; *);;
+*);;

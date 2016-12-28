@@ -1,0 +1,35 @@
+sc_node_not_relation -> sportedu;; 
+	
+sportedu => nrel_main_idtf:
+	[Белорусский государственный университет физической культуры] (* <- lang_ru;; *);
+	[Belarusian State University of Physical Training] (* <- lang_en;; *);;
+
+sportedu <- vuz;;
+
+sportedu => nrel_site:
+	[<a href="www.sportedu.by">www.sportedu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+sportedu => nrel_address: [г. Минск, Победителей, 105](*<-lang_ru;;*);;
+
+sportedu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/sportedu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+sportedu => nrel_osm_query: [(
+  way["name"="Белорусский государственный университет физкультуры"];
+);
+out body;
+>;
+out skel qt;];;
+

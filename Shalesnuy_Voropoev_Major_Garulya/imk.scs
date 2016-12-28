@@ -1,0 +1,39 @@
+sc_node_not_relation -> imk;; 
+	
+imk => nrel_main_idtf:
+	[Институт современных знаний им. Широкова] (* <- lang_ru;; *);
+	[Institute of Modern Knowledge] (* <- lang_en;; *);;
+
+imk <- vuz;;
+
+imk => nrel_site:
+	[<a href="http://www.isz.minsk.by/">http://www.isz.minsk.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+imk => nrel_address: [г. Минск, Филимонова, 69](*<-lang_ru;;*);;
+
+imk => nrel_faculty: ... (*
+	-> imk_faculty_of_humanities;;
+	-> imk_faculty_of_arts;;
+*);;
+
+imk <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/imk.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+imk => nrel_osm_query: [(
+node["name"~"ИСЗ им. Широкова"];
+);
+out body;
+>;
+out skel qt;];;

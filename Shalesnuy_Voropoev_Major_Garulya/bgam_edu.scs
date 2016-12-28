@@ -1,0 +1,35 @@
+sc_node_not_relation -> bgam_edu;; 
+	
+bgam_edu => nrel_main_idtf:
+	[Белорусская государственная академия музыки] (* <- lang_ru;; *);
+	[The Belarusian State Academy of Music] (* <- lang_en;; *);;
+
+bgam_edu <- vuz;;
+
+bgam_edu => nrel_site:
+	[<a href="www.bgam.edu.by">www.bgam.edu.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+bgam_edu => nrel_address: [г. Минск, Интернациональная, 30](*<-lang_ru;;*);;
+
+bgam_edu <- rrel_key_sc_element: ... (* 
+<- sc_illustration;; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example: "file://examples/bgam_edu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);;
+
+bgam_edu => nrel_osm_query: [(
+way["name"~"Белорусская государственная академия музыки"];
+);
+out body;
+>;
+out skel qt;];;
+

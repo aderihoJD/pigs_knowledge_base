@@ -1,0 +1,19 @@
+sc_node_not_relation -> varb_mil;; 
+	
+varb_mil => nrel_main_idtf:
+	[Военная академия Республики Беларусь] (* <- lang_ru;; *);
+	[Military Academy of Belarus] (* <- lang_en;; *);;
+
+varb_mil <- vuz;;
+
+varb_mil => nrel_site:
+	[<a href="varb.mil.by">varb.mil.by</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);;
+
+varb_mil => nrel_address: [г. Минск, пр-т Независимости, 220](*<-lang_ru;;*);;
+
+
+
