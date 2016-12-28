@@ -1,0 +1,45 @@
+lake_berezha => nrel_main_idtf:
+    [оз. Тумское] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-sorochanskie_lakes_group;
+
+=> nrel_osm_query:
+    [( area["name"="Тумское"]["natural"="water"]["boat"="permissive"]; way["name"="Тумское"]["natural"="water"]["boat"="permissive"]; relation["name"="Тумское"]["natural"="water"]["boat"="permissive"]; ); out body; >; out skel qt;];
+
+=> nrel_square: 
+    [0.86 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [9.2 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,45 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [3.22 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [7.6 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [4.16 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [172 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Сорочанка (вытекает из озера), за 34 км на северо-восток от г.п. Островец, возле д. Тумки. Входит в Сорочанскую группу озер.
+            Склоны котловины высотой 3-7 м, распаханные, на юго-востоке и северо-западе высотой 10-18 м, поросли лесом. Берега низкие, участками на востоке, севере и западе сливаются со склонами, на севере и северо-востоке – под кустарником. Мелководье песчаное, глубже 2 м дно выстлано сапропелем. Зарастает вдоль берегов до глубины 2,2-2,7 м. Соединено протокой с озером Каймин, впадает ручей из озера Голодно.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;

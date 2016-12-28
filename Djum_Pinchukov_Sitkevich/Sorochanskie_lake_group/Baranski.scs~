@@ -1,0 +1,36 @@
+lake_berezha => nrel_main_idtf:
+    [оз. Баранское] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-sorochanskie_lakes_group;
+
+=> nrel_osm_query:
+    [( area["name"="Баранское"]; way["name"="Баранское"]; relation["name"="Баранское"]; ); out body; >; out skel qt;];
+
+=> nrel_square: 
+    [0.15 км2] (* <- lang_ru;; *);
+
+=> nrel_max_width: 
+    [0,02 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [1,08 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [2,35 км] (* <- lang_ru;; *);    
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Сорочанка, за 35 км на север – северо-восток от г.п. Островец, на север от д. Барани. Входит в Сорочанскую группу озер.
+            Склоны котловины под лесом, на западе распаханные. Через озеро протекает река Клевель (в верхнем течении имеет название Сорочанка).]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;

@@ -1,0 +1,45 @@
+lake_berezha => nrel_main_idtf:
+    [оз. Золовское] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-sorochanskie_lakes_group;
+
+=> nrel_osm_query:
+    [( area["name"="Золовское"]["natural"="water"]; way["name"="Золовское"]["natural"="water"]; relation["name"="Золовское"]["natural"="water"]; ); out body; >; out skel qt;];
+
+=> nrel_square: 
+    [0.24 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [12.6 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,37 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [0.87 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [2.56 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [1.17 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [140 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бас. р. Сорочанка, за 34 км на северо-восток от г.п. Островец, на запад от д. Горная Каймина. Входит в Сорочанскую группу озер.
+            Склоны котловины в виде озовых гряд и комовых холмов высотой 10-14 м, под лесом. Мелководная зона узкая, песчаная, глубоководная - выстлана сапропелем, с впадинами. Через озеро протекает река Клевель (соединяет его с озерами Туровейское и Каймин). Растительность распространена до глубины 2,5 м.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;
