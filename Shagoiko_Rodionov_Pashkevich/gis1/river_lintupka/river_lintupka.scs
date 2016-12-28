@@ -1,0 +1,41 @@
+sc_node_not_relation -> river_lintupka;;
+
+river_lintupka 
+
+<-concept_river;
+
+=> nrel_main_idtf: [река Лынтупка] (* <- lang_ru;; *);
+
+
+=> nrel_main_idtf: [river Lintupka] (* <- lang_en;; *);
+
+=> nrel_lenght: [23];
+
+=> nrel_max_width: [4];
+
+=> nrel_catchment_area: [57];
+
+=> nrel_avg_slope_surface: [2,5];
+
+=> nrel_osm_query:
+[
+( 
+area["name"="Лынтупка"]["waterway"="river"];
+way["name"="Лынтупка"]["waterway"="river"];
+relation["name"="Лынтупка"]["waterway"="river"];
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://river_lintupka.jpg";;
+                                *);; 
+                *);;

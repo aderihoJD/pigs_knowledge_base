@@ -1,0 +1,63 @@
+sc_node_not_relation -> batorino_lake;;
+
+batorino_lake => nrel_main_idtf:
+	[озеро Баторино]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Batorino lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> batorino_lake;;
+
+batorino_lake => nrel_region: minsk_region;;
+
+batorino_lake => nrel_district: myadel_district;;
+
+batorino_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+batorino_lake => nrel_maximum_length: [7,3];;
+
+batorino_lake => nrel_altitude: [165];;
+
+batorino_lake => nrel_coastline: [15];;
+
+batorino_lake => nrel_square: [6,25];;
+
+batorino_lake => nrel_depth: [5,5];;
+
+batorino_lake => nrel_watercourse_type: stable;;
+
+batorino_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+batorino_lake => nrel_text_discription: 
+[Баторино, Баторин(белор. Баторына) — озеро в Мядельском районе Минской области, входит в группу Нарочанских озёр.
+Площадь зеркала озера — 6,25 км², водосбора — 92,4 км², максимальная глубина — 5,5 м, длина береговой линии 15 км. В озеро впадает ручей и несколько мелиорационных каналов, вытекает река Дробня, впадающая в Мястро. 25 % водосбора озера покрывают смешанные и хвойные леса, 19 % местности заболочено.
+Фитопланктон представлен 136 видами, зоопланктон — 49 видами. Из рыб распространены лещ, щука, плотва, окунь, угорь. Берега заросли тростником, камышом, встречается аир.
+На берегу озера расположены: город Мядель, деревни Шиковичи, Баклаи, Крути, Азарки-Старые, Азарки-Дворище, Азарки-Пудовинка.
+Озеро популярно среди туристов, через него проходит лодочный маршрут, в окрестностях — велосипедный маршрут.];;
+
+batorino_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Баторино"]; 
+way["name"="оз. Баторино"]; 
+relation["name"="оз. Баторино"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://batorino.jpg";;
+                                *);; 
+                *);;

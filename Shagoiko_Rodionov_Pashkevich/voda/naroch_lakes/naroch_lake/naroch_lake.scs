@@ -1,0 +1,40 @@
+sc_node_struct -> naroch_lake;;
+
+naroch_lake => nrel_main_idtf:
+	[Нарочь озеро]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Naroch lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> naroch_lake;;
+
+naroch_lake => nrel_region: minsk_region;;
+
+naroch_lake => nrel_district: myadel_district;;
+
+naroch_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+naroch_lake => nrel_maximum_length: [12,8];;
+
+naroch_lake => nrel_altitude: [165];;
+
+naroch_lake => nrel_coastline: [41];;
+
+naroch_lake => nrel_square: [79,6];;
+
+naroch_lake => nrel_depth: [24,08];;
+
+naroch_lake => nrel_watercourse_type: stable;;
+
+naroch_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+naroch_lake => nrel_text_discription: 
+[Нарочь (белор. Нарач) — озеро в Белоруссии, в Мядельском районе Минской области. Расположено в бассейне реки Нарочь. Входит в Нарочанскую группу озёр (Мястро, Баторино, Бледное).
+Нарочь — самое большое озеро в Белоруссии. Площадь его зеркала — 79,6 км?. Наибольшая глубина — 24,08 м. Длина наибольшего поперечника — 12,8 км. Длина береговой линии — 41 км. Объём воды — 710 млн куб. м. Площадь водосбора — 199 км?.
+Озеро Нарочь возникло несколько тысячелетий назад, при отступлении ледника. На пути ледника к северу встала Свенцянская гряда. Вода от таявшего льда образовала огромное водное пространство, из которого впоследствии, с понижением уровня воды, выделились озёра, образовавшие Нарочанскую группу. Нарочь — типичный представитель природы севера Белоруссии — Белорусского Поозерья.];;
+
+naroch_lake => nrel_image: "file://naroch.jpg";;

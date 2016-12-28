@@ -1,0 +1,40 @@
+sc_node_not_relation -> river_smolka;;
+
+river_smolka 
+
+<-concept_river;
+
+=> nrel_main_idtf: [река Смолка] (* <- lang_ru;; *);
+
+
+=> nrel_main_idtf: [river Smolka] (* <- lang_en;; *);
+
+=> nrel_lenght: [3,13];
+
+=> nrel_max_width: [5];
+
+
+=> nrel_flow_rate: [0,15];
+
+=> nrel_osm_query:
+[
+( 
+area["name"="Смолка"]["waterway"="river"];
+way["name"="Смолка"]["waterway"="river"];
+relation["name"="Смолка"]["waterway"="river"];
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://river_smolka.jpg";;
+                                *);; 
+                *);;

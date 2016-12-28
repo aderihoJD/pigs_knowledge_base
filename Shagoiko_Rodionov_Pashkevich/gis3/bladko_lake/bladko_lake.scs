@@ -1,0 +1,31 @@
+sc_node_not_relation -> bladko_lake;;
+
+bladko_lake => nrel_main_idtf:
+	[озеро Блядко]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Bladko lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> bladko_lake;;
+
+bladko_lake => nrel_region: minsk_region;;
+
+bladko_lake => nrel_district: myadel_district;;
+
+bladko_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+bladko_lake => nrel_maximum_length: [0,58];;
+
+bladko_lake => nrel_altitude: [124];;
+
+bladko_lake => nrel_coastline: [12];;
+
+bladko_lake => nrel_square: [0,074];;
+
+bladko_lake => nrel_watercourse_type: stable;;
+
+bladko_lake => nrel_qualitative_features_of_water: fresh_water;;

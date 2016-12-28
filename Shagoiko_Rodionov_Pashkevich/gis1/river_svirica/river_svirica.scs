@@ -1,0 +1,45 @@
+sc_node_not_relation -> river_svirica;;
+
+river_svirica 
+
+<-concept_river;
+
+=> nrel_main_idtf: [река Свирица] (* <- lang_ru;; *);
+
+
+=> nrel_main_idtf: [river Svirica] (* <- lang_en;; *);
+
+=> nrel_lenght: [7,3];
+
+=> nrel_max_width: [8];
+
+=> nrel_catchment_area: [419];
+
+=> nrel_avg_year_water_flaw: [3];
+
+=> nrel_avg_slope_surface: [2,4];
+
+=> nrel_flow_rate: [0,02];
+
+=> nrel_osm_query:
+[
+( 
+area["name"="Свирица"]["waterway"="river"];
+way["name"="Свирица"]["waterway"="river"];
+relation["name"="Свирица"]["waterway"="river"];
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://river_svirica.jpg";;
+                                *);; 
+                *);;

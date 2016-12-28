@@ -1,0 +1,31 @@
+sc_node_struct -> jaby_lake;;
+
+jaby_lake => nrel_main_idtf:
+	[Жабы озеро] 
+	(* 
+	<- lang_ru;; 
+	*);
+	[Jaby lake]
+	(* 
+	<- lang_en;; 
+	*) ;;
+
+lake -> jaby_lake;;
+
+jaby_lake => nrel_region: brest_region;;
+
+jaby_lake => nrel_district: gantsevichi_district;;
+
+jaby_lake => nrel_watercourse_type: stable;;
+
+jaby_lake => nrel_maximum_length: [0,11];;
+
+jaby_lake => nrel_maximum_width: [0,08];;
+
+jaby_lake => nrel_coastline: [0,3];;
+
+jaby_lake => nrel_square: [0,01];;
+
+jaby_lake => nrel_watershed: cna_river;;
+
+jaby_lake => nrel_qualitative_features_of_water: fresh_water;;

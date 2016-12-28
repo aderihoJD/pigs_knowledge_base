@@ -1,0 +1,38 @@
+sc_node_struct -> dolgoe_lake;;
+
+dolgoe_lake => nrel_main_idtf:
+	[Долгое озеро]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Dolgoe lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> dolgoe_lake;;
+
+dolgoe_lake => nrel_region: vitebsk_region;;
+
+dolgoe_lake => nrel_district: glubokski_district;;
+
+dolgoe_lake => nrel_altitude: [173];;
+
+dolgoe_lake => nrel_coastline: [14,9];;
+
+dolgoe_lake => nrel_depth: [53,6];;
+
+dolgoe_lake => nrel_square: [2,6];;
+
+dolgoe_lake => nrel_watercourse_type: stable;;
+
+dolgoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+dolgoe_lake => nrel_watershed: zapadnaya_dvina_river;;
+
+dolgoe_lake => nrel_text_discription: 
+[Озеро занимает типичную ложбинную котловину, врезанную на 70—80 м в моренный суглинок и открытую только в крайних северо-западной и юго-восточной частях. Высокие (до 35 м, на северо-западе и юго-востоке до 10 м) и крутые склоны во многих местах обрываются прямо к воде. Они покрыты густым кустарником, кое-где выделяются мощные дубы и ели. Подводные склоны котловины также очень крутые (до 30—40°). Берега и дно в прибрежной зоне (до глубин 10—15 метров) песчаные и песчано-галечные, на бо?льших глубинах дно покрыто илом, глиной и сапропелем (в заливах).
+
+Водоём слабопроточный. Для полной смены воды требуется не менее 6 лет. Водная масса стратифицирована, с большим содержанием кислорода во всей толще.];;
+
+dolgoe_lake => nrel_image: "file://dolgoe.jpg";;

@@ -1,0 +1,43 @@
+sc_node_not_relation -> gluhoe_lake;;
+
+gluhoe_lake => nrel_main_idtf:
+	[озеро Глухое]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Gluhoe lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> gluhoe_lake;;
+
+gluhoe_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+gluhoe_lake => nrel_maximum_length: [0,1];;
+
+gluhoe_lake => nrel_altitude: [6];;
+
+gluhoe_lake => nrel_coastline: [0,27];;
+
+gluhoe_lake => nrel_square: [0,01];;
+
+gluhoe_lake => nrel_depth: [5,0];;
+
+gluhoe_lake => nrel_watercourse_type: stable;;
+
+gluhoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+gluhoe_lake => nrel_text_discription: 
+[Глухое (белор. Глухое) — находится в Мядельском районе Минской обл., в 36 км на запад от г. Мядель, примерно в 0,4 км на север от г.п. Свирь и относится к бассейну р. Страча (пр. приток р. Вилия). Местность преимущественно равнинная, низинная, местами грядисто-холмистая, большей частью болотистая. На севере и западе расположены обширные лесные массивы. Озеро окружено широкой (до 120 м) заболоченной поймой, к которым примыкают болотистые луга, поросшие болотно-луговой растительностью и редким кустарником. Берега низкие, сплавинные, поросшие кустарником.];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://gluhoe.jpg";;
+                                *);; 
+                *);;

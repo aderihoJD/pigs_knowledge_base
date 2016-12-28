@@ -1,0 +1,8 @@
+sc_node_not_relation -> concept_rodnik;;
+
+concept_rodnik => nrel_main_idtf:
+	[родник]
+	(* <- lang_ru;; *);
+	[rodnik]
+	(* <- lang_en;; *);;
+

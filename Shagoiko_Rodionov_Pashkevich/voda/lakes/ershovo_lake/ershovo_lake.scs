@@ -1,0 +1,32 @@
+sc_node_struct -> ershovo_lake;;
+
+ershovo_lake => nrel_main_idtf:
+	[Ершово озеро] 
+	(* 
+	<- lang_ru;; 
+	*);
+	[Еrshovolake]
+	(* 
+	<- lang_en;; 
+	*)
+;;
+
+lake -> ershovo_lake;;
+
+ershovo_lake => nrel_region: vitebsk_region;;
+
+ershovo_lake => nrel_district: senno_district;;
+
+ershovo_lake => nrel_watercourse_type: stable;;
+
+ershovo_lake => nrel_coastline: [1];;
+
+ershovo_lake => nrel_maximum_length: [0,37];;
+
+ershovo_lake => nrel_maximum_width: [0,18];;
+
+ershovo_lake => nrel_watershed: berezka_river;;
+
+ershovo_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+ershovo_lake => nrel_square: [0,06];;

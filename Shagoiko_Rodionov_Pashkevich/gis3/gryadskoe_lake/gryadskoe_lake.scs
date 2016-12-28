@@ -1,0 +1,56 @@
+sc_node_not_relation -> gryadskoe_lake;;
+
+gryadskoe_lake => nrel_main_idtf:
+	[озеро Грядское]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Gryadskoe lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> gryadskoe_lake;;
+
+gryadskoe_lake => nrel_region: minsk_region;;
+
+gryadskoe_lake => nrel_district: myadel_district;;
+
+gryadskoe_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+gryadskoe_lake => nrel_maximum_length: [0,83];;
+
+gryadskoe_lake => nrel_altitude: [145];;
+
+gryadskoe_lake => nrel_coastline: [11];;
+
+gryadskoe_lake => nrel_square: [0,38];;
+
+gryadskoe_lake => nrel_depth: [4,1];;
+
+gryadskoe_lake => nrel_watercourse_type: stable;;
+
+gryadskoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+gryadskoe_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Грядское"]; 
+way["name"="оз. Грядское"]; 
+relation["name"="оз. Грядское"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://gryadskoe_lake.jpg";;
+                                *);; 
+                *);;

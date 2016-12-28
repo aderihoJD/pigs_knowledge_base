@@ -1,0 +1,43 @@
+sc_node_not_relation -> yachmenec_lake;;
+
+yachmenec_lake => nrel_main_idtf:
+	[озеро Ячменец]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Yachmenec lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> yachmenec_lake;;
+
+yachmenec_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+yachmenec_lake => nrel_maximum_length: [0,18];;
+
+yachmenec_lake => nrel_altitude: [8];;
+
+yachmenec_lake => nrel_coastline: [0,48];;
+
+yachmenec_lake => nrel_square: [0,011];;
+
+yachmenec_lake => nrel_depth: [6,9];;
+
+yachmenec_lake => nrel_watercourse_type: stable;;
+
+yachmenec_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+yachmenec_lake => nrel_text_discription: 
+[Ячменец (белор. Ячмянец) — озеро совсем небольшое, по форме напоминает ячменное зерно. Котловина эворзионного типа. При отсутствии притоков, в окружении заболоченного леса оно сохраняет высокую прозрачность воды и повышенную (более 300 мг/л) минерализацию. В прибрежной зоне сохранилась меч-трава.];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://yachmenec.jpg";;
+                                *);; 
+                *);;

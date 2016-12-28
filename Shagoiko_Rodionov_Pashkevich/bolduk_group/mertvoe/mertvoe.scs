@@ -1,0 +1,56 @@
+sc_node_not_relation -> mertvoe_lake;;
+
+mertvoe_lake => nrel_main_idtf:
+	[озеро Мёртвое]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Mertvoe lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> mertvoe_lake;;
+
+mertvoe_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+mertvoe_lake => nrel_maximum_length: [0,11];;
+
+mertvoe_lake => nrel_altitude: [10];;
+
+mertvoe_lake => nrel_coastline: [0,32];;
+
+mertvoe_lake => nrel_square: [0,005];;
+
+mertvoe_lake => nrel_depth: [9,7];;
+
+mertvoe_lake => nrel_watercourse_type: stable;;
+
+mertvoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+mertvoe_lake => nrel_text_discription: 
+[Мёртвое (белор. Мёртвае) — озеро в Мядельском районе в Минской области в Беларуси, входящее в группу Голубые озёра.
+Уникальность озера Мёртвое состоит в том, что, несмотря на то, что его глубина составляет 24 метра, под озером есть 300-метровая полость, в которой сосредоточен сероводород.];;
+
+mertvoe_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Мёртвое"]; 
+way["name"="озеро Мёртвое"]; 
+relation["name"="озеро Мёртвое"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://mertvoe.jpg";;
+                                *);; 
+                *);;

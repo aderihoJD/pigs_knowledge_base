@@ -1,0 +1,36 @@
+sc_node_struct ->boginskoe_lake;;
+
+boginskoe_lake => nrel_main_idtf:
+	[Богинское озеро] 
+	(* 
+	<- lang_ru;; 
+	*);
+	[Boginskoe lake]
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> boginskoe_lake;;
+
+boginskoe_lake => nrel_region: vitebsk_region;;
+
+boginskoe_lake => nrel_district: braslavsky_district;;
+
+boginskoe_lake => nrel_altitude: [130];;
+
+boginskoe_lake => nrel_depth: [15];;
+
+boginskoe_lake => nrel_square: [13,23];;
+
+boginskoe_lake => nrel_coastline: [32,2];;
+
+boginskoe_lake => nrel_watercourse_type: stable;;
+
+boginskoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+boginskoe_lake => nrel_watershed: disna_river;;
+
+boginskoe_lake => nrel_text_discription: 
+[Котловина озера эворзионного типа, окружена пологими склонами. На севере и западе покрыты хвойным лесом и невысокие. Восточные склоны частично распаханы. Подводная часть озера имеет чёткую литораль, которая уже с глубины 1 м резко переходит с крутой сублиторальный склон. С глубины 20 м начинается ложе озера.];;
+
+boginskoe_lake => nrel_image: "file://boginskoe.jpg";;

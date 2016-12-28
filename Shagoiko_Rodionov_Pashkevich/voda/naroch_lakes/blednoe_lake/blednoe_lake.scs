@@ -1,0 +1,40 @@
+sc_node_struct -> blednoe_lake;;
+
+blednoe_lake => nrel_main_idtf:
+	[озеро Бледное]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Blednoe lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> blednoe_lake;;
+
+blednoe_lake => nrel_region: minsk_region;;
+
+blednoe_lake => nrel_district: myadel_district;;
+
+blednoe_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+blednoe_lake => nrel_maximum_length: [5,4];;
+
+blednoe_lake => nrel_altitude: [165];;
+
+blednoe_lake => nrel_coastline: [6];;
+
+blednoe_lake => nrel_square: [1,95];;
+
+blednoe_lake => nrel_depth: [8,1];;
+
+blednoe_lake => nrel_watercourse_type: stable;;
+
+blednoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+blednoe_lake => nrel_text_discription: 
+[Бледное (Белое) — озеро в Мядельском районе Минской области, входит в Нарочанскую группу.
+Озеро с площадью зеркала 1,95 км² лежит к югу от деревни Гатовичи. Площадь водосбора — 4,72 км², максимальная глубина — 8,1 м, длина береговой линии — 6 км.
+В отличие от других Нарочанских озёр, Бледное бессточно.
+Берега озера — преимущественно песчаные, склоны котловины высотой 2-5 м, на глубине ниже 3 м — сапропель. Ширина прибережных зарослей до 180 м, водные растения встречаются до глубины 2 м. На берегах гнездуется лебедь-шипун.
+Район озера входит в гидрологический заказник «Черемшицы», часть национального парка «Нарочанский». Сейчас уровень воды в озере немного повысился. На берегах озера существует естественный пляж. Это одно из любимых мест для купания, рыбалки, пикников и даже загара среди минчан. Рядом расположен санаторий ,,Сосны". Существует подъездная дорога. Рядом обильные ягодники.];;

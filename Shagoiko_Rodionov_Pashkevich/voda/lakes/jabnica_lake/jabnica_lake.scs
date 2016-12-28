@@ -1,0 +1,31 @@
+sc_node_struct -> jabnica_lake;;
+
+jabnica_lake => nrel_main_idtf:
+	[Жабница озеро] 
+	(* 
+	<- lang_ru;; 
+	*);
+	[Jabnica lake]
+	(* 
+	<- lang_en;; 
+	*) ;;
+
+lake -> jabnica_lake;;
+
+jabnica_lake => nrel_region: vitebsk_region;;
+
+jabnica_lake => nrel_district: gorodokskoy_district;;
+
+jabnica_lake => nrel_watercourse_type: stable;;
+
+jabnica_lake => nrel_coastline: [0,4];;
+
+jabnica_lake => nrel_maximum_length: [0,17];;
+
+jabnica_lake => nrel_maximum_width: [0,04];;
+
+jabnica_lake => nrel_watershed: chernica_river;;
+
+jabnica_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+jabnica_lake => nrel_square: [0,4];;

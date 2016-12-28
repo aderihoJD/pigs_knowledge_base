@@ -1,0 +1,35 @@
+sc_node_struct -> chervonoe_lake;;
+
+chervonoe_lake => nrel_main_idtf:
+	[Червоное озеро] 
+	(* 
+	<- lang_ru;; 
+	*);
+	[Chervonoe lake]
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> chervonoe_lake;;
+
+chervonoe_lake => nrel_region: gomel_region;;
+
+chervonoe_lake => nrel_district: zhitkovichi_district;;
+
+chervonoe_lake => nrel_maximum_length: [12,1];;
+
+chervonoe_lake => nrel_maximum_width: [5,2];;
+
+chervonoe_lake => nrel_altitude: [128];;
+
+chervonoe_lake => nrel_coastline: [30,8];;
+
+chervonoe_lake => nrel_watercourse_type: stable;;
+
+chervonoe_lake => nrel_watershed: pripyat_river;;
+
+chervonoe_lake => nrel_depth: [4];;
+
+chervonoe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+chervonoe_lake => nrel_square: [43,7];;

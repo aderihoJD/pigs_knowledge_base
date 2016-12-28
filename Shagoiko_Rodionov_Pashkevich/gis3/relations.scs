@@ -1,0 +1,125 @@
+nrel_altitude
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[абсолютная высота*] (* <- lang_ru;; *);
+	[altitude*] (* <- lang_en;; *);;
+
+nrel_depth
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[глубина*] (* <- lang_ru;; *);
+	[depth*] (* <- lang_en;; *);;
+
+nrel_group_of_lakes
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[группа озер*] (* <- lang_ru;; *);
+	[group of lakes*] (* <- lang_en;; *);;
+
+nrel_length
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[длина*] (* <- lang_ru;; *);
+	[length*] (* <- lang_en;; *);;
+
+nrel_coastline
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[длина береговой линии*] (* <- lang_ru;; *);
+	[coastline*] (* <- lang_en;; *);;
+
+nrel_qualitative_features_of_water
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[качественные особенности воды*] (* <- lang_ru;; *);
+	[qualitative features of water*] (* <- lang_en;; *);;
+
+nrel_count_of_lakes
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[количество озер*] (* <- lang_ru;; *);
+	[count of lakes*] (* <- lang_en;; *);;
+
+nrel_maximum_length
+<- sc_node_norole_relation;
+ => nrel_main_idtf:
+	[максимальная длина*] (* <- lang_ru;; *);
+	[maximum length*] (* <- lang_en;; *);;
+
+nrel_maximum_width
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[максимальная ширина*] (* <- lang_ru;; *);
+	[maximum width*] (* <- lang_en;; *);;
+
+nrel_location
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[месторасположение*] (* <- lang_ru;; *);
+	[location*] (* <- lang_en;; *);;
+
+nrel_presence_of_fish
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Наличие рыбы в озерах*]	(* <- lang_ru;; *);
+	[The presence of fish in lakes*]  (* 	<- lang_en;; *);;
+
+nrel_watershed_sea
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[относится к бассейну моря*] (* <- lang_ru;; *);
+	[watershed*] (* <- lang_en;; *);;
+
+nrel_watershed
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[относится к бассейну реки*] (* <- lang_ru;; *);
+	[watershed*] (* <- lang_en;; *);;
+
+nrel_square
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[площадь*] (* <- lang_ru;; *);
+	[square*] (* <- lang_en;; *);;
+
+nrel_square_of_watershed
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[площадь бассейна реки*] (* <- lang_ru;; *);
+	[square of watershed*] (* <- lang_en;; *);;
+
+nrel_square_of_lakes
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[площадь озер*] (* <- lang_ru;; *);
+	[square of lakes*] (* <- lang_en;; *);;
+
+nrel_comunication_with_other_lakes
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[связь с другими озёрами*] (* <- lang_ru;; *);
+	[comunication with other lakes*] (* <- lang_en;; *);;
+
+nrel_average_depth
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Средняя глубина*]	(* <- lang_ru;;	*);
+	[Average depth*]	(* <- lang_en;;	*);;
+
+nrel_text_discription
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[текстовое описание*]	(* <- lang_ru;;	*);
+	[text discription*]	(* <- lang_en;; *);;
+
+nrel_watercourse_type
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[тип водотока*] (* <- lang_ru;; *);
+	[watercourse type*] (* <- lang_en;; *);;
+
+sc_node_norole_relation -> nrel_pict;; 
+nrel_pict => nrel_main_idtf:
+[рисунок*](*<-lang_ru;;*);
+[picture*](*<-lang_en;;*);;
+

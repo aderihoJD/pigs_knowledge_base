@@ -1,0 +1,31 @@
+sc_node_struct -> jujel_lake;;
+
+jujel_lake => nrel_main_idtf:
+	[Жужель озеро]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Jujel lake]
+	(* 
+	<- lang_en;; 
+	*) ;;
+
+lake -> jujel_lake;;
+
+jujel_lake => nrel_region: vitebsk_region;;
+
+jujel_lake => nrel_district: vitebsk_district;;
+
+jujel_lake => nrel_watercourse_type: stable;;
+
+jujel_lake => nrel_maximum_length: [0,25];;
+
+jujel_lake => nrel_maximum_width: [0,18];;
+
+jujel_lake => nrel_coastline: [0,62];;
+
+jujel_lake => nrel_square: [0,03];;
+
+jujel_lake => nrel_watershed: shevinka_river;;
+
+jujel_lake => nrel_qualitative_features_of_water: fresh_water;;
