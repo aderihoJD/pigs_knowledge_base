@@ -1,0 +1,5 @@
+sc_node_role_relation->rrel_place;;
+
+rrel_place=> nrel_main_idtf:
+	[место'](* <-lang_ru;; *);
+	[place'](* <-lang_en;; *);;
