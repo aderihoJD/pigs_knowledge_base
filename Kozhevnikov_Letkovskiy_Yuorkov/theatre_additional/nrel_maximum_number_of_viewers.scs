@@ -1,5 +1,5 @@
-sc_node_norole_relation->nrel_maximum_count_of_viewers;;
+sc_node_norole_relation->nrel_maximum_number_of_viewers;;
 
-nrel_maximum_count_of_viewers=> nrel_main_idtf:
+nrel_maximum_number_of_viewers=> nrel_main_idtf:
 	[максимальное количество зрителей*](* <-lang_ru;; *);
 	[maximum count of viewers*](* <-lang_en;; *);;

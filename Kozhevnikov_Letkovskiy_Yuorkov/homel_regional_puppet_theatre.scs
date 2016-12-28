@@ -11,7 +11,7 @@ homel_regional_theatre
 => nrel_osm_query:
     [node["amenity"="theatre"]["name"="Кукольный Театр"];];
 
-=> nrel_theatre_kind: puppet_theatre;
+<- puppet_theatre;
 
 
 <- rrel_place: ... (* 

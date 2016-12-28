@@ -7,7 +7,7 @@ chamber_dramatic_theatre
 <-concept_terrain_object;
 
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 					
@@ -15,7 +15,7 @@ chamber_dramatic_theatre
 
 => nrel_foundation_date: [2010];
 
-=> nrel_scedule: [ПН–ВС с 10:00 до 23:00];
+=> nrel_schedule: [ПН–ВС с 10:00 до 23:00];
 
 => nrel_email: [kdtminsk@gmail.com];	
 

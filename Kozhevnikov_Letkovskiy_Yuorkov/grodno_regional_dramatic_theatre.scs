@@ -9,7 +9,7 @@ grodno_regional_dramatic_theatre
 => nrel_osm_query:
     [way["name"="Драматический театр"]["website"="http://drama.grodno.by"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 
@@ -151,7 +151,7 @@ grodno_regional_dramatic_theatre
 
 => nrel_foundation_date: [1947];
 
-=> nrel_scedule: [ПН–СБ 14:00—19:00, ВС 15:00—19:00];
+=> nrel_schedule: [ПН–СБ 14:00—19:00, ВС 15:00—19:00];
 
 => nrel_email: [dramagr@tut.by];
 

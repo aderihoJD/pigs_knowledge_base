@@ -9,7 +9,7 @@ belarusian_state_puppet_theatre
 => nrel_osm_query:
     [node["amenity"="theatre"]["name"="Кукол"];];
 
-=> nrel_theatre_kind: puppet_theatre;
+<- puppet_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 
@@ -27,7 +27,7 @@ belarusian_state_puppet_theatre
 
 =>nrel_number_of_halls:[1](* <-number;; *);	
 
-=> nrel_scedule: [ПН–ВС с 10:00 до 21:00];
+=> nrel_schedule: [ПН–ВС с 10:00 до 21:00];
 
 => nrel_maximum_number_of_viewers: [272](* <-number;; *);	
 

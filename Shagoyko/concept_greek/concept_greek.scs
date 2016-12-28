@@ -1,7 +1,0 @@
-sc_node_not_relation -> concept_greek;;
-
-concept_greek => nrel_main_idtf:
-	[ручей]
-	(* <- lang_ru;; *);
-	[greek]
-	(* <- lang_en;; *);;

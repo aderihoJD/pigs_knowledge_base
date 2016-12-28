@@ -9,7 +9,7 @@ mogilev_regional_dramatic_theatre
 => nrel_osm_query:
     [way["name" = "Могилёвский областной драматический театр"]["addr:street" = "Первомайская улица"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 /////<= nrel_inclusion: cultural_heritage;
 					

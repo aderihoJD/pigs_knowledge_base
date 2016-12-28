@@ -24,7 +24,7 @@ belarusians_state_academic_musical_theater
 
 => nrel_foundation_date: [1970];
 
-=> nrel_scedule: [ПН-ПТ 09.00 – 21.00б СБ-ВС 10.00 – 20.00];
+=> nrel_schedule: [ПН-ПТ 09.00 – 21.00б СБ-ВС 10.00 – 20.00];
 
 =>nrel_number_of_halls:[1](* <-number;; *);	
 

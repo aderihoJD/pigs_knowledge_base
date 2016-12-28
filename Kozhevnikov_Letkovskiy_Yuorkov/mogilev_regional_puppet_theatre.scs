@@ -11,7 +11,7 @@ mogilev_regional_theatre
 => nrel_osm_query:
     [way["name"="Могилевский театр кукол"];];
 
-=> nrel_theatre_kind: puppet_theatre;
+<- puppet_theatre;
 
 
 <- rrel_place: ... (* 
@@ -29,7 +29,7 @@ mogilev_regional_theatre
 
 => nrel_foundation_date: [1976];
 
-=> nrel_scedule: [ПН: 12.00 – 19.00 (Обед: 14.00 – 15.00); ВТ - СБ: 8.00 – 19.00  (Обед: 14.00 – 15.00); ВС: 9.00 — 16.00 (Обед: 14.00 – 15.00)];
+=> nrel_schedule: [ПН: 12.00 – 19.00 (Обед: 14.00 – 15.00); ВТ - СБ: 8.00 – 19.00  (Обед: 14.00 – 15.00); ВС: 9.00 — 16.00 (Обед: 14.00 – 15.00)];
 
 =>nrel_number_of_halls:[1](* <-number;; *);
 

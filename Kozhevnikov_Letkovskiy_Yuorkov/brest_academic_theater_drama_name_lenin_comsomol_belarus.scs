@@ -9,7 +9,7 @@ brest_academic_theater_drama_name_lenin_comsomol_belarus
 => nrel_osm_query:
     [way["addr:street"= "улица Ленина"]["name"= "Брестский академический театр драмы"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 
@@ -25,7 +25,7 @@ brest_academic_theater_drama_name_lenin_comsomol_belarus
 
 => nrel_foundation_date: [1944];
 
-=> nrel_scedule: [ВТ–ВС с 14:00 до 20:00];
+=> nrel_schedule: [ВТ–ВС с 14:00 до 20:00];
 
 => nrel_email: [bresttheatre@yahoo.com];
 

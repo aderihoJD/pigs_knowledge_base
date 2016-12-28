@@ -9,7 +9,7 @@ national_academic_dramatic_theatre_kolas
 => nrel_osm_query:
     [way["addr:street"= "Замковая улица"]["amenity"= "theatre"]["name"= "Национальный академический драмтеатр Якуба Коласа"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 

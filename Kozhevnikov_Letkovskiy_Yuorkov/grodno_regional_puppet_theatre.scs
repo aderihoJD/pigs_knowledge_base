@@ -11,7 +11,7 @@ grodno_regional_theatre
 => nrel_osm_query:
     [node["website"="http://grodnolyalka.na.by/"];];
 
-=> nrel_theatre_kind: puppet_theatre;
+<- puppet_theatre;
 
 
 <- rrel_place: ... (* 
@@ -38,7 +38,7 @@ grodno_regional_theatre
 
 => nrel_foundation_date: [1980];
 
-=> nrel_scedule: [ВТ–ПТ с 12:00 до 19:00, СБ–ВС с 09:30 до 14:00];
+=> nrel_schedule: [ВТ–ПТ с 12:00 до 19:00, СБ–ВС с 09:30 до 14:00];
 
 =>nrel_number_of_halls:[2](* <-number;; *);
 

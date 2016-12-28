@@ -1,7 +1,0 @@
-sc_node_not_relation -> concept_river;;
-
-concept_river => nrel_main_idtf:
-	[река]
-	(* <- lang_ru;; *);
-	[river]
-	(* <- lang_en;; *);;

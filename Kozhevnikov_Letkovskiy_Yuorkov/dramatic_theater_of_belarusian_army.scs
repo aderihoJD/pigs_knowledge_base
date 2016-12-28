@@ -8,7 +8,7 @@ dramatic_theater_of_belarusian_army
 
 => nrel_osm_query:[way["addr:postcode"= "220030"]["addr:street"= "Красноармейская улица"]["name"= "Центральный Дом офицеров"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 

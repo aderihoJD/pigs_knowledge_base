@@ -8,7 +8,7 @@ theatre_of_modern_drama_theatre_ark
 
 => nrel_osm_query:[node["amenity"= "theatre"]["name"= "Новый Драмтеатр"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 

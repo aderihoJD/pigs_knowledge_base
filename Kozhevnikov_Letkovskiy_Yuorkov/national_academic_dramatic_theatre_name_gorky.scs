@@ -8,7 +8,7 @@ national_academic_dramatic_theatre_name_gorky
 
 => nrel_osm_query:[way["addr:street"="улица Володарского"]["amenity"="theatre"]["name"="им. М.Горького"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 

@@ -9,7 +9,7 @@ gomel_regional_dramatic_theatre
 => nrel_osm_query:
     [node["amenity"= "theatre"]["name"= "Гомельский драматический театр"]["wheelchair"= "no"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 

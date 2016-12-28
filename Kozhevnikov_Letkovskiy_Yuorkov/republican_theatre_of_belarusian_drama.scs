@@ -8,7 +8,7 @@ republican_theatre_of_belarusian_drama
 
 => nrel_osm_query:[node["amenity"= "theatre"]["name"= "Рэспубліканскі тэатр беларускай драматургіі"];];
 
-=> nrel_theatre_kind: dramatic_theatre;
+<- dramatic_theatre;
 
 ////<= nrel_inclusion: cultural_heritage;
 
@@ -24,7 +24,7 @@ republican_theatre_of_belarusian_drama
 
 => nrel_foundation_date: [1991];
 
-=> nrel_scedule: [ВТ–ВС с 14:00 до 19:00];
+=> nrel_schedule: [ВТ–ВС с 14:00 до 19:00];
 
 => nrel_email: [tbd@tut.by];
 
