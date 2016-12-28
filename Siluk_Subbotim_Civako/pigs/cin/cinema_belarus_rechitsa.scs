@@ -1,0 +1,46 @@
+cinema_belarus_rechitsa
+
+=> nrel_main_idtf:
+    [Кинотеатр Беларусь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "39"]
+     ["addr:street"= "улица Советская"]
+      [ "name"= "Беларусь"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр «Беларусь» открылся 17 января 1961 года. Зрительный зал кинотеатра был рассчитан на 550 мест. В нём демонстрировались лучшие отечественные (СССР) и зарубежные фильмы. Особенной популярностью пользовались фильмы индийские.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ПТ 08:30-17:30];
+=> nrel_cash_telephone: [(8 0234) 02 66 66];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_belarus_rechitsa.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

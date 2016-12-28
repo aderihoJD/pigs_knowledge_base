@@ -1,0 +1,30 @@
+cinema_znamya_kalinkovichi
+
+=> nrel_main_idtf:
+    [Кинотеатр Знамя]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "22"]
+     ["addr:street"= "улица Фрунзе"]
+      [ "name"= "Знамя"];
+];
+	
+=> nrel_site:[http://kino-zn.by];
+=> nrel_scedule: [ПН–ПТ 08:30-22:30, СБ–ВС 10:00-22:30];
+=> nrel_cash_telephone: [(8 0234) 54 01 01];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_znamya_kalinkovichi.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

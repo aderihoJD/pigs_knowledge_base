@@ -1,0 +1,46 @@
+cinema_oktyabr_borisov
+
+=> nrel_main_idtf:
+    [Кинотеатр Октябрь]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "103"]
+     ["addr:street"= "улица Юрия Гагарина"]
+      [ "name"= Октябрь"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [В кинотеатре регулярно проходят премьеры фильмов с приглашением белорусских актеров, режиссеров. Проводятся предсеансовые мероприятия в дни праздников и многочисленные викторины, кинолектории для школьников.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН-ВС 12:00-21:00];
+=> nrel_cash_telephone: [(8 0177) 74 40 40];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_oktyabr_borisov.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

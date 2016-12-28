@@ -1,0 +1,46 @@
+cinema_mir_mozir
+
+=> nrel_main_idtf:
+    [Кинотеатр Мир]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "2"]
+     ["addr:street"= "улица 17-го сентября"]
+      [ "name"= "Мир"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Кинотеатр "Мир" построен в 1983 г. и является на данный момент единственным кинотеатром в городе. В 2013 году ко Дню белорусского кино здесь проведена большая работа. В Большом зале сделан текущий ремонт.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ПТ 08:30-17:00];
+=> nrel_cash_telephone: [(8 0236) 32 14 02];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_mir_mozir.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
