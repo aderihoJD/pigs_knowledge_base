@@ -1,0 +1,43 @@
+sc_node_not_relation -> svinok_lake;;
+
+svinok_lake => nrel_main_idtf:
+	[озеро Свинок]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Svinok lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> svinok_lake;;
+
+svinok_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+svinok_lake => nrel_maximum_length: [0,1];;
+
+svinok_lake => nrel_altitude: [4];;
+
+svinok_lake => nrel_coastline: [0,37];;
+
+svinok_lake => nrel_square: [0,01];;
+
+svinok_lake => nrel_depth: [3,6];;
+
+svinok_lake => nrel_watercourse_type: stable;;
+
+svinok_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+svinok_lake => nrel_text_discription: 
+[Свинок (белор. Свинак) — озеро расположено в Мядельском районе Минской обл., в 37 км на северо-запад от г. Мядель, примерно в 1 км на восток от д. Януковичи, в районе Болдукской группы озер. Относится к бассейну р. Страча (пр. приток р. Вилия). Местность преимущественно равнинная, местами грядисто-холмистая, большей частью густо заросшая красивым ухоженным лесом и кустарником, местами болотистая. Берега преимущественно низкие, песчаные (на востоке заболоченные), поросшие кустарником, местами лесом. Зарастает умеренно. В озере обитают окунь, плотва, лещ, щука, линь и др. рыба.];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://svinok.jpg";;
+                                *);; 
+                *);;

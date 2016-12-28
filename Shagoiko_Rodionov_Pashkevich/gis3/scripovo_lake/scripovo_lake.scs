@@ -1,0 +1,42 @@
+sc_node_not_relation -> scripovo_lake;;
+
+scripovo_lake => nrel_main_idtf:
+	[озеро Скрипово]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Scripovo lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> scripovo_lake;;
+
+scripovo_lake => nrel_region: minsk_region;;
+
+scripovo_lake => nrel_district: myadel_district;;
+
+scripovo_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+scripovo_lake => nrel_maximum_length: [0,18];;
+
+scripovo_lake => nrel_altitude: [126];;
+
+scripovo_lake => nrel_coastline: [11];;
+
+scripovo_lake => nrel_square: [0,01];;
+
+scripovo_lake => nrel_watercourse_type: stable;;
+
+scripovo_lake => nrel_qualitative_features_of_water: fresh_water;
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://scripovo_lake.jpg";;
+                                *);; 
+                *);;

@@ -1,0 +1,43 @@
+sc_node_not_relation -> amshernik_lake;;
+
+amshernik_lake => nrel_main_idtf:
+	[озеро Амшерник]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Amshernik lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> amshernik_lake;;
+
+amshernik_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+amshernik_lake => nrel_maximum_length: [0,2];;
+
+amshernik_lake => nrel_altitude: [5];;
+
+amshernik_lake => nrel_coastline: [0,55];;
+
+amshernik_lake => nrel_square: [0,02];;
+
+amshernik_lake => nrel_depth: [4,0];;
+
+amshernik_lake => nrel_watercourse_type: stable;;
+
+amshernik_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+amshernik_lake => nrel_text_discription: 
+[Амшерник (белор. Амшэрник) — находится в Мядельском (на границе с Поставским) районе Витебской обл., в 36 км на северо-запад от г. Мядель, примерно в 0,5 км на юго-запад от д. Сенькишки, в Болдукской группе озер, на территории ландшафтного заказника Голубые озера.];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://amshernik.jpg";;
+                                *);; 
+                *);;

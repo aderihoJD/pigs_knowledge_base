@@ -1,0 +1,43 @@
+sc_node_not_relation -> river_struna;;
+
+river_struna 
+
+
+<-concept_river;
+=> nrel_main_idtf: [река Струна] (* <- lang_ru;; *);
+
+
+=> nrel_main_idtf: [river Struna] (* <- lang_en;; *);
+
+=> nrel_lenght: [31];
+
+=> nrel_max_width: [7];
+
+=> nrel_catchment_area: [194];
+
+=> nrel_avg_year_water_flaw: [1,5];
+
+=> nrel_avg_slope_surface: [0,8];
+
+=> nrel_osm_query:
+[
+( 
+area["name"="Струна"]["waterway"="river"];
+way["name"="Струна"]["waterway"="river"];
+relation["name"="Струна"]["waterway"="river"];
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://river_struna.JPG";;
+                                *);; 
+                *);;

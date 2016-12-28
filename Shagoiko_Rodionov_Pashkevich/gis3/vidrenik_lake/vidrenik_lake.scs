@@ -1,0 +1,56 @@
+sc_node_not_relation -> vidrenik_lake;;
+
+vidrenik_lake => nrel_main_idtf:
+	[озеро Выдреник]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Vidrenik lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> vidrenik_lake;;
+
+vidrenik_lake => nrel_region: minsk_region;;
+
+vidrenik_lake => nrel_district: myadel_district;;
+
+vidrenik_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+vidrenik_lake => nrel_maximum_length: [0,4];;
+
+vidrenik_lake => nrel_altitude: [126];;
+
+vidrenik_lake => nrel_coastline: [11];;
+
+vidrenik_lake => nrel_square: [0,07];;
+
+vidrenik_lake => nrel_depth: [3,4];;
+
+vidrenik_lake => nrel_watercourse_type: stable;;
+
+vidrenik_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+vidrenik_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Запортово"]; 
+way["name"="оз. Запортово"]; 
+relation["name"="оз. Запортово"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://vidrenik_lake.JPG";;
+                                *);; 
+                *);;

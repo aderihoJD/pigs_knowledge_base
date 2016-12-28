@@ -1,0 +1,33 @@
+sc_node_struct -> gorodno_lake;;
+
+gorodno_lake => nrel_main_idtf:
+	[Городно озеро] 
+	(* 
+	<- lang_ru;; 
+	*);
+	[Gorodno lake]
+	(* 
+	<- lang_en;; 
+	*) ;;
+
+lake -> gorodno_lake;;
+
+gorodno_lake => nrel_region: vitebsk_region;;
+
+gorodno_lake => nrel_district: vitebsk_district;;
+
+gorodno_lake => nrel_depth: [8];;
+
+gorodno_lake => nrel_coastline : [4,05];;
+
+gorodno_lake => nrel_square: [0,87];;
+
+gorodno_lake => nrel_watercourse_type: stable;;
+
+gorodno_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+gorodno_lake => nrel_watershed: luchosa_river;;
+
+gorodno_lake => nrel_text_discription: 
+[Городно — озеро в Витебском районе Витебской области Белоруссии. Расположено в бассейне реки Лучоса в 11 км к югу от Витебска.
+Площадь поверхности — 0,87 км², водосбора — 16 км². Водосбор плоскохолмистый. Наибольшая глубина озера — 8 м. Береговая линия слабоизвилистая, длиной 4,05 км. Склоны высотой от 5 до 10 м. Озеро эвтрофное, слабопроточное. Дно песчаное, на глубине свыше 2—4 м — илистое. Глубины до 2 метров занимают 20 % площади озера, до 4—6 м — 50 %.];;

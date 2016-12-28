@@ -1,0 +1,31 @@
+sc_node_struct ->jujalica_lake;;
+
+jujalica_lake => nrel_main_idtf:
+	[Жужалица озеро]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Jujalica lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> jujalica_lake;;
+
+jujalica_lake => nrel_region: vitebsk_region;;
+
+jujalica_lake => nrel_district: gorodokskoy_district;;
+
+jujalica_lake => nrel_watercourse_type: stable;;
+
+jujalica_lake => nrel_maximum_length: [0,2];;
+
+jujalica_lake => nrel_maximum_width: [0,15];;
+
+jujalica_lake => nrel_coastline: [0,55];;
+
+jujalica_lake => nrel_square: [0,02];;
+
+jujalica_lake => nrel_watershed: obol_river;;
+
+ jujalica_lake => nrel_qualitative_features_of_water: fresh_water;;

@@ -1,0 +1,49 @@
+sc_node_not_relation -> myastro_lake;;
+
+myastro_lake => nrel_main_idtf:
+	[озеро Мястро]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Myastro lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> myastro_lake;;
+
+myastro_lake => nrel_region: minsk_region;;
+
+myastro_lake => nrel_district: myadel_district;;
+
+myastro_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+myastro_lake => nrel_altitude: [165];;
+
+myastro_lake => nrel_coastline: [20,2];;
+
+myastro_lake => nrel_square: [13,1];;
+
+myastro_lake => nrel_depth: [11,3];;
+
+myastro_lake => nrel_watercourse_type: stable;;
+
+myastro_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+myastro_lake => nrel_text_discription: 
+[Мястро — озеро в Минской области Белоруссии у города Мядель, входит в Нарочанскую группу озёр.
+Площадь озера — 13,1 км², средняя глубина — 5,4 м, максимальная — 11,3 м, длина береговой линии — 20,2 км, площадь водосбора — 130 км².
+Северные берега озера высокие, на юге находится гидрологический заказник «Черемшицы». Мястро соединяется протоками с озёрами Скриново, Шестаково. С Нарочью соединено протокой Скема, с озером Баторино связано рекой Дробня. Часть берегов заболочены, поросшие тростником и камышом.
+В Мястро отмечено 48 видов водных растений, 102 вида фитопланктона, 56 видов зоопланктона. Из рыб встречаются лещ, щука, угорь, плотва, краснопёрка, налим, окунь, карась и др. Интродуцировано несколько видов, в том числе амурский сазан.
+Озеро и его окрестности — центр отдыха и туризма. На Мястро также проходят ежегодные соревнований по спортивной рыбалке.];;
+
+myastro_lake <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://Miastra.jpg";;
+                                *);; 
+                *);;

@@ -1,0 +1,48 @@
+sc_node_not_relation -> river_naroch;;
+
+river_naroch 
+
+
+<-concept_river;
+
+=> nrel_main_idtf: [река Нарочь] (* <- lang_ru;; *);
+
+
+=> nrel_main_idtf: [river Naroch] (* <- lang_en;; *);
+
+=> nrel_lenght: [75];
+
+=> nrel_max_width: [16];
+
+=> nrel_catchment_area: [1650];
+
+=> nrel_avg_year_water_flaw: [11,9];
+
+=> nrel_avg_slope_surface: [0,4];
+
+=> nrel_flow_rate: [0,04];
+
+=> nrel_density_river: [0,39];
+
+=> nrel_osm_query:
+[
+( 
+area["name"="Нарочь"]["waterway"="river"];
+way["name"="Нарочь"]["waterway"="river"];
+relation["name"="Нарочь"]["waterway"="river"];
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://river_naroch.jpg";;
+                                *);; 
+                *);;

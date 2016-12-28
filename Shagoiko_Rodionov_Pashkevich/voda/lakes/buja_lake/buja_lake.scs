@@ -1,0 +1,36 @@
+sc_node_struct -> buja_lake;;
+
+buja_lake => nrel_main_idtf:
+	[Бужа озеро]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Buja lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> buja_lake;;
+
+buja_lake => nrel_region: vitebsk_region;;
+
+buja_lake => nrel_district: braslavsk_region;;
+
+buja_lake => nrel_maximum_width: [1,72];;
+
+buja_lake => nrel_depth: [9,1];;
+
+buja_lake => nrel_square: [4,18];;
+
+buja_lake => nrel_coastline: [12,2];;
+
+buja_lake => nrel_watercourse_type: stable;;
+
+buja_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+buja_lake => nrel_watershed: druika_river;;
+
+buja_lake => nrel_text_discription: 
+[Расположено в бассейне реки Друйка, за 7 км на северо-запад от г. Браслав, возле д. Крюки. Входит в Браславскую группу озер.
+
+Склоны котловины высотой до 12 м, под лесом и кустарником, западные – распаханные. Возле озера пойма шириной от 8 м на севере до 250 м на юго-западе, сухая, с многочисленными валунами, поросшая кустарниками и суходольными травами.];;

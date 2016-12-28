@@ -1,0 +1,56 @@
+sc_node_struct -> podshape_lake;;
+
+podshape_lake => nrel_main_idtf:
+	[озеро Подшапье]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Podshape lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> podshape_lake;;
+
+podshape_lake => nrel_region: minsk_region;;
+
+podshape_lake => nrel_district: myadel_district;;
+
+podshape_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+podshape_lake => nrel_maximum_length: [0,64];;
+
+podshape_lake => nrel_altitude: [133];;
+
+podshape_lake => nrel_coastline: [10];;
+
+podshape_lake => nrel_square: [0,14];;
+
+podshape_lake => nrel_depth: [2,5];;
+
+podshape_lake => nrel_watercourse_type: stable;;
+
+podshape_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+podshape_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Подшапье"]; 
+way["name"="оз. Подшапье"]; 
+relation["name"="оз. Подшапье"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://podshape_lake.jpg";;
+                                *);; 
+                *);;

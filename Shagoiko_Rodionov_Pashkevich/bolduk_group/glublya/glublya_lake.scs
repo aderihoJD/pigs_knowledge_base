@@ -1,0 +1,55 @@
+sc_node_not_relation -> glublya_lake;;
+
+glublya_lake => nrel_main_idtf:
+	[озеро Глубля]
+	(* 
+	<- lang_ru;; 
+	*);
+	[glublya lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> glublya_lake;;
+
+glublya_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+glublya_lake => nrel_maximum_length: [1,15];;
+
+glublya_lake => nrel_altitude: [27];;
+
+glublya_lake => nrel_coastline: [3,3];;
+
+glublya_lake => nrel_square: [0,47];;
+
+glublya_lake => nrel_depth: [26,8];;
+
+glublya_lake => nrel_watercourse_type: stable;;
+
+glublya_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+glublya_lake => nrel_text_discription: 
+[Глубля — озеро в Мядельском районе Минской области, второе по величине среди Блакитных озёр.Котловина озера ложбинного типа. Склоны по большей части крутые, поднимаются на высоту 30-35 м над урезом воды; лишь на востоке имеются низкие заболоченные участки.];;
+
+glublya_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Глубля"]; 
+way["name"="озеро Глубля"]; 
+relation["name"="озеро Глубля"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://glublya.jpg";;
+                                *);; 
+                *);;

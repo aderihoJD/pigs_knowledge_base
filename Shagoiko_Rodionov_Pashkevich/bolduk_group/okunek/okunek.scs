@@ -1,0 +1,55 @@
+sc_node_not_relation -> okunek_lake;;
+
+okunek_lake => nrel_main_idtf:
+	[озеро Окунёк]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Okunek lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> okunek_lake;;
+
+okunek_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+okunek_lake => nrel_maximum_length: [0,2];;
+
+okunek_lake => nrel_altitude: [9];;
+
+okunek_lake => nrel_coastline: [0,61];;
+
+okunek_lake => nrel_square: [0,02];;
+
+okunek_lake => nrel_depth: [8];;
+
+okunek_lake => nrel_watercourse_type: stable;;
+
+okunek_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+okunek_lake => nrel_text_discription: 
+[Окунёк (белор. Акунёк) —  расположено в Мядельском районе Минской обл. в 32 км на северо-запад от г. Мядель, примерно в 0,7 км на юго-восток от д. Болдук, в Болдукской группе озер. Находится на территории ландшафтного заказника Голубые озера, созданного в 1972 г., для сохранения уникального холмисто-озерного природного комплекса, который называют "белорусской Швейцарией", в Беларуском Поозерье.];;
+
+okunek_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Окунёк"]; 
+way["name"="озеро Окунёк"]; 
+relation["name"="озеро Окунёк"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://okunek.jpg";;
+                                *);; 
+                *);;

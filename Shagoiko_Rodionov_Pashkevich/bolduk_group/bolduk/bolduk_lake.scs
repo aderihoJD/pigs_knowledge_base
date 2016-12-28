@@ -1,0 +1,55 @@
+sc_node_not_relation -> bolduk_lake;;
+
+bolduk_lake => nrel_main_idtf:
+	[озеро Болдук]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Bolduk lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> bolduk_lake;;
+
+bolduk_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+bolduk_lake => nrel_maximum_length: [2,05];;
+
+bolduk_lake => nrel_altitude: [75];;
+
+bolduk_lake => nrel_coastline: [5,04];;
+
+bolduk_lake => nrel_square: [0,76];;
+
+bolduk_lake => nrel_depth: [39,7];;
+
+bolduk_lake => nrel_watercourse_type: stable;;
+
+bolduk_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+bolduk_lake => nrel_text_discription: 
+[Болдук (белор. Балдук) — озеро в Мядельском районе Минской области, крупнейшее среди Блакитных озёр.];;
+
+bolduk_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Болдук"]; 
+way["name"="озеро Болдук"]; 
+relation["name"="озеро Болдук"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://bolduk.jpg";;
+                                *);; 
+                *);;

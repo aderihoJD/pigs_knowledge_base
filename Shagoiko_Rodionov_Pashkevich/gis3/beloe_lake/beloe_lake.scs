@@ -1,0 +1,56 @@
+sc_node_not_relation -> beloe_lake;;
+
+beloe_lake => nrel_main_idtf:
+	[озеро Белое]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Beloe lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> beloe_lake;;
+
+beloe_lake => nrel_region: minsk_region;;
+
+beloe_lake => nrel_district: myadel_district;;
+
+beloe_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+beloe_lake => nrel_maximum_length: [2,02];;
+
+beloe_lake => nrel_altitude: [165];;
+
+beloe_lake => nrel_coastline: [15];;
+
+beloe_lake => nrel_square: [2,02];;
+
+beloe_lake => nrel_depth: [8,1];;
+
+beloe_lake => nrel_watercourse_type: stable;;
+
+beloe_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+beloe_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Баторино"]; 
+way["name"="оз. Баторино"]; 
+relation["name"="оз. Баторино"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://beloe_lake.jpg";;
+                                *);; 
+                *);;

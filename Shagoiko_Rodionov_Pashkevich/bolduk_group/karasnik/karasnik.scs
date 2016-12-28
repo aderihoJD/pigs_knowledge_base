@@ -1,0 +1,55 @@
+sc_node_not_relation -> karasnik_lake;;
+
+karasnik_lake => nrel_main_idtf:
+	[озеро карасник]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Karasnik lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> karasnik_lake;;
+
+karasnik_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+karasnik_lake => nrel_maximum_length: [0,1];;
+
+karasnik_lake => nrel_altitude: [4];;
+
+karasnik_lake => nrel_coastline: [0,38];;
+
+karasnik_lake => nrel_square: [0,01];;
+
+karasnik_lake => nrel_depth: [3,8];;
+
+karasnik_lake => nrel_watercourse_type: stable;;
+
+karasnik_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+karasnik_lake => nrel_text_discription: 
+[Карасник (белор. Карасник) — озеро Карасик расположено в Мядельском районе Минской обл., в 35 км на северо-запад от г. Мядель, примерно в 0,3 км на юго-запад от хутора Болдук, и относится к Болдукской группе озер. Находится на территории ландшафтного заказника Голубые (Блакитные) озера, созданного в 1972 г., для сохранения уникального холмисто-озерного природного комплекса, который называют "белорусской Швейцарией", в Беларуском Поозерье.];;
+
+karasnik_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Карасик"]; 
+way["name"="озеро Карасик"]; 
+relation["name"="озеро Карасик"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://karasnik.jpg";;
+                                *);; 
+                *);;

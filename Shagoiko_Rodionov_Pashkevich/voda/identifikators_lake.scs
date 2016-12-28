@@ -1,0 +1,75 @@
+stable => nrel_main_idtf:
+	[постоянный] (* <- lang_ru;; *);
+	[stable] (* <- lang_en;; *);;
+
+fresh_water => nrel_main_idtf:
+	[пресная вода] (* <- lang_ru;; *);
+	[fresh water] (* <- lang_en;; *);;
+
+druika_river => nrel_main_idtf:
+ [река Друйка] (* <- lang_ru;; *);
+ [Druika river] (* <- lang_en;; *);; 
+
+disna_river => nrel_main_idtf: 
+ [река Дисна] (* <- lang_ru;; *);
+ [Disna river] (* <- lang_en;; *);; 
+
+piranka_river => nrel_main_idtf:
+ [река Пыранка] (* <- lang_ru;; *);
+ [Piranka river] (* <- lang_en;; *);; 
+
+pripyat_river => nrel_main_idtf:
+ [река Припять] (* <- lang_ru;; *); 
+ [Pripyat river] (* <- lang_en;; *);;
+
+zapadnaya_dvina_river => nrel_main_idtf:
+ [река Западная Двина] (* <- lang_ru;; *);
+ [Zapadnaya Dvina river] (* <- lang_en;; *);; 
+
+myadelka_river => nrel_main_idtf:
+ [река Мяделка] (* <- lang_ru;; *); 
+ [Myadelka river] (* <- lang_en;; *);;
+
+chernaya_gancha_river => nrel_main_idtf:
+ [река Чёрная Ганча] (* <- lang_ru;; *); 
+ [Chernaya Gancha river] (* <- lang_en;; *);;
+
+berezka_river => nrel_main_idtf:
+ [река Берёзка] (* <- lang_ru;; *); 
+ [Berezka river] (* <- lang_en;; *);;
+
+kusenka_river => nrel_main_idtf:
+ [река Кусенка] (* <- lang_ru;; *); 
+ [Kusenka river] (* <- lang_en;; *);;
+
+luchosa_river => nrel_main_idtf: 
+ [река Лучоса] (* <- lang_ru;; *);
+ [Luchosa river] (* <- lang_en;; *);;
+
+chernica_river => nrel_main_idtf:
+ [река Черница] (* <- lang_ru;; *); 
+ [Chernica river] (* <- lang_en;; *);;
+
+ ovsyanka_river => nrel_main_idtf:
+ [река Овсянка] (* <- lang_ru;; *);
+ [Ovsyanka river] (* <- lang_en;; *);; 
+
+cna_river => nrel_main_idtf: 
+ [река Цна] (* <- lang_ru;; *); 
+ [Cna river] (* <- lang_en;; *);;
+
+obol_river => nrel_main_idtf:
+ [река Оболь] (* <- lang_ru;; *); 
+ [Obol river] (* <- lang_en;; *);;
+
+shevinka_river => nrel_main_idtf:
+ [река Шевинка] (* <- lang_ru;; *);
+ [Shevinka river] (* <- lang_en;; *);; 
+
+black_sea => nrel_main_idtf:
+ [Черное море] (* <- lang_ru;; *);
+ [Black sea] (* <- lang_en;; *);; 
+
+baltiyskiy_sea => nrel_main_idtf:
+ [Балтийское море] (* <- lang_ru;; *);
+ [Baltic sea] (* <- lang_en;; *);;

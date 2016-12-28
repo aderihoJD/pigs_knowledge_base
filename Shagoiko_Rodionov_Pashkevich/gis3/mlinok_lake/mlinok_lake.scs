@@ -1,0 +1,56 @@
+sc_node_not_relation -> mlinok_lake;;
+
+mlinok_lake => nrel_main_idtf:
+	[озеро Млынок]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Mlinok lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> mlinok_lake;;
+
+mlinok_lake => nrel_region: minsk_region;;
+
+mlinok_lake => nrel_district: myadel_district;;
+
+mlinok_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+mlinok_lake => nrel_maximum_length: [0,7];;
+
+mlinok_lake => nrel_altitude: [126];;
+
+mlinok_lake => nrel_coastline: [11];;
+
+mlinok_lake => nrel_square: [0,07];;
+
+mlinok_lake => nrel_depth: [2,6];;
+
+mlinok_lake => nrel_watercourse_type: stable;;
+
+mlinok_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+mlinok_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Млынок"]; 
+way["name"="оз. Млынок"]; 
+relation["name"="оз. Млынок"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://mlinok_lake.JPG";;
+                                *);; 
+                *);;

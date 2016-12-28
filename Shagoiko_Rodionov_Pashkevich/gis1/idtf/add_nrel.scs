@@ -1,0 +1,26 @@
+sc_node_norole_relation -> nrel_catchment_area;; 
+nrel_catchment_area => nrel_main_idtf:
+[площадь водосбора*](*<-lang_ru;;*);
+[catchment area*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_flow_rate;; 
+nrel_flow_rate => nrel_main_idtf:
+[скорость течения в русле*](*<-lang_ru;;*);
+[the flow rate in line*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_density_river;; 
+nrel_density_river => nrel_main_idtf:
+[густота речной сети*](*<-lang_ru;;*);
+[the density of the river network*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_avg_year_water_flaw;; 
+nrel_avg_year_water_flaw => nrel_main_idtf:
+[ср./год. расход воды в устье*](*<-lang_ru;;*);
+[avg. / year. water flow at the mouth*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_avg_slope_surface;; 
+nrel_avg_slope_surface => nrel_main_idtf:
+[ср. уклон водной поверхности*](*<-lang_ru;;*);
+[avg. the slope of the water surface*](*<-lang_en;;*);;
+
+

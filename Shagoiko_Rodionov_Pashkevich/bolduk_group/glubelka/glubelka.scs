@@ -1,0 +1,55 @@
+sc_node_not_relation -> glubelka_lake;;
+
+glubelka_lake => nrel_main_idtf:
+	[озеро Глубелька]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Glubelka lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> glubelka_lake;;
+
+glubelka_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
+
+glubelka_lake => nrel_maximum_length: [0,52];;
+
+glubelka_lake => nrel_altitude: [18];;
+
+glubelka_lake => nrel_coastline: [1,66];;
+
+glubelka_lake => nrel_square: [0,09];;
+
+glubelka_lake => nrel_depth: [17];;
+
+glubelka_lake => nrel_watercourse_type: stable;;
+
+glubelka_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+glubelka_lake => nrel_text_discription: 
+[Озеро Глубелька - расположено в Нарочанском национальном парке вблизи деревни Ольшево, входит в группу озёр, именуемых Голубыми озёрами.];;
+
+glubelka_lake => nrel_osm_query:
+[ 
+( 
+area["name"="Глубелька"]; 
+way["name"="озеро Глубелька"]; 
+relation["name"="озеро Глубелька"]; 
+); 
+out body; 
+>; 
+out skel qt;
+];
+
+<- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://glubelka.jpg";;
+                                *);; 
+                *);;

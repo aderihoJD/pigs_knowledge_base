@@ -1,0 +1,44 @@
+sc_node_not_relation -> koze_lake;;
+
+koze_lake => nrel_main_idtf:
+	[озеро Козье]
+	(* 
+	<- lang_ru;; 
+	*);
+	[Koze lake] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+lake -> koze_lake;;
+
+koze_lake => nrel_region: minsk_region;;
+
+koze_lake => nrel_district: myadel_district;;
+
+koze_lake => nrel_group_of_lakes: narochanski_group_of_lakes;;
+
+koze_lake => nrel_maximum_length: [0,2];;
+
+koze_lake => nrel_altitude: [131];;
+
+koze_lake => nrel_coastline: [13];;
+
+koze_lake => nrel_square: [0,03];;
+
+koze_lake => nrel_depth: [4];;
+
+koze_lake => nrel_watercourse_type: stable;;
+
+koze_lake => nrel_qualitative_features_of_water: fresh_water;;
+
+koze_lake <- rrel_key_sc_element: ...
+                (*
+                        <- sc_illustration;; 
+                        <= nrel_sc_text_translation: 
+                        ...
+                                (*
+                                        -> nrel_pict: 
+                                                "file://koze_lake.jpg";;
+                                *);; 
+                *);;
