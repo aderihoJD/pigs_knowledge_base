@@ -8,7 +8,7 @@ lake_edi => nrel_main_idtf:
     [( area["name"="Еди"]; way["name"="Еди"]; relation["name"="Еди"]; ); out body; >; out skel qt;];
 
 => nrel_square: 
-    [0.61 км2] (* <- lang_ru;; *);
+    [0.61] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [19.7 м] (* <- lang_ru;; *); 

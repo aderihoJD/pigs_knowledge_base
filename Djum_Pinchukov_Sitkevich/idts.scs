@@ -1,10 +1,10 @@
-sc_node_not_relation -> concept_lake;concept_lakes_group;;
+sc_node_not_relation -> concept_lake;;
 sc_node_norole_relation -> nrel_water_volume; nrel_length_of_waterside; nrel_water_intake_area;;
 
-concept_lakes_group -> braslav_lakes_group;;
-concept_lakes_group -> sorochanskie_lakes_group;;
-concept_lakes_group -> ushach_lakes_group;;
-concept_lakes_group -> obsternovskay_lakes_group;;
+group_of_lakes -> braslav_lakes_group;;
+group_of_lakes -> sorochanskie_lakes_group;;
+group_of_lakes -> ushach_lakes_group;;
+group_of_lakes -> obsternovskay_lakes_group;;
 
 braslav_lakes_group => nrel_main_idtf:
 	[Браславская группа озёр] (* <- lang_ru;; *);
@@ -21,10 +21,6 @@ sorochanskie_lakes_group => nrel_main_idtf:
 obsternovskay_lakes_group => nrel_main_idtf:
 	[Обстерновская группа озёр] (* <- lang_ru;; *);
 	[Obsternovskay Lakes group] (* <- lang_en;;	*);;
-
-concept_lakes_group => nrel_main_idtf:
-	[Группа озёр] (* <- lang_ru;;	*);
-	[Lakes group] (* <- lang_en;;	*);;
 
 concept_lake => nrel_main_idtf:
 	[Озеро] (* <- lang_ru;;	*);

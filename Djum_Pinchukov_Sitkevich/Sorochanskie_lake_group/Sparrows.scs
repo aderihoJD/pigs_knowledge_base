@@ -8,7 +8,7 @@ lake_sparrows => nrel_main_idtf:
     [( area["name"="Воробьи"]["natural"="water"]; way["name"="Воробьи"]["natural"="water"]; relation["name"="Воробьи"]["natural"="water"]; ); out body; >; out skel qt;];
 
 => nrel_square: 
-    [0.46 км2] (* <- lang_ru;; *);
+    [0.46] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [3.1 м] (* <- lang_ru;; *); 

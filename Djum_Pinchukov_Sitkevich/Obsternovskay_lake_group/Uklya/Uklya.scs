@@ -8,7 +8,7 @@ lake_uklya => nrel_main_idtf:
 [( area["name"="оз. Укля"]; way["name"="оз. Укля"]; relation["name"="оз. Укля"]; ); out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [9,83 км2] (* <- lang_ru;; *);
+    [9,83] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [25 м] (* <- lang_ru;; *); 

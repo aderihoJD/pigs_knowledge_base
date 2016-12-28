@@ -11,7 +11,7 @@ relation["name"="Яново"]["natural"="water"]; );
 out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [7,7 км2] (* <- lang_ru;; *);
+    [7,7] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [14 м] (* <- lang_ru;; *); 

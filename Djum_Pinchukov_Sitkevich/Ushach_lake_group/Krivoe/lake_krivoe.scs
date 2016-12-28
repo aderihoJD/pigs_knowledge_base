@@ -11,7 +11,7 @@ relation["name"="оз. Кривое"]["water"="lake"]["int_name"="Kryvoje"]; );
 out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [4,5 км2] (* <- lang_ru;; *);
+    [4,5] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [31,5 м] (* <- lang_ru;; *); 

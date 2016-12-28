@@ -8,7 +8,7 @@ lake_vaja => nrel_main_idtf:
 [( area["name"="оз. Важа"]; way["name"="оз. Важа"]; relation["name"="оз. Важа"]; ); out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [2,94 км2] (* <- lang_ru;; *);
+    [2,94] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [5,11 м] (* <- lang_ru;; *); 

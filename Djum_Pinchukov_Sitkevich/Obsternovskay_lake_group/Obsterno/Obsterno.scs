@@ -8,7 +8,7 @@ lake_obsterno => nrel_main_idtf:
 [( area["name"="оз. Обстерно"]; way["name"="оз. Обстерно"]; relation["name"="оз. Обстерно"]; ); out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [9,89 км2] (* <- lang_ru;; *);
+    [9,89] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [12 м] (* <- lang_ru;; *); 

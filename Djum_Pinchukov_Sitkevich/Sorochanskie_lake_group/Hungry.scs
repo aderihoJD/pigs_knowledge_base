@@ -8,7 +8,7 @@ lake_hungry => nrel_main_idtf:
     [(area["name"="Голубино"]["natural"="water"]; way["name"="Голубино"]["natural"="water"]; relation["name"="Голубино"]["natural"="water"]; ); out body; >; out skel qt;];
 
 => nrel_square: 
-    [0.14 км2] (* <- lang_ru;; *);
+    [0.14] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [21 м] (* <- lang_ru;; *); 

@@ -11,7 +11,7 @@ relation["name"="оз. Отолово"]["natural"="water"]; );
 out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [8,2 км2] (* <- lang_ru;; *);
+    [8,2] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [16,4 м] (* <- lang_ru;; *); 
