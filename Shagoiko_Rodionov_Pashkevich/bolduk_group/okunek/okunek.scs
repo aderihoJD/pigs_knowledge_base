@@ -32,9 +32,9 @@ okunek_lake => nrel_text_discription:
 okunek_lake => nrel_osm_query:
 [ 
 ( 
-area["name"="Окунёк"]; 
-way["name"="Окунёк"]; 
-relation["name"="Окунёк"]; 
+area["name:be"="Акунёк"]; 
+way["name:be"="Акунёк"]; 
+relation["name:be"="Акунёк"]; 
 ); 
 out body; 
 >; 
