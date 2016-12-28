@@ -1,0 +1,45 @@
+lake_gulbeza => nrel_main_idtf:
+    [оз. Гульбеза] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-sorochanskie_lakes_group;
+
+=> nrel_osm_query:
+    [( area["name"="Губеза"]["natural"="water"]; way["name"="Губеза"]["natural"="water"]; relation["name"="Губеза"]["natural"="water"]; ); out body; >; out skel qt;];
+
+=> nrel_square: 
+    [0.23 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [12.9 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,39 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [0.94 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [1.94 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [1.52 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [6 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [ Расположено в бассейне реки Страча, за 33 км на северо-восток от г.п. Островец, возле д. Воробьи. Входит в Сорочанскую группу озер.
+             Склоны котловины высотой 8-11 м, поросли лесом и кустарником, на востоке распаханные. Берега совпадают со склонами, на севере сплавные. Мелководье узкое, песчаное, глубже дно выстлано сапропелем. На юге вытекает ручей в озеро Воробьи, соединено протокой с озером Ёди. Полоса подводной растительности шириной 5-50 м. Зарастает до глубины 1,5-2 м.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;

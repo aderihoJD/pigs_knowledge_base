@@ -1,0 +1,54 @@
+lake_vaja => nrel_main_idtf:
+    [оз. Важа] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-obsternovskay_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="оз. Важа"]; way["name"="оз. Важа"]; relation["name"="оз. Важа"]; ); out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [2,94 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [5,11 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [1,11 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [2,68 км] (* <- lang_ru;; *);
+
+
+=> nrel_water_volume:
+    [6,67 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [24.4 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Вята, за 12 км на юго-запад от г. Миоры, за 3 км на юг от д. Перебродье. Входит в Обстерновскую группу озер.
+Склоны котловины на юге, юго-западе и востоке высотой 8-10 м, местами до 17 м, под лесом, на севере и северо-западе – распаханные. На востоке к озеру примыкает болото. Берега местами сплавные, северные и западные – абразивные, часто сливаются со склонами. На озере 2 острова общей площадью 1 га. Ширина полосы прибрежной растительности 15-100 м до глубины 2 м. Соединено протокой (ширина 200 м) с озером Обстерно. В озеро впадает речка без названия.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/vaja.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

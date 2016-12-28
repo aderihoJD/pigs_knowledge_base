@@ -23,7 +23,7 @@ sorochanskie_lakes_group => nrel_main_idtf:
 	[Сорочанская группа озёр] (* <- lang_ru;; *);
 	[Sorochanskie Lakes group] (* <- lang_en;;	*);;
 
-obsternovskay_lakes_group => nrel_main_idtf:
+obsternovskay_lake_group => nrel_main_idtf:
 	[Обстерновская группа озёр] (* <- lang_ru;; *);
 	[Obsternovskay Lakes group] (* <- lang_en;;	*);;
 

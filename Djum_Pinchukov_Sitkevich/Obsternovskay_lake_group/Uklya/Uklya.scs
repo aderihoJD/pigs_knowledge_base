@@ -1,0 +1,56 @@
+lake_uklya => nrel_main_idtf:
+    [оз. Укля] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-obsternovskay_lakes_group;
+
+=> nrel_osm_query:
+[( area["name"="оз. Укля"]; way["name"="оз. Укля"]; relation["name"="оз. Укля"]; ); out body; >; out skel qt;]; 
+
+=> nrel_square: 
+    [9,83 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [25 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [2,8 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [5,8 км] (* <- lang_ru;; *);
+
+
+=> nrel_water_volume:
+    [55,3 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [69,3 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Вята, за 18 км на юго-восток от г. Браслав, возле д. Укля. Входит в Обстерновскую группу озер.
+Склоны котловины на севере и юге высотой 10-12 м, на западе и востоке низкие, заболоченные. Берега низкие, песчаные, на западе и востоке заболоченные, на юго-востоке в заливе – высокие, под валунами. Дно до глубины 3-3,5 м выстлано песком и опесчаненным илом, ниже – сапропелем.
+Зарастает до глубины 2-2,5 м.
+Вытекает ручей в озеро Обстерно, впадает ручей из озера Иново и еще несколько небольших ручьев. ]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/uklya.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

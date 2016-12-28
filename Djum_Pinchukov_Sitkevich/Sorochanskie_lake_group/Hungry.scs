@@ -1,0 +1,45 @@
+lake_hungry => nrel_main_idtf:
+    [оз. Голодно] (* <- lang_ru;; *);
+
+<-concept_lake;
+<-sorochanskie_lakes_group;
+
+=> nrel_osm_query:
+    [(area["name"="Голубино"]["natural"="water"]; way["name"="Голубино"]["natural"="water"]; relation["name"="Голубино"]["natural"="water"]; ); out body; >; out skel qt;];
+
+=> nrel_square: 
+    [0.14 км2] (* <- lang_ru;; *);
+
+=> nrel_depth: 
+    [21 м] (* <- lang_ru;; *); 
+
+=> nrel_max_width: 
+    [0,25 км] (* <- lang_ru;; *);    
+
+=> nrel_lenght:
+    [0.78 км] (* <- lang_ru;; *);
+
+=> nrel_length_of_waterside:
+    [1.81 км] (* <- lang_ru;; *);    
+
+=> nrel_water_volume:
+    [1.13 млн.м3] (* <- lang_ru;; *);   
+
+=> nrel_water_intake_area:
+    [4.3 км2] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Расположено в бассейне реки Сорочанка, за 34 км на северо-восток от г. Островец, за 3 км на запад от д. Большая Страча. Входит в Сорочанскую группу озер.
+            Склоны котловины высотой 3-4 м, на северо-западе и юго-востоке 12-14 м, под лесом, на севере распаханные. Берега низкие, песчаные, местами заболоченные, восточные – поросли кустарником. Мелководье песчаное, глубоководная зона илистая. На северо-востоке вытекает ручей в озеро Тумское, на юге впадает ручей в озеро Голодянка.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);;
