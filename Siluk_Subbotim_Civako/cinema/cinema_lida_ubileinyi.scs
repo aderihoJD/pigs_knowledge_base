@@ -1,0 +1,46 @@
+cinema_lida_ubileinyi
+
+=> nrel_main_idtf:
+    [Кинотеатр Юбилейный]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "11"]
+     ["addr:street"= "Ленинская"]
+      [ "name"= "Юбилейный"];
+];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Демонстрация 2D и 3D фильмов в уютном кинозале вместимостью 20 мест с возможностью выбора фильма из нашего фильмофонда. Качественный, объемный звук, большой экран (5*2,2 метра), мягкие и удобные кресла.
+            Вы собрались компанией и не знаете, где провести свободное время? Мы принимаем коллективные заявки (группы от 5 до 20 человек) на просмотр фильмов из нашего фильмофонда, также заявки на проведение презентаций, дней рождения и праздничных мероприятий.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС с 08:30 до 21:00];
+=> nrel_cash_telephone: [+375(154)-522-797];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://image/lida_ubileinyi.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;

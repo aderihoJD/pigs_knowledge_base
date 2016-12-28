@@ -1,0 +1,46 @@
+cinema_era_dzerjinsk	
+
+=> nrel_main_idtf:
+    [Кинотеатр Ера]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way
+    [ "addr:housenumber"= "12"]
+     ["addr:street"= "улица Ленинградская"]
+      [ "name"= "Ера"];
+];
+	
+	
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Первых посетителей кинотеатр "ЭРА" принял 7 ноября 1971 года. Около шести миллионов зрителей посетило наш кинотеатр за период его существования. И все эти годы кинотеатр "ЭРА" был и остаётся одним из главных культурно-развлекательных центров города.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+=> nrel_site:[нету];
+=> nrel_scedule: [ПН–ВС 11:00-21:00];
+=> nrel_cash_telephone: [(8 0171) 65 48 00];
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://img/cinema_era_dzerjinsk.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
