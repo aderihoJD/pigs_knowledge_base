@@ -1,11 +1,11 @@
 sc_node_struct -> boldukanski_group_of_lakes;;
 
 boldukanski_group_of_lakes => nrel_main_idtf:
-[Болдукская группа озёр]
+[Нарочанская группа озер]
 	(* 
 	<- lang_ru;; 
 	*);
-[Boldukskaya group of lakes] 
+[Narochanski group of lakes] 
 	(* 
 	<- lang_en;; 
 	*);;
