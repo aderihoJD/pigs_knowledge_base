@@ -7,7 +7,7 @@ gomel_regional_dramatic_theatre
 <-concept_terrain_object;
 
 => nrel_osm_query:
-    [node["amenity"= "theatre"]["name"= "Гомельский драматический театр"]["wheelchair"= "no"];];
+    [way["amenity"= "theatre"]["name"= "Гомельский драматический театр"]["addr:street"="площадь Ленина"];];
 
 <- dramatic_theatre;
 
