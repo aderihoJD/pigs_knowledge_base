@@ -16,8 +16,6 @@ big_bolcik_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 big_bolcik_lake => nrel_maximum_length: [0,74];;
 
-big_bolcik_lake => nrel_altitude: [28];;
-
 big_bolcik_lake => nrel_coastline: [1,8];;
 
 big_bolcik_lake => nrel_square: [0,14];;
@@ -35,8 +33,8 @@ big_bolcik_lake => nrel_osm_query:
 [ 
 ( 
 area["name"="Большой Больцик"]; 
-way["name"="озеро Большой Больцик"]; 
-relation["name"="озеро Большой Больцик"]; 
+way["name"="Большой Больцик"]; 
+relation["name"="Большой Больцик"]; 
 ); 
 out body; 
 >; 

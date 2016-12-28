@@ -16,8 +16,6 @@ okunek_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 okunek_lake => nrel_maximum_length: [0,2];;
 
-okunek_lake => nrel_altitude: [9];;
-
 okunek_lake => nrel_coastline: [0,61];;
 
 okunek_lake => nrel_square: [0,02];;
@@ -35,8 +33,8 @@ okunek_lake => nrel_osm_query:
 [ 
 ( 
 area["name"="Окунёк"]; 
-way["name"="озеро Окунёк"]; 
-relation["name"="озеро Окунёк"]; 
+way["name"="Окунёк"]; 
+relation["name"="Окунёк"]; 
 ); 
 out body; 
 >; 

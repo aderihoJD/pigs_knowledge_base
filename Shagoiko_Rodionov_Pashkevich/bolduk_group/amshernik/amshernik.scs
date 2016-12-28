@@ -16,8 +16,6 @@ amshernik_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 amshernik_lake => nrel_maximum_length: [0,2];;
 
-amshernik_lake => nrel_altitude: [5];;
-
 amshernik_lake => nrel_coastline: [0,55];;
 
 amshernik_lake => nrel_square: [0,02];;

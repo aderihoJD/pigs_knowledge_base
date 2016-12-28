@@ -16,8 +16,6 @@ gluhoe_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 gluhoe_lake => nrel_maximum_length: [0,1];;
 
-gluhoe_lake => nrel_altitude: [6];;
-
 gluhoe_lake => nrel_coastline: [0,27];;
 
 gluhoe_lake => nrel_square: [0,01];;

@@ -16,8 +16,6 @@ mertvoe_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 mertvoe_lake => nrel_maximum_length: [0,11];;
 
-mertvoe_lake => nrel_altitude: [10];;
-
 mertvoe_lake => nrel_coastline: [0,32];;
 
 mertvoe_lake => nrel_square: [0,005];;
@@ -36,8 +34,8 @@ mertvoe_lake => nrel_osm_query:
 [ 
 ( 
 area["name"="Мёртвое"]; 
-way["name"="озеро Мёртвое"]; 
-relation["name"="озеро Мёртвое"]; 
+way["name"="Мёртвое"]; 
+relation["name"="Мёртвое"]; 
 ); 
 out body; 
 >; 
