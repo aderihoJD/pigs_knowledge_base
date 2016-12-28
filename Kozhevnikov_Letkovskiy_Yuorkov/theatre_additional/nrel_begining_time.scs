@@ -1,0 +1,5 @@
+sc_node_norole_relation->nrel_begining_time;;
+
+nrel_begining_time=> nrel_main_idtf:
+	[дата начала*](* <-lang_ru;; *);
+	[begining time*](* <-lang_en;; *);;
