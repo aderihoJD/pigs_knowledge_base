@@ -3,17 +3,12 @@ sc_node_norole_relation -> nrel_water_volume; nrel_length_of_waterside; nrel_wat
 
 concept_lakes_group -> braslav_lakes_group;;
 concept_lakes_group -> sorochanskie_lakes_group;;
-concept_lakes_group -> bolduk_lakes_group;;
 concept_lakes_group -> ushach_lakes_group;;
 concept_lakes_group -> obsternovskay_lakes_group;;
 
 braslav_lakes_group => nrel_main_idtf:
 	[Браславская группа озёр] (* <- lang_ru;; *);
 	[Braslav Lakes group] (* <- lang_en;;	*);;
-
-bolduk_lakes_group => nrel_main_idtf:
-	[Болдукская группа озёр] (* <- lang_ru;; *);
-	[Bolduk Lakes group] (* <- lang_en;;	*);;
 
 ushach_lakes_group => nrel_main_idtf:
 	[Ушачская группа озёр] (* <- lang_ru;; *);
