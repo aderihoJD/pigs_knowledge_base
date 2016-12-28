@@ -16,8 +16,6 @@ small_bolcik_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 small_bolcik_lake => nrel_maximum_length: [0,3];;
 
-small_bolcik_lake => nrel_altitude: [7];;
-
 small_bolcik_lake => nrel_coastline: [0,68];;
 
 small_bolcik_lake => nrel_square: [0,03];;
@@ -35,8 +33,8 @@ small_bolcik_lake => nrel_osm_query:
 [ 
 ( 
 area["name"="Малый Больцик"]; 
-way["name"="озеро Малый Больцик"]; 
-relation["name"="озеро Малый Больцик"]; 
+way["name"="Малый Больцик"]; 
+relation["name"="Малый Больцик"]; 
 ); 
 out body; 
 >; 

@@ -16,8 +16,6 @@ ilshniya_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 ilshniya_lake => nrel_maximum_length: [0,7];;
 
-ilshniya_lake => nrel_altitude: [11];;
-
 ilshniya_lake => nrel_coastline: [1,52];;
 
 ilshniya_lake => nrel_square: [0,08];;

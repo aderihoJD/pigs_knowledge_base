@@ -16,8 +16,6 @@ yachmenec_lake => nrel_group_of_lakes: boldukanski_group_of_lakes;;
 
 yachmenec_lake => nrel_maximum_length: [0,18];;
 
-yachmenec_lake => nrel_altitude: [8];;
-
 yachmenec_lake => nrel_coastline: [0,48];;
 
 yachmenec_lake => nrel_square: [0,011];;
