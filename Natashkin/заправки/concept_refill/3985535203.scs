@@ -9,7 +9,7 @@ concept_refill_3985535203 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3985535203 => nrel_osm_query:
-	[node["name"="АЗС "Мінгаз" №7"];];;
+	[node(3985535203);];;
 
 concept_refill_3985535203 <= nrel_id:
 		...
@@ -23,6 +23,6 @@ concept_refill_3985535203 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375-1771-50050];;
 		*);;
 

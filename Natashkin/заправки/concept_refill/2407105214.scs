@@ -9,7 +9,7 @@ concept_refill_2407105214 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_2407105214 => nrel_osm_query:
-	[node["name"="Газпромнефть №1"];];;
+	[node(2407105214);];;
 
 concept_refill_2407105214 <= nrel_id:
 		...

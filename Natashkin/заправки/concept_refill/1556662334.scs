@@ -9,7 +9,7 @@ concept_refill_1556662334 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1556662334 => nrel_osm_query:
-	[node["name"="Автобаза лиозненского РайПО"];];;
+	[node(1556662334);];;
 
 concept_refill_1556662334 <= nrel_id:
 		...

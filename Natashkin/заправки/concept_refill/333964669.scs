@@ -9,7 +9,7 @@ concept_refill_333964669 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_333964669 => nrel_osm_query:
-	[node["name"="АГЗС"];];;
+	[node(333964669);];;
 
 concept_refill_333964669 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_333964669 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Витебскоблгаз]
+			[+375-2131-42777];;
 		*);;
 

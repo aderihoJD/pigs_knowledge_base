@@ -9,7 +9,7 @@ concept_refill_320409932 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_320409932 => nrel_osm_query:
-	[node["name"="АЗС № 41 "Газпромнефть-белнефтепродукт""];];;
+	[node(320409932);];;
 
 concept_refill_320409932 <= nrel_id:
 		...

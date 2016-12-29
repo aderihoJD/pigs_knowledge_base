@@ -9,7 +9,7 @@ concept_refill_4235088936 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_4235088936 => nrel_osm_query:
-	[node["name"="Газпромнефть №57"];];;
+	[node(4235088936);];;
 
 concept_refill_4235088936 <= nrel_id:
 		...
@@ -23,6 +23,6 @@ concept_refill_4235088936 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://gpnbonus.by/]
+			[http://gpnbonus.by/];;
 		*);;
 

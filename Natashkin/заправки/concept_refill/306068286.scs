@@ -9,7 +9,7 @@ concept_refill_306068286 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_306068286 => nrel_osm_query:
-	[node["name"="Дружба"];];;
+	[node(306068286);];;
 
 concept_refill_306068286 <= nrel_id:
 		...

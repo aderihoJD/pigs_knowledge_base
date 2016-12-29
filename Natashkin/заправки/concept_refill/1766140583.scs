@@ -9,7 +9,7 @@ concept_refill_1766140583 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1766140583 => nrel_osm_query:
-	[node["name"="АЗС 5 Татнефть"];];;
+	[node(1766140583);];;
 
 concept_refill_1766140583 <= nrel_id:
 		...

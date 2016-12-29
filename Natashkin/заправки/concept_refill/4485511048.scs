@@ -9,7 +9,7 @@ concept_refill_4485511048 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_4485511048 => nrel_osm_query:
-	[node["name"="КАЗС №31"];];;
+	[node(4485511048);];;
 
 concept_refill_4485511048 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_4485511048 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[ГПО «Белоруснефть»]
+			[+375 2157 32702];;
 		*);;
 
 concept_refill_4485511048 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.belorusneft.by/beloil-map/station?lang=ru&id=B89F84F7E2E84F70E043BF0BA8C03722]
+			[http://www.belorusneft.by/beloil-map/station?lang=ru&id=B89F84F7E2E84F70E043BF0BA8C03722];;
 		*);;
 

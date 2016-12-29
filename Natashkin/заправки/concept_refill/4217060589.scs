@@ -9,7 +9,7 @@ concept_refill_4217060589 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_4217060589 => nrel_osm_query:
-	[node["name"="АЗС "TATNEFT""];];;
+	[node(4217060589);];;
 
 concept_refill_4217060589 <= nrel_id:
 		...

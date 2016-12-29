@@ -9,7 +9,7 @@ concept_refill_3144443075 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3144443075 => nrel_osm_query:
-	[node["name"="МАЗС № 50 "Белоруснефть""];];;
+	[node(3144443075);];;
 
 concept_refill_3144443075 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_3144443075 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белоруснефть]
+			[+375-152-755063];;
 		*);;
 
 concept_refill_3144443075 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.belorusneft.by/]
+			[http://www.belorusneft.by/];;
 		*);;
 

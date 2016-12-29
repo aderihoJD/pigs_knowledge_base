@@ -9,7 +9,7 @@ concept_refill_306062346 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_306062346 => nrel_osm_query:
-	[node["name"="А-100 №27"];];;
+	[node(306062346);];;
 
 concept_refill_306062346 <= nrel_id:
 		...
@@ -23,13 +23,13 @@ concept_refill_306062346 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375-162-462398, +375-162-446686];;
 		*);;
 
 concept_refill_306062346 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.azs.a-100.by/]
+			[http://www.azs.a-100.by/];;
 		*);;
 

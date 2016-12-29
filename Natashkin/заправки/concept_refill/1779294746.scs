@@ -9,7 +9,7 @@ concept_refill_1779294746 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1779294746 => nrel_osm_query:
-	[node["name"="Газ"];];;
+	[node(1779294746);];;
 
 concept_refill_1779294746 <= nrel_id:
 		...
@@ -23,13 +23,13 @@ concept_refill_1779294746 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375-17-2664606];;
 		*);;
 
 concept_refill_1779294746 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://azs.a-100.by/]
+			[http://azs.a-100.by/];;
 		*);;
 

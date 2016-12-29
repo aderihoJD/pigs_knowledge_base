@@ -9,7 +9,7 @@ concept_refill_441586307 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_441586307 => nrel_osm_query:
-	[node["name"="Лукойл Беларусь"];];;
+	[node(441586307);];;
 
 concept_refill_441586307 <= nrel_id:
 		...

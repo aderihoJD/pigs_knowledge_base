@@ -9,7 +9,7 @@ concept_refill_306066226 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_306066226 => nrel_osm_query:
-	[node["name"="Лукойл №7"];];;
+	[node(306066226);];;
 
 concept_refill_306066226 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_306066226 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Лукойл]
+			[+375-1772-54336];;
 		*);;
 
 concept_refill_306066226 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.lukoil.by/]
+			[http://www.lukoil.by/];;
 		*);;
 

@@ -9,7 +9,7 @@ concept_refill_247693282 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_247693282 => nrel_osm_query:
-	[node["name"="Лукойл № 5"];];;
+	[node(247693282);];;
 
 concept_refill_247693282 <= nrel_id:
 		...

@@ -9,7 +9,7 @@ concept_refill_1271808365 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1271808365 => nrel_osm_query:
-	[node["name"="Славнефть (закрыто)"];];;
+	[node(1271808365);];;
 
 concept_refill_1271808365 <= nrel_id:
 		...

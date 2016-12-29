@@ -9,7 +9,7 @@ concept_refill_288990980 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_288990980 => nrel_osm_query:
-	[node["name"="Минскавтозаправка"];];;
+	[node(288990980);];;
 
 concept_refill_288990980 <= nrel_id:
 		...
@@ -23,13 +23,13 @@ concept_refill_288990980 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375-17-2795059];;
 		*);;
 
 concept_refill_288990980 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://beloil.by/]
+			[http://beloil.by/];;
 		*);;
 

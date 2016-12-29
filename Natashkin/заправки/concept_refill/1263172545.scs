@@ -9,7 +9,7 @@ concept_refill_1263172545 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1263172545 => nrel_osm_query:
-	[node["name"="АГНКС Крупки"];];;
+	[node(1263172545);];;
 
 concept_refill_1263172545 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_1263172545 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[ОАО"Газпром трансгаз Беларусь"]
+			[+375-29-1611087];;
 		*);;
 
 concept_refill_1263172545 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.metan.by/]
+			[http://www.metan.by/];;
 		*);;
 

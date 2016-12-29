@@ -9,7 +9,7 @@ concept_refill_2644255826 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_2644255826 => nrel_osm_query:
-	[node["name"="Белнефтехим"];];;
+	[node(2644255826);];;
 
 concept_refill_2644255826 <= nrel_id:
 		...

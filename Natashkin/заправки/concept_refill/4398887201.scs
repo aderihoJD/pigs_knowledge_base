@@ -9,7 +9,7 @@ concept_refill_4398887201 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_4398887201 => nrel_osm_query:
-	[node["name"="Белорусьнефть-49"];];;
+	[node(4398887201);];;
 
 concept_refill_4398887201 <= nrel_id:
 		...

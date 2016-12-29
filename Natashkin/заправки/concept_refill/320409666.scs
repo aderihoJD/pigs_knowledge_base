@@ -9,7 +9,7 @@ concept_refill_320409666 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_320409666 => nrel_osm_query:
-	[node["name"="АЗС № 55 "Лукойл""];];;
+	[node(320409666);];;
 
 concept_refill_320409666 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_320409666 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Лукойл]
+			[+375 152 75 27 32];;
 		*);;
 

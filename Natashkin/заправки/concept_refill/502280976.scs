@@ -9,7 +9,7 @@ concept_refill_502280976 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_502280976 => nrel_osm_query:
-	[node["name"="Газпромнефть АЗС № 38"];];;
+	[node(502280976);];;
 
 concept_refill_502280976 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_502280976 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://gpnbonus.by/]
+			[http://gpnbonus.by/];;
 		*);;
 

@@ -9,7 +9,7 @@ concept_refill_3711585013 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3711585013 => nrel_osm_query:
-	[node["name"="Модульный пункт заправки"];];;
+	[node(3711585013);];;
 
 concept_refill_3711585013 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_3711585013 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белтрансгаз]
+			[+375 44 493-29-71];;
 		*);;
 
 concept_refill_3711585013 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://metan.by/]
+			[http://metan.by/];;
 		*);;
 

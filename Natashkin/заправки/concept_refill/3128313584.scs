@@ -9,7 +9,7 @@ concept_refill_3128313584 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3128313584 => nrel_osm_query:
-	[node["name"="АЗС "Медтехника""];];;
+	[node(3128313584);];;
 
 concept_refill_3128313584 <= nrel_id:
 		...
@@ -23,6 +23,6 @@ concept_refill_3128313584 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375-165-379962];;
 		*);;
 

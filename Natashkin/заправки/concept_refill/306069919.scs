@@ -9,7 +9,7 @@ concept_refill_306069919 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_306069919 => nrel_osm_query:
-	[node["name"="РПУП ГомельОблГаз"];];;
+	[node(306069919);];;
 
 concept_refill_306069919 <= nrel_id:
 		...

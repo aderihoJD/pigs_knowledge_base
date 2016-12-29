@@ -9,7 +9,7 @@ concept_refill_332308169 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_332308169 => nrel_osm_query:
-	[node["name"="АГЗС Литэкс+"];];;
+	[node(332308169);];;
 
 concept_refill_332308169 <= nrel_id:
 		...

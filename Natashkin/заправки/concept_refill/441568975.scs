@@ -9,7 +9,7 @@ concept_refill_441568975 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_441568975 => nrel_osm_query:
-	[node["name"="Витебскоблгаз №1"];];;
+	[node(441568975);];;
 
 concept_refill_441568975 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_441568975 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Витебскоблгаз]
+			[+375-212-202949];;
 		*);;
 

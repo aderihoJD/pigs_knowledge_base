@@ -9,7 +9,7 @@ concept_refill_1163140520 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1163140520 => nrel_osm_query:
-	[node["name"="null"];];;
+	[node(1163140520);];;
 
 concept_refill_1163140520 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_1163140520 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белнефтехим]
+			[+375-1563-43693];;
 		*);;
 

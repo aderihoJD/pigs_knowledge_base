@@ -9,7 +9,7 @@ concept_refill_3174641208 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3174641208 => nrel_osm_query:
-	[node["name"="null"];];;
+	[node(3174641208);];;
 
 concept_refill_3174641208 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_3174641208 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Лукойл Белоруссия]
+			[+375 154 53-15-81];;
 		*);;
 
 concept_refill_3174641208 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://lukoil.by/]
+			[http://lukoil.by/];;
 		*);;
 

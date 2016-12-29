@@ -9,7 +9,7 @@ concept_refill_3503073895 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3503073895 => nrel_osm_query:
-	[node["name"="3"];];;
+	[node(3503073895);];;
 
 concept_refill_3503073895 <= nrel_id:
 		...
@@ -39,13 +39,13 @@ concept_refill_3503073895 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Лукойл]
+			[+375(17)230-19-42];;
 		*);;
 
 concept_refill_3503073895 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://lukoil.by/rus/driver/azs/~group_id__n80=1~page__n80=1~csort__n80=sort~csortorder__n80=1~id__n80=4365]
+			[http://lukoil.by/rus/driver/azs/~group_id__n80=1~page__n80=1~csort__n80=sort~csortorder__n80=1~id__n80=4365];;
 		*);;
 

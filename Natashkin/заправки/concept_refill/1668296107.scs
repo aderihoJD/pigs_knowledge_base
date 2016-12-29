@@ -9,7 +9,7 @@ concept_refill_1668296107 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1668296107 => nrel_osm_query:
-	[node["name"="Склад гсм ОАО "Жвиранка""];];;
+	[node(1668296107);];;
 
 concept_refill_1668296107 <= nrel_id:
 		...

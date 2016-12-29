@@ -9,7 +9,7 @@ concept_refill_497154163 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_497154163 => nrel_osm_query:
-	[node["name"="Брестоблгаз"];];;
+	[node(497154163);];;
 
 concept_refill_497154163 <= nrel_id:
 		...
@@ -23,6 +23,6 @@ concept_refill_497154163 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375(165)34-15-65];;
 		*);;
 

@@ -9,7 +9,7 @@ concept_refill_1263056330 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1263056330 => nrel_osm_query:
-	[node["name"="АГНКС Брест-1"];];;
+	[node(1263056330);];;
 
 concept_refill_1263056330 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_1263056330 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белтрансгаз]
+			[+375-162-43-39-67];;
 		*);;
 
 concept_refill_1263056330 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.metan.by/]
+			[http://www.metan.by/];;
 		*);;
 

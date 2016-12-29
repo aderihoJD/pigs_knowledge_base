@@ -9,7 +9,7 @@ concept_refill_332027730 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_332027730 => nrel_osm_query:
-	[node["name"="Газпромнефть №80"];];;
+	[node(332027730);];;
 
 concept_refill_332027730 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_332027730 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Газпромнефть]
+			[+375 (212) 48-79-89; +375 (29) 764-76-52];;
 		*);;
 
 concept_refill_332027730 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://gpnbonus.by/]
+			[http://gpnbonus.by/];;
 		*);;
 

@@ -9,7 +9,7 @@ concept_refill_3376281651 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3376281651 => nrel_osm_query:
-	[node["name"="АГНКС Слуцк безкомпрессорная"];];;
+	[node(3376281651);];;
 
 concept_refill_3376281651 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_3376281651 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.metan.by/]
+			[http://www.metan.by/];;
 		*);;
 

@@ -9,7 +9,7 @@ concept_refill_1477971472 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1477971472 => nrel_osm_query:
-	[node["name"="null"];];;
+	[node(1477971472);];;
 
 concept_refill_1477971472 <= nrel_id:
 		...

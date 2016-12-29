@@ -9,7 +9,7 @@ concept_refill_3682120824 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_3682120824 => nrel_osm_query:
-	[node["name"="Славнефть"];];;
+	[node(3682120824);];;
 
 concept_refill_3682120824 <= nrel_id:
 		...

@@ -9,7 +9,7 @@ concept_refill_1263053851 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1263053851 => nrel_osm_query:
-	[node["name"="АГНКС Бобруйск"];];;
+	[node(1263053851);];;
 
 concept_refill_1263053851 <= nrel_id:
 		...
@@ -23,13 +23,13 @@ concept_refill_1263053851 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375-225-433669, +375-225-441610];;
 		*);;
 
 concept_refill_1263053851 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.metan.by/]
+			[http://www.metan.by/];;
 		*);;
 

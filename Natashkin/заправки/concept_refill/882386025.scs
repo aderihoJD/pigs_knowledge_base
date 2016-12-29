@@ -9,7 +9,7 @@ concept_refill_882386025 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_882386025 => nrel_osm_query:
-	[node["name"="Белнефтехим АЗС № 54"];];;
+	[node(882386025);];;
 
 concept_refill_882386025 <= nrel_id:
 		...
@@ -39,6 +39,6 @@ concept_refill_882386025 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Беларуснефть]
+			[+375172989219];;
 		*);;
 

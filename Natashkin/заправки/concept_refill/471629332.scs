@@ -9,7 +9,7 @@ concept_refill_471629332 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_471629332 => nrel_osm_query:
-	[node["name"="Белоруснефть №55"];];;
+	[node(471629332);];;
 
 concept_refill_471629332 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_471629332 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белоруснефть]
+			[+375-1774-75357];;
 		*);;
 
 concept_refill_471629332 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://beloil.by/]
+			[http://beloil.by/];;
 		*);;
 

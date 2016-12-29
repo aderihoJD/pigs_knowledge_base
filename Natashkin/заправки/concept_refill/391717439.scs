@@ -9,7 +9,7 @@ concept_refill_391717439 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_391717439 => nrel_osm_query:
-	[node["name"="Газпромнефть №19"];];;
+	[node(391717439);];;
 
 concept_refill_391717439 <= nrel_id:
 		...

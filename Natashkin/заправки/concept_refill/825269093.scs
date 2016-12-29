@@ -9,7 +9,7 @@ concept_refill_825269093 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_825269093 => nrel_osm_query:
-	[node["name"="Лукойл"];];;
+	[node(825269093);];;
 
 concept_refill_825269093 <= nrel_id:
 		...
@@ -23,6 +23,6 @@ concept_refill_825269093 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[null]
+			[+375 1774 53873];;
 		*);;
 

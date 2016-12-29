@@ -9,7 +9,7 @@ concept_refill_4105478597 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_4105478597 => nrel_osm_query:
-	[node["name"="Лукойл"];];;
+	[node(4105478597);];;
 
 concept_refill_4105478597 <= nrel_id:
 		...
@@ -23,6 +23,6 @@ concept_refill_4105478597 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.lukoil.by/]
+			[http://www.lukoil.by/];;
 		*);;
 

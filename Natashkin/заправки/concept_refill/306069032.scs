@@ -9,7 +9,7 @@ concept_refill_306069032 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_306069032 => nrel_osm_query:
-	[node["name"="АЗС "Белоруснефть""];];;
+	[node(306069032);];;
 
 concept_refill_306069032 <= nrel_id:
 		...

@@ -9,7 +9,7 @@ concept_refill_332042340 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_332042340 => nrel_osm_query:
-	[node["name"="АГНКС Витебск"];];;
+	[node(332042340);];;
 
 concept_refill_332042340 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_332042340 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белтрансгаз]
+			[+375 (212) 22-77-12, +375 (212) 22-93-92];;
 		*);;
 
 concept_refill_332042340 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.metan.by/]
+			[http://www.metan.by/];;
 		*);;
 

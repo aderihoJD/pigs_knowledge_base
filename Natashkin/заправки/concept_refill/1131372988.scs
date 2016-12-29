@@ -9,7 +9,7 @@ concept_refill_1131372988 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1131372988 => nrel_osm_query:
-	[node["name"="АЗС №53"];];;
+	[node(1131372988);];;
 
 concept_refill_1131372988 <= nrel_id:
 		...
@@ -31,6 +31,6 @@ concept_refill_1131372988 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Беларуснефть]
+			[+375 152 937 292];;
 		*);;
 

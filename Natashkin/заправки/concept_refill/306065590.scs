@@ -9,7 +9,7 @@ concept_refill_306065590 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_306065590 => nrel_osm_query:
-	[node["name"="Славнефть №3"];];;
+	[node(306065590);];;
 
 concept_refill_306065590 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_306065590 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Славнефть]
+			[+375-17-502-64-46];;
 		*);;
 
 concept_refill_306065590 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://slavneft.by/]
+			[http://slavneft.by/];;
 		*);;
 

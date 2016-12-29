@@ -53,14 +53,3 @@ nrel_brand
 	(*
 	<- lang_en;;
 	*);;
-
-  concept_refill
-  => nrel_main_idtf:
-  [заправка]
-  (*
-  <- lang_ru;;
-  *);
-  [refill]
-  (*
-  <- lang_en;;
-  *);;

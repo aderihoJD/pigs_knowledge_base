@@ -9,7 +9,7 @@ concept_refill_1263142836 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1263142836 => nrel_osm_query:
-	[node["name"="АГНКС Гомель-1"];];;
+	[node(1263142836);];;
 
 concept_refill_1263142836 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_1263142836 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белтрансгаз]
+			[+375-232-490249, +375-232-490276];;
 		*);;
 
 concept_refill_1263142836 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.metan.by/]
+			[http://www.metan.by/];;
 		*);;
 

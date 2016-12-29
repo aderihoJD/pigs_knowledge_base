@@ -9,7 +9,7 @@ concept_refill_1586788747 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1586788747 => nrel_osm_query:
-	[node["name"="Белоруснефть №57"];];;
+	[node(1586788747);];;
 
 concept_refill_1586788747 <= nrel_id:
 		...
@@ -39,13 +39,13 @@ concept_refill_1586788747 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Белоруснефть]
+			[+375-2346-30623];;
 		*);;
 
 concept_refill_1586788747 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.belorusneft.by/]
+			[http://www.belorusneft.by/];;
 		*);;
 

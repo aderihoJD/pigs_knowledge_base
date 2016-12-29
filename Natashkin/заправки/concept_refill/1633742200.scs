@@ -9,7 +9,7 @@ concept_refill_1633742200 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_1633742200 => nrel_osm_query:
-	[node["name"="Белоруснефть №62"];];;
+	[node(1633742200);];;
 
 concept_refill_1633742200 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_1633742200 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[РУП «Производственное объединение «Белоруснефть»]
+			[+375-165-399439];;
 		*);;
 
 concept_refill_1633742200 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://www.belorusneft.by/]
+			[http://www.belorusneft.by/];;
 		*);;
 

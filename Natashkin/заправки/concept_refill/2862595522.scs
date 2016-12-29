@@ -9,7 +9,7 @@ concept_refill_2862595522 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_2862595522 => nrel_osm_query:
-	[node["name"="МАЗС №: 59"];];;
+	[node(2862595522);];;
 
 concept_refill_2862595522 <= nrel_id:
 		...

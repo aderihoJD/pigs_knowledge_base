@@ -9,7 +9,7 @@ concept_refill_847177190 => nrel_main_idtf:
 	(* <- lang_ru;; *);;
 
 concept_refill_847177190 => nrel_osm_query:
-	[node["name"="МАЗС № 50 "Лукойл""];];;
+	[node(847177190);];;
 
 concept_refill_847177190 <= nrel_id:
 		...
@@ -31,13 +31,13 @@ concept_refill_847177190 <= nrel_telephone:
 		...
 		(*
 		-> rrel_example:
-			[Лукойл]
+			[+375 152 93 78 61];;
 		*);;
 
 concept_refill_847177190 <= nrel_website:
 		...
 		(*
 		-> rrel_example:
-			[http://lukoil.by/]
+			[http://lukoil.by/];;
 		*);;
 
