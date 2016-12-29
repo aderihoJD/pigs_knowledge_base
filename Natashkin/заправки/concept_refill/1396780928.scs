@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_1396780928;;
+
+concept_refill_1396780928 <- concept_terrain_object;;
+
+concept_refill_1396780928 <- concept_refill;;
+
+concept_refill_1396780928 => nrel_main_idtf:
+	[ИП БелГазПроект]
+	(* <- lang_ru;; *);;
+
+concept_refill_1396780928 => nrel_osm_query:
+	[node["name"="ИП БелГазПроект"];];;
+
+concept_refill_1396780928 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1396780928]
+			(* <- lang_ru;; *);;
+		*);;
+

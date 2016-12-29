@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_1102509347;;
+
+concept_refill_1102509347 <- concept_terrain_object;;
+
+concept_refill_1102509347 <- concept_refill;;
+
+concept_refill_1102509347 => nrel_main_idtf:
+	[КАЗС № 16]
+	(* <- lang_ru;; *);;
+
+concept_refill_1102509347 => nrel_osm_query:
+	[node["name"="КАЗС № 16"];];;
+
+concept_refill_1102509347 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1102509347]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1102509347 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[БЕЛОРУСНЕФТЬ]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1102509347 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[БЕЛОРУСНЕФТЬ]
+		*);;
+
+concept_refill_1102509347 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.belorusneft.by/beloil-map/station?lang=ru&id=B89F84F7E3904F70E043BF0BA8C03722]
+		*);;
+

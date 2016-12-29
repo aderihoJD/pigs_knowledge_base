@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_refill_2579746811;;
+
+concept_refill_2579746811 <- concept_terrain_object;;
+
+concept_refill_2579746811 <- concept_refill;;
+
+concept_refill_2579746811 => nrel_main_idtf:
+	[А-100 самообслуживания]
+	(* <- lang_ru;; *);;
+
+concept_refill_2579746811 => nrel_osm_query:
+	[node["name"="А-100 самообслуживания"];];;
+
+concept_refill_2579746811 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2579746811]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2579746811 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[А-100]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2579746811 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Группа компаний «А-100»]
+			(* <- lang_ru;; *);;
+		*);;
+

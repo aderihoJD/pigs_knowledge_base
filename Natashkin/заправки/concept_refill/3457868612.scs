@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_refill_3457868612;;
+
+concept_refill_3457868612 <- concept_terrain_object;;
+
+concept_refill_3457868612 <- concept_refill;;
+
+concept_refill_3457868612 => nrel_main_idtf:
+	[АЗС №57 Белоруснефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_3457868612 => nrel_osm_query:
+	[node["name"="АЗС №57 Белоруснефть"];];;
+
+concept_refill_3457868612 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3457868612]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3457868612 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3457868612 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+

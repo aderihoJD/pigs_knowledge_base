@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_4033951202;;
+
+concept_refill_4033951202 <- concept_terrain_object;;
+
+concept_refill_4033951202 <- concept_refill;;
+
+concept_refill_4033951202 => nrel_main_idtf:
+	[Лукойл № 35]
+	(* <- lang_ru;; *);;
+
+concept_refill_4033951202 => nrel_osm_query:
+	[node["name"="Лукойл № 35"];];;
+
+concept_refill_4033951202 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4033951202]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4033951202 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Лукойл]
+			(* <- lang_ru;; *);;
+		*);;
+

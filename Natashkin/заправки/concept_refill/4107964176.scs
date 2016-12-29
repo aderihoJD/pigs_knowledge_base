@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_4107964176;;
+
+concept_refill_4107964176 <- concept_terrain_object;;
+
+concept_refill_4107964176 <- concept_refill;;
+
+concept_refill_4107964176 => nrel_main_idtf:
+	[АЗС №25 Газпромнефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_4107964176 => nrel_osm_query:
+	[node["name"="АЗС №25 Газпромнефть"];];;
+
+concept_refill_4107964176 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4107964176]
+			(* <- lang_ru;; *);;
+		*);;
+

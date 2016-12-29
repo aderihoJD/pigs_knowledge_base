@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_306068223;;
+
+concept_refill_306068223 <- concept_terrain_object;;
+
+concept_refill_306068223 <- concept_refill;;
+
+concept_refill_306068223 => nrel_main_idtf:
+	[Белоруснефть № 20]
+	(* <- lang_ru;; *);;
+
+concept_refill_306068223 => nrel_osm_query:
+	[node["name"="Белоруснефть № 20"];];;
+
+concept_refill_306068223 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306068223]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306068223 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[РУП "Белоруснефть-Гомельоблнефтепродукт]
+			(* <- lang_ru;; *);;
+		*);;
+

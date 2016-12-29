@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_497154145;;
+
+concept_refill_497154145 <- concept_terrain_object;;
+
+concept_refill_497154145 <- concept_refill;;
+
+concept_refill_497154145 => nrel_main_idtf:
+	[АГЗС Брестоблгаз]
+	(* <- lang_ru;; *);;
+
+concept_refill_497154145 => nrel_osm_query:
+	[node["name"="АГЗС Брестоблгаз"];];;
+
+concept_refill_497154145 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[497154145]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_497154145 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Брестоблгаз]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_497154145 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[Брестоблгаз]
+		*);;
+
+concept_refill_497154145 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.brest.gas.by]
+		*);;
+

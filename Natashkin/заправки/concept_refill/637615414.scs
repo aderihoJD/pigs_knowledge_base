@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_637615414;;
+
+concept_refill_637615414 <- concept_terrain_object;;
+
+concept_refill_637615414 <- concept_refill;;
+
+concept_refill_637615414 => nrel_main_idtf:
+	[null]
+	(* <- lang_ru;; *);;
+
+concept_refill_637615414 => nrel_osm_query:
+	[node["name"="null"];];;
+
+concept_refill_637615414 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[637615414]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_637615414 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+

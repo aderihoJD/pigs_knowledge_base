@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_332308169;;
+
+concept_refill_332308169 <- concept_terrain_object;;
+
+concept_refill_332308169 <- concept_refill;;
+
+concept_refill_332308169 => nrel_main_idtf:
+	[АГЗС Литэкс+]
+	(* <- lang_ru;; *);;
+
+concept_refill_332308169 => nrel_osm_query:
+	[node["name"="АГЗС Литэкс+"];];;
+
+concept_refill_332308169 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[332308169]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_332308169 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Литекс-плюс]
+			(* <- lang_ru;; *);;
+		*);;
+

@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_306069248;;
+
+concept_refill_306069248 <- concept_terrain_object;;
+
+concept_refill_306069248 <- concept_refill;;
+
+concept_refill_306069248 => nrel_main_idtf:
+	[газ]
+	(* <- lang_ru;; *);;
+
+concept_refill_306069248 => nrel_osm_query:
+	[node["name"="газ"];];;
+
+concept_refill_306069248 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306069248]
+			(* <- lang_ru;; *);;
+		*);;
+

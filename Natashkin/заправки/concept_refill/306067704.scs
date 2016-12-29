@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_306067704;;
+
+concept_refill_306067704 <- concept_terrain_object;;
+
+concept_refill_306067704 <- concept_refill;;
+
+concept_refill_306067704 => nrel_main_idtf:
+	[Лукойл]
+	(* <- lang_ru;; *);;
+
+concept_refill_306067704 => nrel_osm_query:
+	[node["name"="Лукойл"];];;
+
+concept_refill_306067704 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306067704]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306067704 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Лукойл Белоруссия]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306067704 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[Лукойл Белоруссия]
+		*);;
+
+concept_refill_306067704 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://lukoil.by/]
+		*);;
+

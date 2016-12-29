@@ -1,0 +1,36 @@
+sc_node_not_relation -> concept_refill_475594693;;
+
+concept_refill_475594693 <- concept_terrain_object;;
+
+concept_refill_475594693 <- concept_refill;;
+
+concept_refill_475594693 => nrel_main_idtf:
+	[Газпромнефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_475594693 => nrel_osm_query:
+	[node["name"="Газпромнефть"];];;
+
+concept_refill_475594693 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[475594693]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_475594693 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[АЗС "Газпромнефть"]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_475594693 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://gpnbonus.by/]
+		*);;
+

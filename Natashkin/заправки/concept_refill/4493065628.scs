@@ -1,0 +1,35 @@
+sc_node_not_relation -> concept_refill_4493065628;;
+
+concept_refill_4493065628 <- concept_terrain_object;;
+
+concept_refill_4493065628 <- concept_refill;;
+
+concept_refill_4493065628 => nrel_main_idtf:
+	[КАЗС №24 Белоруснефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_4493065628 => nrel_osm_query:
+	[node["name"="КАЗС №24 Белоруснефть"];];;
+
+concept_refill_4493065628 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4493065628]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4493065628 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[null]
+		*);;
+
+concept_refill_4493065628 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.belorusneft.by/]
+		*);;
+
