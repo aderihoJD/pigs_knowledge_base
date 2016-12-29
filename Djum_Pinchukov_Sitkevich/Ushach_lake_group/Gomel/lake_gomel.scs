@@ -11,7 +11,7 @@ relation["name"="Гомель"]["natural"="water"]; );
 out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [3,46 км2] (* <- lang_ru;; *);
+    [3,46] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [23 м] (* <- lang_ru;; *); 

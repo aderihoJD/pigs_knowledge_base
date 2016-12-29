@@ -15,7 +15,7 @@ out body;
 out skel qt;];
 
 => nrel_square: 
-    [1,21 км2] (* <- lang_ru;; *);
+    [1,21] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [40,4 м] (* <- lang_ru;; *); 

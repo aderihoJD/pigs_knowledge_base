@@ -8,7 +8,7 @@ lake_tumskoe => nrel_main_idtf:
     [( area["name"="Тумское"]["natural"="water"]["boat"="permissive"]; way["name"="Тумское"]["natural"="water"]["boat"="permissive"]; relation["name"="Тумское"]["natural"="water"]["boat"="permissive"]; ); out body; >; out skel qt;];
 
 => nrel_square: 
-    [0.86 км2] (* <- lang_ru;; *);
+    [0.86] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [9.2 м] (* <- lang_ru;; *); 

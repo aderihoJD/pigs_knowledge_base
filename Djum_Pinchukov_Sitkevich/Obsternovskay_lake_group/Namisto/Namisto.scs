@@ -8,7 +8,7 @@ lake_namisto => nrel_main_idtf:
 [( area["name"="оз. Нобисто"]; way["name"="оз. Нобисто"]; relation["name"="оз. Нобисто"]; ); out body; >; out skel qt;	]; 
 
 => nrel_square: 
-    [3.75 км2] (* <- lang_ru;; *);
+    [3.75] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [2,8 м] (* <- lang_ru;; *); 

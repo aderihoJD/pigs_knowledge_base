@@ -11,7 +11,7 @@ relation["name"="оз. Паульское"]["natural"="water"]; );
 out body; >; out skel qt;]; 
 
 => nrel_square: 
-    [8,45 км2] (* <- lang_ru;; *);
+    [8,45] (* <- lang_ru;; *);
 
 => nrel_depth: 
     [5,5 м] (* <- lang_ru;; *); 
