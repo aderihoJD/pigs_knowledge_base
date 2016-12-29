@@ -33,14 +33,4 @@ cinema_gomel_minion
 
 => nrel_site:[нету];
 => nrel_scedule: [ПН–ВС с 08:30 до 21:00];
-=> nrel_cash_telephone: [+375 232 482544];
-<- rrel_key_sc_element: ... (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://image/gomel_minion.jpg" 
-        (*
-            => nrel_format: format_jpg;;
-        *);;
-    *);;
-*);;
+=> nrel_cash_telephone: [+375 232 482544];;
