@@ -1,0 +1,30 @@
+
+dental_clinic_number_nine
+=> nrel_main_idtf: [Стоматологическая поликлиника №9] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [Dental clinic №9] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Захарова, д. 52, к. 2];
+
+=> nrel_hospital_phone_number: [375 (17) 294-00-94];
+
+=> nrel_hospital_working_hours: [пн. — пт.: c 08:00 до 21:00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="Стоматологическая поликлиника №9"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [9-я стоматологическая поликлиника была открыта в 1982 году в городе Минске для оказания платных услуг населению независимо от территориальной принадлежности. Это была первая платная хозрасчетная поликлиника в Республике Беларусь.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+
+ *);;

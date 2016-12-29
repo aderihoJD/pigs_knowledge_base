@@ -1,0 +1,15 @@
+
+dental_center_of_the_armed_forces_of_the_republic_of_belarus_state_university
+=> nrel_main_idtf: [348-Й Стоматологический Центр Вооруженных Сил РБ ГУ ] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [348th Dental Center of the Armed Forces of the Republic of Belarus State University] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, Азгура 5];
+
+=> nrel_hospital_phone_number: [8 017 297-18-30];
+
+=> nrel_hospital_working_hours: [пн. — пт.: c 09:00 до 16:00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="Стоматологическая поликлиника №348"];];;
+

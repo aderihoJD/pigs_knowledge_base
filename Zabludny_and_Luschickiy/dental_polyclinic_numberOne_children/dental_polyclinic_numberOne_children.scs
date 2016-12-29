@@ -1,0 +1,31 @@
+
+dental_polyclinic_numberOne_children
+
+=> nrel_main_idtf: [Стоматологическая Поликлиника N 1 Детская] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [Dental Polyclinic №1 Children] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, Сморговский тракт 10];
+
+=> nrel_hospital_phone_number: [8 017 233-15-69];
+
+=> nrel_hospital_working_hours: [понедельник-пятница 08.00-20.00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="Стом.П-Ка №1 Детская"]["name:ru"="Стом.П-Ка №1 Детская"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [MedPortal.org – ответственный медицинский портал с быстрорастущей аудиторией, понятный и безотказный сервис поиска учреждений и предоставляемых ими услуг. Наш проект ориентирован на пользователей, заинтересованных в получении достоверной и грамотной информации от компетентного и сведущего источника.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+
+ *);;

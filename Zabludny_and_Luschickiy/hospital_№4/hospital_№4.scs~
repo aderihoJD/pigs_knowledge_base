@@ -1,0 +1,29 @@
+hospital_number_4 
+
+=> nrel_main_idtf: [поликлиника №4] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [hospital number 4 ] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [просп. Победителей 93, Минск];
+
+=> nrel_hospital_phone_number: [8 017 228-58-71];
+
+=> nrel_hospital_working_hours: [07.00-20.00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="П-Ка №4"]["name:ru"="П-Ка №4"]["website"="http://www.4gp.by/"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [4-ая городская поликлиника является многопрофильным лечебно-профилактическим учреждением по оказанию медицинской помощи детскому и взрослому населению.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+	*);;

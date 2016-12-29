@@ -1,0 +1,33 @@
+
+polyclinic_numberOne_of_the_Minsk_central_district_hospital
+=> nrel_main_idtf: [Поликлиника №1 Минской ЦРБ] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [Polyclinic №1 of the Minsk central district hospital] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Осипенко 21а ];
+
+=> nrel_hospital_phone_number: [8 017 288-08-35];
+
+=> nrel_hospital_working_hours: [пн. — пт.: c 08:00 до 20:00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="П-Ка Районная №1"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Здание 1-й центральной районной клинической поликлиники на 750 посещений в смену построено в 1982 году.
+Поликлиника обслуживает 37,7 тысяч взрослого населения столицы.
+В структуре населения 23% составляют лица пожилого возраста.
+В поликлинике работают около 70 врачей, 79,7% имеют квалификационные категории и около 140 средних медицинских работников, 91,1 % имеют квалификационные категории.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+
+ *);;
