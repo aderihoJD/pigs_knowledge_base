@@ -1,0 +1,29 @@
+children's_hospital_number_four
+
+=> nrel_main_idtf: [детская поликлиника №4] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [children's hospital number 4 ] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [просп. Победителей 93, Минск];
+
+=> nrel_hospital_phone_number: [8 017 228-58-71];
+
+=> nrel_hospital_working_hours: [07.00-20.00];
+
+=> nrel_osm_query:
+    [node(53.83,27.430,54,27.670)[amenity=hospital]["name"="П-Ка Дет.№4"]["name:ru"="П-Ка Дет.№4"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [4-ая городская поликлиника является многопрофильным лечебно-профилактическим учреждением по оказанию медицинской помощи детскому и взрослому населению.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+	*);;

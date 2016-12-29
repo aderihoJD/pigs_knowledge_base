@@ -1,0 +1,31 @@
+
+belevromed
+
+=> nrel_main_idtf: [белевромед] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [belevromed] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, ул. Некрасова 31];
+
+=> nrel_hospital_phone_number: [8 017 288-81-98];
+
+=> nrel_hospital_working_hours: [пн-пт 09.00-21.00 сб 09.00-16.00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="Белевромед"]["name:ru"="Белевромед"];out;];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [«Стоматология – как во сне»,  так можно сказать, причем в прямом смысле: стоматологическое лечение в «БелЕвроМед» проводят под общим наркозом, который погружает пациента в сон на все время болезненных процедур.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+
+ *);;

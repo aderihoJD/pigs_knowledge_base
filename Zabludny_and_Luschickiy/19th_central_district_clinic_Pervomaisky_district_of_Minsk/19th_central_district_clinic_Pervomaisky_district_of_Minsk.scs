@@ -1,0 +1,31 @@
+
+19th_central_district_clinic_Pervomaisky_district_of_Minsk
+
+=> nrel_main_idtf: [УЗ "19-я центральная районная поликлиника Первомайского района г. Минска"] (* <- lang_ru;; *);
+
+=> nrel_main_idtf: [19th central district clinic Pervomaisky district of Minsk] (* <- lang_en;; *);
+
+=> nrel_hospital_address: [г. Минск, проспект Независимости 1193 ];
+
+=> nrel_hospital_phone_number: [8 017 285-65-81];
+
+=> nrel_hospital_working_hours: [пн. — пт.: c 07:00 до 20:00];
+
+=> nrel_osm_query:
+    [node[amenity=hospital]["name"="П-ка №19"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Учреждение здравоохранения «19-я центральная районная поликлиника Первомайского района г. Минска» функционирует с 1974 года. 19-я центральная районная поликлиника является многопрофильным лечебным учреждением, где оказывается специализированная квалифицированная помощь по 25 специальностям. Численность обслуживаемого населения – 45 000 человек.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+
+ *);;
