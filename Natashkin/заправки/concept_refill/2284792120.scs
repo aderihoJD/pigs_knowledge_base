@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_2284792120;;
+
+concept_refill_2284792120 <- concept_terrain_object;;
+
+concept_refill_2284792120 <- concept_refill;;
+
+concept_refill_2284792120 => nrel_main_idtf:
+	[null]
+	(* <- lang_ru;; *);;
+
+concept_refill_2284792120 => nrel_osm_query:
+	[node["name"="null"];];;
+
+concept_refill_2284792120 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2284792120]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2284792120 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Independent]
+			(* <- lang_ru;; *);;
+		*);;
+

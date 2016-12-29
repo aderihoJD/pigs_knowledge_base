@@ -1,0 +1,36 @@
+sc_node_not_relation -> concept_refill_3376281651;;
+
+concept_refill_3376281651 <- concept_terrain_object;;
+
+concept_refill_3376281651 <- concept_refill;;
+
+concept_refill_3376281651 => nrel_main_idtf:
+	[АГНКС Слуцк безкомпрессорная]
+	(* <- lang_ru;; *);;
+
+concept_refill_3376281651 => nrel_osm_query:
+	[node["name"="АГНКС Слуцк безкомпрессорная"];];;
+
+concept_refill_3376281651 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3376281651]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3376281651 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белтрансгаз]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3376281651 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.metan.by/]
+		*);;
+

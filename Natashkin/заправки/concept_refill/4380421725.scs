@@ -1,0 +1,35 @@
+sc_node_not_relation -> concept_refill_4380421725;;
+
+concept_refill_4380421725 <- concept_terrain_object;;
+
+concept_refill_4380421725 <- concept_refill;;
+
+concept_refill_4380421725 => nrel_main_idtf:
+	[Татнефть №16]
+	(* <- lang_ru;; *);;
+
+concept_refill_4380421725 => nrel_osm_query:
+	[node["name"="Татнефть №16"];];;
+
+concept_refill_4380421725 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4380421725]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4380421725 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[null]
+		*);;
+
+concept_refill_4380421725 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://tatbelneft.by/]
+		*);;
+

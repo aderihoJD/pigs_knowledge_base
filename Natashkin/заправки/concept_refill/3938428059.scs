@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_3938428059;;
+
+concept_refill_3938428059 <- concept_terrain_object;;
+
+concept_refill_3938428059 <- concept_refill;;
+
+concept_refill_3938428059 => nrel_main_idtf:
+	[Славнефть № 47]
+	(* <- lang_ru;; *);;
+
+concept_refill_3938428059 => nrel_osm_query:
+	[node["name"="Славнефть № 47"];];;
+
+concept_refill_3938428059 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3938428059]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3938428059 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[ИООО «РН-Запад»]
+			(* <- lang_ru;; *);;
+		*);;
+

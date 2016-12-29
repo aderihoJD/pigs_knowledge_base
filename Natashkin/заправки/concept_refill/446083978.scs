@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_446083978;;
+
+concept_refill_446083978 <- concept_terrain_object;;
+
+concept_refill_446083978 <- concept_refill;;
+
+concept_refill_446083978 => nrel_main_idtf:
+	[Славнефть 537км на М1]
+	(* <- lang_ru;; *);;
+
+concept_refill_446083978 => nrel_osm_query:
+	[node["name"="Славнефть 537км на М1"];];;
+
+concept_refill_446083978 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[446083978]
+			(* <- lang_ru;; *);;
+		*);;
+

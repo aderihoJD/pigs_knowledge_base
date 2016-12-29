@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_refill_3985535203;;
+
+concept_refill_3985535203 <- concept_terrain_object;;
+
+concept_refill_3985535203 <- concept_refill;;
+
+concept_refill_3985535203 => nrel_main_idtf:
+	[АЗС "Мінгаз" №7]
+	(* <- lang_ru;; *);;
+
+concept_refill_3985535203 => nrel_osm_query:
+	[node["name"="АЗС "Мінгаз" №7"];];;
+
+concept_refill_3985535203 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3985535203]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3985535203 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[null]
+		*);;
+

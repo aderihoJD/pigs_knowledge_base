@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_497154142;;
+
+concept_refill_497154142 <- concept_terrain_object;;
+
+concept_refill_497154142 <- concept_refill;;
+
+concept_refill_497154142 => nrel_main_idtf:
+	[Пинскрайгаз]
+	(* <- lang_ru;; *);;
+
+concept_refill_497154142 => nrel_osm_query:
+	[node["name"="Пинскрайгаз"];];;
+
+concept_refill_497154142 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[497154142]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_497154142 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Брестоблгаз]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_497154142 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[Брестоблгаз]
+		*);;
+
+concept_refill_497154142 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.brest.gas.by]
+		*);;
+

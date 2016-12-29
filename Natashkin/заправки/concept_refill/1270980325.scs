@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_1270980325;;
+
+concept_refill_1270980325 <- concept_terrain_object;;
+
+concept_refill_1270980325 <- concept_refill;;
+
+concept_refill_1270980325 => nrel_main_idtf:
+	[АГНКС Минск-4]
+	(* <- lang_ru;; *);;
+
+concept_refill_1270980325 => nrel_osm_query:
+	[node["name"="АГНКС Минск-4"];];;
+
+concept_refill_1270980325 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1270980325]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1270980325 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белтрансгаз]
+			(* <- lang_ru;; *);;
+		*);;
+

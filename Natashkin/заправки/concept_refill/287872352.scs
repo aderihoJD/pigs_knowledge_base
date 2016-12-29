@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_refill_287872352;;
+
+concept_refill_287872352 <- concept_terrain_object;;
+
+concept_refill_287872352 <- concept_refill;;
+
+concept_refill_287872352 => nrel_main_idtf:
+	[null]
+	(* <- lang_ru;; *);;
+
+concept_refill_287872352 => nrel_osm_query:
+	[node["name"="null"];];;
+
+concept_refill_287872352 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[287872352]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_287872352 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Lukoil]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_287872352 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Lukoil]
+			(* <- lang_ru;; *);;
+		*);;
+

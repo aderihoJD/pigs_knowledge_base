@@ -1,0 +1,36 @@
+sc_node_not_relation -> concept_refill_306063262;;
+
+concept_refill_306063262 <- concept_terrain_object;;
+
+concept_refill_306063262 <- concept_refill;;
+
+concept_refill_306063262 => nrel_main_idtf:
+	[United Company №6]
+	(* <- lang_ru;; *);;
+
+concept_refill_306063262 => nrel_osm_query:
+	[node["name"="United Company №6"];];;
+
+concept_refill_306063262 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306063262]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306063262 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[СООО «Юнайтед Компани»]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306063262 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[СООО «Юнайтед Компани»]
+		*);;
+

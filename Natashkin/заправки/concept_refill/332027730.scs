@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_332027730;;
+
+concept_refill_332027730 <- concept_terrain_object;;
+
+concept_refill_332027730 <- concept_refill;;
+
+concept_refill_332027730 => nrel_main_idtf:
+	[Газпромнефть №80]
+	(* <- lang_ru;; *);;
+
+concept_refill_332027730 => nrel_osm_query:
+	[node["name"="Газпромнефть №80"];];;
+
+concept_refill_332027730 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[332027730]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_332027730 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Газпромнефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_332027730 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[Газпромнефть]
+		*);;
+
+concept_refill_332027730 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://gpnbonus.by/]
+		*);;
+

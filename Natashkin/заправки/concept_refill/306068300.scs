@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_306068300;;
+
+concept_refill_306068300 <- concept_terrain_object;;
+
+concept_refill_306068300 <- concept_refill;;
+
+concept_refill_306068300 => nrel_main_idtf:
+	[Лукойл]
+	(* <- lang_ru;; *);;
+
+concept_refill_306068300 => nrel_osm_query:
+	[node["name"="Лукойл"];];;
+
+concept_refill_306068300 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306068300]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306068300 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Lukoil]
+			(* <- lang_ru;; *);;
+		*);;
+

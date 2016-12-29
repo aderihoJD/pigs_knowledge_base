@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_306065037;;
+
+concept_refill_306065037 <- concept_terrain_object;;
+
+concept_refill_306065037 <- concept_refill;;
+
+concept_refill_306065037 => nrel_main_idtf:
+	[Белнефтехим нетБерлио]
+	(* <- lang_ru;; *);;
+
+concept_refill_306065037 => nrel_osm_query:
+	[node["name"="Белнефтехим нетБерлио"];];;
+
+concept_refill_306065037 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306065037]
+			(* <- lang_ru;; *);;
+		*);;
+
