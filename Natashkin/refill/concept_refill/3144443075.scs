@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_3144443075;;
+
+concept_refill_3144443075 <- concept_terrain_object;;
+
+concept_refill_3144443075 <- concept_refill;;
+
+concept_refill_3144443075 => nrel_main_idtf:
+	[МАЗС № 50 "Белоруснефть"]
+	(* <- lang_ru;; *);;
+
+concept_refill_3144443075 => nrel_osm_query:
+	[node(3144443075);];;
+
+concept_refill_3144443075 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3144443075]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3144443075 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3144443075 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-152-755063];;
+		*);;
+
+concept_refill_3144443075 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.belorusneft.by/];;
+		*);;
+

@@ -1,0 +1,51 @@
+sc_node_not_relation -> concept_refill_4098964074;;
+
+concept_refill_4098964074 <- concept_terrain_object;;
+
+concept_refill_4098964074 <- concept_refill;;
+
+concept_refill_4098964074 => nrel_main_idtf:
+	[Белоруснефть №44]
+	(* <- lang_ru;; *);;
+
+concept_refill_4098964074 => nrel_osm_query:
+	[node(4098964074);];;
+
+concept_refill_4098964074 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4098964074]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4098964074 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Беларуснефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4098964074 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Беларуснефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4098964074 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-2332-31168];;
+		*);;
+
+concept_refill_4098964074 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.belorusneft.by/];;
+		*);;
+

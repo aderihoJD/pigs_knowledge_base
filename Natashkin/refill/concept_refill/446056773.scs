@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_446056773;;
+
+concept_refill_446056773 <- concept_terrain_object;;
+
+concept_refill_446056773 <- concept_refill;;
+
+concept_refill_446056773 => nrel_main_idtf:
+	[Славнефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_446056773 => nrel_osm_query:
+	[node(446056773);];;
+
+concept_refill_446056773 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[446056773]
+			(* <- lang_ru;; *);;
+		*);;
+

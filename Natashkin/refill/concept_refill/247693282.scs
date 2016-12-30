@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_247693282;;
+
+concept_refill_247693282 <- concept_terrain_object;;
+
+concept_refill_247693282 <- concept_refill;;
+
+concept_refill_247693282 => nrel_main_idtf:
+	[Лукойл № 5]
+	(* <- lang_ru;; *);;
+
+concept_refill_247693282 => nrel_osm_query:
+	[node(247693282);];;
+
+concept_refill_247693282 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[247693282]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_247693282 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[ИООО «Лукойл Белоруссия»]
+			(* <- lang_ru;; *);;
+		*);;
+

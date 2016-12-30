@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_849436015;;
+
+concept_refill_849436015 <- concept_terrain_object;;
+
+concept_refill_849436015 <- concept_refill;;
+
+concept_refill_849436015 => nrel_main_idtf:
+	[Газпром нефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_849436015 => nrel_osm_query:
+	[node(849436015);];;
+
+concept_refill_849436015 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[849436015]
+			(* <- lang_ru;; *);;
+		*);;
+

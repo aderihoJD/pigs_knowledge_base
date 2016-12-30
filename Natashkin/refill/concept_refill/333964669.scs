@@ -1,0 +1,36 @@
+sc_node_not_relation -> concept_refill_333964669;;
+
+concept_refill_333964669 <- concept_terrain_object;;
+
+concept_refill_333964669 <- concept_refill;;
+
+concept_refill_333964669 => nrel_main_idtf:
+	[АГЗС]
+	(* <- lang_ru;; *);;
+
+concept_refill_333964669 => nrel_osm_query:
+	[node(333964669);];;
+
+concept_refill_333964669 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[333964669]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_333964669 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Витебскоблгаз]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_333964669 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-2131-42777];;
+		*);;
+

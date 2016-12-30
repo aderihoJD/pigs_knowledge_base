@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_2084725431;;
+
+concept_refill_2084725431 <- concept_terrain_object;;
+
+concept_refill_2084725431 <- concept_refill;;
+
+concept_refill_2084725431 => nrel_main_idtf:
+	[Трайпл]
+	(* <- lang_ru;; *);;
+
+concept_refill_2084725431 => nrel_osm_query:
+	[node(2084725431);];;
+
+concept_refill_2084725431 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2084725431]
+			(* <- lang_ru;; *);;
+		*);;
+

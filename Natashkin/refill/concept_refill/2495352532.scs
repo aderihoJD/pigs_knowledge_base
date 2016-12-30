@@ -1,0 +1,51 @@
+sc_node_not_relation -> concept_refill_2495352532;;
+
+concept_refill_2495352532 <- concept_terrain_object;;
+
+concept_refill_2495352532 <- concept_refill;;
+
+concept_refill_2495352532 => nrel_main_idtf:
+	[Белоруснефть МАЗС №60]
+	(* <- lang_ru;; *);;
+
+concept_refill_2495352532 => nrel_osm_query:
+	[node(2495352532);];;
+
+concept_refill_2495352532 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2495352532]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2495352532 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2495352532 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2495352532 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-1774-55208];;
+		*);;
+
+concept_refill_2495352532 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://beloil.by/];;
+		*);;
+

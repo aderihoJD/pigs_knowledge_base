@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_1256880118;;
+
+concept_refill_1256880118 <- concept_terrain_object;;
+
+concept_refill_1256880118 <- concept_refill;;
+
+concept_refill_1256880118 => nrel_main_idtf:
+	[МАЗС №63]
+	(* <- lang_ru;; *);;
+
+concept_refill_1256880118 => nrel_osm_query:
+	[node(1256880118);];;
+
+concept_refill_1256880118 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1256880118]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1256880118 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+

@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_1264143795;;
+
+concept_refill_1264143795 <- concept_terrain_object;;
+
+concept_refill_1264143795 <- concept_refill;;
+
+concept_refill_1264143795 => nrel_main_idtf:
+	[БЗП автобаза полоцкое РайПО]
+	(* <- lang_ru;; *);;
+
+concept_refill_1264143795 => nrel_osm_query:
+	[node(1264143795);];;
+
+concept_refill_1264143795 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1264143795]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1264143795 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белтрансгаз]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1264143795 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-214-423134, +375-214-483764];;
+		*);;
+
+concept_refill_1264143795 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.metan.by/];;
+		*);;
+

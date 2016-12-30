@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_2165174571;;
+
+concept_refill_2165174571 <- concept_terrain_object;;
+
+concept_refill_2165174571 <- concept_refill;;
+
+concept_refill_2165174571 => nrel_main_idtf:
+	[Белоруснефть МАЗС № 71]
+	(* <- lang_ru;; *);;
+
+concept_refill_2165174571 => nrel_osm_query:
+	[node(2165174571);];;
+
+concept_refill_2165174571 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2165174571]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2165174571 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белоруснефть]
+			(* <- lang_ru;; *);;
+		*);;
+

@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_656448489;;
+
+concept_refill_656448489 <- concept_terrain_object;;
+
+concept_refill_656448489 <- concept_refill;;
+
+concept_refill_656448489 => nrel_main_idtf:
+	[Белоруснефть]
+	(* <- lang_ru;; *);;
+
+concept_refill_656448489 => nrel_osm_query:
+	[node(656448489);];;
+
+concept_refill_656448489 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[656448489]
+			(* <- lang_ru;; *);;
+		*);;
+

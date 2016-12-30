@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_2407105214;;
+
+concept_refill_2407105214 <- concept_terrain_object;;
+
+concept_refill_2407105214 <- concept_refill;;
+
+concept_refill_2407105214 => nrel_main_idtf:
+	[Газпромнефть №1]
+	(* <- lang_ru;; *);;
+
+concept_refill_2407105214 => nrel_osm_query:
+	[node(2407105214);];;
+
+concept_refill_2407105214 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2407105214]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2407105214 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Газпромнефть]
+			(* <- lang_ru;; *);;
+		*);;
+

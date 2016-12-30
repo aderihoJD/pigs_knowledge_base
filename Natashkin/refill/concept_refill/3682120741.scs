@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_3682120741;;
+
+concept_refill_3682120741 <- concept_terrain_object;;
+
+concept_refill_3682120741 <- concept_refill;;
+
+concept_refill_3682120741 => nrel_main_idtf:
+	[Лукойл]
+	(* <- lang_ru;; *);;
+
+concept_refill_3682120741 => nrel_osm_query:
+	[node(3682120741);];;
+
+concept_refill_3682120741 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3682120741]
+			(* <- lang_ru;; *);;
+		*);;
+

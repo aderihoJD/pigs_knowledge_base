@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_1263142836;;
+
+concept_refill_1263142836 <- concept_terrain_object;;
+
+concept_refill_1263142836 <- concept_refill;;
+
+concept_refill_1263142836 => nrel_main_idtf:
+	[АГНКС Гомель-1]
+	(* <- lang_ru;; *);;
+
+concept_refill_1263142836 => nrel_osm_query:
+	[node(1263142836);];;
+
+concept_refill_1263142836 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1263142836]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1263142836 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Белтрансгаз]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_1263142836 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-232-490249, +375-232-490276];;
+		*);;
+
+concept_refill_1263142836 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.metan.by/];;
+		*);;
+

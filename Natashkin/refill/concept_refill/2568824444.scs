@@ -1,0 +1,35 @@
+sc_node_not_relation -> concept_refill_2568824444;;
+
+concept_refill_2568824444 <- concept_terrain_object;;
+
+concept_refill_2568824444 <- concept_refill;;
+
+concept_refill_2568824444 => nrel_main_idtf:
+	[Газовая запрвка]
+	(* <- lang_ru;; *);;
+
+concept_refill_2568824444 => nrel_osm_query:
+	[node(2568824444);];;
+
+concept_refill_2568824444 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2568824444]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2568824444 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-216-268823];;
+		*);;
+
+concept_refill_2568824444 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.belorusneft.by/];;
+		*);;
+

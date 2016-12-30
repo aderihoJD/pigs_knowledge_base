@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_refill_4157975232;;
+
+concept_refill_4157975232 <- concept_terrain_object;;
+
+concept_refill_4157975232 <- concept_refill;;
+
+concept_refill_4157975232 => nrel_main_idtf:
+	[Белоруснефть № 32]
+	(* <- lang_ru;; *);;
+
+concept_refill_4157975232 => nrel_osm_query:
+	[node(4157975232);];;
+
+concept_refill_4157975232 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4157975232]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4157975232 <= nrel_brand:
+		...
+		(*
+		-> rrel_example:
+			[Белнефтехим]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_4157975232 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[ПО «Белоруснефть»]
+			(* <- lang_ru;; *);;
+		*);;
+

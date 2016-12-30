@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_refill_2120851571;;
+
+concept_refill_2120851571 <- concept_terrain_object;;
+
+concept_refill_2120851571 <- concept_refill;;
+
+concept_refill_2120851571 => nrel_main_idtf:
+	[АГЗС]
+	(* <- lang_ru;; *);;
+
+concept_refill_2120851571 => nrel_osm_query:
+	[node(2120851571);];;
+
+concept_refill_2120851571 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[2120851571]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_2120851571 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Мингаз]
+			(* <- lang_ru;; *);;
+		*);;
+

@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_3599858262;;
+
+concept_refill_3599858262 <- concept_terrain_object;;
+
+concept_refill_3599858262 <- concept_refill;;
+
+concept_refill_3599858262 => nrel_main_idtf:
+	[Tatneft №6]
+	(* <- lang_ru;; *);;
+
+concept_refill_3599858262 => nrel_osm_query:
+	[node(3599858262);];;
+
+concept_refill_3599858262 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[3599858262]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3599858262 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Tatneft]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_3599858262 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-216-546830];;
+		*);;
+
+concept_refill_3599858262 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://www.tatbelneft.by/];;
+		*);;
+

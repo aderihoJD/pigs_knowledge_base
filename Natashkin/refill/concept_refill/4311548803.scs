@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_4311548803;;
+
+concept_refill_4311548803 <- concept_terrain_object;;
+
+concept_refill_4311548803 <- concept_refill;;
+
+concept_refill_4311548803 => nrel_main_idtf:
+	[БНХ]
+	(* <- lang_ru;; *);;
+
+concept_refill_4311548803 => nrel_osm_query:
+	[node(4311548803);];;
+
+concept_refill_4311548803 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[4311548803]
+			(* <- lang_ru;; *);;
+		*);;
+

@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_refill_1406078521;;
+
+concept_refill_1406078521 <- concept_terrain_object;;
+
+concept_refill_1406078521 <- concept_refill;;
+
+concept_refill_1406078521 => nrel_main_idtf:
+	[null]
+	(* <- lang_ru;; *);;
+
+concept_refill_1406078521 => nrel_osm_query:
+	[node(1406078521);];;
+
+concept_refill_1406078521 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[1406078521]
+			(* <- lang_ru;; *);;
+		*);;
+

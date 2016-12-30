@@ -1,0 +1,36 @@
+sc_node_not_relation -> concept_refill_320409666;;
+
+concept_refill_320409666 <- concept_terrain_object;;
+
+concept_refill_320409666 <- concept_refill;;
+
+concept_refill_320409666 => nrel_main_idtf:
+	[АЗС № 55 "Лукойл"]
+	(* <- lang_ru;; *);;
+
+concept_refill_320409666 => nrel_osm_query:
+	[node(320409666);];;
+
+concept_refill_320409666 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[320409666]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_320409666 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Лукойл]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_320409666 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375 152 75 27 32];;
+		*);;
+

@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_refill_306065590;;
+
+concept_refill_306065590 <- concept_terrain_object;;
+
+concept_refill_306065590 <- concept_refill;;
+
+concept_refill_306065590 => nrel_main_idtf:
+	[Славнефть №3]
+	(* <- lang_ru;; *);;
+
+concept_refill_306065590 => nrel_osm_query:
+	[node(306065590);];;
+
+concept_refill_306065590 <= nrel_id:
+		...
+		(*
+		-> rrel_example:
+			[306065590]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306065590 <= nrel_operator:
+		...
+		(*
+		-> rrel_example:
+			[Славнефть]
+			(* <- lang_ru;; *);;
+		*);;
+
+concept_refill_306065590 <= nrel_telephone:
+		...
+		(*
+		-> rrel_example:
+			[+375-17-502-64-46];;
+		*);;
+
+concept_refill_306065590 <= nrel_website:
+		...
+		(*
+		-> rrel_example:
+			[http://slavneft.by/];;
+		*);;
+
