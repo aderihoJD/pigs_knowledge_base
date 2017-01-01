@@ -1,8 +1,0 @@
-minsk=> nrel_main_idtf:
-	
-	[Минск]
-	(* <- lang_ru;; *);
-	
-	[Minsk]
-	(* <- lang_en;;	*);
-=>nrel_code_soato : [5000000000];;

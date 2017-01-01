@@ -1,0 +1,1 @@
+shool_brest_12<-school;;shool_brest_12=>nrel_main_idtf:[ГУО "Средняя школа №12 г. Бреста"](* <- lang_ru;; *);;shool_brest_12=>nrel_number:[12];=>nrel_contact_phone:[42-52-66];=>nrel_address:brest;=>nrel_address:[ул. Московская 346/6](* <- lang_ru;; *);=>nrel_website:[http://sch12.brest.edu.by/];=>nrel_osm_query:[relation(958636);(._;>;);out;]; =>nrel_email:[sch12mr@rcit.by];;
