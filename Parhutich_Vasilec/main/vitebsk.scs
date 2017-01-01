@@ -1,8 +1,0 @@
-vitebsk=> nrel_main_idtf:
-	
-	[Витебск]
-	(* <- lang_ru;; *);
-	
-	[Vitebsk]
-	(* <- lang_en;;	*);
-=>nrel_code_soato : [2401000000];;

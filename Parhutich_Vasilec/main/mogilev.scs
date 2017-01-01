@@ -1,8 +1,0 @@
-mogilev=> nrel_main_idtf:
-	
-	[Могилев]
-	(* <- lang_ru;; *);
-	
-	[Mogilev]
-	(* <- lang_en;;	*);
-=>nrel_code_soato : [7401000000];;
