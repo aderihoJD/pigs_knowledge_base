@@ -1,0 +1,19 @@
+borisovo_airfield
+
+=> nrel_main_idtf:
+    [Борисово]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node(306068792);];;
+
+
+
+
+
+
+

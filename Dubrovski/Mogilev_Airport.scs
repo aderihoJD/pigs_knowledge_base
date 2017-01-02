@@ -1,0 +1,24 @@
+mogilev_airport
+
+=> nrel_main_idtf:
+    [Аэропорт Могилев]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node(303748456);];
+
+
+=> nrel_site:[ https://aviakassa.by/airports/Belarus/Mogilev ];
+
+=> nrel_email: [info@lialka.vitebsk.net];
+
+=> nrel_foundation_date: [1998];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_cash_telephone: [(+375 222) 27-36-34];;
+

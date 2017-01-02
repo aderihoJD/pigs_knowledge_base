@@ -1,0 +1,30 @@
+baranovichi_air_base
+
+=> nrel_main_idtf:
+    [Барановичи авиабаза]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way(231042769);];
+
+=> nrel_site:[ https://www.intex-press.by/tag/61-ya-aviabaza/ ];
+
+=> nrel_foundation_date: [1999];
+
+=> nrel_scedule: [ВТ–СБ с 12:00 до 19:00, ВС с 14:00 до 19:00];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_cash_telephone: [+375 33 696 50 50];;
+
+
+
+
+
+
+
+

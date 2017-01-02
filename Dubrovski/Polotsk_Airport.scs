@@ -1,0 +1,23 @@
+polotsk_airport
+
+=> nrel_main_idtf:
+    [Аэропорт Полотцк]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node(410800836);];
+
+=> nrel_site:[ http://www.ban.by/ru/%D0%B2%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%D0%B8%D0%B9-%D1%84%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB ];
+
+=> nrel_email: [fvitebsk@ban.by];
+
+=> nrel_foundation_date: [1933];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_cash_telephone: [(+375 212) 20-43-05;];;
+

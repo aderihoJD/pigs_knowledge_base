@@ -1,0 +1,24 @@
+aeraport_viciebsk
+
+=> nrel_main_idtf:
+    [Аэропорт Витебск]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node(481390568);];
+
+
+=> nrel_site:[ http://www.ban.by/ ];
+
+=> nrel_email: [fvitebsk@ban.by];
+
+=> nrel_foundation_date: [1933];
+
+=>nrel_number_of_halls:[2](* <-number;; *);
+
+=> nrel_cash_telephone: [(+375 17) 222-53-02];;
+

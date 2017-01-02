@@ -1,0 +1,27 @@
+minsk_international_airport
+
+=> nrel_main_idtf:
+    [Минск-2]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node(168118478);];
+
+=> nrel_site:[ http://airport.by/index_eng.htm ];
+
+=> nrel_email: [info@airport.by];
+
+=> nrel_foundation_date: [1963];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_cash_telephone: [+375 (17) 279 17 30];;
+
+
+
+
+
