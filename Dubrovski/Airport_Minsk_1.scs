@@ -1,0 +1,23 @@
+airport_minsk_1
+
+=> nrel_main_idtf:
+    [Аэропорт Минск-1]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way(26439194);];
+
+=> nrel_site:[ https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA-1_(%D0%B0%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82) ];
+
+=> nrel_email: [airport1@ivcavia.com];
+
+=> nrel_foundation_date: [1933];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_cash_telephone: [8 017 393-94-65];;
+

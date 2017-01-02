@@ -1,0 +1,27 @@
+brest_airport
+
+=> nrel_main_idtf:
+    [Брестский аэропорт]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node(303742550);];
+
+=> nrel_site:[ http://www.ban.by/%D0%B1%D1%80%D0%B5%D1%81%D1%82%D1%81%D0%BA%D0%B8%D0%B9-%D1%84%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB];
+
+=> nrel_foundation_date: [1976];
+
+=>nrel_number_of_halls:[1](* <-number;; *);
+
+=> nrel_cash_telephone: [(+375 17) 222-53-02];;
+
+
+
+
+
+
+

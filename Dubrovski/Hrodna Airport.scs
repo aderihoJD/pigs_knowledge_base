@@ -1,0 +1,25 @@
+hrodna_airport
+
+=> nrel_main_idtf:
+    [Аэропорт Гродно]
+    (*
+    <- lang_ru;;
+    *);
+
+=> nrel_osm_query:
+    [relation(4793598);];
+
+=> nrel_site:[ http://www.grodnoavia.com/ ];
+
+=> nrel_foundation_date: [1969];
+
+=>nrel_number_of_halls:[1](* <-number;; *);;
+
+
+
+
+
+
+
+
+
