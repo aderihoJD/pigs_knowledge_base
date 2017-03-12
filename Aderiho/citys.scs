@@ -1,0 +1,102 @@
+The_Republic_of_Belarus => nrel_main_idtf:[Республика Беларусь](*<-lang_ru;;*);;
+The_Republic_of_Belarus => nrel_main_idtf:[The Republic of Belarus](*<-lang_en;;*);;
+The_Republic_of_Belarus => nrel_idtf:[Беларусь](*<-lang_ru;;*);;
+The_Republic_of_Belarus => nrel_idtf:[Belarus](*<-lang_en;;*);;
+
+Minsk_city => nrel_main_idtf: [город Минск] (*<-lang_ru;;*);;
+Minsk_city => nrel_main_idtf: [Minsk city] (*<-lang_en;;*);;
+Minsk_city => nrel_idtf: [Минск] (*<-lang_ru;;*);;
+Minsk_city => nrel_idtf: [Minsk] (*<-lang_en;;*);;
+
+Vitebsk_city => nrel_main_idtf: [город Витебск] (*<-lang_ru;;*);;
+Vitebsk_city => nrel_main_idtf: [Vitebsk city] (*<-lang_en;;*);;
+Vitebsk_city => nrel_idtf: [Витебск] (*<-lang_ru;;*);;
+Vitebsk_city => nrel_idtf: [Vitebsk] (*<-lang_en;;*);;
+
+Grodno_city => nrel_main_idtf: [город Гродно] (*<-lang_ru;;*);;
+Grodno_city => nrel_main_idtf: [Grodno city] (*<-lang_en;;*);;
+Grodno_city => nrel_idtf: [Гродно] (*<-lang_ru;;*);;
+Grodno_city => nrel_idtf: [Grodno] (*<-lang_en;;*);;
+
+Gomel_city => nrel_main_idtf: [город Гомель] (*<-lang_ru;;*);;
+Gomel_city => nrel_main_idtf: [Gomel city] (*<-lang_en;;*);;
+Gomel_city => nrel_idtf: [Гомель] (*<-lang_ru;;*);;
+Gomel_city => nrel_idtf: [Gomel] (*<-lang_en;;*);;
+
+Mogilev_city => nrel_main_idtf: [город Могилев] (*<-lang_ru;;*);;
+Mogilev_city => nrel_main_idtf: [Mogilev city] (*<-lang_en;;*);;
+Mogilev_city => nrel_idtf: [Могилев] (*<-lang_ru;;*);;
+Mogilev_city => nrel_idtf: [Mogilev] (*<-lang_en;;*);;
+
+Brest_city => nrel_main_idtf: [город Брест] (*<-lang_ru;;*);;
+Brest_city => nrel_main_idtf: [Brest_ city] (*<-lang_en;;*);;
+Brest_city => nrel_idtf: [Брест] (*<-lang_ru;;*);;
+Brest_city => nrel_idtf: [Brest] (*<-lang_en;;*);;
+
+
+Minsk_region => nrel_main_idtf: [Минская область] (*<-lang_ru;;*);;
+Minsk_region => nrel_main_idtf: [Minsk region] (*<-lang_en;;*);;
+
+Brest_region => nrel_main_idtf: [Брестская область] (*<-lang_ru;;*);;
+Brest_region => nrel_main_idtf: [Brest region] (*<-lang_en;;*);;
+
+Vitebsk_region => nrel_main_idtf: [Витебская область] (*<-lang_ru;;*);;
+Vitebsk_region => nrel_main_idtf: [Vitebsk region] (*<-lang_en;;*);;
+
+Grodno_region => nrel_main_idtf: [Гродненская область] (*<-lang_ru;;*);;
+Grodno_region => nrel_main_idtf: [Grodno region] (*<-lang_en;;*);;
+
+Mogilev_region => nrel_main_idtf: [Могилевская область] (*<-lang_ru;;*);;
+Mogilev_region => nrel_main_idtf: [Mogilev region] (*<-lang_en;;*);;
+
+Gomel_region => nrel_main_idtf: [Гомельская область] (*<-lang_ru;;*);;
+Gomel_region => nrel_main_idtf: [Gomel region] (*<-lang_en;;*);;
+
+
+The_Republic_of_Belarus <= nrel_subdividing:
+{
+Minsk_region;
+Brest_region;
+Vitebsk_region;
+Grodno_region;
+Mogilev_region;
+Gomel_region
+};;
+
+
+Minsk_region => nrel_administrative_center: Minsk_city;; 
+Brest_region => nrel_administrative_center: Brest_city;;
+Vitebsk_region => nrel_administrative_center: Vitebsk_city;;
+Grodno_region => nrel_administrative_center: Grodno_city;;
+Mogilev_region => nrel_administrative_center: Mogilev_city;;
+Gomel_region => nrel_administrative_center: Gomel_city;;
+
+
+Minsk_city -> nrel_year_of_foundation: [1067];;
+Brest_city -> nrel_year_of_foundation: [1019];;
+Vitebsk_city -> nrel_year_of_foundation: [974];;
+Grodno_city -> nrel_year_of_foundation: [1128];;
+Mogilev_city -> nrel_year_of_foundation: [1267];;
+Gomel_city -> nrel_year_of_foundation: [1142];;
+
+
+Minsk_city -> nrel_number_of_residents: [1959781];;
+Brest_city -> nrel_number_of_residents: [340141];;
+Vitebsk_city -> nrel_number_of_residents: [368574];;
+Grodno_city -> nrel_number_of_residents: [365610];;
+Mogilev_city -> nrel_number_of_residents: [378077];;
+Gomel_city -> nrel_number_of_residents: [521452];;
+
+
+Minsk_city -> nrel_2009_year_census: [1836821];;
+Brest_city -> nrel_2009_year_census: [309831];;
+Vitebsk_city -> nrel_2009_year_census: [347972];;
+Grodno_city -> nrel_2009_year_census: [327507];;
+Mogilev_city -> nrel_2009_year_census: [358345];;
+Gomel_city -> nrel_2009_year_census: [482737];;
+
+
+
+
+
+

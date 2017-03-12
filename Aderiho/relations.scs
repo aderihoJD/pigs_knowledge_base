@@ -1,0 +1,23 @@
+sc_node_norole_relation -> nrel_administrative_center;;
+nrel_administrative_center =>nrel_main_idtf:
+[административный центр*](*<-lang_ru;;*);
+[administrative center*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_year_of_foundation;;
+nrel_year_of_foundation => nrel_main_idtf:
+[год основания*](*<-lang_ru;;*);
+[year of foundation*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_number_of_residents;;
+nrel_number_of_residents => nrel_main_idtf:
+[количество жителей*](*<-lang_ru;;*);
+[number of residents*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_2009_year_census;;
+nrel_2009_year_census => nrel_main_idtf:
+[перепись 2009 года*](*<-lang_ru;;*);
+[2009_year_census*](*<-lang_en;;*);;
+
+
+
+
