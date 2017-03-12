@@ -1,0 +1,16 @@
+ui_menu_file_for_hecking_overpass_query <- ui_user_command_class_atom; ui_user_command_class_view_kb;
+
+=> nrel_main_idtf: [Проверить наличие overpass запроса] (* <- lang_ru;;*);
+=> nrel_main_idtf: [Check overpass query] (* <- lang_en;;*);;
+ui_menu_file_for_hecking_overpass_query => ui_nrel_command_template:
+	[*
+		action_of_checking_overpass_query _-> ._action_of_checking_overpass_query_instance
+			(*
+			_-> ui_arg_1;;
+			*);;
+		._action_of_checking_overpass_query_instance _<- question;;
+	*];;
+
+ui_menu_file_for_hecking_overpass_query => ui_nrel_command_lang_template: [Проверить наличие overpass запроса: $ui_arg_1] (* <- lang_ru;;*);;
+ui_menu_file_for_hecking_overpass_query => ui_nrel_command_lang_template: [Check overpass query: $ui_arg_1] (* <- lang_en;;*);;
+

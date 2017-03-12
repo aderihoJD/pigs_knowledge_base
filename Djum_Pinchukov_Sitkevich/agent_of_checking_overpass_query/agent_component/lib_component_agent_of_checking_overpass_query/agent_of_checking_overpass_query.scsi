@@ -1,0 +1,358 @@
+agent_of_checking_overpass_query
+=> nrel_main_idtf:
+	[агентная scp-программа проверки наличия overpass запроса] (* <- lang_ru;; *);
+	[agent scp-program of checking overpass query] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_checking_overpass_query 
+	(*
+	-> rrel_params: .agent_of_checking_overpass_query_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_checking_overpass_query_operator_set 
+		(*
+		-> rrel_init: .agent_of_checking_overpass_query_operator1A 
+			(*
+			<- searchElStr3;;
+
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator1B;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1B
+			(*
+			<- searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_of_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator1C;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator_return;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1C
+			(*
+			<- searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _some_struct_for_checking;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator1C1;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator_return;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1C1
+			(*
+			<- searchSetStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_struct_for_checking;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _elems_of_checking_struct;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _struct_of_checking_elems;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator_gen_answer;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator_return;;
+			*);;	
+
+
+		-> .agent_of_checking_overpass_query_operator_gen_answer
+			(*
+			<- genEl;;
+
+			-> rrel_1: rrel_assign: rrel_node: rrel_struct: rrel_const: rrel_scp_var: _answer_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator1D1;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1D1
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator1D2;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1D2
+			(*
+			<- searchSetStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_of_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator1D3;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1D3
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: action_of_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator1D4;;
+			*);;
+	
+	
+		-> .agent_of_checking_overpass_query_operator1D4
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_struct_for_checking;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator1D5;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator1D5
+			(*
+			<- searchSetStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_struct_for_checking;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator2A0;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator2A0
+			(*
+			<- genEl;;
+
+			-> rrel_1: rrel_assign: rrel_const: rrel_struct: rrel_node: rrel_scp_var: _result_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator2A_1;;
+			*);;
+
+
+		-> .agent_of_checking_overpass_query_operator2A_1
+			(*
+			<- searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _struct_of_checking_elems;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc21;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _some_concept;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator2A_2;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator_erase_set;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator2A_2
+			(*
+			<- eraseEl;;
+
+			-> rrel_1: rrel_erase: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _arc21;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator2A_3;;
+			*);;	
+
+
+		-> .agent_of_checking_overpass_query_operator2A_3
+			(*
+			<- searchSetStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_concept;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _entity_of_concept;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _set_of_entity_of_concept;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator2A;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator_return;;
+			*);;	
+
+
+		-> .agent_of_checking_overpass_query_operator2A
+			(*
+			<- searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_entity_of_concept;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _entity_of_concept;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator2B;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator2A_1;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator2B
+			(*
+			<- eraseEl;;
+
+			-> rrel_1: rrel_erase: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator2C;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator2C
+			(*
+			<- searchElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _entity_of_concept;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _some_query;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_osm_query;;
+
+			=> nrel_then: .agent_of_checking_overpass_query_operator2A;;
+			=> nrel_else: .agent_of_checking_overpass_query_operator_wrong_query;;
+			*);;
+		
+		-> .agent_of_checking_overpass_query_operator_wrong_query
+			(*
+			<- genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _entity_of_concept;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;	
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_key_sc_element;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator2A;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator_erase_set
+			(*
+			<- eraseEl;;
+
+			-> rrel_1: rrel_erase: rrel_fixed: rrel_scp_var: _set_of_entity_of_concept;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3A;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3A
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: struct_of_elems_without_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3B;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3B
+			(*
+			<- genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_result;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3B1;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3B1
+			(*
+			<- searchSetStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _elem;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3C;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3C
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: struct_of_elems_without_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3C1;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3C1
+			(*
+			<- searchSetStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: struct_of_elems_without_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3D;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3D
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3D1;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3D1
+			(*
+			<- searchSetStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _result_for_checking_overpass_query;;
+			-> rrel_4: rrel_assign: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_result;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator3D2;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator3D2
+			(*
+			<- genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: nrel_result;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator_answer;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator_answer
+			(*
+			<- genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer_for_checking_overpass_query;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_const: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+			=> nrel_goto: .agent_of_checking_overpass_query_operator_return;;
+			*);;
+
+		-> .agent_of_checking_overpass_query_operator_return
+			(*
+			<- return;;
+			*);;
+		*);;
+	*);;

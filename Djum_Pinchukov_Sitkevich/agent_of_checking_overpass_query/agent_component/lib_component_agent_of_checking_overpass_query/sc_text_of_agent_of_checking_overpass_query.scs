@@ -1,0 +1,6 @@
+sc_text_of_
+-> rrel_key_sc_element:
+	agent_of_checking_overpass_query;
+<- scp_program_sc_text;;
+
+sc_text_of_ = [*^"file://agent_of_checking_overpass_query.scsi"*];;

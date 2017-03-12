@@ -1,0 +1,7 @@
+sc_node_not_relation -> action_of_checking_overpass_query;;
+
+action_of_checking_overpass_query => nrel_main_idtf:
+	[действие. проверить наличие overpass запроса]
+	(* <- lang_ru;;	*);
+	[action. check overpass query]
+	(* <- lang_en;;	*);;

@@ -1,0 +1,7 @@
+sc_node_not_relation -> struct_of_elems_without_overpass_query;;
+
+struct_of_elems_without_overpass_query => nrel_main_idtf:
+	[структура, содержащая элементы без overpass запроса]
+	(* <- lang_ru;;	*);
+	[struct of elems without overpass query]
+	(* <- lang_en;;	*);;
