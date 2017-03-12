@@ -1,0 +1,167 @@
+// ================== РЕСПУБЛИКА БЕЛАРУСЬ =======================
+The_Republic_of_Belarus
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]; 
+way["addr:country"="BY"]; 
+relation["addr:country"="BY"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+// ================== МИНСКАЯ ОБЛАСТЬ =======================
+Minsk_region
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Минская область"]; 
+way["addr:country"="BY"]["name"="Минская область"]; 
+relation["addr:country"="BY"]["name"="Минская область"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ВИТЕБСКАЯ ОБЛАСТЬ =======================
+Vitebsk_region
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Витебская область"]; 
+way["addr:country"="BY"]["name"="Витебская область"]; 
+relation["addr:country"="BY"]["name"="Витебская область"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГРОДНЕНСКАЯ ОБЛАСТЬ =======================
+Grodno_region
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Гродненская область"]; 
+way["addr:country"="BY"]["name"="Гродненская область"]; 
+relation["addr:country"="BY"]["name"="Гродненская область"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОМЕЛЬСКАЯ ОБЛАСТЬ =======================
+Gomel_region
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Гомельская область"]; 
+way["addr:country"="BY"]["name"="Гомельская область"]; 
+relation["addr:country"="BY"]["name"="Гомельская область"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== МОГИЛЕВСКАЯ ОБЛАСТЬ =======================
+Mogilev_region
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Могилёвская область"]; 
+way["addr:country"="BY"]["name"="Могилёвская область"]; 
+relation["addr:country"="BY"]["name"="Могилёвская область"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== БРЕСТСКАЯ ОБЛАСТЬ =======================
+Brest_region
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Брестская область"]; 
+way["addr:country"="BY"]["name"="Брестская область"]; 
+relation["addr:country"="BY"]["name"="Брестская область"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОРОД МИНСК =======================
+Minsk_city
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Минск"]; 
+way["addr:country"="BY"]["name"="Минск"]; 
+relation["addr:country"="BY"]["name"="Минск"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОРОД ВИТЕБСК =======================
+Vitebsk_city
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Витебск"]; 
+way["addr:country"="BY"]["name"="Витебск"]; 
+relation["addr:country"="BY"]["name"="Витебск"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОРОД ГРОДНО =======================
+Grodno_city
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Гродно"]; 
+way["addr:country"="BY"]["name"="Гродно"]; 
+relation["addr:country"="BY"]["name"="Гродно"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОРОД ГОМЕЛЬ =======================
+Gomel_city
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Гомель"]; 
+way["addr:country"="BY"]["name"="Гомель"]; 
+relation["addr:country"="BY"]["name"="Гомель"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОРОД МОГИЛЕВ =======================
+Mogilev_city
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Могилёв"]; 
+way["addr:country"="BY"]["name"="Могилёв"]; 
+relation["addr:country"="BY"]["name"="Могилёв"]; 
+);
+out body;
+>;
+out skel qt;];;
+
+
+// ================== ГОРОД БРЕСТ =======================
+Brest_city
+=> nrel_osm_query:
+[(
+node["addr:country"="BY"]["name"="Брест"]; 
+way["addr:country"="BY"]["name"="Брест"]; 
+relation["addr:country"="BY"]["name"="Брест"]; 
+);
+out body;
+>;
+out skel qt;];;
+
