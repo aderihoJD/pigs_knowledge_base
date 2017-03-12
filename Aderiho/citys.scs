@@ -71,7 +71,6 @@ Grodno_region => nrel_administrative_center: Grodno_city;;
 Mogilev_region => nrel_administrative_center: Mogilev_city;;
 Gomel_region => nrel_administrative_center: Gomel_city;;
 
-
 Minsk_city => nrel_year_of_foundation: [1067];;
 Brest_city => nrel_year_of_foundation: [1019];;
 Vitebsk_city => nrel_year_of_foundation: [974];;
