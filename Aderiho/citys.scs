@@ -72,28 +72,28 @@ Mogilev_region => nrel_administrative_center: Mogilev_city;;
 Gomel_region => nrel_administrative_center: Gomel_city;;
 
 
-Minsk_city -> nrel_year_of_foundation: [1067];;
-Brest_city -> nrel_year_of_foundation: [1019];;
-Vitebsk_city -> nrel_year_of_foundation: [974];;
-Grodno_city -> nrel_year_of_foundation: [1128];;
-Mogilev_city -> nrel_year_of_foundation: [1267];;
-Gomel_city -> nrel_year_of_foundation: [1142];;
+Minsk_city => nrel_year_of_foundation: [1067];;
+Brest_city => nrel_year_of_foundation: [1019];;
+Vitebsk_city => nrel_year_of_foundation: [974];;
+Grodno_city => nrel_year_of_foundation: [1128];;
+Mogilev_city => nrel_year_of_foundation: [1267];;
+Gomel_city => nrel_year_of_foundation: [1142];;
 
 
-Minsk_city -> nrel_number_of_residents: [1959781];;
-Brest_city -> nrel_number_of_residents: [340141];;
-Vitebsk_city -> nrel_number_of_residents: [368574];;
-Grodno_city -> nrel_number_of_residents: [365610];;
-Mogilev_city -> nrel_number_of_residents: [378077];;
-Gomel_city -> nrel_number_of_residents: [521452];;
+Minsk_city => nrel_number_of_residents: [1959781];;
+Brest_city => nrel_number_of_residents: [340141];;
+Vitebsk_city => nrel_number_of_residents: [368574];;
+Grodno_city => nrel_number_of_residents: [365610];;
+Mogilev_city => nrel_number_of_residents: [378077];;
+Gomel_city => nrel_number_of_residents: [521452];;
 
 
-Minsk_city -> nrel_2009_year_census: [1836821];;
-Brest_city -> nrel_2009_year_census: [309831];;
-Vitebsk_city -> nrel_2009_year_census: [347972];;
-Grodno_city -> nrel_2009_year_census: [327507];;
-Mogilev_city -> nrel_2009_year_census: [358345];;
-Gomel_city -> nrel_2009_year_census: [482737];;
+Minsk_city => nrel_2009_year_census: [1836821];;
+Brest_city => nrel_2009_year_census: [309831];;
+Vitebsk_city => nrel_2009_year_census: [347972];;
+Grodno_city => nrel_2009_year_census: [327507];;
+Mogilev_city => nrel_2009_year_census: [358345];;
+Gomel_city => nrel_2009_year_census: [482737];;
 
 
 
